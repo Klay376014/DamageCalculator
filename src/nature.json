@@ -1,0 +1,102 @@
+[
+  {
+    "name": "timid",
+    "content": "膽小(+速度-攻擊)"
+  },
+  {
+    "name": "hasty",
+    "content": "急躁(+速度-防禦)"
+  },
+  {
+    "name": "jolly",
+    "content": "爽朗(+速度-特攻)"
+  },
+  {
+    "name": "naive",
+    "content": "天真(+速度-特防)"
+  },
+  {
+    "name": "calm",
+    "content": "溫和(+特防-攻擊)"
+  },
+  {
+    "name": "gentle",
+    "content": "溫順(+特防-防禦)"
+  },
+  {
+    "name": "careful",
+    "content": "慎重(+特防-特攻)"
+  },
+  {
+    "name": "sassy",
+    "content": "自大(+特防-速度)"
+  },
+  {
+    "name": "modest",
+    "content": "內斂(+特攻-攻擊)"
+  },
+  {
+    "name": "mild",
+    "content": "慢吞吞(+特攻-防禦)"
+  },
+  {
+    "name": "rash",
+    "content": "馬虎(+特攻-特防)"
+  },
+  {
+    "name": "quiet",
+    "content": "冷靜(+特攻-速度)"
+  },
+  {
+    "name": "bold",
+    "content": "大膽(+防禦-攻擊)"
+  },
+  {
+    "name": "impish",
+    "content": "淘氣(+防禦-特攻)"
+  },
+  {
+    "name": "lax",
+    "content": "樂天(+防禦-特防)"
+  },
+  {
+    "name": "relaxed",
+    "content": "悠閒(+防禦-速度)"
+  },
+  {
+    "name": "lonely",
+    "content": "怕寂寞(+攻擊-防禦)"
+  },
+  {
+    "name": "adamant",
+    "content": "固執(+攻擊-特攻)"
+  },
+  {
+    "name": "naughty",
+    "content": "頑皮(+攻擊-特防)"
+  },
+  {
+    "name": "brave",
+    "content": "勇敢(+攻擊-速度)"
+  },
+  {
+    "name": "hardy",
+    "content": "勤奮(無變化)"
+  },
+  {
+    "name": "docile",
+    "content": "坦率(無變化)"
+  },
+  {
+    "name": "bashful",
+    "content": "害羞(無變化)"
+  },
+  {
+    "name": "quirky",
+    "content": "浮躁(無變化)"
+  },
+  {
+    "name": "serious",
+    "content": "認真(無變化)"
+  }
+]

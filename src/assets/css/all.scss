@@ -1,0 +1,205 @@
+@import "scss/bootstrap.scss";
+@import "index";
+
+.form-select:focus,
+.form-select:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.calculator {
+  width: 576px;
+  @media (min-width: 1200px) {
+    width: 1200px;
+  }
+}
+
+.container {
+  width: 100%;
+}
+
+.title {
+  width: 575px;
+  height: 50px;
+  line-height: 50px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.attacker {
+  background-color: $purple-600;
+}
+
+.defender {
+  background-color: $red-500;
+}
+
+.card {
+  margin: 0 auto;
+}
+
+.number {
+  select {
+    margin-top: -1px;
+    margin-left: -6px;
+    margin-right: -4px;
+    padding-left: 4px;
+    height: 30px;
+    width: 66px;
+    font-size: 16px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-size: 0px 0px;
+  }
+}
+
+.type {
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.tera {
+  top: 10px;
+  right: 20px;
+}
+
+.form-select {
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  margin-left: 16px;
+  margin-top: 12px;
+  margin-right: 8px;
+}
+
+.pokemonSelect{
+  font-size: 16px;
+  width: 200px;
+  margin-right: -12px;
+}
+
+.inputSet {
+  margin-left: -4px;
+}
+
+.w-62 {
+  width: 62px;
+}
+
+.moves {
+  span {
+    margin-left: -10px;
+    font-size: 16px;
+    text-align: left;
+  }
+  select {
+    width: 200px;
+    margin-left: -10px;
+    font-size: 16px;
+    height: 36px;
+  }
+}
+
+.item,
+.ability {
+  select {
+    width: 528px;
+  }
+}
+
+.field {
+  label {
+    width: 90px;
+  }
+  table {
+    font-size: 18px;
+  }
+}
+
+.ms--1 {
+  margin-left: -10px;
+}
+
+.me--1 {
+  margin-right: -24px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+.aura {
+  span {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  label {
+    width: 75px;
+  }
+  table {
+    font-size: 18px;
+  }
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus,
+.btn-check:checked + .btn,
+.btn-check:focus + .btn,
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active .form-check {
+  outline: none;
+  box-shadow: none;
+}
+
+.condition {
+  font-size: 18px;
+  user-select: none;
+}
+
+.category {
+  margin: 0 auto;
+}
+
+.conditionRed {
+  input[type="checkbox"]:checked {
+    background-color: $red;
+    border-color: $red;
+  }
+}
+
+.result {
+  height: 228px;
+  padding-top: 12px;
+}
+
+.showDamage {
+  ul {
+    padding-left: 0;
+  }
+  li {
+    list-style-type: none;
+  }
+  button {
+    height: 30px;
+    margin-top: -2px;
+  }
+}
+.modal-dialog {
+  width: 400px;
+}
+
+.modal-body label {
+  font-size: 18px;
+}
+
+#terastal2 {
+  input[type="radio"]:checked {
+    background-color: $red;
+  }
+}

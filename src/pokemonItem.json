@@ -1,0 +1,86 @@
+{
+  "Choice Band": {
+    "name": "講究頭帶",
+    "effect": "（攻擊能力值x1.5）"
+  },
+  "Choice Specs": {
+    "name": "講究眼鏡",
+    "effect": "（特攻能力值x1.5）"
+  },
+  "Choice Scarf": {
+    "name": "講究圍巾",
+    "effect": "（速度能力值x1.5）"
+  },
+  "Booster Energy": {
+    "name": "驅勁能量",
+    "effect": "（觸發古代活性／夸克充能特性）"
+  },
+  "Life Orb": {
+    "name": "生命寶珠",
+    "effect": "（招式傷害x1.3）"
+  },
+  "Normal Gem": {
+    "name": "一般寶石",
+    "effect": "（僅一次一般系招式威力x1.3）"
+  },
+  "Type Enhancing": {
+    "name": "屬性增強道具",
+    "effect": "（對應屬性招式威力x1.2）"
+  },
+  "Expert Belt": {
+    "name": "達人帶",
+    "effect": "（效果絕佳時傷害x1.2）"
+  },
+  "Muscle Band": {
+    "name": "力量頭帶",
+    "effect": "（物理招式威力x1.1）"
+  },
+  "Wise Glasses": {
+    "name": "博識眼鏡",
+    "effect": "（特殊招式威力x1.1）"
+  },
+  "Punching Glove": {
+    "name": "拳擊手套",
+    "effect": "（拳頭類招式威力x1.1）"
+  },
+  "Metronome-2": {
+    "name": "節拍器-第2次",
+    "effect": "（招式威力x1.2）"
+  },
+  "Metronome-3": {
+    "name": "節拍器-第3次",
+    "effect": "（招式威力x1.4）"
+  },
+  "Metronome-4": {
+    "name": "節拍器-第4次",
+    "effect": "（招式威力x1.6）"
+  },
+  "Metronome-5": {
+    "name": "節拍器-第5次",
+    "effect": "（招式威力x1.8）"
+  },
+  "Metronome-6": {
+    "name": "節拍器-第6次後",
+    "effect": "（招式威力x2）"
+  },
+  "Light Ball": {
+    "name": "電氣球",
+    "effect": "（皮卡丘攜帶時，雙攻能力值x2）"
+  },
+  "Eviolite": {
+    "name": "進化奇石",
+    "effect": "（可進化的寶可夢攜帶時，雙防能力值x1.5）"
+  },
+  "Assault Vest": {
+    "name": "突擊背心",
+    "effect": "（特防能力值x1.5）"
+  },
+  "Iron Ball": {
+    "name": "黑色鐵球",
+    "effect": "（速度能力值x0.5，飛行系寶可夢會被地面系招式擊中）"
+  },
+  "Type Berry":{
+    "name": "屬性半減果實",
+    "effect": "（受效果絕佳招式攻擊時可減半一次傷害）"
+  }
+}

@@ -1,0 +1,7721 @@
+{
+  "flail-20": {
+    "num": 175,
+    "accuracy": 100,
+    "basePower": 20,
+    "category": "Physical",
+    "name": "抓狂-20",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "flail-40": {
+    "num": 175,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "抓狂-40",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "flail-80": {
+    "num": 175,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "抓狂-80",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "flail-100": {
+    "num": 175,
+    "accuracy": 100,
+    "basePower": 100,
+    "category": "Physical",
+    "name": "抓狂-100",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "flail-150": {
+    "num": 175,
+    "accuracy": 100,
+    "basePower": 150,
+    "category": "Physical",
+    "name": "抓狂-150",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "flail-200": {
+    "num": 175,
+    "accuracy": 100,
+    "basePower": 200,
+    "category": "Physical",
+    "name": "抓狂-200",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "bind": {
+    "num": 20,
+    "accuracy": 85,
+    "basePower": 15,
+    "category": "Physical",
+    "name": "綁緊",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "volatileStatus": "partiallytrapped",
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "furyattack": {
+    "num": 31,
+    "accuracy": 85,
+    "basePower": 15,
+    "category": "Physical",
+    "name": "亂擊",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "multihit": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "wrap": {
+    "num": 35,
+    "accuracy": 90,
+    "basePower": 15,
+    "category": "Physical",
+    "name": "緊束",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "volatileStatus": "partiallytrapped",
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "furyswipes": {
+    "num": 154,
+    "accuracy": 80,
+    "basePower": 18,
+    "category": "Physical",
+    "name": "亂抓",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "multihit": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "populationbomb": {
+    "num": 860,
+    "accuracy": 90,
+    "basePower": 20,
+    "category": "Physical",
+    "name": "鼠數兒",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "slicing": 1
+    },
+    "multihit": true,
+    "multiaccuracy": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "feint": {
+    "num": 364,
+    "accuracy": 100,
+    "basePower": 30,
+    "category": "Physical",
+    "name": "佯攻",
+    "pp": 10,
+    "priority": 2,
+    "flags": {
+      "mirror": 1
+    },
+    "breaksProtect": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "pound": {
+    "num": 1,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "拍擊",
+    "pp": 35,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "payday": {
+    "num": 6,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "聚寶功",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "scratch": {
+    "num": 10,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "抓",
+    "pp": 35,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "tackle": {
+    "num": 33,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "撞擊",
+    "pp": 35,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "quickattack": {
+    "num": 98,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "電光一閃",
+    "pp": 30,
+    "priority": 1,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "falseswipe": {
+    "num": 206,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "點到為止",
+    "pp": 40,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "onDamagePriority": -20,
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "fakeout": {
+    "num": 252,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "擊掌奇襲",
+    "pp": 10,
+    "priority": 3,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "volatileStatus": "flinch"
+    },
+    "target": "normal",
+    "type": "Normal"
+  },
+  "echoedvoice": {
+    "num": 497,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Special",
+    "name": "回聲",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "sound": 1,
+      "bypasssub": 1
+    },
+    "condition": {
+      "duration": 2
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "echoedvoice-2": {
+    "num": 497,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "回聲-2次",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "sound": 1,
+      "bypasssub": 1
+    },
+    "condition": {
+      "duration": 2
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "echoedvoice-3": {
+    "num": 497,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Special",
+    "name": "回聲-3次",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "sound": 1,
+      "bypasssub": 1
+    },
+    "condition": {
+      "duration": 2
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "echoedvoice-4": {
+    "num": 497,
+    "accuracy": 100,
+    "basePower": 160,
+    "category": "Special",
+    "name": "回聲-4次",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "sound": 1,
+      "bypasssub": 1
+    },
+    "condition": {
+      "duration": 2
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "echoedvoice-5": {
+    "num": 497,
+    "accuracy": 100,
+    "basePower": 200,
+    "category": "Special",
+    "name": "回聲-5次",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "sound": 1,
+      "bypasssub": 1
+    },
+    "condition": {
+      "duration": 2
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "struggle": {
+    "num": 165,
+    "accuracy": true,
+    "basePower": 50,
+    "category": "Physical",
+    "name": "掙扎",
+    "pp": 1,
+    "noPPBoosts": true,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1
+    },
+    "noSketch": true,
+    "struggleRecoil": true,
+    "secondary": null,
+    "target": "randomNormal",
+    "type": "Normal"
+  },
+  "snore": {
+    "num": 173,
+    "accuracy": 100,
+    "basePower": 50,
+    "category": "Special",
+    "name": "打鼾",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "sound": 1,
+      "bypasssub": 1
+    },
+    "sleepUsable": true,
+    "secondary": {
+      "chance": 30,
+      "volatileStatus": "flinch"
+    },
+    "target": "normal",
+    "type": "Normal",
+    "contestType": "Cute",
+    "desc": "Has a 30% chance to make the target flinch. Fails if the user is not asleep.",
+    "shortDesc": "User must be asleep. 30% chance to flinch target."
+  },
+  "rapidspin": {
+    "num": 229,
+    "accuracy": 100,
+    "basePower": 50,
+    "category": "Physical",
+    "name": "高速旋轉",
+    "pp": 40,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "self": {
+        "boosts": {
+          "spe": 1
+        }
+      }
+    },
+    "target": "normal",
+    "type": "Normal"
+  },
+  "weatherball": {
+    "num": 311,
+    "accuracy": 100,
+    "basePower": 50,
+    "category": "Special",
+    "name": "氣象球",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "bullet": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "terrainpulse": {
+    "num": 805,
+    "accuracy": 100,
+    "basePower": 50,
+    "category": "Special",
+    "name": "大地波動",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "pulse": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "visegrip": {
+    "num": 11,
+    "accuracy": 100,
+    "basePower": 55,
+    "category": "Physical",
+    "name": "夾住",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "swift": {
+    "num": 129,
+    "accuracy": true,
+    "basePower": 60,
+    "category": "Special",
+    "name": "高速星星",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "allAdjacentFoes",
+    "type": "Normal"
+  },
+  "covet": {
+    "num": 343,
+    "accuracy": 100,
+    "basePower": 60,
+    "category": "Physical",
+    "name": "渴望",
+    "pp": 25,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "round": {
+    "num": 496,
+    "accuracy": 100,
+    "basePower": 60,
+    "category": "Special",
+    "name": "輪唱",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "sound": 1,
+      "bypasssub": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "round-2": {
+    "num": 496,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Special",
+    "name": "輪唱-接唱",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "sound": 1,
+      "bypasssub": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "stomp": {
+    "num": 23,
+    "accuracy": 100,
+    "basePower": 65,
+    "category": "Physical",
+    "name": "踩踏",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "volatileStatus": "flinch"
+    },
+    "target": "normal",
+    "type": "Normal"
+  },
+  "hornattack": {
+    "num": 30,
+    "accuracy": 100,
+    "basePower": 65,
+    "category": "Physical",
+    "name": "角撞",
+    "pp": 25,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "headbutt": {
+    "num": 29,
+    "accuracy": 100,
+    "basePower": 70,
+    "category": "Physical",
+    "name": "頭錘",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "volatileStatus": "flinch"
+    },
+    "target": "normal",
+    "type": "Normal"
+  },
+  "slash": {
+    "num": 163,
+    "accuracy": 100,
+    "basePower": 70,
+    "category": "Physical",
+    "name": "劈開",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "slicing": 1
+    },
+    "critRatio": 2,
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "facade": {
+    "num": 263,
+    "accuracy": 100,
+    "basePower": 70,
+    "category": "Physical",
+    "name": "硬撐",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "retaliate": {
+    "num": 514,
+    "accuracy": 100,
+    "basePower": 70,
+    "category": "Physical",
+    "name": "報仇",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "retaliate-2": {
+    "num": 514,
+    "accuracy": 100,
+    "basePower": 140,
+    "category": "Physical",
+    "name": "報仇-上一回合隊友瀕死",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "crushclaw": {
+    "num": 306,
+    "accuracy": 95,
+    "basePower": 75,
+    "category": "Physical",
+    "name": "撕裂爪",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 50,
+      "boosts": {
+        "def": -1
+      }
+    },
+    "target": "normal",
+    "type": "Normal"
+  },
+  "slam": {
+    "num": 21,
+    "accuracy": 75,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "摔打",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "strength": {
+    "num": 70,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "怪力",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "triattack": {
+    "num": 161,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "三重攻擊",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 20
+    },
+    "target": "normal",
+    "type": "Normal"
+  },
+  "extremespeed": {
+    "num": 245,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "神速",
+    "pp": 5,
+    "priority": 2,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "terablast": {
+    "num": 851,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "太晶爆發",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "bodyslam": {
+    "num": 34,
+    "accuracy": 100,
+    "basePower": 85,
+    "category": "Physical",
+    "name": "泰山壓頂",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "status": "par"
+    },
+    "target": "normal",
+    "type": "Normal"
+  },
+  "takedown": {
+    "num": 36,
+    "accuracy": 85,
+    "basePower": 90,
+    "category": "Physical",
+    "name": "猛撞",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "recoil": [1, 4],
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "uproar": {
+    "num": 253,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Special",
+    "name": "吵鬧",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "sound": 1,
+      "bypasssub": 1
+    },
+    "self": {
+      "volatileStatus": "uproar"
+    },
+    "condition": {
+      "duration": 3,
+      "onResidualOrder": 28,
+      "onResidualSubOrder": 1,
+      "onLockMove": "uproar"
+    },
+    "secondary": null,
+    "target": "randomNormal",
+    "type": "Normal"
+  },
+  "hypervoice": {
+    "num": 304,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Special",
+    "name": "巨聲",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "sound": 1,
+      "bypasssub": 1
+    },
+    "secondary": null,
+    "target": "allAdjacentFoes",
+    "type": "Normal"
+  },
+  "revelationdance": {
+    "num": 686,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Special",
+    "name": "覺醒之舞",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "dance": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "ragingbull": {
+    "num": 873,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Physical",
+    "name": "怒牛",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "hyperdrill": {
+    "num": 887,
+    "accuracy": 100,
+    "basePower": 100,
+    "category": "Physical",
+    "name": "強力鑽",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "megakick": {
+    "num": 25,
+    "accuracy": 75,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "百萬噸重踢",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "thrash": {
+    "num": 37,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "大鬧一番",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "self": {
+      "volatileStatus": "lockedmove"
+    },
+    "secondary": null,
+    "target": "randomNormal",
+    "type": "Normal"
+  },
+  "doubleedge": {
+    "num": 38,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "捨身衝撞",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "recoil": [33, 100],
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "lastresort": {
+    "num": 387,
+    "accuracy": 100,
+    "basePower": 140,
+    "category": "Physical",
+    "name": "珍藏",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "boomburst": {
+    "num": 586,
+    "accuracy": 100,
+    "basePower": 140,
+    "category": "Special",
+    "name": "爆音波",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "sound": 1,
+      "bypasssub": 1
+    },
+    "secondary": null,
+    "target": "allAdjacent",
+    "type": "Normal"
+  },
+  "hyperbeam": {
+    "num": 63,
+    "accuracy": 90,
+    "basePower": 150,
+    "category": "Special",
+    "name": "破壞光線",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "recharge": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "self": {
+      "volatileStatus": "mustrecharge"
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "gigaimpact": {
+    "num": 416,
+    "accuracy": 90,
+    "basePower": 150,
+    "category": "Physical",
+    "name": "終極衝擊",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "recharge": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "self": {
+      "volatileStatus": "mustrecharge"
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal"
+  },
+  "selfdestruct": {
+    "num": 120,
+    "accuracy": 100,
+    "basePower": 200,
+    "category": "Physical",
+    "name": "自爆",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "selfdestruct": "always",
+    "secondary": null,
+    "target": "allAdjacent",
+    "type": "Normal"
+  },
+  "explosion": {
+    "num": 153,
+    "accuracy": 100,
+    "basePower": 250,
+    "category": "Physical",
+    "name": "大爆炸",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "selfdestruct": "always",
+    "secondary": null,
+    "target": "allAdjacent",
+    "type": "Normal"
+  },
+  "watershuriken": {
+    "num": 594,
+    "accuracy": 100,
+    "basePower": 15,
+    "category": "Special",
+    "name": "飛水手裡劍",
+    "pp": 20,
+    "priority": 1,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "multihit": [2, 5],
+    "secondary": null,
+    "target": "normal",
+    "type": "Water"
+  },
+  "surgingstrikes": {
+    "num": 818,
+    "accuracy": 100,
+    "basePower": 25,
+    "category": "Physical",
+    "name": "水流連打",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "punch": 1,
+      "mirror": 1
+    },
+    "willCrit": true,
+    "multihit": 3,
+    "secondary": null,
+    "target": "normal",
+    "type": "Water"
+  },
+  "tripledive": {
+    "num": 865,
+    "accuracy": 95,
+    "basePower": 30,
+    "category": "Physical",
+    "name": "三連鑽",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "multihit": 3,
+    "secondary": null,
+    "target": "normal",
+    "type": "Water"
+  },
+  "whirlpool": {
+    "num": 250,
+    "accuracy": 85,
+    "basePower": 35,
+    "category": "Special",
+    "name": "潮漩",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "volatileStatus": "partiallytrapped",
+    "secondary": null,
+    "target": "normal",
+    "type": "Water"
+  },
+  "watergun": {
+    "num": 55,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Special",
+    "name": "水槍",
+    "pp": 25,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Water"
+  },
+  "aquajet": {
+    "num": 453,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "水流噴射",
+    "pp": 20,
+    "priority": 1,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Water"
+  },
+  "chillingwater": {
+    "num": 886,
+    "accuracy": 100,
+    "basePower": 50,
+    "category": "Special",
+    "name": "潑冷水",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "atk": -1
+      }
+    },
+    "target": "normal",
+    "type": "Water"
+  },
+  "waterpulse": {
+    "num": 352,
+    "accuracy": 100,
+    "basePower": 60,
+    "category": "Special",
+    "name": "水之波動",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "pulse": 1,
+      "mirror": 1,
+      "distance": 1
+    },
+    "secondary": {
+      "chance": 20,
+      "volatileStatus": "confusion"
+    },
+    "target": "any",
+    "type": "Water"
+  },
+  "flipturn": {
+    "num": 812,
+    "accuracy": 100,
+    "basePower": 60,
+    "category": "Physical",
+    "name": "快速折返",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "selfSwitch": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Water"
+  },
+  "jetpunch": {
+    "num": 857,
+    "accuracy": 100,
+    "basePower": 60,
+    "category": "Physical",
+    "name": "噴射拳",
+    "pp": 15,
+    "priority": 1,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1
+    },
+    "secondary": null,
+    "hasSheerForce": true,
+    "target": "normal",
+    "type": "Water"
+  },
+  "bubblebeam": {
+    "num": 61,
+    "accuracy": 100,
+    "basePower": 65,
+    "category": "Special",
+    "name": "泡沫光線",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "boosts": {
+        "spe": -1
+      }
+    },
+    "target": "normal",
+    "type": "Water"
+  },
+  "brine": {
+    "num": 362,
+    "accuracy": 100,
+    "basePower": 65,
+    "category": "Special",
+    "name": "鹽水",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Water"
+  },
+  "aquacutter": {
+    "num": 895,
+    "accuracy": 100,
+    "basePower": 70,
+    "category": "Physical",
+    "name": "水波刀",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "slicing": 1
+    },
+    "critRatio": 2,
+    "secondary": null,
+    "target": "normal",
+    "type": "Water"
+  },
+  "razorshell": {
+    "num": 534,
+    "accuracy": 95,
+    "basePower": 75,
+    "category": "Physical",
+    "name": "貝殼刃",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "slicing": 1
+    },
+    "secondary": {
+      "chance": 50,
+      "boosts": {
+        "def": -1
+      }
+    },
+    "target": "normal",
+    "type": "Water"
+  },
+  "waterfall": {
+    "num": 127,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "攀瀑",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 20,
+      "volatileStatus": "flinch"
+    },
+    "target": "normal",
+    "type": "Water"
+  },
+  "dive": {
+    "num": 291,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "潛水",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "charge": 1,
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1,
+      "allyanim": 1
+    },
+    "condition": {
+      "duration": 2
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Water"
+  },
+  "waterpledge": {
+    "num": 518,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "水之誓約",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1
+    },
+    "condition": {
+      "duration": 4,
+      "onSideResidualOrder": 26,
+      "onSideResidualSubOrder": 7
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Water"
+  },
+  "snipeshot": {
+    "num": 745,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "狙擊",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "critRatio": 2,
+    "tracksTarget": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Water"
+  },
+  "aquastep": {
+    "num": 872,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "流水旋舞",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "dance": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "self": {
+        "boosts": {
+          "spe": 1
+        }
+      }
+    },
+    "target": "normal",
+    "type": "Water"
+  },
+  "hydrosteam": {
+    "num": 875,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "水蒸氣",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+    "protect": 1,
+    "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Water"
+    },
+  "liquidation": {
+    "num": 710,
+    "accuracy": 100,
+    "basePower": 85,
+    "category": "Physical",
+    "name": "水流裂破",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 20,
+      "boosts": {
+        "def": -1
+      }
+    },
+    "target": "normal",
+    "type": "Water"
+  },
+  "surf": {
+    "num": 57,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Special",
+    "name": "衝浪",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1
+    },
+    "secondary": null,
+    "target": "allAdjacent",
+    "type": "Water"
+  },
+  "muddywater": {
+    "num": 330,
+    "accuracy": 85,
+    "basePower": 90,
+    "category": "Special",
+    "name": "濁流",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "boosts": {
+        "accuracy": -1
+      }
+    },
+    "target": "allAdjacentFoes",
+    "type": "Water"
+  },
+  "aquatail": {
+    "num": 401,
+    "accuracy": 90,
+    "basePower": 90,
+    "category": "Physical",
+    "name": "水流尾",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Water"
+  },
+  "crabhammer": {
+    "num": 152,
+    "accuracy": 90,
+    "basePower": 100,
+    "category": "Physical",
+    "name": "蟹鉗錘",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "critRatio": 2,
+    "secondary": null,
+    "target": "normal",
+    "type": "Water"
+  },
+  "hydropump": {
+    "num": 56,
+    "accuracy": 80,
+    "basePower": 110,
+    "category": "Special",
+    "name": "水炮",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Water"
+  },
+  "wavecrash": {
+    "num": 834,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "波動衝",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "recoil": [33, 100],
+    "secondary": null,
+    "target": "normal",
+    "type": "Water"
+  },
+  "hydrocannon": {
+    "num": 308,
+    "accuracy": 90,
+    "basePower": 150,
+    "category": "Special",
+    "name": "加農水炮",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "recharge": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "self": {
+      "volatileStatus": "mustrecharge"
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Water"
+  },
+  "heatcrash": {
+    "num": 535,
+    "accuracy": 100,
+    "basePower": "不定",
+    "category": "Physical",
+    "name": "高溫重壓",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Fire",
+    "zMove": {
+      "basePower": 160
+    },
+    "maxMove": {
+      "basePower": 130
+    },
+    "contestType": "Tough",
+    "desc": "The power of this move depends on (user's weight / target's weight), rounded down. Power is equal to 120 if the result is 5 or more, 100 if 4, 80 if 3, 60 if 2, and 40 if 1 or less. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
+    "shortDesc": "More power the heavier the user than the target."
+  },
+  "firespin": {
+    "num": 83,
+    "accuracy": 85,
+    "basePower": 35,
+    "category": "Special",
+    "name": "火焰旋渦",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "volatileStatus": "partiallytrapped",
+    "secondary": null,
+    "target": "normal",
+    "type": "Fire"
+  },
+  "ember": {
+    "num": 52,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Special",
+    "name": "火花",
+    "pp": 25,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "brn"
+    },
+    "target": "normal",
+    "type": "Fire"
+  },
+  "flamecharge": {
+    "num": 488,
+    "accuracy": 100,
+    "basePower": 50,
+    "category": "Physical",
+    "name": "蓄能焰襲",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "self": {
+        "boosts": {
+          "spe": 1
+        }
+      }
+    },
+    "target": "normal",
+    "type": "Fire"
+  },
+  "flamewheel": {
+    "num": 172,
+    "accuracy": 100,
+    "basePower": 60,
+    "category": "Physical",
+    "name": "火焰輪",
+    "pp": 25,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "defrost": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "brn"
+    },
+    "target": "normal",
+    "type": "Fire"
+  },
+  "incinerate": {
+    "num": 510,
+    "accuracy": 100,
+    "basePower": 60,
+    "category": "Special",
+    "name": "燒盡",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "allAdjacentFoes",
+    "type": "Fire"
+  },
+  "firefang": {
+    "num": 424,
+    "accuracy": 95,
+    "basePower": 65,
+    "category": "Physical",
+    "name": "火焰牙",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "bite": 1,
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondaries": [
+      {
+        "chance": 10,
+        "status": "brn"
+      },
+      {
+        "chance": 10,
+        "volatileStatus": "flinch"
+      }
+    ],
+    "target": "normal",
+    "type": "Fire"
+  },
+  "firepunch": {
+    "num": 7,
+    "accuracy": 100,
+    "basePower": 75,
+    "category": "Physical",
+    "name": "火焰拳",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "brn"
+    },
+    "target": "normal",
+    "type": "Fire"
+  },
+  "mysticalfire": {
+    "num": 595,
+    "accuracy": 100,
+    "basePower": 75,
+    "category": "Special",
+    "name": "魔法火焰",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "spa": -1
+      }
+    },
+    "target": "normal",
+    "type": "Fire"
+  },
+  "lavaplume": {
+    "num": 436,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "噴煙",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "status": "brn"
+    },
+    "target": "allAdjacent",
+    "type": "Fire"
+  },
+  "firepledge": {
+    "num": 519,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "火之誓約",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1
+    },
+    "condition": {
+      "duration": 4,
+      "onResidualOrder": 5,
+      "onResidualSubOrder": 1,
+      "onSideResidualOrder": 26,
+      "onSideResidualSubOrder": 8
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Fire"
+  },
+  "fierydance": {
+    "num": 552,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "火之舞",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "dance": 1
+    },
+    "secondary": {
+      "chance": 50,
+      "self": {
+        "boosts": {
+          "spa": 1
+        }
+      }
+    },
+    "target": "normal",
+    "type": "Fire"
+  },
+  "firelash": {
+    "num": 680,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "火焰鞭",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "def": -1
+      }
+    },
+    "target": "normal",
+    "type": "Fire"
+  },
+  "torchsong": {
+    "num": 871,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "閃焰高歌",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "sound": 1,
+      "bypasssub": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "self": {
+        "boosts": {
+          "spa": 1
+        }
+      }
+    },
+    "target": "normal",
+    "type": "Fire"
+  },
+  "flamethrower": {
+    "num": 53,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Special",
+    "name": "噴射火焰",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "brn"
+    },
+    "target": "normal",
+    "type": "Fire"
+  },
+  "bitterblade": {
+    "num": 891,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Physical",
+    "name": "悔念劍",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "slicing": 1
+    },
+    "drain": [1, 2],
+    "secondary": null,
+    "target": "normal",
+    "type": "Fire"
+  },
+  "heatwave": {
+    "num": 257,
+    "accuracy": 90,
+    "basePower": 95,
+    "category": "Special",
+    "name": "熱風",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "wind": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "brn"
+    },
+    "target": "allAdjacentFoes",
+    "type": "Fire"
+  },
+  "inferno": {
+    "num": 517,
+    "accuracy": 50,
+    "basePower": 100,
+    "category": "Special",
+    "name": "煉獄",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "status": "brn"
+    },
+    "target": "normal",
+    "type": "Fire"
+  },
+  "fireblast": {
+    "num": 126,
+    "accuracy": 85,
+    "basePower": 110,
+    "category": "Special",
+    "name": "大字爆炎",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "brn"
+    },
+    "target": "normal",
+    "type": "Fire"
+  },
+  "flareblitz": {
+    "num": 394,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "閃焰衝鋒",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "defrost": 1
+    },
+    "recoil": [33, 100],
+    "secondary": {
+      "chance": 10,
+      "status": "brn"
+    },
+    "target": "normal",
+    "type": "Fire"
+  },
+  "pyroball": {
+    "num": 780,
+    "accuracy": 90,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "火焰球",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "defrost": 1,
+      "bullet": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "brn"
+    },
+    "target": "normal",
+    "type": "Fire"
+  },
+  "ragingfury": {
+    "num": 833,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Physical",
+    "isNonstandard": "Unobtainable",
+    "name": "大憤慨",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "self": {
+      "volatileStatus": "lockedmove"
+    },
+    "secondary": null,
+    "target": "randomNormal",
+    "type": "Fire"
+  },
+  "armorcannon": {
+    "num": 890,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Special",
+    "name": "鎧農炮",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "self": {
+      "boosts": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Fire"
+  },
+  "overheat": {
+    "num": 315,
+    "accuracy": 90,
+    "basePower": 130,
+    "category": "Special",
+    "name": "過熱",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "self": {
+      "boosts": {
+        "spa": -2
+      }
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Fire"
+  },
+  "burnup": {
+    "num": 682,
+    "accuracy": 100,
+    "basePower": 130,
+    "category": "Special",
+    "name": "燃盡",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "defrost": 1
+    },
+    "self": {},
+    "secondary": null,
+    "target": "normal",
+    "type": "Fire"
+  },
+  "eruption": {
+    "num": 284,
+    "accuracy": 100,
+    "basePower": 150,
+    "category": "Special",
+    "name": "噴火",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "allAdjacentFoes",
+    "type": "Fire"
+  },
+  "blastburn": {
+    "num": 307,
+    "accuracy": 90,
+    "basePower": 150,
+    "category": "Special",
+    "name": "爆炸烈焰",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "recharge": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "self": {
+      "volatileStatus": "mustrecharge"
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Fire"
+  },
+  "iciclespear": {
+    "num": 333,
+    "accuracy": 100,
+    "basePower": 25,
+    "category": "Physical",
+    "name": "冰錐",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "multihit": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Ice"
+  },
+  "powdersnow": {
+    "num": 181,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Special",
+    "name": "細雪",
+    "pp": 25,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "frz"
+    },
+    "target": "allAdjacentFoes",
+    "type": "Ice"
+  },
+  "iceshard": {
+    "num": 420,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "冰礫",
+    "pp": 30,
+    "priority": 1,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ice"
+  },
+  "icywind": {
+    "num": 196,
+    "accuracy": 95,
+    "basePower": 55,
+    "category": "Special",
+    "name": "冰凍之風",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "wind": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "spe": -1
+      }
+    },
+    "target": "allAdjacentFoes",
+    "type": "Ice"
+  },
+  "avalanche": {
+    "num": 419,
+    "accuracy": 100,
+    "basePower": 60,
+    "category": "Physical",
+    "name": "雪崩",
+    "pp": 10,
+    "priority": -4,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ice"
+  },
+  "avalanche-2": {
+    "num": 419,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "雪崩-受到攻擊",
+    "pp": 10,
+    "priority": -4,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ice"
+  },
+  "frostbreath": {
+    "num": 524,
+    "accuracy": 90,
+    "basePower": 60,
+    "category": "Special",
+    "name": "冰息",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "willCrit": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Ice"
+  },
+  "aurorabeam": {
+    "num": 62,
+    "accuracy": 100,
+    "basePower": 65,
+    "category": "Special",
+    "name": "極光束",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "boosts": {
+        "atk": -1
+      }
+    },
+    "target": "normal",
+    "type": "Ice"
+  },
+  "icefang": {
+    "num": 423,
+    "accuracy": 95,
+    "basePower": 65,
+    "category": "Physical",
+    "name": "冰凍牙",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "bite": 1,
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondaries": [
+      {
+        "chance": 10,
+        "status": "frz"
+      },
+      {
+        "chance": 10,
+        "volatileStatus": "flinch"
+      }
+    ],
+    "target": "normal",
+    "type": "Ice"
+  },
+  "freezedry": {
+    "num": 573,
+    "accuracy": 100,
+    "basePower": 70,
+    "category": "Special",
+    "name": "冷凍乾燥",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "frz"
+    },
+    "target": "normal",
+    "type": "Ice"
+  },
+  "icepunch": {
+    "num": 8,
+    "accuracy": 100,
+    "basePower": 75,
+    "category": "Physical",
+    "name": "冰凍拳",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "frz"
+    },
+    "target": "normal",
+    "type": "Ice"
+  },
+  "icespinner": {
+    "num": 861,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "冰旋",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ice"
+  },
+  "iciclecrash": {
+    "num": 556,
+    "accuracy": 90,
+    "basePower": 85,
+    "category": "Physical",
+    "name": "冰柱墜擊",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "volatileStatus": "flinch"
+    },
+    "target": "normal",
+    "type": "Ice"
+  },
+  "icebeam": {
+    "num": 58,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Special",
+    "name": "冰凍光束",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "frz"
+    },
+    "target": "normal",
+    "type": "Ice"
+  },
+  "icehammer": {
+    "num": 665,
+    "accuracy": 90,
+    "basePower": 100,
+    "category": "Physical",
+    "name": "冰錘",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1
+    },
+    "self": {
+      "boosts": {
+        "spe": -1
+      }
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ice"
+  },
+  "mountaingale": {
+    "num": 836,
+    "accuracy": 85,
+    "basePower": 100,
+    "category": "Physical",
+    "isNonstandard": "Unobtainable",
+    "name": "冰山風",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "volatileStatus": "flinch"
+    },
+    "target": "normal",
+    "type": "Ice"
+  },
+  "blizzard": {
+    "num": 59,
+    "accuracy": 70,
+    "basePower": 110,
+    "category": "Special",
+    "name": "暴風雪",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "wind": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "frz"
+    },
+    "target": "allAdjacentFoes",
+    "type": "Ice"
+  },
+  "mudslap": {
+    "num": 189,
+    "accuracy": 100,
+    "basePower": 20,
+    "category": "Special",
+    "name": "擲泥",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "accuracy": -1
+      }
+    },
+    "target": "normal",
+    "type": "Ground"
+  },
+  "bonerush": {
+    "num": 198,
+    "accuracy": 90,
+    "basePower": 25,
+    "category": "Physical",
+    "name": "骨棒亂打",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "multihit": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Ground"
+  },
+  "sandtomb": {
+    "num": 328,
+    "accuracy": 85,
+    "basePower": 35,
+    "category": "Physical",
+    "name": "流沙地獄",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "volatileStatus": "partiallytrapped",
+    "secondary": null,
+    "target": "normal",
+    "type": "Ground"
+  },
+  "mudshot": {
+    "num": 341,
+    "accuracy": 95,
+    "basePower": 55,
+    "category": "Special",
+    "name": "泥巴射擊",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "spe": -1
+      }
+    },
+    "target": "normal",
+    "type": "Ground"
+  },
+  "bulldoze": {
+    "num": 523,
+    "accuracy": 100,
+    "basePower": 60,
+    "category": "Physical",
+    "name": "重踏",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "spe": -1
+      }
+    },
+    "target": "allAdjacent",
+    "type": "Ground"
+  },
+  "stompingtantrum": {
+    "num": 707,
+    "accuracy": 100,
+    "basePower": 75,
+    "category": "Physical",
+    "name": "跺腳",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ground"
+  },
+  "stompingtantrum-2": {
+    "num": 707,
+    "accuracy": 100,
+    "basePower": 150,
+    "category": "Physical",
+    "name": "跺腳-上回合失敗",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ground"
+  },
+  "dig": {
+    "num": 91,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "挖洞",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "charge": 1,
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1
+    },
+    "condition": {
+      "duration": 2
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ground"
+  },
+  "drillrun": {
+    "num": 529,
+    "accuracy": 95,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "直衝鑽",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "critRatio": 2,
+    "secondary": null,
+    "target": "normal",
+    "type": "Ground"
+  },
+  "earthpower": {
+    "num": 414,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Special",
+    "name": "大地之力",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "boosts": {
+        "spd": -1
+      }
+    },
+    "target": "normal",
+    "type": "Ground"
+  },
+  "highhorsepower": {
+    "num": 667,
+    "accuracy": 95,
+    "basePower": 95,
+    "category": "Physical",
+    "name": "十萬馬力",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ground"
+  },
+  "earthquake": {
+    "num": 89,
+    "accuracy": 100,
+    "basePower": 100,
+    "category": "Physical",
+    "name": "地震",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1
+    },
+    "secondary": null,
+    "target": "allAdjacent",
+    "type": "Ground"
+  },
+  "headlongrush": {
+    "num": 838,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "突飛猛撲",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1
+    },
+    "self": {
+      "boosts": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ground"
+  },
+  "disarmingvoice": {
+    "num": 574,
+    "accuracy": true,
+    "basePower": 40,
+    "category": "Special",
+    "name": "魅惑之聲",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "sound": 1,
+      "bypasssub": 1
+    },
+    "secondary": null,
+    "target": "allAdjacentFoes",
+    "type": "Fairy"
+  },
+  "fairywind": {
+    "num": 584,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Special",
+    "name": "妖精之風",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "wind": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Fairy"
+  },
+  "drainingkiss": {
+    "num": 577,
+    "accuracy": 100,
+    "basePower": 50,
+    "category": "Special",
+    "name": "吸取之吻",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "heal": 1
+    },
+    "drain": [3, 4],
+    "secondary": null,
+    "target": "normal",
+    "type": "Fairy"
+  },
+  "spiritbreak": {
+    "num": 789,
+    "accuracy": 100,
+    "basePower": 75,
+    "category": "Physical",
+    "name": "靈魂衝擊",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "spa": -1
+      }
+    },
+    "target": "normal",
+    "type": "Fairy"
+  },
+  "dazzlinggleam": {
+    "num": 605,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "魔法閃耀",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "allAdjacentFoes",
+    "type": "Fairy"
+  },
+  "playrough": {
+    "num": 583,
+    "accuracy": 90,
+    "basePower": 90,
+    "category": "Physical",
+    "name": "嬉鬧",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "boosts": {
+        "atk": -1
+      }
+    },
+    "target": "normal",
+    "type": "Fairy"
+  },
+  "moonblast": {
+    "num": 585,
+    "accuracy": 100,
+    "basePower": 95,
+    "category": "Special",
+    "name": "月亮之力",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "boosts": {
+        "spa": -1
+      }
+    },
+    "target": "normal",
+    "type": "Fairy"
+  },
+  "rockblast": {
+    "num": 350,
+    "accuracy": 90,
+    "basePower": 25,
+    "category": "Physical",
+    "name": "岩石爆擊",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "bullet": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "multihit": [2, 5],
+    "secondary": null,
+    "target": "normal",
+    "type": "Rock"
+  },
+  "rollout": {
+    "num": 205,
+    "accuracy": 90,
+    "basePower": 30,
+    "category": "Physical",
+    "name": "滾動",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "condition": {
+      "duration": 1,
+      "onLockMove": "rollout"
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Rock"
+  },
+  "rollout-2": {
+    "num": 205,
+    "accuracy": 90,
+    "basePower": 60,
+    "category": "Physical",
+    "name": "滾動-第二次",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "condition": {
+      "duration": 1,
+      "onLockMove": "rollout"
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Rock"
+  },
+  "rollout-3": {
+    "num": 205,
+    "accuracy": 90,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "滾動-第三次",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "condition": {
+      "duration": 1,
+      "onLockMove": "rollout"
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Rock"
+  },
+  "rollout-4": {
+    "num": 205,
+    "accuracy": 90,
+    "basePower": 240,
+    "category": "Physical",
+    "name": "滾動-第四次",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "condition": {
+      "duration": 1,
+      "onLockMove": "rollout"
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Rock"
+  },
+  "rollout-5": {
+    "num": 205,
+    "accuracy": 90,
+    "basePower": 480,
+    "category": "Physical",
+    "name": "滾動-第五次",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "condition": {
+      "duration": 1,
+      "onLockMove": "rollout"
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Rock"
+  },
+  "accelerock": {
+    "num": 709,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "衝岩",
+    "pp": 20,
+    "priority": 1,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Rock"
+  },
+  "saltcure": {
+    "num": 864,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "鹽醃",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "condition": {
+      "noCopy": true,
+      "onResidualOrder": 13
+    },
+    "secondary": {
+      "chance": 100,
+      "volatileStatus": "saltcure"
+    },
+    "target": "normal",
+    "type": "Rock"
+  },
+  "rockthrow": {
+    "num": 88,
+    "accuracy": 90,
+    "basePower": 50,
+    "category": "Physical",
+    "name": "落石",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Rock"
+  },
+  "smackdown": {
+    "num": 479,
+    "accuracy": 100,
+    "basePower": 50,
+    "category": "Physical",
+    "name": "擊落",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1
+    },
+    "volatileStatus": "smackdown",
+    "condition": {
+      "noCopy": true
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Rock"
+  },
+  "ancientpower": {
+    "num": 246,
+    "accuracy": 100,
+    "basePower": 60,
+    "category": "Special",
+    "name": "原始之力",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "self": {
+        "boosts": {
+          "atk": 1,
+          "def": 1,
+          "spa": 1,
+          "spd": 1,
+          "spe": 1
+        }
+      }
+    },
+    "target": "normal",
+    "type": "Rock"
+  },
+  "rocktomb": {
+    "num": 317,
+    "accuracy": 95,
+    "basePower": 60,
+    "category": "Physical",
+    "name": "岩石封鎖",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "spe": -1
+      }
+    },
+    "target": "normal",
+    "type": "Rock"
+  },
+  "stoneaxe": {
+    "num": 830,
+    "accuracy": 90,
+    "basePower": 65,
+    "category": "Physical",
+    "isNonstandard": "Unobtainable",
+    "name": "石斧",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "slicing": 1
+    },
+    "self": {},
+    "secondary": {},
+    "target": "normal",
+    "type": "Rock"
+  },
+  "rockslide": {
+    "num": 157,
+    "accuracy": 90,
+    "basePower": 75,
+    "category": "Physical",
+    "name": "岩崩",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "volatileStatus": "flinch"
+    },
+    "target": "allAdjacentFoes",
+    "type": "Rock"
+  },
+  "powergem": {
+    "num": 408,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "力量寶石",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Rock"
+  },
+  "stoneedge": {
+    "num": 444,
+    "accuracy": 80,
+    "basePower": 100,
+    "category": "Physical",
+    "name": "尖石攻擊",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "critRatio": 2,
+    "secondary": null,
+    "target": "normal",
+    "type": "Rock"
+  },
+  "headsmash": {
+    "num": 457,
+    "accuracy": 80,
+    "basePower": 150,
+    "category": "Physical",
+    "name": "雙刃頭錘",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "recoil": [1, 2],
+    "secondary": null,
+    "target": "normal",
+    "type": "Rock"
+  },
+  "lick": {
+    "num": 122,
+    "accuracy": 100,
+    "basePower": 30,
+    "category": "Physical",
+    "name": "舌舔",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "status": "par"
+    },
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "astonish": {
+    "num": 310,
+    "accuracy": 100,
+    "basePower": 30,
+    "category": "Physical",
+    "name": "驚嚇",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "volatileStatus": "flinch"
+    },
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "shadowsneak": {
+    "num": 425,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "影子偷襲",
+    "pp": 30,
+    "priority": 1,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "lastrespects": {
+    "num": 854,
+    "accuracy": 100,
+    "basePower": 50,
+    "category": "Physical",
+    "name": "掃墓",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "lastrespects-1": {
+    "num": 854,
+    "accuracy": 100,
+    "basePower": 100,
+    "category": "Physical",
+    "name": "掃墓-1名隊友瀕死",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "lastrespects-2": {
+    "num": 854,
+    "accuracy": 100,
+    "basePower": 150,
+    "category": "Physical",
+    "name": "掃墓-2名隊友瀕死",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "lastrespects-3": {
+    "num": 854,
+    "accuracy": 100,
+    "basePower": 200,
+    "category": "Physical",
+    "name": "掃墓-3名隊友瀕死",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "lastrespects-4": {
+    "num": 854,
+    "accuracy": 100,
+    "basePower": 250,
+    "category": "Physical",
+    "name": "掃墓-4名隊友瀕死",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "ragefist": {
+    "num": 889,
+    "accuracy": 100,
+    "basePower": 50,
+    "category": "Physical",
+    "name": "憤怒之拳",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "ragefist-1": {
+    "num": 889,
+    "accuracy": 100,
+    "basePower": 100,
+    "category": "Physical",
+    "name": "憤怒之拳-被擊中1次",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "ragefist-2": {
+    "num": 889,
+    "accuracy": 100,
+    "basePower": 150,
+    "category": "Physical",
+    "name": "憤怒之拳-被擊中2次",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "ragefist-3": {
+    "num": 889,
+    "accuracy": 100,
+    "basePower": 200,
+    "category": "Physical",
+    "name": "憤怒之拳-被擊中3次",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "ragefist-4": {
+    "num": 889,
+    "accuracy": 100,
+    "basePower": 250,
+    "category": "Physical",
+    "name": "憤怒之拳-被擊中4次",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "ragefist-5": {
+    "num": 889,
+    "accuracy": 100,
+    "basePower": 300,
+    "category": "Physical",
+    "name": "憤怒之拳-被擊中5次",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "ragefist-6": {
+    "num": 889,
+    "accuracy": 100,
+    "basePower": 350,
+    "category": "Physical",
+    "name": "憤怒之拳-被擊中6次",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "shadowpunch": {
+    "num": 325,
+    "accuracy": true,
+    "basePower": 60,
+    "category": "Physical",
+    "name": "暗影拳",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "infernalparade": {
+    "num": 844,
+    "accuracy": 100,
+    "basePower": 60,
+    "category": "Special",
+    "isNonstandard": "Unobtainable",
+    "name": "群魔亂舞",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "status": "brn"
+    },
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "infernalparade-2": {
+    "num": 844,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Special",
+    "isNonstandard": "Unobtainable",
+    "name": "群魔亂舞-對手異常狀態",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "status": "brn"
+    },
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "hex": {
+    "num": 506,
+    "accuracy": 100,
+    "basePower": 65,
+    "category": "Special",
+    "name": "禍不單行",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "hex-2": {
+    "num": 506,
+    "accuracy": 100,
+    "basePower": 130,
+    "category": "Special",
+    "name": "禍不單行-對手異常狀態",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "shadowclaw": {
+    "num": 421,
+    "accuracy": 100,
+    "basePower": 70,
+    "category": "Physical",
+    "name": "暗影爪",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "critRatio": 2,
+    "secondary": null,
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "bittermalice": {
+    "num": 841,
+    "accuracy": 100,
+    "basePower": 75,
+    "category": "Special",
+    "isNonstandard": "Unobtainable",
+    "name": "冤冤相報",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "atk": -1
+      }
+    },
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "shadowball": {
+    "num": 247,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "暗影球",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "bullet": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 20,
+      "boosts": {
+        "spd": -1
+      }
+    },
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "spiritshackle": {
+    "num": 662,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "縫影",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100
+    },
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "phantomforce": {
+    "num": 566,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Physical",
+    "name": "潛靈奇襲",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "charge": 1,
+      "mirror": 1
+    },
+    "breaksProtect": true,
+    "condition": {
+      "duration": 2,
+      "onInvulnerability": false
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "poisonsting": {
+    "num": 40,
+    "accuracy": 100,
+    "basePower": 15,
+    "category": "Physical",
+    "name": "毒針",
+    "pp": 35,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "status": "psn"
+    },
+    "target": "normal",
+    "type": "Poison"
+  },
+  "smog": {
+    "num": 123,
+    "accuracy": 70,
+    "basePower": 30,
+    "category": "Special",
+    "name": "濁霧",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 40,
+      "status": "psn"
+    },
+    "target": "normal",
+    "type": "Poison"
+  },
+  "mortalspin": {
+    "num": 866,
+    "accuracy": 100,
+    "basePower": 30,
+    "category": "Physical",
+    "name": "晶光轉轉",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "status": "psn"
+    },
+    "target": "allAdjacentFoes",
+    "type": "Poison"
+  },
+  "acid": {
+    "num": 51,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Special",
+    "name": "溶解液",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "boosts": {
+        "spd": -1
+      }
+    },
+    "target": "allAdjacentFoes",
+    "type": "Poison"
+  },
+  "acidspray": {
+    "num": 491,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Special",
+    "name": "酸液炸彈",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "bullet": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "spd": -2
+      }
+    },
+    "target": "normal",
+    "type": "Poison"
+  },
+  "poisonfang": {
+    "num": 305,
+    "accuracy": 100,
+    "basePower": 50,
+    "category": "Physical",
+    "name": "劇毒牙",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "bite": 1,
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 50,
+      "status": "tox"
+    },
+    "target": "normal",
+    "type": "Poison"
+  },
+  "poisontail": {
+    "num": 342,
+    "accuracy": 100,
+    "basePower": 50,
+    "category": "Physical",
+    "name": "毒尾",
+    "pp": 25,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "critRatio": 2,
+    "secondary": {
+      "chance": 10,
+      "status": "psn"
+    },
+    "target": "normal",
+    "type": "Poison"
+  },
+  "clearsmog": {
+    "num": 499,
+    "accuracy": true,
+    "basePower": 50,
+    "category": "Special",
+    "name": "清除之煙",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Poison"
+  },
+  "barbbarrage": {
+    "num": 839,
+    "accuracy": 100,
+    "basePower": 60,
+    "category": "Physical",
+    "isNonstandard": "Unobtainable",
+    "name": "毒千針",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 50,
+      "status": "psn"
+    },
+    "target": "normal",
+    "type": "Poison"
+  },
+  "barbbarrage-2": {
+    "num": 839,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Physical",
+    "isNonstandard": "Unobtainable",
+    "name": "毒千針-對手中毒",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 50,
+      "status": "psn"
+    },
+    "target": "normal",
+    "type": "Poison"
+  },
+  "sludge": {
+    "num": 124,
+    "accuracy": 100,
+    "basePower": 65,
+    "category": "Special",
+    "name": "污泥攻擊",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "status": "psn"
+    },
+    "target": "normal",
+    "type": "Poison"
+  },
+  "venoshock": {
+    "num": 474,
+    "accuracy": 100,
+    "basePower": 65,
+    "category": "Special",
+    "name": "毒液衝擊",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Poison"
+  },
+  "venoshock-2": {
+    "num": 474,
+    "accuracy": 100,
+    "basePower": 130,
+    "category": "Special",
+    "name": "毒液衝擊-對手中毒",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Poison"
+  },
+  "crosspoison": {
+    "num": 440,
+    "accuracy": 100,
+    "basePower": 70,
+    "category": "Physical",
+    "name": "十字毒刃",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "slicing": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "psn"
+    },
+    "critRatio": 2,
+    "target": "normal",
+    "type": "Poison"
+  },
+  "poisonjab": {
+    "num": 398,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "毒擊",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "status": "psn"
+    },
+    "target": "normal",
+    "type": "Poison"
+  },
+  "direclaw": {
+    "num": 827,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "isNonstandard": "Unobtainable",
+    "name": "剋命爪",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 50
+    },
+    "target": "normal",
+    "type": "Poison"
+  },
+  "sludgebomb": {
+    "num": 188,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Special",
+    "name": "污泥炸彈",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "bullet": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "status": "psn"
+    },
+    "target": "normal",
+    "type": "Poison"
+  },
+  "shellsidearm": {
+    "num": 801,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Special",
+    "name": "臂貝武器",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 20,
+      "status": "psn"
+    },
+    "target": "normal",
+    "type": "Poison"
+  },
+  "sludgewave": {
+    "num": 482,
+    "accuracy": 100,
+    "basePower": 95,
+    "category": "Special",
+    "name": "污泥波",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "psn"
+    },
+    "target": "allAdjacent",
+    "type": "Poison"
+  },
+  "gunkshot": {
+    "num": 441,
+    "accuracy": 80,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "垃圾射擊",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "status": "psn"
+    },
+    "target": "normal",
+    "type": "Poison"
+  },
+  "belch": {
+    "num": 562,
+    "accuracy": 90,
+    "basePower": 120,
+    "category": "Special",
+    "name": "打嗝",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Poison"
+  },
+  "peck": {
+    "num": 64,
+    "accuracy": 100,
+    "basePower": 35,
+    "category": "Physical",
+    "name": "啄",
+    "pp": 35,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "distance": 1
+    },
+    "secondary": null,
+    "target": "any",
+    "type": "Flying"
+  },
+  "gust": {
+    "num": 16,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Special",
+    "name": "起風",
+    "pp": 35,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "distance": 1,
+      "wind": 1
+    },
+    "secondary": null,
+    "target": "any",
+    "type": "Flying"
+  },
+  "dualwingbeat": {
+    "num": 814,
+    "accuracy": 90,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "雙翼",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "multihit": 2,
+    "secondary": null,
+    "target": "normal",
+    "type": "Flying"
+  },
+  "acrobatics": {
+    "num": 512,
+    "accuracy": 100,
+    "basePower": 55,
+    "category": "Physical",
+    "name": "雜技",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "distance": 1
+    },
+    "secondary": null,
+    "target": "any",
+    "type": "Flying"
+  },
+  "acrobatics-2": {
+    "num": 512,
+    "accuracy": 100,
+    "basePower": 110,
+    "category": "Physical",
+    "name": "雜技-無道具",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "distance": 1
+    },
+    "secondary": null,
+    "target": "any",
+    "type": "Flying"
+  },
+  "wingattack": {
+    "num": 17,
+    "accuracy": 100,
+    "basePower": 60,
+    "category": "Physical",
+    "name": "翅膀攻擊",
+    "pp": 35,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "distance": 1
+    },
+    "secondary": null,
+    "target": "any",
+    "type": "Flying"
+  },
+  "aircutter": {
+    "num": 314,
+    "accuracy": 95,
+    "basePower": 60,
+    "category": "Special",
+    "name": "空氣利刃",
+    "pp": 25,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "slicing": 1,
+      "wind": 1
+    },
+    "critRatio": 2,
+    "secondary": null,
+    "target": "allAdjacentFoes",
+    "type": "Flying"
+  },
+  "aerialace": {
+    "num": 332,
+    "accuracy": true,
+    "basePower": 60,
+    "category": "Physical",
+    "name": "燕返",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "distance": 1,
+      "slicing": 1
+    },
+    "secondary": null,
+    "target": "any",
+    "type": "Flying"
+  },
+  "pluck": {
+    "num": 365,
+    "accuracy": 100,
+    "basePower": 60,
+    "category": "Physical",
+    "name": "啄食",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "distance": 1
+    },
+    "secondary": null,
+    "target": "any",
+    "type": "Flying"
+  },
+  "airslash": {
+    "num": 403,
+    "accuracy": 95,
+    "basePower": 75,
+    "category": "Special",
+    "name": "空氣斬",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "distance": 1,
+      "slicing": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "volatileStatus": "flinch"
+    },
+    "target": "any",
+    "type": "Flying"
+  },
+  "drillpeck": {
+    "num": 65,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "啄鑽",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "distance": 1
+    },
+    "secondary": null,
+    "target": "any",
+    "type": "Flying"
+  },
+  "bounce": {
+    "num": 340,
+    "accuracy": 85,
+    "basePower": 85,
+    "category": "Physical",
+    "name": "彈跳",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "charge": 1,
+      "protect": 1,
+      "mirror": 1,
+      "gravity": 1,
+      "distance": 1
+    },
+    "condition": {
+      "duration": 2
+    },
+    "secondary": {
+      "chance": 30,
+      "status": "par"
+    },
+    "target": "any",
+    "type": "Flying"
+  },
+  "fly": {
+    "num": 19,
+    "accuracy": 95,
+    "basePower": 90,
+    "category": "Physical",
+    "name": "飛翔",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "charge": 1,
+      "protect": 1,
+      "mirror": 1,
+      "gravity": 1,
+      "distance": 1
+    },
+    "condition": {
+      "duration": 2
+    },
+    "secondary": null,
+    "target": "any",
+    "type": "Flying"
+  },
+  "hurricane": {
+    "num": 542,
+    "accuracy": 70,
+    "basePower": 110,
+    "category": "Special",
+    "name": "暴風",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "distance": 1,
+      "wind": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "volatileStatus": "confusion"
+    },
+    "target": "any",
+    "type": "Flying"
+  },
+  "bravebird": {
+    "num": 413,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "勇鳥猛攻",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "distance": 1
+    },
+    "recoil": [33, 100],
+    "secondary": null,
+    "target": "any",
+    "type": "Flying"
+  },
+  "skyattack": {
+    "num": 143,
+    "accuracy": 90,
+    "basePower": 140,
+    "category": "Physical",
+    "name": "神鳥猛擊",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "charge": 1,
+      "protect": 1,
+      "mirror": 1,
+      "distance": 1
+    },
+    "critRatio": 2,
+    "secondary": {
+      "chance": 30,
+      "volatileStatus": "flinch"
+    },
+    "target": "any",
+    "type": "Flying"
+  },
+  "lowkick": {
+    "num": 67,
+    "accuracy": 100,
+    "basePower": "不定",
+    "category": "Physical",
+    "name": "踢倒",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "reversal-20": {
+    "num": 179,
+    "accuracy": 100,
+    "basePower": 20,
+    "category": "Physical",
+    "name": "起死回生-20",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "reversal-40": {
+    "num": 179,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "起死回生-40",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "reversal-80": {
+    "num": 179,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "起死回生-80",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "reversal-100": {
+    "num": 179,
+    "accuracy": 100,
+    "basePower": 100,
+    "category": "Physical",
+    "name": "起死回生-100",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "reversal-150": {
+    "num": 179,
+    "accuracy": 100,
+    "basePower": "150",
+    "category": "Physical",
+    "name": "起死回生-150",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "reversal-200": {
+    "num": 179,
+    "accuracy": 100,
+    "basePower": "200",
+    "category": "Physical",
+    "name": "起死回生-200",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "armthrust": {
+    "num": 292,
+    "accuracy": 100,
+    "basePower": 15,
+    "category": "Physical",
+    "name": "猛推",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "multihit": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "doublekick": {
+    "num": 24,
+    "accuracy": 100,
+    "basePower": 30,
+    "category": "Physical",
+    "name": "二連踢",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "multihit": 2,
+    "secondary": null,
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "machpunch": {
+    "num": 183,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "音速拳",
+    "pp": 30,
+    "priority": 1,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "rocksmash": {
+    "num": 249,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "碎岩",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 50,
+      "boosts": {
+        "def": -1
+      }
+    },
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "vacuumwave": {
+    "num": 410,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Special",
+    "name": "真空波",
+    "pp": 30,
+    "priority": 1,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "forcepalm": {
+    "num": 395,
+    "accuracy": 100,
+    "basePower": 60,
+    "category": "Physical",
+    "name": "發勁",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "status": "par"
+    },
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "circlethrow": {
+    "num": 509,
+    "accuracy": 90,
+    "basePower": 60,
+    "category": "Physical",
+    "name": "巴投",
+    "pp": 10,
+    "priority": -6,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "forceSwitch": true,
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "lowsweep": {
+    "num": 490,
+    "accuracy": 100,
+    "basePower": 65,
+    "category": "Physical",
+    "name": "下盤踢",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "spe": -1
+      }
+    },
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "brickbreak": {
+    "num": 280,
+    "accuracy": 100,
+    "basePower": 75,
+    "category": "Physical",
+    "name": "劈瓦",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "drainpunch": {
+    "num": 409,
+    "accuracy": 100,
+    "basePower": 75,
+    "category": "Physical",
+    "name": "吸取拳",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1,
+      "heal": 1
+    },
+    "drain": [1, 2],
+    "secondary": null,
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "aurasphere": {
+    "num": 396,
+    "accuracy": true,
+    "basePower": 80,
+    "category": "Special",
+    "name": "波導彈",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "bullet": 1,
+      "protect": 1,
+      "pulse": 1,
+      "mirror": 1,
+      "distance": 1
+    },
+    "secondary": null,
+    "target": "any",
+    "type": "Fighting"
+  },
+  "bodypress": {
+    "num": 776,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "撲擊",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "overrideOffensiveStat": "def",
+    "secondary": null,
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "sacredsword": {
+    "num": 533,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Physical",
+    "name": "聖劍",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "slicing": 1
+    },
+    "ignoreEvasion": true,
+    "ignoreDefensive": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "triplearrows": {
+    "num": 843,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Physical",
+    "isNonstandard": "Unobtainable",
+    "name": "三連箭",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "critRatio": 2,
+    "secondaries": [
+      {
+        "chance": 50,
+        "boosts": {
+          "def": -1
+        }
+      },
+      {
+        "chance": 30,
+        "volatileStatus": "flinch"
+      }
+    ],
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "dynamicpunch": {
+    "num": 223,
+    "accuracy": 50,
+    "basePower": 100,
+    "category": "Physical",
+    "name": "爆裂拳",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "volatileStatus": "confusion"
+    },
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "crosschop": {
+    "num": 238,
+    "accuracy": 80,
+    "basePower": 100,
+    "category": "Physical",
+    "name": "十字劈",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "critRatio": 2,
+    "secondary": null,
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "hammerarm": {
+    "num": 359,
+    "accuracy": 90,
+    "basePower": 100,
+    "category": "Physical",
+    "name": "臂錘",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1
+    },
+    "self": {
+      "boosts": {
+        "spe": -1
+      }
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "flyingpress": {
+    "num": 560,
+    "accuracy": 95,
+    "basePower": 100,
+    "category": "Physical",
+    "name": "飛身重壓",
+    "pp": 10,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "gravity": 1,
+      "distance": 1,
+      "nonsky": 1
+    },
+    "priority": 0,
+    "secondary": null,
+    "target": "any",
+    "type": "Fighting"
+  },
+  "collisioncourse": {
+    "num": 878,
+    "accuracy": 100,
+    "basePower": 100,
+    "category": "Physical",
+    "name": "全開猛撞",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "superpower": {
+    "num": 276,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "蠻力",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "self": {
+      "boosts": {
+        "atk": -1,
+        "def": -1
+      }
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "closecombat": {
+    "num": 370,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "近身戰",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "self": {
+      "boosts": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "focusblast": {
+    "num": 411,
+    "accuracy": 70,
+    "basePower": 120,
+    "category": "Special",
+    "name": "真氣彈",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "bullet": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "boosts": {
+        "spd": -1
+      }
+    },
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "axekick": {
+    "num": 853,
+    "accuracy": 90,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "下壓踢",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "hasCrashDamage": true,
+    "secondary": {
+      "chance": 30,
+      "volatileStatus": "confusion"
+    },
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "highjumpkick": {
+    "num": 136,
+    "accuracy": 90,
+    "basePower": 130,
+    "category": "Physical",
+    "name": "飛膝踢",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "gravity": 1
+    },
+    "hasCrashDamage": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "focuspunch": {
+    "num": 264,
+    "accuracy": 100,
+    "basePower": 150,
+    "category": "Physical",
+    "name": "真氣拳",
+    "pp": 20,
+    "priority": -3,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "punch": 1
+    },
+    "condition": {
+      "duration": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "grassknot": {
+    "num": 447,
+    "accuracy": 100,
+    "basePower": "不定",
+    "category": "Special",
+    "name": "打草結",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass"
+  },
+  "absorb": {
+    "num": 71,
+    "accuracy": 100,
+    "basePower": 20,
+    "category": "Special",
+    "name": "吸取",
+    "pp": 25,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "heal": 1
+    },
+    "drain": [1, 2],
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass"
+  },
+  "bulletseed": {
+    "num": 331,
+    "accuracy": 100,
+    "basePower": 25,
+    "category": "Physical",
+    "name": "種子機關槍",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "bullet": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "multihit": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass"
+  },
+  "megadrain": {
+    "num": 72,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Special",
+    "name": "超級吸取",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "heal": 1
+    },
+    "drain": [1, 2],
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass"
+  },
+  "leafage": {
+    "num": 670,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "樹葉",
+    "pp": 40,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass"
+  },
+  "branchpoke": {
+    "num": 785,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "木枝突刺",
+    "pp": 40,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass"
+  },
+  "vinewhip": {
+    "num": 22,
+    "accuracy": 100,
+    "basePower": 45,
+    "category": "Physical",
+    "name": "藤鞭",
+    "pp": 25,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass"
+  },
+  "trailblaze": {
+    "num": 885,
+    "accuracy": 100,
+    "basePower": 50,
+    "category": "Physical",
+    "name": "起草",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "self": {
+        "boosts": {
+          "spe": 1
+        }
+      }
+    },
+    "target": "normal",
+    "type": "Grass"
+  },
+  "razorleaf": {
+    "num": 75,
+    "accuracy": 95,
+    "basePower": 55,
+    "category": "Physical",
+    "name": "飛葉快刀",
+    "pp": 25,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "slicing": 1
+    },
+    "critRatio": 2,
+    "secondary": null,
+    "target": "allAdjacentFoes",
+    "type": "Grass"
+  },
+  "magicalleaf": {
+    "num": 345,
+    "accuracy": true,
+    "basePower": 60,
+    "category": "Special",
+    "name": "魔法葉",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass"
+  },
+  "grassyglide": {
+    "num": 803,
+    "accuracy": 100,
+    "basePower": 60,
+    "category": "Physical",
+    "name": "青草滑梯",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass"
+  },
+  "tropkick": {
+    "num": 688,
+    "accuracy": 100,
+    "basePower": 70,
+    "category": "Physical",
+    "name": "熱帶踢",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "atk": -1
+      }
+    },
+    "target": "normal",
+    "type": "Grass"
+  },
+  "flowertrick": {
+    "num": 870,
+    "accuracy": true,
+    "basePower": 70,
+    "category": "Physical",
+    "name": "千變萬花",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "willCrit": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass"
+  },
+  "gigadrain": {
+    "num": 202,
+    "accuracy": 100,
+    "basePower": 75,
+    "category": "Special",
+    "name": "終極吸取",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "heal": 1
+    },
+    "drain": [1, 2],
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass"
+  },
+  "hornleech": {
+    "num": 532,
+    "accuracy": 100,
+    "basePower": 75,
+    "category": "Physical",
+    "name": "木角",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "heal": 1
+    },
+    "drain": [1, 2],
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass"
+  },
+  "seedbomb": {
+    "num": 402,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "種子炸彈",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "bullet": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass"
+  },
+  "grasspledge": {
+    "num": 520,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "草之誓約",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1
+    },
+    "condition": {
+      "duration": 4,
+      "onSideResidualOrder": 26,
+      "onSideResidualSubOrder": 9
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass"
+  },
+  "drumbeating": {
+    "num": 778,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "鼓擊",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "spe": -1
+      }
+    },
+    "target": "normal",
+    "type": "Grass"
+  },
+  "appleacid": {
+    "num": 787,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "蘋果酸",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "spd": -1
+      }
+    },
+    "target": "normal",
+    "type": "Grass"
+  },
+  "gravapple": {
+    "num": 788,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "萬有引力",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "def": -1
+      }
+    },
+    "target": "normal",
+    "type": "Grass"
+  },
+  "gravapple-2": {
+    "num": 788,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "萬有引力-重力",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "def": -1
+      }
+    },
+    "target": "normal",
+    "type": "Grass"
+  },
+  "leafblade": {
+    "num": 348,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Physical",
+    "name": "葉刃",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "slicing": 1
+    },
+    "critRatio": 2,
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass"
+  },
+  "energyball": {
+    "num": 412,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Special",
+    "name": "能量球",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "bullet": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "boosts": {
+        "spd": -1
+      }
+    },
+    "target": "normal",
+    "type": "Grass"
+  },
+  "petalblizzard": {
+    "num": 572,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Physical",
+    "name": "落英繽紛",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "wind": 1
+    },
+    "secondary": null,
+    "target": "allAdjacent",
+    "type": "Grass"
+  },
+  "solarbeam": {
+    "num": 76,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Special",
+    "name": "日光束",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "charge": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass"
+  },
+  "petaldance": {
+    "num": 80,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Special",
+    "name": "花瓣舞",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "dance": 1
+    },
+    "self": {
+      "volatileStatus": "lockedmove"
+    },
+    "secondary": null,
+    "target": "randomNormal",
+    "type": "Grass"
+  },
+  "powerwhip": {
+    "num": 438,
+    "accuracy": 85,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "強力鞭打",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass"
+  },
+  "woodhammer": {
+    "num": 452,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "木槌",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "recoil": [33, 100],
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass"
+  },
+  "solarblade": {
+    "num": 669,
+    "accuracy": 100,
+    "basePower": 125,
+    "category": "Physical",
+    "name": "日光刃",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "charge": 1,
+      "protect": 1,
+      "mirror": 1,
+      "slicing": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass"
+  },
+  "leafstorm": {
+    "num": 437,
+    "accuracy": 90,
+    "basePower": 130,
+    "category": "Special",
+    "name": "飛葉風暴",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "self": {
+      "boosts": {
+        "spa": -2
+      }
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass"
+  },
+  "frenzyplant": {
+    "num": 338,
+    "accuracy": 90,
+    "basePower": 150,
+    "category": "Special",
+    "name": "瘋狂植物",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "recharge": 1,
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1
+    },
+    "self": {
+      "volatileStatus": "mustrecharge"
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass"
+  },
+  "chloroblast": {
+    "num": 835,
+    "accuracy": 95,
+    "basePower": 150,
+    "category": "Special",
+    "isNonstandard": "Unobtainable",
+    "name": "葉綠爆震",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "mindBlownRecoil": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass"
+  },
+  "powertrip": {
+    "num": 681,
+    "accuracy": 100,
+    "basePower": 20,
+    "category": "Physical",
+    "name": "囂張",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Dark"
+  },
+  "payback": {
+    "num": 371,
+    "accuracy": 100,
+    "basePower": 50,
+    "category": "Physical",
+    "name": "以牙還牙",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Dark"
+  },
+  "payback-2": {
+    "num": 371,
+    "accuracy": 100,
+    "basePower": 100,
+    "category": "Physical",
+    "name": "以牙還牙-對手出招或使用道具",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Dark"
+  },
+  "snarl": {
+    "num": 555,
+    "accuracy": 95,
+    "basePower": 55,
+    "category": "Special",
+    "name": "大聲咆哮",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "sound": 1,
+      "bypasssub": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "spa": -1
+      }
+    },
+    "target": "allAdjacentFoes",
+    "type": "Dark"
+  },
+  "bite": {
+    "num": 44,
+    "accuracy": 100,
+    "basePower": 60,
+    "category": "Physical",
+    "name": "咬住",
+    "pp": 25,
+    "priority": 0,
+    "flags": {
+      "bite": 1,
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "volatileStatus": "flinch"
+    },
+    "target": "normal",
+    "type": "Dark"
+  },
+  "thief": {
+    "num": 168,
+    "accuracy": 100,
+    "basePower": 60,
+    "category": "Physical",
+    "name": "小偷",
+    "pp": 25,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Dark"
+  },
+  "assurance": {
+    "num": 372,
+    "accuracy": 100,
+    "basePower": 60,
+    "category": "Physical",
+    "name": "惡意追擊",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Dark"
+  },
+  "assurance-2": {
+    "num": 372,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "惡意追擊-對手本回合受傷",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Dark"
+  },
+  "brutalswing": {
+    "num": 693,
+    "accuracy": 100,
+    "basePower": 60,
+    "category": "Physical",
+    "name": "狂舞揮打",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "allAdjacent",
+    "type": "Dark"
+  },
+  "knockoff": {
+    "num": 282,
+    "accuracy": 100,
+    "basePower": 65,
+    "category": "Physical",
+    "name": "拍落",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Dark"
+  },
+  "ceaselessedge": {
+    "num": 845,
+    "accuracy": 90,
+    "basePower": 65,
+    "category": "Physical",
+    "isNonstandard": "Unobtainable",
+    "name": "秘劍・千重濤",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "slicing": 1
+    },
+    "self": {},
+    "secondary": {},
+    "target": "normal",
+    "type": "Dark"
+  },
+  "suckerpunch": {
+    "num": 389,
+    "accuracy": 100,
+    "basePower": 70,
+    "category": "Physical",
+    "name": "突襲",
+    "pp": 5,
+    "priority": 1,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Dark"
+  },
+  "nightslash": {
+    "num": 400,
+    "accuracy": 100,
+    "basePower": 70,
+    "category": "Physical",
+    "name": "暗襲要害",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "slicing": 1
+    },
+    "critRatio": 2,
+    "secondary": null,
+    "target": "normal",
+    "type": "Dark"
+  },
+  "crunch": {
+    "num": 242,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "咬碎",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "bite": 1,
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 20,
+      "boosts": {
+        "def": -1
+      }
+    },
+    "target": "normal",
+    "type": "Dark"
+  },
+  "darkpulse": {
+    "num": 399,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "惡之波動",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "pulse": 1,
+      "mirror": 1,
+      "distance": 1
+    },
+    "secondary": {
+      "chance": 20,
+      "volatileStatus": "flinch"
+    },
+    "target": "any",
+    "type": "Dark"
+  },
+  "throatchop": {
+    "num": 675,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "地獄突刺",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "condition": {
+      "duration": 2,
+      "onBeforeMovePriority": 6,
+      "onResidualOrder": 22
+    },
+    "secondary": {
+      "chance": 100
+    },
+    "target": "normal",
+    "type": "Dark"
+  },
+  "jawlock": {
+    "num": 746,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "緊咬不放",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "bite": 1,
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Dark"
+  },
+  "falsesurrender": {
+    "num": 793,
+    "accuracy": true,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "假跪真撞",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Dark"
+  },
+  "nightdaze": {
+    "num": 539,
+    "accuracy": 95,
+    "basePower": 85,
+    "category": "Special",
+    "name": "暗黑爆破",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 40,
+      "boosts": {
+        "accuracy": -1
+      }
+    },
+    "target": "normal",
+    "type": "Dark"
+  },
+  "kowtowcleave": {
+    "num": 869,
+    "accuracy": true,
+    "basePower": 85,
+    "category": "Physical",
+    "name": "仆斬",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "slicing": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Dark"
+  },
+  "foulplay": {
+    "num": 492,
+    "accuracy": 100,
+    "basePower": 95,
+    "category": "Physical",
+    "name": "欺詐",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "overrideOffensivePokemon": "target",
+    "secondary": null,
+    "target": "normal",
+    "type": "Dark"
+  },
+  "storedpower": {
+    "num": 500,
+    "accuracy": 100,
+    "basePower": 20,
+    "category": "Special",
+    "name": "輔助力量",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Psychic"
+  },
+  "twinbeam": {
+    "num": 888,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Special",
+    "name": "雙光束",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "multihit": 2,
+    "secondary": null,
+    "target": "normal",
+    "type": "Psychic"
+  },
+  "confusion": {
+    "num": 93,
+    "accuracy": 100,
+    "basePower": 50,
+    "category": "Special",
+    "name": "念力",
+    "pp": 25,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "volatileStatus": "confusion"
+    },
+    "target": "normal",
+    "type": "Psychic"
+  },
+  "psybeam": {
+    "num": 60,
+    "accuracy": 100,
+    "basePower": 65,
+    "category": "Special",
+    "name": "幻象光線",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "volatileStatus": "confusion"
+    },
+    "target": "normal",
+    "type": "Psychic"
+  },
+  "psychocut": {
+    "num": 427,
+    "accuracy": 100,
+    "basePower": 70,
+    "category": "Physical",
+    "name": "精神利刃",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "slicing": 1
+    },
+    "critRatio": 2,
+    "secondary": null,
+    "target": "normal",
+    "type": "Psychic"
+  },
+  "psyshieldbash": {
+    "num": 828,
+    "accuracy": 90,
+    "basePower": 70,
+    "category": "Physical",
+    "isNonstandard": "Unobtainable",
+    "name": "屏障猛攻",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "self": {
+        "boosts": {
+          "def": 1
+        }
+      }
+    },
+    "target": "normal",
+    "type": "Psychic"
+  },
+  "extrasensory": {
+    "num": 326,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "神通力",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "volatileStatus": "flinch"
+    },
+    "target": "normal",
+    "type": "Psychic"
+  },
+  "psyblade": {
+    "num": 876,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "精神劍",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Psychic"
+  },
+  "zenheadbutt": {
+    "num": 428,
+    "accuracy": 90,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "意念頭錘",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 20,
+      "volatileStatus": "flinch"
+    },
+    "target": "normal",
+    "type": "Psychic"
+  },
+  "psyshock": {
+    "num": 473,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "overrideDefensiveStat": "def",
+    "name": "精神衝擊",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Psychic"
+  },
+  "expandingforce": {
+    "num": 797,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "廣域戰力",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Psychic"
+  },
+  "eeriespell": {
+    "num": 826,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "詭異咒語",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "sound": 1,
+      "bypasssub": 1
+    },
+    "secondary": {
+      "chance": 100
+    },
+    "target": "normal",
+    "type": "Psychic"
+  },
+  "esperwing": {
+    "num": 840,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "isNonstandard": "Unobtainable",
+    "name": "氣場之翼",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "critRatio": 2,
+    "secondary": {
+      "chance": 100,
+      "self": {
+        "boosts": {
+          "spe": 1
+        }
+      }
+    },
+    "target": "normal",
+    "type": "Psychic"
+  },
+  "luminacrash": {
+    "num": 855,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "琉光衝激",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "spd": -2
+      }
+    },
+    "target": "normal",
+    "type": "Psychic"
+  },
+  "psychicfangs": {
+    "num": 706,
+    "accuracy": 100,
+    "basePower": 85,
+    "category": "Physical",
+    "name": "精神之牙",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "bite": 1,
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Psychic"
+  },
+  "psychic": {
+    "num": 94,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Special",
+    "name": "精神強念",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "boosts": {
+        "spd": -1
+      }
+    },
+    "target": "normal",
+    "type": "Psychic"
+  },
+  "dreameater": {
+    "num": 138,
+    "accuracy": 100,
+    "basePower": 100,
+    "category": "Special",
+    "name": "食夢",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "heal": 1
+    },
+    "drain": [1, 2],
+    "secondary": null,
+    "target": "normal",
+    "type": "Psychic"
+  },
+  "futuresight": {
+    "num": 248,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Special",
+    "name": "預知未來",
+    "pp": 10,
+    "priority": 0,
+    "flags": {},
+    "ignoreImmunity": true,
+    "isFutureMove": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Psychic"
+  },
+  "electroball": {
+    "num": 486,
+    "accuracy": 100,
+    "basePower": "不定",
+    "category": "Special",
+    "name": "電球",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "bullet": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Electric"
+  },
+  "nuzzle": {
+    "num": 609,
+    "accuracy": 100,
+    "basePower": 20,
+    "category": "Physical",
+    "name": "蹭蹭臉頰",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "status": "par"
+    },
+    "target": "normal",
+    "type": "Electric"
+  },
+  "thundershock": {
+    "num": 84,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Special",
+    "name": "電擊",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "par"
+    },
+    "target": "normal",
+    "type": "Electric"
+  },
+  "chargebeam": {
+    "num": 451,
+    "accuracy": 90,
+    "basePower": 50,
+    "category": "Special",
+    "name": "充電光束",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 70,
+      "self": {
+        "boosts": {
+          "spa": 1
+        }
+      }
+    },
+    "target": "normal",
+    "type": "Electric"
+  },
+  "electroweb": {
+    "num": 527,
+    "accuracy": 95,
+    "basePower": 55,
+    "category": "Special",
+    "name": "電網",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "spe": -1
+      }
+    },
+    "target": "allAdjacentFoes",
+    "type": "Electric"
+  },
+  "shockwave": {
+    "num": 351,
+    "accuracy": true,
+    "basePower": 60,
+    "category": "Special",
+    "name": "電擊波",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Electric"
+  },
+  "spark": {
+    "num": 209,
+    "accuracy": 100,
+    "basePower": 65,
+    "category": "Physical",
+    "name": "電光",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "status": "par"
+    },
+    "target": "normal",
+    "type": "Electric"
+  },
+  "thunderfang": {
+    "num": 422,
+    "accuracy": 95,
+    "basePower": 65,
+    "category": "Physical",
+    "name": "雷電牙",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "bite": 1,
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondaries": [
+      {
+        "chance": 10,
+        "status": "par"
+      },
+      {
+        "chance": 10,
+        "volatileStatus": "flinch"
+      }
+    ],
+    "target": "normal",
+    "type": "Electric"
+  },
+  "paraboliccharge": {
+    "num": 570,
+    "accuracy": 100,
+    "basePower": 65,
+    "category": "Special",
+    "name": "拋物面充電",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "heal": 1
+    },
+    "drain": [1, 2],
+    "secondary": null,
+    "target": "allAdjacent",
+    "type": "Electric"
+  },
+  "voltswitch": {
+    "num": 521,
+    "accuracy": 100,
+    "basePower": 70,
+    "category": "Special",
+    "name": "伏特替換",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "selfSwitch": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Electric"
+  },
+  "thunderpunch": {
+    "num": 9,
+    "accuracy": 100,
+    "basePower": 75,
+    "category": "Physical",
+    "name": "雷電拳",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "par"
+    },
+    "target": "normal",
+    "type": "Electric"
+  },
+  "discharge": {
+    "num": 435,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "放電",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "status": "par"
+    },
+    "target": "allAdjacent",
+    "type": "Electric"
+  },
+  "zingzap": {
+    "num": 716,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "麻麻刺刺",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "volatileStatus": "flinch"
+    },
+    "target": "normal",
+    "type": "Electric"
+  },
+  "overdrive": {
+    "num": 786,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "破音",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "sound": 1,
+      "bypasssub": 1
+    },
+    "secondary": null,
+    "target": "allAdjacentFoes",
+    "type": "Electric"
+  },
+  "thunderbolt": {
+    "num": 85,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Special",
+    "name": "十萬伏特",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "par"
+    },
+    "target": "normal",
+    "type": "Electric"
+  },
+  "wildcharge": {
+    "num": 528,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Physical",
+    "name": "瘋狂伏特",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "recoil": [1, 4],
+    "secondary": null,
+    "target": "normal",
+    "type": "Electric"
+  },
+  "electrodrift": {
+    "num": 879,
+    "accuracy": 100,
+    "basePower": 100,
+    "category": "Special",
+    "name": "閃電猛衝",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Electric"
+  },
+  "thunder": {
+    "num": 87,
+    "accuracy": 70,
+    "basePower": 110,
+    "category": "Special",
+    "name": "打雷",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "status": "par"
+    },
+    "target": "normal",
+    "type": "Electric"
+  },
+  "zapcannon": {
+    "num": 192,
+    "accuracy": 50,
+    "basePower": 120,
+    "category": "Special",
+    "name": "電磁砲",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "bullet": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "status": "par"
+    },
+    "target": "normal",
+    "type": "Electric"
+  },
+  "doubleshock": {
+    "num": 892,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "電光雙擊",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "self": {},
+    "secondary": null,
+    "target": "normal",
+    "type": "Electric"
+  },
+  "gyroball": {
+    "num": 360,
+    "accuracy": 100,
+    "basePower": "不定",
+    "category": "Physical",
+    "name": "陀螺球",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "bullet": 1,
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Steel"
+  },
+  "heavyslam": {
+    "num": 484,
+    "accuracy": 100,
+    "basePower": "不定",
+    "category": "Physical",
+    "name": "重磅衝撞",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Steel"
+  },
+  "bulletpunch": {
+    "num": 418,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "子彈拳",
+    "pp": 30,
+    "priority": 1,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Steel"
+  },
+  "metalclaw": {
+    "num": 232,
+    "accuracy": 95,
+    "basePower": 50,
+    "category": "Physical",
+    "name": "金屬爪",
+    "pp": 35,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "self": {
+        "boosts": {
+          "atk": 1
+        }
+      }
+    },
+    "target": "normal",
+    "type": "Steel"
+  },
+  "steelwing": {
+    "num": 211,
+    "accuracy": 90,
+    "basePower": 70,
+    "category": "Physical",
+    "name": "鋼翼",
+    "pp": 25,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "self": {
+        "boosts": {
+          "def": 1
+        }
+      }
+    },
+    "target": "normal",
+    "type": "Steel"
+  },
+  "smartstrike": {
+    "num": 684,
+    "accuracy": true,
+    "basePower": 70,
+    "category": "Physical",
+    "name": "修長之角",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Steel"
+  },
+  "flashcannon": {
+    "num": 430,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "加農光炮",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "boosts": {
+        "spd": -1
+      }
+    },
+    "target": "normal",
+    "type": "Steel"
+  },
+  "ironhead": {
+    "num": 442,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "鐵頭",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "volatileStatus": "flinch"
+    },
+    "target": "normal",
+    "type": "Steel"
+  },
+  "meteormash": {
+    "num": 309,
+    "accuracy": 90,
+    "basePower": 90,
+    "category": "Physical",
+    "name": "彗星拳",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1
+    },
+    "secondary": {
+      "chance": 20,
+      "self": {
+        "boosts": {
+          "atk": 1
+        }
+      }
+    },
+    "target": "normal",
+    "type": "Steel"
+  },
+  "irontail": {
+    "num": 231,
+    "accuracy": 75,
+    "basePower": 100,
+    "category": "Physical",
+    "name": "鐵尾",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "boosts": {
+        "def": -1
+      }
+    },
+    "target": "normal",
+    "type": "Steel"
+  },
+  "spinout": {
+    "num": 859,
+    "accuracy": 100,
+    "basePower": 100,
+    "category": "Physical",
+    "name": "疾速轉輪",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "self": {
+      "boosts": {
+        "spe": -2
+      }
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Steel"
+  },
+  "makeitrain": {
+    "num": 874,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Special",
+    "name": "淘金潮",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "self": {
+      "boosts": {
+        "spa": -1
+      }
+    },
+    "secondary": null,
+    "target": "allAdjacentFoes",
+    "type": "Steel"
+  },
+  "steelroller": {
+    "num": 798,
+    "accuracy": 100,
+    "basePower": 130,
+    "category": "Physical",
+    "name": "鐵滾輪",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Steel"
+  },
+  "steelbeam": {
+    "num": 796,
+    "accuracy": 95,
+    "basePower": 140,
+    "category": "Special",
+    "name": "鐵蹄光線",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "mindBlownRecoil": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Steel"
+  },
+  "gigatonhammer": {
+    "num": 893,
+    "accuracy": 100,
+    "basePower": 160,
+    "category": "Physical",
+    "name": "巨力錘",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "condition": {},
+    "secondary": null,
+    "target": "normal",
+    "type": "Steel"
+  },
+  "scaleshot": {
+    "num": 799,
+    "accuracy": 90,
+    "basePower": 25,
+    "category": "Physical",
+    "name": "鱗射",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "multihit": [2, 5],
+    "selfBoost": {
+      "boosts": {
+        "def": -1,
+        "spe": 1
+      }
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Dragon"
+  },
+  "twister": {
+    "num": 239,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Special",
+    "name": "龍捲風",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "wind": 1
+    },
+    "secondary": {
+      "chance": 20,
+      "volatileStatus": "flinch"
+    },
+    "target": "allAdjacentFoes",
+    "type": "Dragon"
+  },
+  "dragondarts": {
+    "num": 751,
+    "accuracy": 100,
+    "basePower": 50,
+    "category": "Physical",
+    "name": "龍箭",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "multihit": 2,
+    "smartTarget": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Dragon"
+  },
+  "dragonbreath": {
+    "num": 225,
+    "accuracy": 100,
+    "basePower": 60,
+    "category": "Special",
+    "name": "龍息",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "status": "par"
+    },
+    "target": "normal",
+    "type": "Dragon"
+  },
+  "dragontail": {
+    "num": 525,
+    "accuracy": 90,
+    "basePower": 60,
+    "category": "Physical",
+    "name": "龍尾",
+    "pp": 10,
+    "priority": -6,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "forceSwitch": true,
+    "target": "normal",
+    "type": "Dragon"
+  },
+  "breakingswipe": {
+    "num": 784,
+    "accuracy": 100,
+    "basePower": 60,
+    "category": "Physical",
+    "name": "廣域破壞",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "atk": -1
+      }
+    },
+    "target": "allAdjacentFoes",
+    "type": "Dragon"
+  },
+  "dragonclaw": {
+    "num": 337,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "龍爪",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Dragon"
+  },
+  "orderup": {
+    "num": 856,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "上菜",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "pulse": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "hasSheerForce": true,
+    "target": "normal",
+    "type": "Dragon"
+  },
+  "dragonpulse": {
+    "num": 406,
+    "accuracy": 100,
+    "basePower": 85,
+    "category": "Special",
+    "name": "龍之波動",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "pulse": 1,
+      "mirror": 1,
+      "distance": 1
+    },
+    "secondary": null,
+    "target": "any",
+    "type": "Dragon"
+  },
+  "dragonrush": {
+    "num": 407,
+    "accuracy": 75,
+    "basePower": 100,
+    "category": "Physical",
+    "name": "龍之俯衝",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 20,
+      "volatileStatus": "flinch"
+    },
+    "target": "normal",
+    "type": "Dragon"
+  },
+  "outrage": {
+    "num": 200,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "逆鱗",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "self": {
+      "volatileStatus": "lockedmove"
+    },
+    "secondary": null,
+    "target": "randomNormal",
+    "type": "Dragon"
+  },
+  "glaiverush": {
+    "num": 862,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "巨劍突擊",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "self": {
+      "volatileStatus": "glaiverush"
+    },
+    "condition": {
+      "noCopy": true,
+      "onBeforeMovePriority": 100
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Dragon"
+  },
+  "dracometeor": {
+    "num": 434,
+    "accuracy": 90,
+    "basePower": 130,
+    "category": "Special",
+    "name": "流星群",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "self": {
+      "boosts": {
+        "spa": -2
+      }
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Dragon"
+  },
+  "infestation": {
+    "num": 611,
+    "accuracy": 100,
+    "basePower": 20,
+    "category": "Special",
+    "name": "死纏爛打",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "volatileStatus": "partiallytrapped",
+    "secondary": null,
+    "target": "normal",
+    "type": "Bug"
+  },
+  "pinmissile": {
+    "num": 42,
+    "accuracy": 95,
+    "basePower": 25,
+    "category": "Physical",
+    "name": "飛彈針",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "multihit": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Bug"
+  },
+  "furycutter": {
+    "num": 210,
+    "accuracy": 95,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "連斬",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "slicing": 1
+    },
+    "condition": {
+      "duration": 2
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Bug"
+  },
+  "strugglebug": {
+    "num": 522,
+    "accuracy": 100,
+    "basePower": 50,
+    "category": "Special",
+    "name": "蟲之抵抗",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "spa": -1
+      }
+    },
+    "target": "allAdjacentFoes",
+    "type": "Bug"
+  },
+  "fellstinger": {
+    "num": 565,
+    "accuracy": 100,
+    "basePower": 50,
+    "category": "Physical",
+    "name": "致命針刺",
+    "pp": 25,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Bug"
+  },
+  "pounce": {
+    "num": 884,
+    "accuracy": 100,
+    "basePower": 50,
+    "category": "Physical",
+    "name": "蟲撲",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "spe": -1
+      }
+    },
+    "target": "normal",
+    "type": "Bug"
+  },
+  "bugbite": {
+    "num": 450,
+    "accuracy": 100,
+    "basePower": 60,
+    "category": "Physical",
+    "name": "蟲咬",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Bug"
+  },
+  "uturn": {
+    "num": 369,
+    "accuracy": 100,
+    "basePower": 70,
+    "category": "Physical",
+    "name": "急速折返",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "selfSwitch": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Bug"
+  },
+  "skittersmack": {
+    "num": 806,
+    "accuracy": 90,
+    "basePower": 70,
+    "category": "Physical",
+    "name": "爬擊",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "spa": -1
+      }
+    },
+    "target": "normal",
+    "type": "Bug"
+  },
+  "leechlife": {
+    "num": 141,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "吸血",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "heal": 1
+    },
+    "drain": [1, 2],
+    "secondary": null,
+    "target": "normal",
+    "type": "Bug"
+  },
+  "xscissor": {
+    "num": 404,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "十字剪",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "slicing": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Bug"
+  },
+  "lunge": {
+    "num": 679,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "猛撲",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "atk": -1
+      }
+    },
+    "target": "normal",
+    "type": "Bug"
+  },
+  "bugbuzz": {
+    "num": 405,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Special",
+    "name": "蟲鳴",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "sound": 1,
+      "bypasssub": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "boosts": {
+        "spd": -1
+      }
+    },
+    "target": "normal",
+    "type": "Bug"
+  },
+  "attackorder": {
+    "num": 454,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Physical",
+    "name": "攻擊指令",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "critRatio": 2,
+    "secondary": null,
+    "target": "normal",
+    "type": "Bug"
+  },
+  "firstimpression": {
+    "num": 660,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Physical",
+    "name": "迎頭一擊",
+    "pp": 10,
+    "priority": 2,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Bug"
+  },
+  "pollenpuff": {
+    "num": 676,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Special",
+    "name": "花粉團",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "bullet": 1,
+      "protect": 1,
+      "mirror": 1,
+      "allyanim": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Bug"
+  },
+  "megahorn": {
+    "num": 224,
+    "accuracy": 85,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "超級角擊",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Bug"
+  }
+}
