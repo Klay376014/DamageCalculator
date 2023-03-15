@@ -127,7 +127,7 @@ const teraChange = (tera) => {
 </script>
 <template v-if="store.pokemonList">
   <div class="d-flex" style="height: 50px">
-    <img :src="imageUrl" width="70" height="70" class="ms-3 pb-1" />
+    <img :src="imageUrl" width="70" height="70" class="ms-3 pb-1" loading="lazy" />
     <label for="searchList" class="form-label"></label>
     <input
       class="form-control pokemonSelect mt-3"

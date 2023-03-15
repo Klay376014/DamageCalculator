@@ -5,5 +5,4 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   base:'/DamageCalculator/',
   plugins: [vue()],
-  filenameHashing: false
 })
