@@ -474,6 +474,94 @@ export const usePokemonStore = defineStore("pokemon", () => {
     },
   });
 
+  const bpMinus = (stat, num) => {
+    if (num === "pokemon1") {
+      if (pokemon1.bp[stat] <= 0) {
+        pokemon1.bp[stat] = 0;
+      } else if (pokemon1.bp[stat] <= 4) {
+        pokemon1.bp[stat] = 0;
+      } else if (pokemon1.bp[stat] < 8) {
+        pokemon1.bp[stat] = 4;
+      } else if (pokemon1.bp[stat] > 252) {
+        pokemon1.bp[stat] = 252;
+      } else {
+        if ((pokemon1.bp[stat] + 4) % 8 !== 0) {
+          pokemon1.bp[stat] = (Math.trunc(pokemon1.bp[stat] / 8) - 1) * 8 + 4;
+        } else if ((pokemon1.bp[stat] + 4) % 8 === 0) {
+          pokemon1.bp[stat] = pokemon1.bp[stat] - 8;
+        }
+      }
+    } else if (num === "pokemon2") {
+      if (pokemon2.bp[stat] <= 0) {
+        pokemon2.bp[stat] = 0;
+      } else if (pokemon2.bp[stat] <= 4) {
+        pokemon2.bp[stat] = 0;
+      } else if (pokemon2.bp[stat] < 8) {
+        pokemon2.bp[stat] = 4;
+      } else if (pokemon2.bp[stat] > 252) {
+        pokemon2.bp[stat] = 252;
+      } else {
+        if ((pokemon2.bp[stat] + 4) % 8 !== 0) {
+          pokemon2.bp[stat] = (Math.trunc(pokemon2.bp[stat] / 8) - 1) * 8 + 4;
+        } else if ((pokemon2.bp[stat] + 4) % 8 === 0) {
+          pokemon2.bp[stat] = pokemon2.bp[stat] - 8;
+        }
+      }
+    }
+  };
+
+  const bpPlus = (stat, num) => {
+    if (num === "pokemon1") {
+      if (pokemon1.bp[stat] < 0) {
+        pokemon1.bp[stat] = 0;
+      } else if (pokemon1.bp[stat] < 4) {
+        pokemon1.bp[stat] = 4;
+      } else if (pokemon1.bp[stat] < 12) {
+        pokemon1.bp[stat] = 12;
+      } else if (pokemon1.bp[stat] >= 252) {
+        pokemon1.bp[stat] = 252;
+      } else {
+        if ((pokemon1.bp[stat] + 4) % 8 !== 0) {
+          pokemon1.bp[stat] = Math.trunc(pokemon1.bp[stat] / 8) * 8 + 4;
+        } else if ((pokemon1.bp[stat] + 4) % 8 === 0) {
+          pokemon1.bp[stat] = pokemon1.bp[stat] + 8;
+        }
+      }
+    } else if (num === "pokemon2") {
+      if (pokemon2.bp[stat] < 0) {
+        pokemon2.bp[stat] = 0;
+      } else if (pokemon2.bp[stat] < 4) {
+        pokemon2.bp[stat] = 4;
+      } else if (pokemon2.bp[stat] < 12) {
+        pokemon2.bp[stat] = 12;
+      } else if (pokemon2.bp[stat] >= 252) {
+        pokemon2.bp[stat] = 252;
+      } else {
+        if ((pokemon2.bp[stat] + 4) % 8 !== 0) {
+          pokemon2.bp[stat] = Math.trunc(pokemon2.bp[stat] / 8) * 8 + 4;
+        } else if ((pokemon2.bp[stat] + 4) % 8 === 0) {
+          pokemon2.bp[stat] = pokemon2.bp[stat] + 8;
+        }
+      }
+    }
+  };
+
+  const bp0 = (stat, num) => {
+    if (num === "pokemon1") {
+      pokemon1.bp[stat] = 0;
+    } else {
+      pokemon2.bp[stat] = 0;
+    }
+  };
+
+  const bp252 = (stat, num) => {
+    if (num === "pokemon1") {
+      pokemon1.bp[stat] = 252;
+    } else {
+      pokemon2.bp[stat] = 252;
+    }
+  };
+
   return {
     pokemonList,
     typeList,
@@ -482,5 +570,9 @@ export const usePokemonStore = defineStore("pokemon", () => {
     modifier,
     dt,
     fieldCondition,
+    bpMinus,
+    bpPlus,
+    bp0,
+    bp252
   };
 });

@@ -86,9 +86,10 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-color: #6b6a6a3f;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  
 }
 
 hr {
@@ -4562,7 +4563,7 @@ fieldset:disabled .btn {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #455f5050;
+  background-color: #2c754b54;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   font-weight: bold;
@@ -10799,6 +10800,14 @@ input::-webkit-calendar-picker-indicator {
   margin-right: -24px;
 }
 
+.mt--1 {
+  margin-top: -6px;
+}
+
+.mt--2 {
+  margin-top: -4px;
+}
+
 .mt20 {
   margin-top: 20px;
 }
@@ -10897,3 +10906,24 @@ input::-webkit-calendar-picker-indicator {
 #terastal2 input[type="radio"]:checked {
   background-color: #dc3545;
 } /*# sourceMappingURL=all.css.map */
+
+.bp input[type=number]::-webkit-inner-spin-button, 
+.bp input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.bp .btn{
+  height: 16px;
+  width: 28px;
+  padding-top: 0px;
+  margin-bottom: 2px;
+  margin-left: -4px;
+  line-height: 14px;
+}
+
+.pl-6{
+  padding-left: 6px;
+}
