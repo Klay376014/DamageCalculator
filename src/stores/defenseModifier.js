@@ -135,7 +135,7 @@ export const UseDefenseStore = defineStore("def", () => {
     let item = pm[defender].item;
     if (
       (item === "Assault Vest" && cat === "Special") || //突擊背心
-      (item === "Eviolite" && pm[defender].evos !== undefined) //進化奇石
+      (item === "Eviolite" && pm.pokemonList[pm[defender].Name].evos !== undefined) //進化奇石
     ) {
       return 1.5;
     }
