@@ -154,6 +154,7 @@ export const UseBasePowerStore = defineStore("basePower", () => {
     }
 
     if (move.num === 851) {
+      //太晶爆發
       let atkUp = pm[attacker].statModifier.atkUp;
       let atkDown = pm[attacker].statModifier.atkDown;
       let spaUp = pm[attacker].statModifier.spaUp;

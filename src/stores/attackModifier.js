@@ -175,11 +175,18 @@ export const UseAttackStore = defineStore("atk", () => {
       (cat === "Physical" ||
         pm[attacker].move.num === 776 ||
         pm[attacker].move.num === 492) &&
-      pm.fieldCondition.aura.tabletsOfRuin
+      pm.fieldCondition.aura.tabletsOfRuin &&
+      (pm[attacker].Name !== "古簡蝸" ||
+        (pm[attacker].Name === "古簡蝸" && pm[attacker].ability !== "default"))
     ) {
       //災禍之間
       return 0.75;
-    } else if (cat === "Special" && pm.fieldCondition.aura.vesselOfRuin) {
+    } else if (
+      cat === "Special" &&
+      pm.fieldCondition.aura.vesselOfRuin &&
+      (pm[attacker].Name !== "古鼎鹿" ||
+        (pm[attacker].Name === "古鼎鹿" && pm[attacker].ability !== "default"))
+    ) {
       //災禍之鼎
       return 0.75;
     } else {

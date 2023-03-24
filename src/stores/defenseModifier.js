@@ -32,7 +32,7 @@ export const UseDefenseStore = defineStore("def", () => {
               Math.trunc(4096 * weatherDef(defender, cat)) *
                 defModifierAbility(defender, cat)
             ) * defModifierItem(defender, cat)
-          ) * defModifierAura(attacker, cat)
+          ) * defModifierAura(attacker, defender, cat)
         )) /
         4096 -
         0.001
@@ -135,22 +135,31 @@ export const UseDefenseStore = defineStore("def", () => {
     let item = pm[defender].item;
     if (
       (item === "Assault Vest" && cat === "Special") || //突擊背心
-      (item === "Eviolite" && pm.pokemonList[pm[defender].Name].evos !== undefined) //進化奇石
+      (item === "Eviolite" &&
+        pm.pokemonList[pm[defender].Name].evos !== undefined) //進化奇石
     ) {
       return 1.5;
     }
     return 1;
   };
 
-  const defModifierAura = (attacker, cat) => {
+  const defModifierAura = (attacker, defender, cat) => {
+    console.log(pm[defender].Name);
     if (
       (cat === "Physical" || pm[attacker].move.num === 473) &&
-      pm.fieldCondition.aura.swordOfRuin
+      pm.fieldCondition.aura.swordOfRuin &&
+      (pm[defender].Name !== "古劍豹" ||
+        (pm[defender].Name === "古劍豹" && pm[defender].ability !== "default"))
     ) {
-      //災禍之間
+      //災禍之劍
       return 0.75;
-    } else if (cat === "Special" && pm.fieldCondition.aura.beadsOfRuin) {
-      //災禍之鼎
+    } else if (
+      cat === "Special" &&
+      pm.fieldCondition.aura.beadsOfRuin &&
+      (pm[defender].Name !== "古玉魚" ||
+        (pm[defender].Name === "古玉魚" && pm[defender].ability !== "default"))
+    ) {
+      //災禍之玉
       return 0.75;
     } else {
       return 1;
