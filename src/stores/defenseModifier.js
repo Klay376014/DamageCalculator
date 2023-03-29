@@ -1,8 +1,16 @@
 import { defineStore } from "pinia";
 import { usePokemonStore } from "./pokemon";
+import { UseDamageStore } from "./damage";
+import { useNatureStore } from "./nature";
+import { useAbilityStore } from "./abilities";
+import { useItemStore } from "./items";
 
 export const UseDefenseStore = defineStore("def", () => {
   const pm = usePokemonStore();
+  const dm = UseDamageStore();
+  const nt = useNatureStore();
+  const abi = useAbilityStore();
+  const it = useItemStore();
 
   const defModifier = (attacker, defender, category) => {
     let result = 1;
@@ -13,13 +21,46 @@ export const UseDefenseStore = defineStore("def", () => {
 
     if (category === "Physical" || pm[attacker].move.num === 473) {
       d = pm[defender].stat.def;
+      dm.detailStat.defender.def = pm[defender].bp.def + "Def";
+      if (attacker === "pokemon1") {
+        if (nt.defNature2 > 1) {
+          dm.detailStat.defender.nature = "+";
+        } else if (nt.defNature2 < 1) {
+          dm.detailStat.defender.nature = "-";
+        }
+      } else {
+        if (nt.defNature > 1) {
+          dm.detailStat.defender.nature = "+";
+        } else if (nt.defNature < 1) {
+          dm.detailStat.defender.nature = "-";
+        }
+      }
       dUp = pm[defender].statModifier.defUp;
       dDown = pm[defender].statModifier.defDown;
     } else if (category === "Special") {
       d = pm[defender].stat.spd;
+      dm.detailStat.defender.def = pm[defender].bp.spd + "Spd";
+      if (attacker === "pokemon1") {
+        if (nt.spdNature2 > 1) {
+          dm.detailStat.defender.nature = "+";
+        } else if (nt.spdNature2 < 1) {
+          dm.detailStat.defender.nature = "-";
+        }
+      } else {
+        if (nt.spdNature > 1) {
+          dm.detailStat.defender.nature = "+";
+        } else if (nt.spdNature < 1) {
+          dm.detailStat.defender.nature = "-";
+        }
+      }
       dUp = pm[defender].statModifier.spdUp;
       dDown = pm[defender].statModifier.spdDown;
       cat = category;
+    }
+    if (dUp > 2) {
+      dm.detailStat.defender.defUp = "+" + (dUp - 2);
+    } else if (dDown > 2) {
+      dm.detailStat.defender.defUp = (2 - dDown).toString();
     }
 
     let ratio = criticalJudge(attacker, dUp, dDown);
@@ -30,7 +71,7 @@ export const UseDefenseStore = defineStore("def", () => {
           Math.round(
             Math.round(
               Math.trunc(4096 * weatherDef(defender, cat)) *
-                defModifierAbility(defender, cat)
+                defModifierAbility(attacker, defender, cat)
             ) * defModifierItem(defender, cat)
           ) * defModifierAura(attacker, defender, cat)
         )) /
@@ -58,12 +99,14 @@ export const UseDefenseStore = defineStore("def", () => {
         pm[defender].teraType == "Ice" &&
         pm.fieldCondition.weather.snow
       ) {
+        dm.detailStat.defender.weather = "下雪";
         return 1.5;
       } else if (
         cat === "Special" &&
         pm[defender].teraType == "Rock" &&
         pm.fieldCondition.weather.sandstorm
       ) {
+        dm.detailStat.defender.weather = "沙暴";
         return 1.5;
       } else {
         return 1;
@@ -74,12 +117,14 @@ export const UseDefenseStore = defineStore("def", () => {
         (pm[defender].type1 == "Ice" || pm[defender].type2 == "Ice") &&
         pm.fieldCondition.weather.snow
       ) {
+        dm.detailStat.defender.weather = "下雪";
         return 1.5;
       } else if (
         cat === "Special" &&
         (pm[defender].type1 == "Rock" || pm[defender].type2 == "Rock") &&
         pm.fieldCondition.weather.sandstorm
       ) {
+        dm.detailStat.defender.weather = "沙暴";
         return 1.5;
       } else {
         return 1;
@@ -87,7 +132,7 @@ export const UseDefenseStore = defineStore("def", () => {
     }
   };
 
-  const defModifierAbility = (defender, cat) => {
+  const defModifierAbility = (attacker, defender, cat) => {
     let defAbi = pm[defender].ability;
     let atk = pm[defender].stat.atk;
     let def = pm[defender].stat.def;
@@ -97,6 +142,7 @@ export const UseDefenseStore = defineStore("def", () => {
 
     if (defAbi === "Fur Coat" && cat === "Physical") {
       //毛皮大衣
+      dm.detailStat.defender.ability = abi.abilityList[defAbi].name;
       return 2;
     }
 
@@ -107,8 +153,14 @@ export const UseDefenseStore = defineStore("def", () => {
         pm[defender].item === "Booster Energy"
       ) {
         if (def > atk && def >= spa && def >= spd && def >= spe) {
+          if (cat === "Physical" || pm[attacker].move.num === 473) {
+            dm.detailStat.defender.ability = abi.abilityList[defAbi].name;
+          }
           return 1.3;
         } else if (spd > atk && spd > def && spd > spa && spd >= spe) {
+          if (cat === "Special") {
+            dm.detailStat.defender.ability = abi.abilityList[defAbi].name;
+          }
           return 1.3;
         }
       }
@@ -121,8 +173,14 @@ export const UseDefenseStore = defineStore("def", () => {
         pm[defender].item === "Booster Energy"
       ) {
         if (def > atk && def >= spa && def >= spd && def >= spe) {
+          if (cat === "Physical" || pm[attacker].move.num === 473) {
+            dm.detailStat.defender.ability = abi.abilityList[defAbi].name;
+          }
           return 1.3;
         } else if (spd > atk && spd > def && spd > spa && spd >= spe) {
+          if (cat === "Special") {
+            dm.detailStat.defender.ability = abi.abilityList[defAbi].name;
+          }
           return 1.3;
         }
       }
@@ -138,13 +196,13 @@ export const UseDefenseStore = defineStore("def", () => {
       (item === "Eviolite" &&
         pm.pokemonList[pm[defender].Name].evos !== undefined) //進化奇石
     ) {
+      dm.detailStat.defender.item = it.itemList[item].name;
       return 1.5;
     }
     return 1;
   };
 
   const defModifierAura = (attacker, defender, cat) => {
-    console.log(pm[defender].Name);
     if (
       (cat === "Physical" || pm[attacker].move.num === 473) &&
       pm.fieldCondition.aura.swordOfRuin &&
@@ -152,6 +210,7 @@ export const UseDefenseStore = defineStore("def", () => {
         (pm[defender].Name === "古劍豹" && pm[defender].ability !== "default"))
     ) {
       //災禍之劍
+      dm.detailStat.defender.swordOfRuin = "災禍之劍"
       return 0.75;
     } else if (
       cat === "Special" &&
@@ -160,6 +219,7 @@ export const UseDefenseStore = defineStore("def", () => {
         (pm[defender].Name === "古玉魚" && pm[defender].ability !== "default"))
     ) {
       //災禍之玉
+      dm.detailStat.aura.beadsOfRuin = "災禍之玉"
       return 0.75;
     } else {
       return 1;

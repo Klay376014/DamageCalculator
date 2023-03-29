@@ -1,10 +1,14 @@
 import { defineStore } from "pinia";
+import { useAbilityStore } from "./abilities";
 import { UseDamageStore } from "./damage";
+import { useItemStore } from "./items";
 import { usePokemonStore } from "./pokemon";
 
 export const UseDamageModifierStore = defineStore("dm", () => {
   const pm = usePokemonStore();
   const dm = UseDamageStore();
+  const abi = useAbilityStore();
+  const it = useItemStore();
 
   const damageModifier = (attacker, defender) => {
     return (
@@ -35,8 +39,10 @@ export const UseDamageModifierStore = defineStore("dm", () => {
       pm[defender].condition.reflect
     ) {
       if (pm.fieldCondition.double) {
+        dm.detailStat.defender.reflect = "反射壁(雙打)";
         return 0.667;
       } else {
+        dm.detailStat.defender.reflect = "反射壁";
         return 0.5;
       }
     } else if (
@@ -44,8 +50,10 @@ export const UseDamageModifierStore = defineStore("dm", () => {
       pm[defender].condition.lightScreen
     ) {
       if (pm.fieldCondition.double) {
+        dm.detailStat.defender.lightScreen = "光牆(雙打)";
         return 0.667;
       } else {
+        dm.detailStat.defender.lightScreen = "光牆";
         return 0.5;
       }
     } else {
@@ -72,12 +80,14 @@ export const UseDamageModifierStore = defineStore("dm", () => {
     let atkAbi = pm[attacker].ability;
 
     if (atkAbi === "Sniper" && pm[attacker].condition.criticalHit) {
+      dm.detailStat.attacker.ability = abi.abilityList[atkAbi].name;
       return 1.5;
     }
     if (atkAbi === "Tinted Lens" && dm.typeModifier(attacker, defender) < 1) {
+      dm.detailStat.attacker.ability = abi.abilityList[atkAbi].name;
       return 2;
     }
-    
+
     return 1;
   };
 
@@ -86,6 +96,7 @@ export const UseDamageModifierStore = defineStore("dm", () => {
     let move = pm[attacker].move;
 
     if (defAbi === "Fur Coat" && move.type === "Fire") {
+      dm.detailStat.defender.ability = abi.abilityList[defAbi].name;
       return 2;
     }
 
@@ -95,6 +106,7 @@ export const UseDamageModifierStore = defineStore("dm", () => {
       (defAbi === "Punk Rock" && move.flags.sound === 1) ||
       (defAbi === "Ice Scales" && move.category === "Special")
     ) {
+      dm.detailStat.defender.ability = abi.abilityList[defAbi].name;
       return 0.5;
     }
 
@@ -102,6 +114,7 @@ export const UseDamageModifierStore = defineStore("dm", () => {
       (defAbi === "Solid Rock" || defAbi === "Filter") &&
       dm.typeModifier(attacker, defender) > 1
     ) {
+      dm.detailStat.defender.ability = abi.abilityList[defAbi].name;
       return 0.75;
     }
 
@@ -110,6 +123,7 @@ export const UseDamageModifierStore = defineStore("dm", () => {
 
   const friendGuardJudge = (defender) => {
     if (pm[defender].condition.friendGuard) {
+      dm.detailStat.defender.friendGuard = "友情防守";
       return 0.75;
     }
     return 1;
@@ -119,30 +133,37 @@ export const UseDamageModifierStore = defineStore("dm", () => {
     let item = pm[attacker].item;
 
     if (item === "Expert Belt" && dm.typeModifier(attacker, defender) > 1) {
+      dm.detailStat.attacker.item = it.itemList[item].name;
       return 1.2;
     }
 
     if (item === "Life Orb") {
+      dm.detailStat.attacker.item = it.itemList[item].name;
       return 1.3;
     }
 
     if (item === "Metronome-2") {
+      dm.detailStat.attacker.item = it.itemList[item].name;
       return 1.2;
     }
 
     if (item === "Metronome-3") {
+      dm.detailStat.attacker.item = it.itemList[item].name;
       return 1.4;
     }
 
     if (item === "Metronome-4") {
+      dm.detailStat.attacker.item = it.itemList[item].name;
       return 1.6;
     }
 
     if (item === "Metronome-5") {
+      dm.detailStat.attacker.item = it.itemList[item].name;
       return 1.8;
     }
 
     if (item === "Metronome-6") {
+      dm.detailStat.attacker.item = it.itemList[item].name;
       return 2;
     }
 
@@ -154,6 +175,7 @@ export const UseDamageModifierStore = defineStore("dm", () => {
       pm[defender].item === "Type Berry" &&
       dm.typeModifier(attacker, defender) > 1
     ) {
+      dm.detailStat.defender.item = "屬性半減果實";
       return 0.5;
     }
     return 1;

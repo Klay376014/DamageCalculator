@@ -1,9 +1,25 @@
 <script setup>
+  import { ref } from "vue";
+  import { toast, toastContainers } from "vue3-toastify";
+  import "vue3-toastify/dist/index.css";
   import { UseDamageStore } from "../stores/damage";
   import { usePokemonStore } from "../stores/pokemon";
 
   const store = UseDamageStore();
   const pm = usePokemonStore();
+
+  const copy = (index) => {
+    console.log(index);
+    navigator.clipboard.writeText(`${store.detailContent[index]}
+${store.resultContent[index]}`);
+    toast.dark("複製訊息成功！", {
+      position: toast.POSITION.TOP_CENTER,
+      multiple: false,
+      transition: toast.TRANSITIONS.SLIDE,
+      hideProgressBar: true,
+      autoClose: 500,
+    });
+  };
 </script>
 <template>
   <div class="card-body result mt-2 pt-0">
@@ -38,20 +54,24 @@
             </button>
 
             <div class="modal fade" :id="'result' + index" tabindex="-1">
-              <div class="modal-dialog">
-                <div class="modal-content">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content body-text">
                   <div class="modal-body">
-                    {{ index }}
+                    {{ store.detailContent[index] }}
                     <br />
-                    {{ content }}
+                    {{ store.resultContent[index] }}
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-warning pt2">
+                    <button
+                      type="button"
+                      class="btn btn-warning pt2"
+                      @click="copy(index)"
+                    >
                       複製訊息
                     </button>
-                    <button type="button" class="btn btn-primary pt2">
+                    <!-- <button type="button" class="btn btn-primary pt2">
                       分享到社群
-                    </button>
+                    </button> -->
                   </div>
                 </div>
               </div>

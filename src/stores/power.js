@@ -1,10 +1,16 @@
 import { defineStore } from "pinia";
 import { usePokemonStore } from "./pokemon";
 import { UseBasePowerStore } from "./basePower";
+import { UseDamageStore } from "./damage";
+import { useAbilityStore } from "./abilities";
+import { useItemStore } from "./items";
 
 export const UsePowerStore = defineStore("power", () => {
   const pm = usePokemonStore();
   const bp = UseBasePowerStore();
+  const dm = UseDamageStore();
+  const abi = useAbilityStore();
+  const it = useItemStore();
 
   const powerModifier = (attacker, defender) => {
     let a = Math.round(
@@ -53,9 +59,11 @@ export const UsePowerStore = defineStore("power", () => {
     let atkAbi = pm[attacker].ability;
     if (atkAbi === "Rivalry-opposite") {
       //鬥爭心異性
+      dm.detailStat.attacker.ability = abi.abilityList[atkAbi].name;
       return 0.75;
     } else if (atkAbi === "Supreme Overlord 1") {
       //大將1
+      dm.detailStat.attacker.ability = abi.abilityList[atkAbi].name;
       return 1.1;
     } else if (
       (atkAbi === "Pixilate" && pm[attacker].move.type === "Normal") || //妖精皮膚
@@ -63,10 +71,12 @@ export const UsePowerStore = defineStore("power", () => {
       (atkAbi === "Reckless" && pm[attacker].move.recoil !== undefined) || //捨身
       pm[attacker].ability === "Supreme Overlord 2" //大將2
     ) {
+      dm.detailStat.attacker.ability = abi.abilityList[atkAbi].name;
       return 1.2;
     } else if (
       atkAbi === "Rivalry" //鬥爭心同性
     ) {
+      dm.detailStat.attacker.ability = abi.abilityList[atkAbi].name;
       return 1.25;
     } else if (
       atkAbi === "Analytic" || //分析
@@ -82,6 +92,7 @@ export const UsePowerStore = defineStore("power", () => {
       atkAbi === "Supreme Overlord 3" || //大將3
       (atkAbi === "Punk Rock" && pm[attacker].move.flags.sound === 1) //龐克搖滾
     ) {
+      dm.detailStat.attacker.ability = abi.abilityList[atkAbi].name;
       return 1.3;
     } else if (
       (atkAbi === "Sharpness" && pm[attacker].move.flags.slicing === 1) || //鋒銳
@@ -93,6 +104,7 @@ export const UsePowerStore = defineStore("power", () => {
         pm[attacker].move.category === "Special") ||
       (atkAbi === "Toxic Boost" && pm[attacker].move.category === "Physical") //中毒激升
     ) {
+      dm.detailStat.attacker.ability = abi.abilityList[atkAbi].name;
       return 1.5;
     } else {
       return 1;
@@ -103,9 +115,11 @@ export const UsePowerStore = defineStore("power", () => {
     let defAbi = pm[defender].ability;
     if (defAbi === "Dry Skin" && pm[attacker].move.type === "Fire") {
       //乾燥皮膚
+      dm.detailStat.defender.ability = abi.abilityList[defAbi].name;
       return 1.25;
     } else if (defAbi === "Heatproof" && pm[attacker].move.type === "Fire") {
       //耐熱
+      dm.detailStat.defender.ability = abi.abilityList[defAbi].name;
       return 0.5;
     } else {
       return 1;
@@ -120,10 +134,13 @@ export const UsePowerStore = defineStore("power", () => {
       (item === "Wise Glasses" && category === "Special") ||
       (item === "Punching Glove" && pm[attacker].move.flags.punch === 1)
     ) {
+      dm.detailStat.attacker.item = it.itemList[item].name;
       return 1.1;
     } else if (item === "Type Enhancing") {
+      dm.detailStat.attacker.item = it.itemList[item].name;
       return 1.2;
     } else if (item === "Normal Gem" && pm[attacker].move.type === "Normal") {
+      dm.detailStat.attacker.item = it.itemList[item].name;
       return 1.3;
     } else {
       return 1;
@@ -133,6 +150,7 @@ export const UsePowerStore = defineStore("power", () => {
   const powerModifierMove = (attacker) => {
     let move = pm[attacker].move.num;
     if (move === 797 && pm.fieldCondition.field.psychic) {
+      dm.detailStat.attacker.field = "電氣場地";
       return 1.5;
     } else if (
       (move === 76 || move === 669) &&
@@ -142,6 +160,7 @@ export const UsePowerStore = defineStore("power", () => {
     ) {
       return 0.5;
     } else if (move === 263 && pm[attacker].condition.burned) {
+      detailStat.value.attacker.burned = "燒傷";
       return 2;
     } else {
       return 1;
@@ -150,6 +169,7 @@ export const UsePowerStore = defineStore("power", () => {
 
   const powerModifierHelpingHand = (attacker) => {
     if (pm[attacker].condition.helpingHand) {
+      dm.detailStat.attacker.helpingHand = "幫助";
       return 1.5;
     } else {
       return 1;
@@ -158,6 +178,7 @@ export const UsePowerStore = defineStore("power", () => {
 
   const powerModifierPowerSpot = (attacker) => {
     if (pm[attacker].condition.powerSpot) {
+      dm.detailStat.attacker.powerSpot = "能量點";
       return 1.3;
     } else {
       return 1;
@@ -169,6 +190,7 @@ export const UsePowerStore = defineStore("power", () => {
       pm[attacker].condition.steelySpirit &&
       pm[attacker].move.type === "Steel"
     ) {
+      dm.detailStat.attacker.steelySpirit = "鋼之意志";
       return 1.5;
     } else {
       return 1;
@@ -182,6 +204,7 @@ export const UsePowerStore = defineStore("power", () => {
         pm[attacker].ability === "Wind Power") &&
       pm[attacker].move.type === "Electric"
     ) {
+      dm.detailStat.attacker.charge = "充電";
       return 2;
     } else {
       return 1;
@@ -195,8 +218,16 @@ export const UsePowerStore = defineStore("power", () => {
       (type === "Psychic" && pm.fieldCondition.field.psychic) ||
       (type === "Grass" && pm.fieldCondition.field.grassy)
     ) {
+      if (pm.fieldCondition.field.electric) {
+        dm.detailStat.attacker.field = "電氣場地";
+      } else if (pm.fieldCondition.field.psychic) {
+        dm.detailStat.attacker.field = "精神場地";
+      } else {
+        dm.detailStat.attacker.field = "青草場地";
+      }
       return 1.3;
     } else if (type === "Dragon" && pm.fieldCondition.field.misty) {
+      dm.detailStat.attacker.field = "薄霧場地";
       return 0.5;
     } else {
       return 1;
@@ -209,6 +240,11 @@ export const UsePowerStore = defineStore("power", () => {
       (type === "Fairy" && pm.fieldCondition.aura.fairyAura) ||
       (type === "Dark" && pm.fieldCondition.aura.darkAura)
     ) {
+      if(pm.fieldCondition.aura.fairyAura){
+        dm.detailStat.attacker.aura = "妖精氣場";
+      }else{
+        dm.detailStat.attacker.aura = "暗黑氣場";
+      }
       return 1.33;
     } else {
       return 1;
