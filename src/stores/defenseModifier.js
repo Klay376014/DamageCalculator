@@ -219,7 +219,7 @@ export const UseDefenseStore = defineStore("def", () => {
         (pm[defender].Name === "古玉魚" && pm[defender].ability !== "default"))
     ) {
       //災禍之玉
-      dm.detailStat.aura.beadsOfRuin = "災禍之玉"
+      dm.detailStat.defender.beadsOfRuin = "災禍之玉"
       return 0.75;
     } else {
       return 1;
