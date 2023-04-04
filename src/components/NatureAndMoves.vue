@@ -13,6 +13,7 @@ const pm = usePokemonStore();
 const store = useNatureStore();
 const moves = useMoveStore();
 let moveName = "";
+let moveEnName = "";
 let moveContent = ref("");
 
 const levelCheck = function (value) {
@@ -33,20 +34,30 @@ const levelCheck = function (value) {
 
 const list = NatureList;
 
-const moveContentValue = (move)=>{
-  return `屬性︰${moves.typeList[move.type]}/威力︰${move.basePower}/${moves.categoryList[move.category]}`
-}
+const moveContentValue = (move) => {
+  return `屬性︰${moves.typeList[move.type]}/威力︰${move.basePower}/${
+    moves.categoryList[move.category]
+  }`;
+};
 
 const moveSelect = (e, num) => {
+  let move = e.target.value;
   moveName = Object.keys(moves.moveList).find(
-    (key) => moves.moveList[key].name === e.target.value
+    (key) => moves.moveList[key].name === move
   );
   if (moveName != undefined) {
     pm[num].move = moves.moveList[moveName];
-    moveContent.value = moveContentValue(moves.moveList[moveName]) ;
+    moveContent.value = moveContentValue(moves.moveList[moveName]);
   } else {
-    pm[num].move = {};
-    moveContent.value = "";
+    moveEnName = Object.keys(moves.moveList).find((key) => key === move);
+    if (moveEnName != undefined) {
+      pm[num].move = moves.moveList[moveEnName];
+      moveContent.value = moveContentValue(moves.moveList[moveEnName]);
+      e.target.value = moves.moveList[moveEnName].name;
+    } else {
+      pm[num].move = {};
+      moveContent.value = "";
+    }
   }
 };
 </script>
@@ -97,13 +108,18 @@ const moveSelect = (e, num) => {
         @change="moveSelect($event, props.pokemonNum)"
       />
       <datalist id="moveList">
-        <option
-          v-for="(move, enName) of moves.moveList"
-          :data-value="move.name"
-          :data-id="enName"
-        >
-          {{ move.name }}
-        </option>
+        <optgroup label="中文招式">
+          <option
+            v-for="move in moves.moveList"
+            :value="move.name"
+          ></option>
+        </optgroup>
+        <optgroup label="英文招式">
+          <option
+            v-for="(move, enName) in moves.moveList"
+            :value="enName"
+          ></option>
+        </optgroup>
       </datalist>
     </div>
     <div class="ms-4 moveContent" v-if="moveContent.value !== ''">

@@ -18,17 +18,6 @@ const props = defineProps({
 
 const selectedPokemon = reactive({
   Name: "default",
-  type1: "",
-  type2: "",
-  teraType: "None",
-  typeContent: "原有屬性︰",
-  teraContent: "　太晶化︰無",
-  hp: 100,
-  atk: 100,
-  def: 100,
-  spa: 100,
-  spd: 100,
-  spe: 100,
 });
 
 const imageUrl = ref(
@@ -39,6 +28,21 @@ const pokemonSelect = function (event) {
   if (props.pokemonNum == "pokemon1") {
     try {
       store.pokemon1.Name = event.target.value;
+      if (
+        Object.keys(store.pokemonList).find(
+          (key) => key === event.target.value
+        ) !== undefined
+      ) {
+        store.pokemon1.Name = event.target.value;
+      } else {
+        let name = Object.keys(store.pokemonList).find(
+          (key) => store.pokemonList[key].name === event.target.value
+        );
+        if (name !== undefined) {
+          store.pokemon1.Name = name;
+          event.target.value = name;
+        }
+      }
 
       imageUrl.value = new URL(
         `../assets/images/${store.pokemon1.Name}.png`,
@@ -72,6 +76,22 @@ const pokemonSelect = function (event) {
   } else {
     try {
       store.pokemon2.Name = event.target.value;
+
+      if (
+        Object.keys(store.pokemonList).find(
+          (key) => key === event.target.value
+        ) !== undefined
+      ) {
+        store.pokemon2.Name = event.target.value;
+      } else {
+        let name = Object.keys(store.pokemonList).find(
+          (key) => store.pokemonList[key].name === event.target.value
+        );
+        if (name !== undefined) {
+          store.pokemon2.Name = name;
+          event.target.value = name;
+        }
+      }
 
       imageUrl.value = new URL(
         `../assets/images/${store.pokemon2.Name}.png`,
@@ -127,7 +147,13 @@ const teraChange = (tera) => {
 </script>
 <template v-if="store.pokemonList">
   <div class="d-flex" style="height: 50px">
-    <img :src="imageUrl" width="70" height="70" class="ms-3 pb-1" loading="lazy" />
+    <img
+      :src="imageUrl"
+      width="70"
+      height="70"
+      class="ms-3 pb-1"
+      loading="lazy"
+    />
     <label for="searchList" class="form-label"></label>
     <input
       class="form-control pokemonSelect mt-3"
@@ -137,9 +163,16 @@ const teraChange = (tera) => {
       @change="pokemonSelect($event)"
     />
     <datalist id="pokemonList">
-      <option v-for="(pokemon, chName) in store.pokemonList" :value="chName">
-        {{ chName }}
-      </option>
+      <optgroup>
+        <option v-for="(pokemon, chName) in store.pokemonList" :value="chName">
+          {{ chName }}
+        </option>
+      </optgroup>
+      <optgroup>
+        <option v-for="pokemon in store.pokemonList" :value="pokemon.name">
+          {{ pokemon.name }}
+        </option>
+      </optgroup>
     </datalist>
 
     <div class="type fw-bold ms-4">
@@ -177,9 +210,7 @@ const teraChange = (tera) => {
       <NatureAndMoves :pokemonNum="props.pokemonNum"></NatureAndMoves>
       <Abilities :pokemonNum="props.pokemonNum"></Abilities>
       <Items :pokemonNum="props.pokemonNum"></Items>
-      <Conditions
-        :pokemonNum="props.pokemonNum"
-      ></Conditions>
+      <Conditions :pokemonNum="props.pokemonNum"></Conditions>
       <Field v-if="props.pokemonNum == 'pokemon1'"></Field>
     </div>
   </div>
