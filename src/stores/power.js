@@ -160,7 +160,7 @@ export const UsePowerStore = defineStore("power", () => {
     ) {
       return 0.5;
     } else if (move === 263 && pm[attacker].condition.burned) {
-      detailStat.value.attacker.burned = "燒傷";
+      dm.detailStat.attacker.burned = "燒傷";
       return 2;
     } else {
       return 1;
