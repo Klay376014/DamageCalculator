@@ -10643,7 +10643,7 @@ fieldset:disabled .btn {
 }
 @media (min-width: 1200px) {
   .calculator {
-    width: 1200px;
+    max-width: 1200px;
   }
 }
 
@@ -10652,7 +10652,7 @@ fieldset:disabled .btn {
 }
 
 .title {
-  width: 575px;
+  max-width: 575px;
   height: 50px;
   line-height: 50px;
   font-weight: 700;
