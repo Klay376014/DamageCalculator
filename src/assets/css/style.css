@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --primary-color: #59359a;
   --secondary-color: #dc3545;
@@ -78,6 +79,8 @@ body {
   height: 40px;
   width: 100%;
   padding: 5px;
+  -webkit-text-size-adjust: 100%; /* 禁用瀏覽器的自動縮放功能 */
+  -ms-text-size-adjust: 100%;
 }
 .pokemon-select input::-webkit-calendar-picker-indicator {
   display: none !important;
@@ -209,6 +212,8 @@ body {
   height: 36px;
   width: 100%;
   padding: 5px;
+  -webkit-text-size-adjust: 100%; /* 禁用瀏覽器的自動縮放功能 */
+  -ms-text-size-adjust: 100%;
 }
 .move .move-list input::-webkit-calendar-picker-indicator {
   display: none !important;
@@ -308,9 +313,9 @@ body {
 .other-aura label {
   width: calc(100% - 1.25rem);
 }
-@media (max-width: 390px) {
+@media (max-width: 395px) {
   .other-aura label {
-    font-size: 1.1rem;
+    font-size: 1.11rem;
   }
 }
 .other-category .btn-group {
