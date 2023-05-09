@@ -1,7 +1,7 @@
 <script setup>
 import { usePokemonStore } from "../stores/pokemon";
 import { ref } from "vue";
-const props = defineProps({ className: String, pokemonNum: String });
+const props = defineProps({ pokemonNum: String });
 const emit = defineEmits(["terastal"]);
 
 const checked = ref(["None"]);
@@ -12,6 +12,10 @@ const changeChecked = function (type) {
 
 const clearChecked = function () {
   emit("terastal", "None");
+  const radios = document.querySelectorAll(`input[name="${props.pokemonNum}Tera"]`);
+    radios.forEach(radio => {
+      radio.checked = false;
+    });
 };
 
 const changeTera = function () {
@@ -23,12 +27,11 @@ const store = usePokemonStore();
 <template>
   <button
     type="button"
-    class="btn mt-3 position-absolute tera"
-    :class="props.className"
+    class="btn px-0 mx-auto"
+    :class="props.pokemonNum === 'pokemon1' ? 'btn-primary' : 'btn-secondary'"
     data-bs-toggle="modal"
     :data-bs-target="'#terastal' + props.pokemonNum"
     value="太晶化"
-    style="height: 40px"
   >
     太晶化
   </button>
@@ -55,9 +58,9 @@ const store = usePokemonStore();
           <div class="container">
             <div class="row m-auto">
               <div class="col-4 mb-2" v-for="(type, key) in store.typeList">
-                <div class="form-check">
+                <div class="btn-group">
                   <input
-                    class="form-check-input"
+                    class="btn btn-primary ms-3"
                     type="radio"
                     :value="props.pokemonNum + 'Tera' + key"
                     :name="props.pokemonNum + 'Tera'"
@@ -71,10 +74,10 @@ const store = usePokemonStore();
             </div>
           </div>
         </div>
-        <div class="modal-footer">
+        <div class="modal-footer d-flex">
           <button
             type="button"
-            class="btn btn-secondary"
+            class="btn btn-warning"
             data-bs-dismiss="modal"
             @click="clearChecked"
           >
@@ -82,8 +85,8 @@ const store = usePokemonStore();
           </button>
           <button
             type="button"
-            class="btn"
-            :class="props.className"
+            class="btn px-0 confirm"
+            :class="props.pokemonNum==='pokemon1'?'btn-primary':'btn-secondary'"
             data-bs-dismiss="modal"
             @click="changeTera"
           >

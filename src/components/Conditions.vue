@@ -9,14 +9,13 @@ const setCondition = (val) => {
 };
 </script>
 <template>
-  <div class="condition mt-3 d-flex justify-content-between me--1">
+  <div class="condition px-1 d-flex justify-content-between flex-wrap mb-3">
     <div class="form-check form-switch">
       <input
         class="form-check-input"
         role="switch"
-        :class="props.pokemonNum"
+        :class="props.pokemonNum==='pokemon2' ? 'pm2' : ''"
         type="checkbox"
-        value=""
         :id="props.pokemonNum + 'HelpingHand'"
         @click="setCondition('helpingHand')"
       />
@@ -27,9 +26,8 @@ const setCondition = (val) => {
     <div class="form-check form-switch">
       <input
         class="form-check-input"
-        :class="props.pokemonNum"
+        :class="props.pokemonNum==='pokemon2' ? 'pm2' : ''"
         type="checkbox"
-        value=""
         :id="props.pokemonNum + 'Burned'"
         @click="setCondition('burned')"
       />
@@ -40,9 +38,8 @@ const setCondition = (val) => {
     <div class="form-check form-switch">
       <input
         class="form-check-input"
-        :class="props.pokemonNum"
+        :class="props.pokemonNum==='pokemon2' ? 'pm2' : ''"
         type="checkbox"
-        value=""
         :id="props.pokemonNum + 'Charge'"
         @click="setCondition('charge')"
       />
@@ -53,9 +50,8 @@ const setCondition = (val) => {
     <div class="form-check form-switch">
       <input
         class="form-check-input"
-        :class="props.pokemonNum"
+        :class="props.pokemonNum==='pokemon2' ? 'pm2' : ''"
         type="checkbox"
-        value=""
         :id="props.pokemonNum + 'CriticalHit'"
         @click="setCondition('criticalHit')"
       />
@@ -66,9 +62,8 @@ const setCondition = (val) => {
     <div class="form-check form-switch">
       <input
         class="form-check-input"
-        :class="props.pokemonNum"
+        :class="props.pokemonNum==='pokemon2' ? 'pm2' : ''"
         type="checkbox"
-        value=""
         :id="props.pokemonNum + 'PowerSpot'"
         @click="setCondition('powerSpot')"
       />
@@ -76,15 +71,11 @@ const setCondition = (val) => {
         >能量點</label
       >
     </div>
-  </div>
-
-  <div class="condition mt-1 d-flex justify-content-between me--1">
     <div class="form-check form-switch">
       <input
         class="form-check-input"
-        :class="props.pokemonNum"
+        :class="props.pokemonNum==='pokemon2' ? 'pm2' : ''"
         type="checkbox"
-        value=""
         :id="props.pokemonNum + 'LightScreen'"
         @click="setCondition('lightScreen')"
       />
@@ -95,9 +86,8 @@ const setCondition = (val) => {
     <div class="form-check form-switch">
       <input
         class="form-check-input"
-        :class="props.pokemonNum"
+        :class="props.pokemonNum==='pokemon2' ? 'pm2' : ''"
         type="checkbox"
-        value=""
         :id="props.pokemonNum + 'Reflect'"
         @click="setCondition('reflect')"
       />
@@ -108,9 +98,8 @@ const setCondition = (val) => {
     <div class="form-check form-switch">
       <input
         class="form-check-input"
-        :class="props.pokemonNum"
+        :class="props.pokemonNum==='pokemon2' ? 'pm2' : ''"
         type="checkbox"
-        value=""
         :id="props.pokemonNum + 'SteelySpirit'"
         @click="setCondition('steelySpirit')"
       />
@@ -121,9 +110,8 @@ const setCondition = (val) => {
     <div class="form-check form-switch">
       <input
         class="form-check-input"
-        :class="props.pokemonNum"
+        :class="props.pokemonNum==='pokemon2' ? 'pm2' : ''"
         type="checkbox"
-        value=""
         :id="props.pokemonNum + 'FriendGuard'"
         @click="setCondition('friendGuard')"
       />

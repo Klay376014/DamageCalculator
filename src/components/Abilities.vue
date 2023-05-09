@@ -14,8 +14,8 @@ const abilitySelect=(val)=>{
 }
 </script>
 <template>
-  <div class="ability">
-    <select class="form-select mt-3" @change="abilitySelect($event.target.value)">
+  <div class="ability px-1">
+    <select class="form-select mt-2" @change="abilitySelect($event.target.value)">
       <option value="default" selected>選擇特性</option>
       <option
         v-for="(ability, value) of store.abilityList"

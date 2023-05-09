@@ -1,0 +1,365 @@
+$switch-bg: #59359a;
+
+:root {
+  --primary-color: #59359a;
+  --secondary-color: #dc3545;
+}
+
+.form-select,
+.form-control {
+  background-color: #555555;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  &:focus,
+  &:hover,
+  &:active {
+    background-color: #533194;
+    border-color: #533194;
+  }
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  &:focus,
+  &:hover,
+  &:active {
+    background-color: #c42f3d;
+    border-color: #c42f3d;
+  }
+}
+
+body {
+  color: #ffffff;
+  background-color: #333333;
+}
+
+.btn:focus,
+.btn:hover,
+.btn:active {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  height: 40px;
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+  border-radius: 0;
+}
+
+.card-1 {
+  background-color: var(--primary-color);
+}
+
+.card-2 {
+  background-color: #dc3545;
+}
+
+.card-body {
+  padding: 2%;
+  background-color: #464646;
+  img {
+    max-height: 70px;
+  }
+}
+
+.pokemon-select {
+  padding: 10px;
+  input {
+    font-size: 15px;
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+    &::-webkit-calendar-picker-indicator {
+      display: none !important;
+      appearance: none !important;
+    }
+    &::placeholder {
+      color: #fff;
+    }
+    &:focus{
+      color: #fff;
+      background-color: #444444;
+    }
+  }
+  p {
+    font-weight: bold;
+  }
+  .btn {
+    width: 100%;
+    font-weight: bold;
+  }
+}
+
+.tera {
+  .modal-content {
+    background-color: #333333;
+    h5 {
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+  input[type="radio"]:checked,
+  input[type="radio"]:active {
+    background-color: #ff0000 !important;
+  }
+  input.btn-primary {
+    height: 20px;
+    width: 20px;
+    margin-top: 3px;
+  }
+  label {
+    margin-left: 5px;
+    font-size: 18px;
+  }
+  .modal-footer {
+    button {
+      width: 35%;
+      &.confirm {
+        width: 15%;
+      }
+    }
+  }
+}
+
+.basic-setting {
+  .table {
+    font-weight: bold;
+    color: #ffffff;
+    th {
+      width: 10%;
+      white-space: nowrap;
+    }
+    td {
+      padding: 0;
+      width: 12%;
+      vertical-align: middle;
+      input {
+        width: 90%;
+        background-color: #555555;
+        color:#fff;
+        margin-left: 5%;
+        border: 1px solid rgb(253, 253, 253);
+        border-radius: 0.25rem;
+        &[type="number"]::-webkit-inner-spin-button,
+        &[type="number"]::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+          margin: 0;
+        }
+      }
+      select {
+        min-width: 90%;
+        width: 90%;
+        padding: 4%;
+        padding-left: 6px;
+        margin-left: 5%;
+        background-image: none;
+      }
+    }
+  }
+  .bp-button {
+    button {
+      font-weight: bold;
+      width: 40%;
+      margin: 1%;
+      height: 15px;
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+}
+
+.level {
+  width: 30%;
+  p {
+    width: 35%;
+  }
+  input {
+    margin-left: -5%;
+    width: 50%;
+    height: 32px;
+    border: 1px solid rgb(253, 253, 253);
+    border-radius: 0.25rem;
+    background-color: #555555;
+    color:#fff;
+  }
+}
+.nature {
+  width: 70%;
+  select {
+    padding: 5px;
+    height: 32px;
+    font-size: 15px;
+  }
+}
+
+.move {
+  width: 100%;
+  .move-list {
+    width: 40%;
+    input {
+      font-size: 15px;
+      height: 36px;
+      width: 100%;
+      padding: 5px;
+      &::-webkit-calendar-picker-indicator {
+        display: none !important;
+        appearance: none !important;
+      }
+      &::placeholder {
+        color: #fff;
+      }
+      &:focus{
+        color: #fff;
+        background-color: #444444;
+      }
+    }
+  }
+  .move-content {
+    width: 60%;
+    p {
+      text-align: center;
+    }
+  }
+}
+
+.ability,
+.item {
+  select {
+    height: 36px;
+    padding: 5px;
+    font-size: 15px;
+    padding-top: 7px;
+  }
+}
+
+.condition {
+  align-items: self-start;
+  gap: 6%;
+  .form-check-input {
+    &:checked {
+      background-color: #8a50f5;
+      border-color: #58359ac0;
+    }
+    &.pm2:checked {
+      background-color: #db4d5b;
+      border-color: #dc3545;
+    }
+    &:focus,
+    &:active {
+      box-shadow: none;
+    }
+  }
+  .form-check-label {
+    font-weight: bold;
+    font-size: 18px;
+  }
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus,
+.btn-check:checked + .btn,
+.btn-check:focus + .btn,
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.form-check .form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.other {
+  &-weather,
+  &-field,
+  &-aura,
+  &-category {
+    .content {
+      width: 11%;
+      margin-right: 5px;
+      p {
+        margin: 0;
+        font-weight: bold;
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+    .btn-check:checked + .btn-outline-primary,
+    .btn-check:active + .btn-outline-primary {
+      background-color: #8a50f5;
+      border-color: var(--primary-color);
+    }
+    .btn-group {
+      width: 88%;
+      label {
+        width: 20%;
+        background-color: #333333;
+        border-color: var(--primary-color);
+        color: #fff;
+        font-weight: bold;
+      }
+    }
+  }
+  &-aura {
+    label {
+      width: calc(100% - 1.25rem);
+      @media (max-width: 390px) {
+        font-size: 1.1rem;
+      }
+    }
+  }
+  &-category {
+    .btn-group {
+      width: 75%;
+    }
+  }
+}
+
+.result {
+  button {
+    font-weight: bold;
+  }
+  .btn {
+    display: flex;
+    align-items: center;
+  }
+  .material-symbols-outlined {
+    font-size: 18px;
+  }
+  &-content {
+    height: 162px;
+    width: 100%;
+    p {
+      max-width: 80%;
+      font-weight: bold;
+    }
+    .btn {
+      max-width: 30%;
+      height: 30px;
+    }
+    .modal-content {
+      background-color: #333333;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+}

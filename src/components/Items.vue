@@ -14,7 +14,7 @@ const itemSelect=(val)=>{
 }
 </script>
 <template>
-  <div class="item">
+  <div class="item px-1 mb-3">
     <select class="form-select mt-3" @change="itemSelect($event.target.value)">
       <option value="default" selected>選擇道具</option>
       <option v-for="(item, value) of store.itemList" :value="value">

@@ -2,26 +2,27 @@
 import PokemonSelect from "./components/PokemonSelect.vue";
 import Results from "./components/Results.vue";
 import { reactive, ref, onMounted, onBeforeMount, computed } from "vue";
-
 </script>
 
 <template>
-  <div class="container-fluid calculator">
-    <div class="row">
-      <div class="col">
-        <div class="title attacker container mt-2 text-white">寶可夢1</div>
-        <div class="card px-0 pt-1" style="width: 575px">
-          <pokemon-select color="btn-info" pokemonNum="pokemon1" ></pokemon-select>  
+  <div class="container-fluid mt-3">
+    <div class="row d-flex">
+      <div class="col-md-6 col-xl-6 p-0 px-lg-2 mb-3">
+        <div class="card card-1 ps-3">寶可夢1</div>
+        <div class="card-body">
+          <pokemon-select
+            color="btn-primary"
+            pokemonNum="pokemon1"
+          ></pokemon-select>
         </div>
       </div>
-      <div class="col">
-        <div class="title defender container mt-4 mt-xl-2 text-white">
-          寶可夢2
-        </div>
-        <div class="card px-0 pt-1" style="width: 575px">
-
-          <pokemon-select color="btn-warning" pokemonNum="pokemon2" ></pokemon-select>
-
+      <div class="col-md-6 col-xl-6 p-0 px-lg-2">
+        <div class="card card-2 ps-3">寶可夢2</div>
+        <div class="card-body">
+          <pokemon-select
+            color="btn-secondary"
+            pokemonNum="pokemon2"
+          ></pokemon-select>
           <Results></Results>
         </div>
       </div>

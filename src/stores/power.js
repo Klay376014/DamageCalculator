@@ -45,7 +45,6 @@ export const UsePowerStore = defineStore("power", () => {
           pm[attacker].move.priority < 1 ||
           pm[attacker].move.num !== 512)
       ) {
-        console.log("太晶加成!");
         return 60;
       } else {
         return a;

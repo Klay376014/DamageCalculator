@@ -52,11 +52,11 @@ const pokemonSelect = function (event) {
       store.pokemon1.type1 = store.pokemonList[store.pokemon1.Name].types[0];
       if (store.pokemonList[store.pokemon1.Name].types.length > 1) {
         store.pokemon1.type2 = store.pokemonList[store.pokemon1.Name].types[1];
-        store.pokemon1.typeContent = `原有屬性︰${
+        store.pokemon1.typeContent = `原屬性︰${
           store.typeList[store.pokemon1.type1]
         }／${store.typeList[store.pokemon1.type2]}`;
       } else {
-        store.pokemon1.typeContent = `原有屬性︰${
+        store.pokemon1.typeContent = `原屬性︰${
           store.typeList[store.pokemon1.type1]
         }`;
       }
@@ -101,11 +101,11 @@ const pokemonSelect = function (event) {
       store.pokemon2.type1 = store.pokemonList[store.pokemon2.Name].types[0];
       if (store.pokemonList[store.pokemon2.Name].types.length > 1) {
         store.pokemon2.type2 = store.pokemonList[store.pokemon2.Name].types[1];
-        store.pokemon2.typeContent = `原有屬性︰${
+        store.pokemon2.typeContent = `原屬性︰${
           store.typeList[store.pokemon2.type1]
         }／${store.typeList[store.pokemon2.type2]}`;
       } else {
-        store.pokemon2.typeContent = `原有屬性︰${
+        store.pokemon2.typeContent = `原屬性︰${
           store.typeList[store.pokemon2.type1]
         }`;
       }
@@ -129,90 +129,90 @@ const teraChange = (tera) => {
   if (props.pokemonNum == "pokemon1") {
     if (tera == "None") {
       store.pokemon1.teraType = tera;
-      store.pokemon1.teraContent = "　太晶化︰無";
+      store.pokemon1.teraContent = "太晶化︰無";
     } else {
       store.pokemon1.teraType = tera;
-      store.pokemon1.teraContent = `　太晶化︰${store.typeList[tera]}`;
+      store.pokemon1.teraContent = `太晶化︰${store.typeList[tera]}`;
     }
   } else {
     if (tera == "None") {
       store.pokemon2.teraType = tera;
-      store.pokemon2.teraContent = "　太晶化︰無";
+      store.pokemon2.teraContent = "太晶化︰無";
     } else {
       store.pokemon2.teraType = tera;
-      store.pokemon2.teraContent = `　太晶化︰${store.typeList[tera]}`;
+      store.pokemon2.teraContent = `太晶化︰${store.typeList[tera]}`;
     }
   }
 };
 </script>
 <template v-if="store.pokemonList">
-  <div class="d-flex" style="height: 50px">
-    <img
-      :src="imageUrl"
-      width="70"
-      height="70"
-      class="ms-3 pb-1"
-      loading="lazy"
-    />
-    <label for="searchList" class="form-label"></label>
-    <input
-      class="form-control pokemonSelect mt-3"
-      list="pokemonList"
-      id="searchList"
-      placeholder="選擇寶可夢"
-      @change="pokemonSelect($event)"
-    />
-    <datalist id="pokemonList">
-      <optgroup>
-        <option v-for="(pokemon, chName) in store.pokemonList" :value="chName">
-          {{ chName }}
-        </option>
-      </optgroup>
-      <optgroup>
-        <option v-for="pokemon in store.pokemonList" :value="pokemon.name">
-          {{ pokemon.name }}
-        </option>
-      </optgroup>
-    </datalist>
-
-    <div class="type fw-bold ms-4">
-      <table style="height: 60px">
-        <tbody>
-          <tr>
-            <td class="align-middle" style="white-space: pre-line">
-              {{
-                `${
-                  props.pokemonNum == "pokemon1"
-                    ? store.pokemon1.typeContent
-                    : store.pokemon2.typeContent
-                }\n`
-              }}
-              {{
-                props.pokemonNum == "pokemon1"
-                  ? store.pokemon1.teraContent
-                  : store.pokemon2.teraContent
-              }}
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <Tera
-      :className="props.color"
-      :pokemonNum="props.pokemonNum"
-      @terastal="teraChange"
-    ></Tera>
-  </div>
-
-  <div class="card-body">
-    <basic-setting :pokemonNum="props.pokemonNum"></basic-setting>
-    <div class="container moves ms--1">
-      <NatureAndMoves :pokemonNum="props.pokemonNum"></NatureAndMoves>
-      <Abilities :pokemonNum="props.pokemonNum"></Abilities>
-      <Items :pokemonNum="props.pokemonNum"></Items>
-      <Conditions :pokemonNum="props.pokemonNum"></Conditions>
-      <Field v-if="props.pokemonNum == 'pokemon1'"></Field>
+  <div class="container px-0 w-100 m-auto">
+    <div
+      class="row d-flex justify-content-center justify-content-xl-around align-items-center px-0 pt-0 pokemon-select"
+    >
+      <div class="col-3 col-xl-2">
+        <img
+          :src="imageUrl"
+          class="d-block mx-auto"
+          loading="lazy"
+        />
+      </div>
+      <div class="form-group col-8 col-xl-4 mt-2">
+        <input
+          class="form-control"
+          list="pokemonList"
+          id="searchList"
+          placeholder="選擇寶可夢"
+          @change="pokemonSelect($event)"
+        />
+        <datalist id="pokemonList">
+          <optgroup>
+            <option
+              v-for="(pokemon, chName) in store.pokemonList"
+              :value="chName"
+            >
+              {{ chName }}
+            </option>
+          </optgroup>
+          <optgroup>
+            <option v-for="pokemon in store.pokemonList" :value="pokemon.name">
+              {{ pokemon.name }}
+            </option>
+          </optgroup>
+        </datalist>
+      </div>
+      <div class="col-5 col-xl-3 mt-2">
+        <p class="mb-0">
+          {{
+            `${
+              props.pokemonNum == "pokemon1"
+                ? store.pokemon1.typeContent
+                : store.pokemon2.typeContent
+            }\n`
+          }}
+        </p>
+        <p class="mb-0">
+          {{
+            props.pokemonNum == "pokemon1"
+              ? store.pokemon1.teraContent
+              : store.pokemon2.teraContent
+          }}
+        </p>
+      </div>
+      <div class="tera col-4 col-xl-2 mt-2">
+        <Tera
+          :pokemonNum="props.pokemonNum"
+          @terastal="teraChange"
+        ></Tera>
+      </div>
     </div>
   </div>
+
+  <basic-setting :pokemonNum="props.pokemonNum"></basic-setting>
+  <NatureAndMoves :pokemonNum="props.pokemonNum"></NatureAndMoves>
+  <Abilities :pokemonNum="props.pokemonNum"></Abilities>
+  <Items :pokemonNum="props.pokemonNum"></Items>
+  <Conditions :pokemonNum="props.pokemonNum"></Conditions>
+  <Field v-if="props.pokemonNum == 'pokemon1'"></Field>
 </template>
 <style></style>

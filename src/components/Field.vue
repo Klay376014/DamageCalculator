@@ -60,140 +60,116 @@ const fieldChange = (e) => {
   }
 };
 
-const setAura = (val)=>{
-  pm.fieldCondition.aura[val]=!pm.fieldCondition.aura[val]
-}
+const setAura = (val) => {
+  pm.fieldCondition.aura[val] = !pm.fieldCondition.aura[val];
+};
 </script>
 <template>
-  <div class="field d-flex justify-content-between">
-    <div class="fw-bold mt-4 ms--1">
-      <table>
-        <tbody>
-          <tr>
-            <td class="align-middle">天氣狀態</td>
-          </tr>
-        </tbody>
-      </table>
+  <div class="other px-1 mb-3">
+    <div class="other-weather d-flex align-items-center mb-3">
+      <div class="content ps-1"><p>天氣</p></div>
+      <div class="btn-group" role="weather">
+        <input
+          type="radio"
+          class="btn-check"
+          name="weather"
+          id="defaultWeather"
+          autocomplete="off"
+          checked
+          @change="weatherChange($event)"
+        />
+        <label class="btn btn-outline-primary" for="defaultWeather">-</label>
+        <input
+          type="radio"
+          class="btn-check"
+          name="weather"
+          id="sun"
+          autocomplete="off"
+          @change="weatherChange($event)"
+        />
+        <label class="btn btn-outline-primary" for="sun">晴天</label>
+        <input
+          type="radio"
+          class="btn-check"
+          name="weather"
+          id="rain"
+          autocomplete="off"
+          @change="weatherChange($event)"
+        />
+        <label class="btn btn-outline-primary" for="rain">雨天</label>
+        <input
+          type="radio"
+          class="btn-check"
+          name="weather"
+          id="sandstorm"
+          autocomplete="off"
+          @change="weatherChange($event)"
+        />
+        <label class="btn btn-outline-primary" for="sandstorm">沙暴</label>
+        <input
+          type="radio"
+          class="btn-check"
+          name="weather"
+          id="snow"
+          autocomplete="off"
+          @change="weatherChange($event)"
+        />
+        <label class="btn btn-outline-primary" for="snow">下雪</label>
+      </div>
     </div>
-    <div class="btn-group mt20 me--1" role="weather">
-      <input
-        type="radio"
-        class="btn-check"
-        name="weather"
-        id="defaultWeather"
-        autocomplete="off"
-        checked
-        @change="weatherChange($event)"
-      />
-      <label class="btn btn-outline-info" for="defaultWeather">-</label>
-      <input
-        type="radio"
-        class="btn-check"
-        name="weather"
-        id="sun"
-        autocomplete="off"
-        @change="weatherChange($event)"
-      />
-      <label class="btn btn-outline-info" for="sun">晴天</label>
-      <input
-        type="radio"
-        class="btn-check"
-        name="weather"
-        id="rain"
-        autocomplete="off"
-        @change="weatherChange($event)"
-      />
-      <label class="btn btn-outline-info" for="rain">雨天</label>
-      <input
-        type="radio"
-        class="btn-check"
-        name="weather"
-        id="sandstorm"
-        autocomplete="off"
-        @change="weatherChange($event)"
-      />
-      <label class="btn btn-outline-info" for="sandstorm">沙暴</label>
-      <input
-        type="radio"
-        class="btn-check"
-        name="weather"
-        id="snow"
-        autocomplete="off"
-        @change="weatherChange($event)"
-      />
-      <label class="btn btn-outline-info" for="snow">下雪</label>
+    <div class="other-field d-flex align-items-center mb-3">
+      <div class="content ps-1"><p>場地</p></div>
+      <div class="btn-group" role="field">
+        <input
+          type="radio"
+          class="btn-check bgc"
+          name="field"
+          id="defaultField"
+          autocomplete="off"
+          checked
+          @change="fieldChange($event)"
+        />
+        <label class="btn btn-outline-primary" for="defaultField">-</label>
+        <input
+          type="radio"
+          class="btn-check"
+          name="field"
+          id="electric"
+          autocomplete="off"
+          @change="fieldChange($event)"
+        />
+        <label class="btn btn-outline-primary" for="electric">電氣</label>
+        <input
+          type="radio"
+          class="btn-check"
+          name="field"
+          id="psychic"
+          autocomplete="off"
+          @change="fieldChange($event)"
+        />
+        <label class="btn btn-outline-primary" for="psychic">精神</label>
+        <input
+          type="radio"
+          class="btn-check"
+          name="field"
+          id="grassy"
+          autocomplete="off"
+          @change="fieldChange($event)"
+        />
+        <label class="btn btn-outline-primary" for="grassy">青草</label>
+        <input
+          type="radio"
+          class="btn-check"
+          name="field"
+          id="misty"
+          autocomplete="off"
+          @change="fieldChange($event)"
+        />
+        <label class="btn btn-outline-primary" for="misty">薄霧</label>
+      </div>
     </div>
-  </div>
-  <div class="field d-flex justify-content-between">
-    <div class="fw-bold mt-4 ms--1">
-      <table>
-        <tbody>
-          <tr>
-            <td class="align-middle">場地狀態</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="btn-group mt20 me--1" role="field">
-      <input
-        type="radio"
-        class="btn-check bgc"
-        name="field"
-        id="defaultField"
-        autocomplete="off"
-        checked
-        @change="fieldChange($event)"
-      />
-      <label class="btn btn-outline-info" for="defaultField">-</label>
-      <input
-        type="radio"
-        class="btn-check"
-        name="field"
-        id="electric"
-        autocomplete="off"
-        @change="fieldChange($event)"
-      />
-      <label class="btn btn-outline-info" for="electric">電氣</label>
-      <input
-        type="radio"
-        class="btn-check"
-        name="field"
-        id="psychic"
-        autocomplete="off"
-        @change="fieldChange($event)"
-      />
-      <label class="btn btn-outline-info" for="psychic">精神</label>
-      <input
-        type="radio"
-        class="btn-check"
-        name="field"
-        id="grassy"
-        autocomplete="off"
-        @change="fieldChange($event)"
-      />
-      <label class="btn btn-outline-info" for="grassy">青草</label>
-      <input
-        type="radio"
-        class="btn-check"
-        name="field"
-        id="misty"
-        autocomplete="off"
-        @change="fieldChange($event)"
-      />
-      <label class="btn btn-outline-info" for="misty">薄霧</label>
-    </div>
-  </div>
-  <div class="aura d-flex justify-content-between">
-    <div class="fw-bold mt-4 ms--1">
-      <table>
-        <tbody>
-          <tr>
-            <td class="align-middle">氣場類型</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="btn-group mt20 me--1" role="aura">
+    <div class="other-aura d-flex align-items-center mb-3">
+      <div class="content ps-1"><p>氣場</p></div>
       <div class="btn-group" role="aura">
         <input
           type="checkbox"
@@ -202,7 +178,7 @@ const setAura = (val)=>{
           autocomplete="off"
           @click="setAura($event.target.id)"
         />
-        <label class="btn btn-outline-info" for="tabletsOfRuin"
+        <label class="btn btn-outline-primary px-0" for="tabletsOfRuin"
           ><span>災禍之簡</span></label
         >
 
@@ -213,7 +189,7 @@ const setAura = (val)=>{
           autocomplete="off"
           @click="setAura($event.target.id)"
         />
-        <label class="btn btn-outline-info" for="swordOfRuin"
+        <label class="btn btn-outline-primary px-0" for="swordOfRuin"
           ><span>災禍之劍</span></label
         >
 
@@ -224,7 +200,7 @@ const setAura = (val)=>{
           autocomplete="off"
           @click="setAura($event.target.id)"
         />
-        <label class="btn btn-outline-info" for="vesselOfRuin"
+        <label class="btn btn-outline-primary px-0" for="vesselOfRuin"
           ><span>災禍之鼎</span></label
         >
 
@@ -235,7 +211,7 @@ const setAura = (val)=>{
           autocomplete="off"
           @click="setAura($event.target.id)"
         />
-        <label class="btn btn-outline-info" for="beadsOfRuin"
+        <label class="btn btn-outline-primary px-0" for="beadsOfRuin"
           ><span>災禍之玉</span></label
         >
 
@@ -246,7 +222,7 @@ const setAura = (val)=>{
           autocomplete="off"
           @click="setAura($event.target.id)"
         />
-        <label class="btn btn-outline-info" for="fairyAura"
+        <label class="btn btn-outline-primary px-0" for="fairyAura"
           ><span>妖精氣場</span></label
         >
 
@@ -257,32 +233,34 @@ const setAura = (val)=>{
           autocomplete="off"
           @click="setAura($event.target.id)"
         />
-        <label class="btn btn-outline-info" for="darkAura"
+        <label class="btn btn-outline-primary px-0" for="darkAura"
           ><span>暗黑氣場</span></label
         >
       </div>
     </div>
   </div>
-  <div class="btn-group container mt-4 category me--1" role="category">
-    <input
-      type="radio"
-      class="btn-check"
-      name="category"
-      id="single"
-      autocomplete="off"
-      checked
-      @change="singleDouble($event)"
-    />
-    <label class="btn btn-outline-info" for="single">單打</label>
-    <input
-      type="radio"
-      class="btn-check"
-      name="category"
-      id="double"
-      autocomplete="off"
-      @change="singleDouble($event)"
-    />
-    <label class="btn btn-outline-info" for="double">雙打</label>
+  <div class="other-category d-flex justify-content-center mb-3">
+    <div class="btn-group" role="category">
+      <input
+        type="radio"
+        class="btn-check"
+        name="category"
+        id="single"
+        autocomplete="off"
+        checked
+        @change="singleDouble($event)"
+      />
+      <label class="btn btn-outline-primary" for="single">單打</label>
+      <input
+        type="radio"
+        class="btn-check"
+        name="category"
+        id="double"
+        autocomplete="off"
+        @change="singleDouble($event)"
+      />
+      <label class="btn btn-outline-primary" for="double">雙打</label>
+    </div>
   </div>
 </template>
 <style>
