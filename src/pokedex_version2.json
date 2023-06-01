@@ -1699,6 +1699,207 @@
     "eggGroups": ["Field"],
     "tier": "UU"
   },
+  "急凍鳥": {
+    "num": 144,
+    "name": "Articuno",
+    "types": [
+      "Ice",
+      "Flying"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 90,
+      "atk": 85,
+      "def": 100,
+      "spa": 95,
+      "spd": 125,
+      "spe": 85
+    },
+    "abilities": {
+      "0": "Pressure",
+      "H": "Snow Cloak"
+    },
+    "heightm": 1.7,
+    "weightkg": 55.4,
+    "color": "Blue",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "otherFormes": [
+      "Articuno-Galar"
+    ],
+    "formeOrder": [
+      "Articuno",
+      "Articuno-Galar"
+    ],
+    "tier": "OU"
+  },
+  "急凍鳥-伽勒爾": {
+    "num": 144,
+    "name": "Articuno-Galar",
+    "baseSpecies": "Articuno",
+    "forme": "Galar",
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 90,
+      "atk": 85,
+      "def": 85,
+      "spa": 125,
+      "spd": 100,
+      "spe": 95
+    },
+    "abilities": {
+      "0": "Competitive"
+    },
+    "heightm": 1.7,
+    "weightkg": 50.9,
+    "color": "Purple",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
+  "閃電鳥": {
+    "num": 145,
+    "name": "Zapdos",
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 90,
+      "atk": 90,
+      "def": 85,
+      "spa": 125,
+      "spd": 90,
+      "spe": 100
+    },
+    "abilities": {
+      "0": "Pressure",
+      "H": "Static"
+    },
+    "heightm": 1.6,
+    "weightkg": 52.6,
+    "color": "Yellow",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "otherFormes": [
+      "Zapdos-Galar"
+    ],
+    "formeOrder": [
+      "Zapdos",
+      "Zapdos-Galar"
+    ],
+    "tier": "OU"
+  },
+  "閃電鳥-伽勒爾": {
+    "num": 145,
+    "name": "Zapdos-Galar",
+    "baseSpecies": "Zapdos",
+    "forme": "Galar",
+    "types": [
+      "Fighting",
+      "Flying"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 90,
+      "atk": 125,
+      "def": 90,
+      "spa": 85,
+      "spd": 90,
+      "spe": 100
+    },
+    "abilities": {
+      "0": "Defiant"
+    },
+    "heightm": 1.6,
+    "weightkg": 58.2,
+    "color": "Yellow",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
+  "火焰鳥": {
+    "num": 146,
+    "name": "Moltres",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 90,
+      "atk": 100,
+      "def": 90,
+      "spa": 125,
+      "spd": 85,
+      "spe": 90
+    },
+    "abilities": {
+      "0": "Pressure",
+      "H": "Flame Body"
+    },
+    "heightm": 2,
+    "weightkg": 60,
+    "color": "Yellow",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "otherFormes": [
+      "Moltres-Galar"
+    ],
+    "formeOrder": [
+      "Moltres",
+      "Moltres-Galar"
+    ],
+    "tier": "OU"
+  },
+  "火焰鳥-伽勒爾": {
+    "num": 146,
+    "name": "Moltres-Galar",
+    "baseSpecies": "Moltres",
+    "forme": "Galar",
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 90,
+      "atk": 85,
+      "def": 90,
+      "spa": 100,
+      "spd": 125,
+      "spe": 90
+    },
+    "abilities": {
+      "0": "Berserk"
+    },
+    "heightm": 2,
+    "weightkg": 66,
+    "color": "Red",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
   "迷你龍": {
     "num": 147,
     "name": "Dratini",
@@ -5346,6 +5547,152 @@
     "changesFrom": "Rotom",
     "tier": "UU"
   },
+  "由克希": {
+    "num": 480,
+    "name": "Uxie",
+    "types": [
+      "Psychic"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 75,
+      "atk": 75,
+      "def": 130,
+      "spa": 75,
+      "spd": 130,
+      "spe": 95
+    },
+    "abilities": {
+      "0": "Levitate"
+    },
+    "heightm": 0.3,
+    "weightkg": 0.3,
+    "color": "Yellow",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
+  "艾姆利多": {
+    "num": 481,
+    "name": "Mesprit",
+    "types": [
+      "Psychic"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 80,
+      "atk": 105,
+      "def": 105,
+      "spa": 105,
+      "spd": 105,
+      "spe": 80
+    },
+    "abilities": {
+      "0": "Levitate"
+    },
+    "heightm": 0.3,
+    "weightkg": 0.3,
+    "color": "Pink",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
+  "亞克諾姆": {
+    "num": 482,
+    "name": "Azelf",
+    "types": [
+      "Psychic"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 75,
+      "atk": 125,
+      "def": 70,
+      "spa": 125,
+      "spd": 70,
+      "spe": 115
+    },
+    "abilities": {
+      "0": "Levitate"
+    },
+    "heightm": 0.3,
+    "weightkg": 0.3,
+    "color": "Blue",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
+  "席多藍恩": {
+    "num": 485,
+    "name": "Heatran",
+    "types": [
+      "Fire",
+      "Steel"
+    ],
+    "baseStats": {
+      "hp": 91,
+      "atk": 90,
+      "def": 106,
+      "spa": 130,
+      "spd": 106,
+      "spe": 77
+    },
+    "abilities": {
+      "0": "Flash Fire",
+      "H": "Flame Body"
+    },
+    "heightm": 1.7,
+    "weightkg": 430,
+    "color": "Brown",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
+  "克雷色利亞": {
+    "num": 488,
+    "name": "Cresselia",
+    "types": [
+      "Psychic"
+    ],
+    "gender": "F",
+    "baseStats": {
+      "hp": 120,
+      "atk": 70,
+      "def": 110,
+      "spa": 75,
+      "spd": 120,
+      "spe": 85
+    },
+    "abilities": {
+      "0": "Levitate"
+    },
+    "heightm": 1.5,
+    "weightkg": 85.6,
+    "color": "Yellow",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
   "水水獺": {
     "num": 501,
     "name": "Oshawott",
@@ -6457,6 +6804,211 @@
     "eggGroups": ["Bug"],
     "tier": "OU"
   },
+  "龍捲雲-化身": {
+    "num": 641,
+    "name": "Tornadus",
+    "baseForme": "Incarnate",
+    "types": [
+      "Flying"
+    ],
+    "gender": "M",
+    "baseStats": {
+      "hp": 79,
+      "atk": 115,
+      "def": 70,
+      "spa": 125,
+      "spd": 80,
+      "spe": 111
+    },
+    "abilities": {
+      "0": "Prankster",
+      "H": "Defiant"
+    },
+    "heightm": 1.5,
+    "weightkg": 63,
+    "color": "Green",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "otherFormes": [
+      "Tornadus-Therian"
+    ],
+    "formeOrder": [
+      "Tornadus",
+      "Tornadus-Therian"
+    ],
+    "tier": "OU"
+  },
+  "龍捲雲-靈獸": {
+    "num": 641,
+    "name": "Tornadus-Therian",
+    "baseSpecies": "Tornadus",
+    "forme": "Therian",
+    "types": [
+      "Flying"
+    ],
+    "gender": "M",
+    "baseStats": {
+      "hp": 79,
+      "atk": 100,
+      "def": 80,
+      "spa": 110,
+      "spd": 90,
+      "spe": 121
+    },
+    "abilities": {
+      "0": "Regenerator"
+    },
+    "heightm": 1.4,
+    "weightkg": 63,
+    "color": "Green",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "changesFrom": "Tornadus",
+    "tier": "OU"
+  },
+  "雷電雲-化身": {
+    "num": 642,
+    "name": "Thundurus",
+    "baseForme": "Incarnate",
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "gender": "M",
+    "baseStats": {
+      "hp": 79,
+      "atk": 115,
+      "def": 70,
+      "spa": 125,
+      "spd": 80,
+      "spe": 111
+    },
+    "abilities": {
+      "0": "Prankster",
+      "H": "Defiant"
+    },
+    "heightm": 1.5,
+    "weightkg": 61,
+    "color": "Blue",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "otherFormes": [
+      "Thundurus-Therian"
+    ],
+    "formeOrder": [
+      "Thundurus",
+      "Thundurus-Therian"
+    ],
+    "tier": "OU"
+  },
+  "雷電雲-靈獸": {
+    "num": 642,
+    "name": "Thundurus-Therian",
+    "baseSpecies": "Thundurus",
+    "forme": "Therian",
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "gender": "M",
+    "baseStats": {
+      "hp": 79,
+      "atk": 105,
+      "def": 70,
+      "spa": 145,
+      "spd": 80,
+      "spe": 101
+    },
+    "abilities": {
+      "0": "Volt Absorb"
+    },
+    "heightm": 3,
+    "weightkg": 61,
+    "color": "Blue",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "changesFrom": "Thundurus",
+    "tier": "OU"
+  },
+  "土地雲-化身": {
+    "num": 645,
+    "name": "Landorus",
+    "baseForme": "Incarnate",
+    "types": [
+      "Ground",
+      "Flying"
+    ],
+    "gender": "M",
+    "baseStats": {
+      "hp": 89,
+      "atk": 125,
+      "def": 90,
+      "spa": 115,
+      "spd": 80,
+      "spe": 101
+    },
+    "abilities": {
+      "0": "Sand Force",
+      "H": "Sheer Force"
+    },
+    "heightm": 1.5,
+    "weightkg": 68,
+    "color": "Brown",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "otherFormes": [
+      "Landorus-Therian"
+    ],
+    "formeOrder": [
+      "Landorus",
+      "Landorus-Therian"
+    ],
+    "tier": "Uber"
+  },
+  "土地雲-靈獸": {
+    "num": 645,
+    "name": "Landorus-Therian",
+    "baseSpecies": "Landorus",
+    "forme": "Therian",
+    "types": [
+      "Ground",
+      "Flying"
+    ],
+    "gender": "M",
+    "baseStats": {
+      "hp": 89,
+      "atk": 145,
+      "def": 90,
+      "spa": 105,
+      "spd": 80,
+      "spe": 91
+    },
+    "abilities": {
+      "0": "Intimidate"
+    },
+    "heightm": 1.3,
+    "weightkg": 68,
+    "color": "Brown",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "changesFrom": "Landorus",
+    "tier": "OU"
+  },
   "哈力栗": {
     "num": 650,
     "name": "Chespin",
@@ -7331,6 +7883,35 @@
     "color": "Yellow",
     "eggGroups": ["Field", "Fairy"],
     "tier": "UU"
+  },
+  "小碎鑽": {
+    "num": 703,
+    "name": "Carbink",
+    "types": [
+      "Rock",
+      "Fairy"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 50,
+      "atk": 50,
+      "def": 150,
+      "spa": 50,
+      "spd": 150,
+      "spe": 50
+    },
+    "abilities": {
+      "0": "Clear Body",
+      "H": "Sturdy"
+    },
+    "heightm": 0.3,
+    "weightkg": 5.7,
+    "color": "Gray",
+    "eggGroups": [
+      "Fairy",
+      "Mineral"
+    ],
+    "tier": "OU"
   },
   "黏黏寶": {
     "num": 704,
@@ -9831,6 +10412,239 @@
     "eggGroups": ["Amorphous", "Dragon"],
     "tier": "OU"
   },
+  "熊徒弟": {
+    "num": 891,
+    "name": "Kubfu",
+    "types": [
+      "Fighting"
+    ],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 60,
+      "atk": 90,
+      "def": 60,
+      "spa": 53,
+      "spd": 50,
+      "spe": 72
+    },
+    "abilities": {
+      "0": "Inner Focus"
+    },
+    "heightm": 0.6,
+    "weightkg": 12,
+    "color": "Gray",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "evos": [
+      "Urshifu",
+      "Urshifu-Rapid-Strike"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "NFE"
+  },
+  "武道熊師-一擊流": {
+    "num": 892,
+    "name": "Urshifu",
+    "baseForme": "Single-Strike",
+    "types": [
+      "Fighting",
+      "Dark"
+    ],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 130,
+      "def": 100,
+      "spa": 63,
+      "spd": 60,
+      "spe": 97
+    },
+    "abilities": {
+      "0": "Unseen Fist"
+    },
+    "heightm": 1.9,
+    "weightkg": 105,
+    "color": "Gray",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "prevo": "Kubfu",
+    "evoType": "other",
+    "evoCondition": "Defeat the Single Strike Tower",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "otherFormes": [
+      "Urshifu-Rapid-Strike"
+    ],
+    "formeOrder": [
+      "Urshifu",
+      "Urshifu-Rapid-Strike"
+    ],
+    "canGigantamax": "G-Max One Blow",
+    "tier": "Uber"
+  },
+  "武道熊師-連擊流": {
+    "num": 892,
+    "name": "Urshifu-Rapid-Strike",
+    "baseSpecies": "Urshifu",
+    "forme": "Rapid-Strike",
+    "types": [
+      "Fighting",
+      "Water"
+    ],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 130,
+      "def": 100,
+      "spa": 63,
+      "spd": 60,
+      "spe": 97
+    },
+    "abilities": {
+      "0": "Unseen Fist"
+    },
+    "heightm": 1.9,
+    "weightkg": 105,
+    "color": "Gray",
+    "prevo": "Kubfu",
+    "evoType": "other",
+    "evoCondition": "Defeat the Rapid Strike Tower",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "canGigantamax": "G-Max Rapid Flow",
+    "tier": "OU"
+  },
+  "雷吉艾勒奇": {
+    "num": 894,
+    "name": "Regieleki",
+    "types": [
+      "Electric"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 80,
+      "atk": 100,
+      "def": 50,
+      "spa": 100,
+      "spd": 50,
+      "spe": 200
+    },
+    "abilities": {
+      "0": "Transistor"
+    },
+    "heightm": 1.2,
+    "weightkg": 145,
+    "color": "Yellow",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
+  "雷吉鐸拉戈": {
+    "num": 895,
+    "name": "Regidrago",
+    "types": [
+      "Dragon"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 200,
+      "atk": 100,
+      "def": 50,
+      "spa": 100,
+      "spd": 50,
+      "spe": 80
+    },
+    "abilities": {
+      "0": "Dragon's Maw"
+    },
+    "heightm": 2.1,
+    "weightkg": 200,
+    "color": "Green",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
+  "雪暴馬": {
+    "num": 896,
+    "name": "Glastrier",
+    "types": [
+      "Ice"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 100,
+      "atk": 145,
+      "def": 130,
+      "spa": 65,
+      "spd": 110,
+      "spe": 30
+    },
+    "abilities": {
+      "0": "Chilling Neigh"
+    },
+    "heightm": 2.2,
+    "weightkg": 800,
+    "color": "White",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
+  "靈幽馬": {
+    "num": 897,
+    "name": "Spectrier",
+    "types": [
+      "Ghost"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 100,
+      "atk": 65,
+      "def": 60,
+      "spa": 145,
+      "spd": 80,
+      "spe": 130
+    },
+    "abilities": {
+      "0": "Grim Neigh"
+    },
+    "heightm": 2,
+    "weightkg": 44.5,
+    "color": "Black",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "Uber"
+  },
   "詭角鹿": {
     "num": 899,
     "name": "Wyrdeer",
@@ -10027,6 +10841,75 @@
     "eggGroups": ["Water 2"],
     "tier": "Unreleased",
     "isNonstandard": "Unobtainable"
+  },
+  "眷戀雲": {
+    "num": 905,
+    "name": "Enamorus",
+    "baseForme": "Incarnate",
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "gender": "F",
+    "baseStats": {
+      "hp": 74,
+      "atk": 115,
+      "def": 70,
+      "spa": 135,
+      "spd": 80,
+      "spe": 106
+    },
+    "abilities": {
+      "0": "Cute Charm",
+      "H": "Contrary"
+    },
+    "heightm": 1.6,
+    "weightkg": 48,
+    "color": "Pink",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "otherFormes": [
+      "Enamorus-Therian"
+    ],
+    "formeOrder": [
+      "Enamorus",
+      "Enamorus-Therian"
+    ],
+    "tier": "OU"
+  },
+  "眷戀雲-靈獸": {
+    "num": 905,
+    "name": "Enamorus-Therian",
+    "baseSpecies": "Enamorus",
+    "forme": "Therian",
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "gender": "F",
+    "baseStats": {
+      "hp": 74,
+      "atk": 115,
+      "def": 110,
+      "spa": 135,
+      "spd": 100,
+      "spe": 46
+    },
+    "abilities": {
+      "0": "Overcoat"
+    },
+    "heightm": 1.6,
+    "weightkg": 48,
+    "color": "Pink",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "changesFrom": "Enamorus",
+    "tier": "OU"
   },
   "新葉喵": {
     "num": 906,

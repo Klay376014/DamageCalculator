@@ -2079,6 +2079,24 @@
     "target": "normal",
     "type": "Fire"
   },
+  "Magma Storm": {
+    "num": 463,
+    "accuracy": 75,
+    "basePower": 100,
+    "category": "Special",
+    "name": "熔岩風暴",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "volatileStatus": "partiallytrapped",
+    "secondary": null,
+    "target": "normal",
+    "type": "Fire",
+    "contestType": "Tough"
+  },
   "Fire Blast": {
     "num": 126,
     "accuracy": 85,
@@ -2817,6 +2835,26 @@
     "target": "allAdjacent",
     "type": "Ground"
   },
+  "Sandsear Storm": {
+    "num": 848,
+    "accuracy": 80,
+    "basePower": 100,
+    "category": "Special",
+    "name": "熱沙風暴",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "wind": 1
+    },
+    "secondary": {
+      "chance": 20,
+      "status": "brn"
+    },
+    "target": "allAdjacentFoes",
+    "type": "Ground"
+  },
   "Headlong Rush": {
     "num": 838,
     "accuracy": 100,
@@ -2974,6 +3012,28 @@
       }
     },
     "target": "normal",
+    "type": "Fairy"
+  },
+  "Springtide Storm": {
+    "num": 831,
+    "accuracy": 80,
+    "basePower": 100,
+    "category": "Special",
+    "name": "陽春風暴",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "wind": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "boosts": {
+        "atk": -1
+      }
+    },
+    "target": "allAdjacentFoes",
     "type": "Fairy"
   },
   "Rock Blast": {
@@ -4425,6 +4485,28 @@
     "target": "any",
     "type": "Flying"
   },
+  "Bleakwind Storm": {
+    "num": 846,
+    "accuracy": 80,
+    "basePower": 100,
+    "category": "Special",
+    "name": "枯葉風暴",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "wind": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "boosts": {
+        "spe": -1
+      }
+    },
+    "target": "allAdjacentFoes",
+    "type": "Flying"
+  },
   "Hurricane": {
     "num": 542,
     "accuracy": 70,
@@ -4877,6 +4959,28 @@
         "volatileStatus": "flinch"
       }
     ],
+    "target": "normal",
+    "type": "Fighting"
+  },
+  "Thunderous Kick": {
+    "num": 823,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Physical",
+    "name": "雷鳴蹴擊",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "boosts": {
+        "def": -1
+      }
+    },
     "target": "normal",
     "type": "Fighting"
   },
@@ -5948,6 +6052,25 @@
     "target": "normal",
     "type": "Dark"
   },
+  "Wicked Blow": {
+    "num": 817,
+    "accuracy": 100,
+    "basePower": 75,
+    "category": "Physical",
+    "name": "暗冥強擊",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "punch": 1,
+      "mirror": 1
+    },
+    "willCrit": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Dark"
+  },
   "Crunch": {
     "num": 242,
     "accuracy": 100,
@@ -6090,6 +6213,25 @@
     "target": "normal",
     "type": "Dark"
   },
+  "Fiery Wrath": {
+    "num": 822,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Special",
+    "name": "怒火中燒",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 20,
+      "volatileStatus": "flinch"
+    },
+    "target": "allAdjacentFoes",
+    "type": "Dark"
+  },
   "Foul Play": {
     "num": 492,
     "accuracy": 100,
@@ -6216,6 +6358,29 @@
       "self": {
         "boosts": {
           "def": 1
+        }
+      }
+    },
+    "target": "normal",
+    "type": "Psychic"
+  },
+  "Mystical Power": {
+    "num": 832,
+    "accuracy": 90,
+    "basePower": 70,
+    "category": "Special",
+    "name": "神秘之力",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "self": {
+        "boosts": {
+          "spa": 1
         }
       }
     },
@@ -6412,6 +6577,25 @@
       "boosts": {
         "spd": -1
       }
+    },
+    "target": "normal",
+    "type": "Psychic"
+  },
+  "Freezing Glare": {
+    "num": 821,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Special",
+    "name": "冰冷視線",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "frz"
     },
     "target": "normal",
     "type": "Psychic"
@@ -6725,6 +6909,25 @@
     "target": "allAdjacentFoes",
     "type": "Electric"
   },
+  "Thunder Cage": {
+    "num": 819,
+    "accuracy": 90,
+    "basePower": 80,
+    "category": "Special",
+    "name": "雷電囚籠",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "volatileStatus": "partiallytrapped",
+    "secondary": null,
+    "target": "normal",
+    "type": "Electric",
+    "desc": "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
+    "shortDesc": "Traps and damages the target for 4-5 turns."
+  },
   "Thunderbolt": {
     "num": 85,
     "accuracy": 100,
@@ -6777,6 +6980,26 @@
     },
     "secondary": null,
     "target": "normal",
+    "type": "Electric"
+  },
+  "Wildbolt Storm": {
+    "num": 847,
+    "accuracy": 80,
+    "basePower": 100,
+    "category": "Special",
+    "name": "鳴雷風暴",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "wind": 1
+    },
+    "secondary": {
+      "chance": 20,
+      "status": "par"
+    },
+    "target": "allAdjacentFoes",
     "type": "Electric"
   },
   "Thunder": {
@@ -7392,6 +7615,22 @@
     },
     "secondary": null,
     "target": "normal",
+    "type": "Dragon"
+  },
+  "Dragon Energy": {
+    "num": 820,
+    "accuracy": 100,
+    "basePower": 150,
+    "category": "Special",
+    "name": "巨龍威能",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "allAdjacentFoes",
     "type": "Dragon"
   },
   "Infestation": {
