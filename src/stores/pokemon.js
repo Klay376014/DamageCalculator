@@ -450,8 +450,8 @@ export const usePokemonStore = defineStore("pokemon", () => {
   });
 
   const fieldCondition = reactive({
-    single: true,
-    double: false,
+    single: false,
+    double: true,
     weather: {
       sun: false,
       rain: false,
