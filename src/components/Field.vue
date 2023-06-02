@@ -247,7 +247,6 @@ const setAura = (val) => {
         name="category"
         id="single"
         autocomplete="off"
-        checked
         @change="singleDouble($event)"
       />
       <label class="btn btn-outline-primary" for="single">單打</label>
@@ -257,6 +256,7 @@ const setAura = (val) => {
         name="category"
         id="double"
         autocomplete="off"
+        checked
         @change="singleDouble($event)"
       />
       <label class="btn btn-outline-primary" for="double">雙打</label>
