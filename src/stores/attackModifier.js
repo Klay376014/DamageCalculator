@@ -12,7 +12,6 @@ export const UseAttackStore = defineStore("atk", () => {
   const abi = useAbilityStore();
   const it = useItemStore();
 
-
   const atkModifier = (attacker, defender, category) => {
     let result = 1;
     let a = 100;
@@ -198,6 +197,13 @@ export const UseAttackStore = defineStore("atk", () => {
     }
 
     if (
+      (atkAbi === "Transistor" && moveType === "Electric") ||
+      (atkAbi === "Dragon's Maw" && moveType === "Dragon")
+    ) {
+      return 1.333;
+    }
+
+    if (
       (atkAbi === "Overgrow" && moveType === "Grass") ||
       (atkAbi === "Blaze" && moveType === "Fire") ||
       (atkAbi === "Torrent" && moveType === "Water") ||
@@ -269,7 +275,7 @@ export const UseAttackStore = defineStore("atk", () => {
         (pm[attacker].Name === "古簡蝸" && pm[attacker].ability !== "default"))
     ) {
       //災禍之簡
-      dm.detailStat.attacker.tabletsOfRuin = "災禍之簡"
+      dm.detailStat.attacker.tabletsOfRuin = "災禍之簡";
       return 0.75;
     } else if (
       cat === "Special" &&
@@ -278,7 +284,7 @@ export const UseAttackStore = defineStore("atk", () => {
         (pm[attacker].Name === "古鼎鹿" && pm[attacker].ability !== "default"))
     ) {
       //災禍之鼎
-      dm.detailStat.attacker.vesselOfRuin = "災禍之鼎"
+      dm.detailStat.attacker.vesselOfRuin = "災禍之鼎";
       return 0.75;
     } else {
       return 1;

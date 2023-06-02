@@ -71,6 +71,14 @@
     "name": "硬爪",
     "effect": "（使出接觸類招式時，威力x1.3）"
   },
+  "Transistor":{
+    "name":"電晶體",
+    "effect":"（電系招式威力x1.33）"
+  },
+  "Dragon's Maw":{
+    "name":"龍顎",
+    "effect":"（龍系招式威力x1.33）"
+  },
   "Rivalry": {
     "name": "鬥爭心-同性",
     "effect": "（對手與自身為同性時，威力x1.25）"
