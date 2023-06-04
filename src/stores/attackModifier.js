@@ -196,10 +196,7 @@ export const UseAttackStore = defineStore("atk", () => {
       }
     }
 
-    if (
-      (atkAbi === "Transistor" && moveType === "Electric") ||
-      (atkAbi === "Dragon's Maw" && moveType === "Dragon")
-    ) {
+    if (atkAbi === "Transistor" && moveType === "Electric") {
       return 1.333;
     }
 
@@ -216,7 +213,8 @@ export const UseAttackStore = defineStore("atk", () => {
       (atkAbi === "Guts" &&
         cat === "Physical" &&
         pm[attacker].condition.burned) ||
-      (atkAbi === "Rocky Payload" && moveType === "Rock")
+      (atkAbi === "Rocky Payload" && moveType === "Rock") ||
+      (atkAbi === "Dragon's Maw" && moveType === "Dragon")
     ) {
       dm.detailStat.attacker.ability = abi.abilityList[atkAbi].name;
       return 1.5;
