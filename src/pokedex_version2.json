@@ -6099,12 +6099,12 @@
       "F": 0.125
     },
     "baseStats": {
-      "hp": 60,
-      "atk": 105,
+      "hp": 55,
+      "atk": 100,
       "def": 60,
-      "spa": 120,
+      "spa": 125,
       "spd": 60,
-      "spe": 105
+      "spe": 110
     },
     "abilities": {
       "0": "Illusion"
