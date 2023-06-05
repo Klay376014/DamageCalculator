@@ -41,9 +41,9 @@ export const UsePowerStore = defineStore("power", () => {
     if (pm[attacker].teraType === pm[attacker].move.type) {
       if (
         a < 60 &&
-        (!pm[attacker].move.multihit ||
-          pm[attacker].move.priority < 1 ||
-          pm[attacker].move.num !== 512)
+        pm[attacker].move.multihit === undefined &&
+        pm[attacker].move.priority < 1 &&
+        pm[attacker].move.num !== 512
       ) {
         return 60;
       } else {
@@ -239,9 +239,9 @@ export const UsePowerStore = defineStore("power", () => {
       (type === "Fairy" && pm.fieldCondition.aura.fairyAura) ||
       (type === "Dark" && pm.fieldCondition.aura.darkAura)
     ) {
-      if(pm.fieldCondition.aura.fairyAura){
+      if (pm.fieldCondition.aura.fairyAura) {
         dm.detailStat.attacker.aura = "妖精氣場";
-      }else{
+      } else {
         dm.detailStat.attacker.aura = "暗黑氣場";
       }
       return 1.33;
