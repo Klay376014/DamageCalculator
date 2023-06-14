@@ -358,6 +358,9 @@ export const usePokemonStore = defineStore("pokemon", () => {
         } else if (value < 0) {
           pokemon1.statModifier.atkDown = 2 - value;
         }
+        console.log(
+          pokemon1.statModifier.atkUp + "\n" + pokemon1.statModifier.atkDown
+        );
       } else {
         pokemon2.statModifier.atkUp = 2;
         pokemon2.statModifier.atkDown = 2;

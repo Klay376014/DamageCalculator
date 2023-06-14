@@ -59,6 +59,7 @@ const pokemonSelect = function (event) {
         store.pokemon1.typeContent = `原屬性︰${
           store.typeList[store.pokemon1.type1]
         }`;
+        store.pokemon1.type2 = "";
       }
       store.pokemon1.hp = store.pokemonList[store.pokemon1.Name].baseStats.hp;
       store.pokemon1.atk = store.pokemonList[store.pokemon1.Name].baseStats.atk;
@@ -108,6 +109,7 @@ const pokemonSelect = function (event) {
         store.pokemon2.typeContent = `原屬性︰${
           store.typeList[store.pokemon2.type1]
         }`;
+        store.pokemon2.type2 = "";
       }
       store.pokemon2.hp = store.pokemonList[store.pokemon2.Name].baseStats.hp;
       store.pokemon2.atk = store.pokemonList[store.pokemon2.Name].baseStats.atk;

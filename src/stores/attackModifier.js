@@ -127,7 +127,6 @@ export const UseAttackStore = defineStore("atk", () => {
         return 1;
       }
     }
-
     return aUp / aDown;
   };
 
