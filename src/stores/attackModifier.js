@@ -196,7 +196,7 @@ export const UseAttackStore = defineStore("atk", () => {
     }
 
     if (atkAbi === "Transistor" && moveType === "Electric") {
-      return 1.333;
+      return 1.3;
     }
 
     if (
