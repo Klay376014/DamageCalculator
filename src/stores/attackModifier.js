@@ -196,6 +196,7 @@ export const UseAttackStore = defineStore("atk", () => {
     }
 
     if (atkAbi === "Transistor" && moveType === "Electric") {
+      dm.detailStat.attacker.ability = abi.abilityList[atkAbi].name;
       return 1.3;
     }
 
