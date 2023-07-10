@@ -47,6 +47,18 @@ export const UseBasePowerStore = defineStore("basePower", () => {
       }
     }
 
+    if (pm.fieldCondition.field.grassy) {
+      //地震、重踏
+      if (move.num === 89) {
+        dm.detailStat.attacker.field = "青草場地";
+        return 50;
+      }
+      if(move.num === 523){
+        dm.detailStat.attacker.field = "青草場地";
+        return 30;
+      }
+    }
+
     if (move.num === 500 || move.num === 681) {
       //囂張&輔助力量
       let count = 1;
