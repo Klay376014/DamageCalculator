@@ -20,6 +20,12 @@ const selectedPokemon = reactive({
   Name: "default",
 });
 
+const searchInput = ref('');
+
+const clearName = ()=>{
+  searchInput.value = '';
+}
+
 const imageUrl = ref(
   new URL(`../assets/images/${selectedPokemon.Name}.png`, import.meta.url).href
 );
@@ -159,13 +165,14 @@ const teraChange = (tera) => {
           loading="lazy"
         />
       </div>
-      <div class="form-group col-8 col-xl-4 mt-2">
+      <div class="form-group col-8 col-xl-4 mt-2 position-relative">
         <input
           class="form-control"
           list="pokemonList"
           id="searchList"
           placeholder="選擇寶可夢"
           @change="pokemonSelect($event)"
+          v-model="searchInput"
         />
         <datalist id="pokemonList">
           <optgroup>
@@ -182,6 +189,7 @@ const teraChange = (tera) => {
             </option>
           </optgroup>
         </datalist>
+        <span class="material-symbols-outlined position-absolute clear" @click="clearName(e)">close</span>
       </div>
       <div class="col-5 col-xl-3 mt-2">
         <p class="mb-0">
