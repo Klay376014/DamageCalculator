@@ -11,6 +11,10 @@
   font-weight: bold;
 }
 
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
 .btn-primary {
   background-color: var(--primary-color);
   border-color: var(--primary-color);
@@ -30,7 +34,7 @@
 }
 
 body {
-  color: #ffffff;
+  color: #FFF;
   background-color: #333333;
 }
 

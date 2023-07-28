@@ -1,33 +1,19 @@
 <script setup>
 import PokemonSelect from "./components/PokemonSelect.vue";
 import Results from "./components/Results.vue";
-import { reactive, ref, onMounted, onBeforeMount, computed } from "vue";
 </script>
 
 <template>
-  <div class="container-fluid mt-3">
-    <div class="row d-flex">
-      <div class="col-md-6 col-xl-6 p-0 px-lg-2 mb-3">
-        <div class="card card-1 ps-3">寶可夢1</div>
-        <div class="card-body">
-          <pokemon-select
-            color="btn-primary"
-            pokemonNum="pokemon1"
-          ></pokemon-select>
-        </div>
-      </div>
-      <div class="col-md-6 col-xl-6 p-0 px-lg-2">
-        <div class="card card-2 ps-3">寶可夢2</div>
-        <div class="card-body">
-          <pokemon-select
-            color="btn-secondary"
-            pokemonNum="pokemon2"
-          ></pokemon-select>
-          <Results></Results>
-        </div>
-      </div>
+  <nav class="navbar navbar-dark bg-primary">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      <h1 class="mb-0 fs-4 fw-bold" href="#">寶可夢工具網</h1>
+      <ul class="list-unstyled d-flex mb-0">
+        <li><router-link to="/DamageCalculator" class="text-white fw-bold text-decoration-none">傷害計算機</router-link></li>
+        <li class="ms-4"><router-link to="/SpeedTier" class="text-white fw-bold text-decoration-none">速線表</router-link></li>
+      </ul>
     </div>
-  </div>
+  </nav>
+  <router-view></router-view>
 </template>
 
 <style scoped></style>
