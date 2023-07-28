@@ -47,6 +47,7 @@ const pokemonSelect = function (event) {
         if (name !== undefined) {
           store.pokemon1.Name = name;
           event.target.value = name;
+          searchInput.value = name;
         }
       }
 
@@ -97,6 +98,7 @@ const pokemonSelect = function (event) {
         if (name !== undefined) {
           store.pokemon2.Name = name;
           event.target.value = name;
+          searchInput.value = name;
         }
       }
 

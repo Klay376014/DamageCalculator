@@ -5,7 +5,8 @@ import SpeedTier from '../views/SpeedTier.vue'
 const routes = [
   {
     path: '/DamageCalculator',
-    component: Calculator
+    component: Calculator,
+    meta: { keepAlive: true }
   },
   {
     path: '/SpeedTier',
