@@ -2030,7 +2030,7 @@
     "tier": "Unreleased",
     "isNonstandard": "Unobtainable"
   },
-  "火暴獸": {
+  "火爆獸": {
     "num": 157,
     "name": "Typhlosion",
     "types": ["Fire"],
@@ -2061,7 +2061,7 @@
     "tier": "Unreleased",
     "isNonstandard": "Unobtainable"
   },
-  "火暴獸-洗翠": {
+  "火爆獸-洗翠": {
     "num": 157,
     "name": "Typhlosion-Hisui",
     "baseSpecies": "Typhlosion",

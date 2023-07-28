@@ -371,3 +371,19 @@ body {
     }
   }
 }
+
+.navbar{
+  z-index: 1;
+}
+
+.text-purple{
+  color: var(--secondary-color);
+}
+
+.table-hover tbody tr:hover {
+  color:#FFF; /* 這裡是你想要的新的背景顏色 */
+  background-color: var(--secondary-color);
+  .text-purple{
+    color: #35dccc;
+  }
+}

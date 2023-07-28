@@ -4,7 +4,7 @@ import Results from "./components/Results.vue";
 </script>
 
 <template>
-  <nav class="navbar navbar-dark bg-primary">
+  <nav class="navbar navbar-dark bg-primary position-sticky top-0 mb-2">
     <div class="container-fluid d-flex justify-content-between align-items-center">
       <h1 class="mb-0 fs-4 fw-bold" href="#">寶可夢工具網</h1>
       <ul class="list-unstyled d-flex mb-0">

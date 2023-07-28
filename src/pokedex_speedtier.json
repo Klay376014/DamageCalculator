@@ -1,4 +1,21 @@
 {
+  "噴火龍": {
+    "img": 6,
+    "name": "Charizard",
+    "types": ["Fire", "Flying"],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 78,
+      "atk": 84,
+      "def": 78,
+      "spa": 109,
+      "spd": 85,
+      "spe": 100
+    }
+  },
   "皮卡丘": {
     "img": 25,
     "name": "Pikachu",
@@ -49,6 +66,21 @@
     "otherFormes": ["Raichu-Alola"],
     "formeOrder": ["Raichu", "Raichu-Alola"],
     "tier": "UU"
+  },
+  "雷丘-阿羅拉": {
+    "img": 10100,
+    "name": "Raichu-Alola",
+    "baseSpecies": "Raichu",
+    "forme": "Alola",
+    "types": ["Electric", "Psychic"],
+    "baseStats": {
+      "hp": 60,
+      "atk": 85,
+      "def": 50,
+      "spa": 95,
+      "spd": 85,
+      "spe": 110
+    }
   },
   "胖可丁": {
     "img": 40,
@@ -132,6 +164,34 @@
     "formeOrder": ["Dugtrio", "Dugtrio-Alola"],
     "tier": "UU"
   },
+  "三地鼠-阿羅拉": {
+    "img": 10106,
+    "name": "Dugtrio-Alola",
+    "baseSpecies": "Dugtrio",
+    "forme": "Alola",
+    "types": ["Ground", "Steel"],
+    "baseStats": {
+      "hp": 35,
+      "atk": 100,
+      "def": 60,
+      "spa": 50,
+      "spd": 70,
+      "spe": 110
+    },
+    "abilities": {
+      "0": "Sand Veil",
+      "1": "Tangling Hair",
+      "H": "Sand Force"
+    },
+    "heightm": 0.7,
+    "weightkg": 66.6,
+    "color": "Brown",
+    "prevo": "Diglett-Alola",
+    "evoLevel": 26,
+    "eggGroups": ["Field"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
+  },
   "貓老大": {
     "img": 53,
     "name": "Persian",
@@ -158,6 +218,34 @@
     "otherFormes": ["Persian-Alola"],
     "formeOrder": ["Persian", "Persian-Alola"],
     "tier": "UU"
+  },
+  "貓老大-阿羅拉": {
+    "img": 10108,
+    "name": "Persian-Alola",
+    "baseSpecies": "Persian",
+    "forme": "Alola",
+    "types": ["Dark"],
+    "baseStats": {
+      "hp": 65,
+      "atk": 60,
+      "def": 60,
+      "spa": 75,
+      "spd": 65,
+      "spe": 115
+    },
+    "abilities": {
+      "0": "Fur Coat",
+      "1": "Technician",
+      "H": "Rattled"
+    },
+    "heightm": 1.1,
+    "weightkg": 33,
+    "color": "Blue",
+    "prevo": "Meowth-Alola",
+    "evoType": "levelFriendship",
+    "eggGroups": ["Field"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
   },
   "哥達鴨": {
     "img": 55,
@@ -242,6 +330,39 @@
     "formeOrder": ["Arcanine", "Arcanine-Hisui"],
     "tier": "UU"
   },
+  "風速狗-洗翠": {
+    "img": 10230,
+    "name": "Arcanine-Hisui",
+    "baseSpecies": "Arcanine",
+    "forme": "Hisui",
+    "types": ["Fire", "Rock"],
+    "genderRatio": {
+      "M": 0.75,
+      "F": 0.25
+    },
+    "baseStats": {
+      "hp": 95,
+      "atk": 115,
+      "def": 80,
+      "spa": 95,
+      "spd": 80,
+      "spe": 90
+    },
+    "abilities": {
+      "0": "Intimidate",
+      "1": "Flash Fire",
+      "H": "Rock Head"
+    },
+    "heightm": 2,
+    "weightkg": 168,
+    "color": "Brown",
+    "prevo": "Growlithe-Hisui",
+    "evoType": "useItem",
+    "evoItem": "Fire Stone",
+    "eggGroups": ["Field"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
+  },
   "呆殼獸": {
     "img": 80,
     "name": "Slowbro",
@@ -268,6 +389,35 @@
     "otherFormes": ["Slowbro-Mega", "Slowbro-Galar"],
     "formeOrder": ["Slowbro", "Slowbro-Mega", "Slowbro-Galar"],
     "tier": "UU"
+  },
+  "呆殼獸-伽勒爾": {
+    "img": 10165,
+    "name": "Slowbro-Galar",
+    "baseSpecies": "Slowbro",
+    "forme": "Galar",
+    "types": ["Poison", "Psychic"],
+    "baseStats": {
+      "hp": 95,
+      "atk": 100,
+      "def": 95,
+      "spa": 100,
+      "spd": 70,
+      "spe": 30
+    },
+    "abilities": {
+      "0": "Quick Draw",
+      "1": "Own Tempo",
+      "H": "Regenerator"
+    },
+    "heightm": 1.6,
+    "weightkg": 70.5,
+    "color": "Pink",
+    "prevo": "Slowpoke-Galar",
+    "evoType": "useItem",
+    "evoItem": "Galarica Cuff",
+    "eggGroups": ["Monster", "Water 1"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
   },
   "三合一磁怪": {
     "img": 82,
@@ -322,6 +472,34 @@
     "otherFormes": ["Muk-Alola"],
     "formeOrder": ["Muk", "Muk-Alola"],
     "tier": "UU"
+  },
+  "臭臭泥-阿羅拉": {
+    "img": 10113,
+    "name": "Muk-Alola",
+    "baseSpecies": "Muk",
+    "forme": "Alola",
+    "types": ["Poison", "Dark"],
+    "baseStats": {
+      "hp": 105,
+      "atk": 105,
+      "def": 75,
+      "spa": 65,
+      "spd": 100,
+      "spe": 50
+    },
+    "abilities": {
+      "0": "Poison Touch",
+      "1": "Gluttony",
+      "H": "Power of Alchemy"
+    },
+    "heightm": 1,
+    "weightkg": 52,
+    "color": "Green",
+    "prevo": "Grimer-Alola",
+    "evoLevel": 38,
+    "eggGroups": ["Amorphous"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
   },
   "刺甲貝": {
     "img": 91,
@@ -427,6 +605,36 @@
     "otherFormes": ["Electrode-Hisui"],
     "formeOrder": ["Electrode", "Electrode-Hisui"],
     "tier": "UU"
+  },
+  "頑皮雷彈-洗翠": {
+    "img": 10232,
+    "name": "Electrode-Hisui",
+    "baseSpecies": "Electrode",
+    "forme": "Hisui",
+    "types": ["Electric", "Grass"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 60,
+      "atk": 50,
+      "def": 70,
+      "spa": 80,
+      "spd": 80,
+      "spe": 150
+    },
+    "abilities": {
+      "0": "Soundproof",
+      "1": "Static",
+      "H": "Aftermath"
+    },
+    "heightm": 1.2,
+    "weightkg": 71,
+    "color": "Red",
+    "prevo": "Voltorb-Hisui",
+    "evoType": "useItem",
+    "evoItem": "Leaf Stone",
+    "eggGroups": ["Mineral"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
   },
   "吉利蛋": {
     "img": 113,
@@ -709,6 +917,207 @@
     "eggGroups": ["Field"],
     "tier": "UU"
   },
+  "急凍鳥": {
+    "img": 144,
+    "name": "Articuno",
+    "types": [
+      "Ice",
+      "Flying"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 90,
+      "atk": 85,
+      "def": 100,
+      "spa": 95,
+      "spd": 125,
+      "spe": 85
+    },
+    "abilities": {
+      "0": "Pressure",
+      "H": "Snow Cloak"
+    },
+    "heightm": 1.7,
+    "weightkg": 55.4,
+    "color": "Blue",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "otherFormes": [
+      "Articuno-Galar"
+    ],
+    "formeOrder": [
+      "Articuno",
+      "Articuno-Galar"
+    ],
+    "tier": "OU"
+  },
+  "急凍鳥-伽勒爾": {
+    "img": 10169,
+    "name": "Articuno-Galar",
+    "baseSpecies": "Articuno",
+    "forme": "Galar",
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 90,
+      "atk": 85,
+      "def": 85,
+      "spa": 125,
+      "spd": 100,
+      "spe": 95
+    },
+    "abilities": {
+      "0": "Competitive"
+    },
+    "heightm": 1.7,
+    "weightkg": 50.9,
+    "color": "Purple",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
+  "閃電鳥": {
+    "img": 145,
+    "name": "Zapdos",
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 90,
+      "atk": 90,
+      "def": 85,
+      "spa": 125,
+      "spd": 90,
+      "spe": 100
+    },
+    "abilities": {
+      "0": "Pressure",
+      "H": "Static"
+    },
+    "heightm": 1.6,
+    "weightkg": 52.6,
+    "color": "Yellow",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "otherFormes": [
+      "Zapdos-Galar"
+    ],
+    "formeOrder": [
+      "Zapdos",
+      "Zapdos-Galar"
+    ],
+    "tier": "OU"
+  },
+  "閃電鳥-伽勒爾": {
+    "img": 10170,
+    "name": "Zapdos-Galar",
+    "baseSpecies": "Zapdos",
+    "forme": "Galar",
+    "types": [
+      "Fighting",
+      "Flying"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 90,
+      "atk": 125,
+      "def": 90,
+      "spa": 85,
+      "spd": 90,
+      "spe": 100
+    },
+    "abilities": {
+      "0": "Defiant"
+    },
+    "heightm": 1.6,
+    "weightkg": 58.2,
+    "color": "Yellow",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
+  "火焰鳥": {
+    "img": 146,
+    "name": "Moltres",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 90,
+      "atk": 100,
+      "def": 90,
+      "spa": 125,
+      "spd": 85,
+      "spe": 90
+    },
+    "abilities": {
+      "0": "Pressure",
+      "H": "Flame Body"
+    },
+    "heightm": 2,
+    "weightkg": 60,
+    "color": "Yellow",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "otherFormes": [
+      "Moltres-Galar"
+    ],
+    "formeOrder": [
+      "Moltres",
+      "Moltres-Galar"
+    ],
+    "tier": "OU"
+  },
+  "火焰鳥-伽勒爾": {
+    "img": 10171,
+    "name": "Moltres-Galar",
+    "baseSpecies": "Moltres",
+    "forme": "Galar",
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 90,
+      "atk": 85,
+      "def": 90,
+      "spa": 100,
+      "spd": 125,
+      "spe": 90
+    },
+    "abilities": {
+      "0": "Berserk"
+    },
+    "heightm": 2,
+    "weightkg": 66,
+    "color": "Red",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
   "快龍": {
     "img": 149,
     "name": "Dragonite",
@@ -732,6 +1141,68 @@
     "evoLevel": 55,
     "eggGroups": ["Water 1", "Dragon"],
     "tier": "OU"
+  },
+  "火爆獸": {
+    "img": 157,
+    "name": "Typhlosion",
+    "types": ["Fire"],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 78,
+      "atk": 84,
+      "def": 78,
+      "spa": 109,
+      "spd": 85,
+      "spe": 100
+    },
+    "abilities": {
+      "0": "Blaze",
+      "H": "Flash Fire"
+    },
+    "heightm": 1.7,
+    "weightkg": 79.5,
+    "color": "Yellow",
+    "prevo": "Quilava",
+    "evoLevel": 36,
+    "eggGroups": ["Field"],
+    "otherFormes": ["Typhlosion-Hisui"],
+    "formeOrder": ["Typhlosion", "Typhlosion-Hisui"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
+  },
+  "火爆獸-洗翠": {
+    "img": 10233,
+    "name": "Typhlosion-Hisui",
+    "baseSpecies": "Typhlosion",
+    "forme": "Hisui",
+    "types": ["Fire", "Ghost"],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 73,
+      "atk": 84,
+      "def": 78,
+      "spa": 119,
+      "spd": 85,
+      "spe": 95
+    },
+    "abilities": {
+      "0": "Blaze",
+      "H": "Frisk"
+    },
+    "heightm": 1.6,
+    "weightkg": 69.8,
+    "color": "Yellow",
+    "prevo": "Quilava",
+    "evoLevel": 36,
+    "eggGroups": ["Field"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
   },
   "電龍": {
     "img": 181,
@@ -972,6 +1443,35 @@
     "formeOrder": ["Slowking", "Slowking-Galar"],
     "tier": "UU"
   },
+  "呆呆王-伽勒爾": {
+    "img": 10172,
+    "name": "Slowking-Galar",
+    "baseSpecies": "Slowking",
+    "forme": "Galar",
+    "types": ["Poison", "Psychic"],
+    "baseStats": {
+      "hp": 95,
+      "atk": 65,
+      "def": 80,
+      "spa": 110,
+      "spd": 110,
+      "spe": 30
+    },
+    "abilities": {
+      "0": "Curious Medicine",
+      "1": "Own Tempo",
+      "H": "Regenerator"
+    },
+    "heightm": 1.8,
+    "weightkg": 79.5,
+    "color": "Pink",
+    "prevo": "Slowpoke-Galar",
+    "evoType": "useItem",
+    "evoItem": "Galarica Wreath",
+    "eggGroups": ["Monster", "Water 1"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
+  },
   "夢妖": {
     "img": 200,
     "name": "Misdreavus",
@@ -1042,6 +1542,33 @@
     "otherFormes": ["Qwilfish-Hisui"],
     "formeOrder": ["Qwilfish", "Qwilfish-Hisui"],
     "tier": "UU"
+  },
+  "千針魚-洗翠": {
+    "img": 10234,
+    "name": "Qwilfish-Hisui",
+    "baseSpecies": "Qwilfish",
+    "forme": "Hisui",
+    "types": ["Dark", "Poison"],
+    "baseStats": {
+      "hp": 65,
+      "atk": 95,
+      "def": 85,
+      "spa": 55,
+      "spd": 55,
+      "spe": 85
+    },
+    "abilities": {
+      "0": "Poison Point",
+      "1": "Swift Swim",
+      "H": "Intimidate"
+    },
+    "heightm": 0.5,
+    "weightkg": 3.9,
+    "color": "Black",
+    "evos": ["Overqwil"],
+    "eggGroups": ["Water 2"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
   },
   "巨鉗螳螂": {
     "img": 212,
@@ -2251,29 +2778,6 @@
     "eggGroups": ["Water 2"],
     "tier": "UU"
   },
-  "雪笠怪": {
-    "img": 459,
-    "name": "Snover",
-    "types": ["Grass", "Ice"],
-    "baseStats": {
-      "hp": 60,
-      "atk": 62,
-      "def": 50,
-      "spa": 62,
-      "spd": 60,
-      "spe": 40
-    },
-    "abilities": {
-      "0": "Snow Warning",
-      "H": "Soundproof"
-    },
-    "heightm": 1,
-    "weightkg": 50.5,
-    "color": "White",
-    "evos": ["Abomasnow"],
-    "eggGroups": ["Monster", "Grass"],
-    "tier": "LC"
-  },
   "暴雪王": {
     "img": 460,
     "name": "Abomasnow",
@@ -2528,6 +3032,214 @@
     "changesFrom": "Rotom",
     "tier": "UU"
   },
+  "由克希": {
+    "img": 480,
+    "name": "Uxie",
+    "types": [
+      "Psychic"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 75,
+      "atk": 75,
+      "def": 130,
+      "spa": 75,
+      "spd": 130,
+      "spe": 95
+    },
+    "abilities": {
+      "0": "Levitate"
+    },
+    "heightm": 0.3,
+    "weightkg": 0.3,
+    "color": "Yellow",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
+  "艾姆利多": {
+    "img": 481,
+    "name": "Mesprit",
+    "types": [
+      "Psychic"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 80,
+      "atk": 105,
+      "def": 105,
+      "spa": 105,
+      "spd": 105,
+      "spe": 80
+    },
+    "abilities": {
+      "0": "Levitate"
+    },
+    "heightm": 0.3,
+    "weightkg": 0.3,
+    "color": "Pink",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
+  "亞克諾姆": {
+    "img": 482,
+    "name": "Azelf",
+    "types": [
+      "Psychic"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 75,
+      "atk": 125,
+      "def": 70,
+      "spa": 125,
+      "spd": 70,
+      "spe": 115
+    },
+    "abilities": {
+      "0": "Levitate"
+    },
+    "heightm": 0.3,
+    "weightkg": 0.3,
+    "color": "Blue",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
+  "席多藍恩": {
+    "img": 485,
+    "name": "Heatran",
+    "types": [
+      "Fire",
+      "Steel"
+    ],
+    "baseStats": {
+      "hp": 91,
+      "atk": 90,
+      "def": 106,
+      "spa": 130,
+      "spd": 106,
+      "spe": 77
+    },
+    "abilities": {
+      "0": "Flash Fire",
+      "H": "Flame Body"
+    },
+    "heightm": 1.7,
+    "weightkg": 430,
+    "color": "Brown",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
+  "克雷色利亞": {
+    "img": 488,
+    "name": "Cresselia",
+    "types": [
+      "Psychic"
+    ],
+    "gender": "F",
+    "baseStats": {
+      "hp": 120,
+      "atk": 70,
+      "def": 110,
+      "spa": 75,
+      "spd": 120,
+      "spe": 85
+    },
+    "abilities": {
+      "0": "Levitate"
+    },
+    "heightm": 1.5,
+    "weightkg": 85.6,
+    "color": "Yellow",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
+  "大劍鬼": {
+    "img": 503,
+    "name": "Samurott",
+    "types": ["Water"],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 95,
+      "atk": 100,
+      "def": 85,
+      "spa": 108,
+      "spd": 70,
+      "spe": 70
+    },
+    "abilities": {
+      "0": "Torrent",
+      "H": "Shell Armor"
+    },
+    "heightm": 1.5,
+    "weightkg": 94.6,
+    "color": "Blue",
+    "prevo": "Dewott",
+    "evoLevel": 36,
+    "eggGroups": ["Field"],
+    "otherFormes": ["Samurott-Hisui"],
+    "formeOrder": ["Samurott", "Samurott-Hisui"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
+  },
+  "大劍鬼-洗翠": {
+    "img": 10236,
+    "name": "Samurott-Hisui",
+    "baseSpecies": "Samurott",
+    "forme": "Hisui",
+    "types": ["Water", "Dark"],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 108,
+      "def": 80,
+      "spa": 100,
+      "spd": 65,
+      "spe": 85
+    },
+    "abilities": {
+      "0": "Torrent",
+      "H": "Sharpness"
+    },
+    "heightm": 1.5,
+    "weightkg": 58.2,
+    "color": "Blue",
+    "prevo": "Dewott",
+    "evoLevel": 36,
+    "eggGroups": ["Field"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
+  },
   "裙兒小姐": {
     "img": 549,
     "name": "Lilligant",
@@ -2556,6 +3268,36 @@
     "otherFormes": ["Lilligant-Hisui"],
     "formeOrder": ["Lilligant", "Lilligant-Hisui"],
     "tier": "UU"
+  },
+  "裙兒小姐-洗翠": {
+    "img": 10237,
+    "name": "Lilligant-Hisui",
+    "baseSpecies": "Lilligant",
+    "forme": "Hisui",
+    "types": ["Grass", "Fighting"],
+    "gender": "F",
+    "baseStats": {
+      "hp": 70,
+      "atk": 105,
+      "def": 75,
+      "spa": 50,
+      "spd": 75,
+      "spe": 105
+    },
+    "abilities": {
+      "0": "Chlorophyll",
+      "1": "Hustle",
+      "H": "Leaf Guard"
+    },
+    "heightm": 1.2,
+    "weightkg": 19.2,
+    "color": "Green",
+    "prevo": "Petilil",
+    "evoType": "useItem",
+    "evoItem": "Sun Stone",
+    "eggGroups": ["Grass"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
   },
   "流氓鱷": {
     "img": 553,
@@ -2610,6 +3352,36 @@
     "otherFormes": ["Zoroark-Hisui"],
     "formeOrder": ["Zoroark", "Zoroark-Hisui"],
     "tier": "UU"
+  },
+  "索羅亞克-洗翠": {
+    "img": 10239,
+    "name": "Zoroark-Hisui",
+    "baseSpecies": "Zoroark",
+    "forme": "Hisui",
+    "types": ["Normal", "Ghost"],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 55,
+      "atk": 100,
+      "def": 60,
+      "spa": 125,
+      "spd": 60,
+      "spe": 110
+    },
+    "abilities": {
+      "0": "Illusion"
+    },
+    "heightm": 1.6,
+    "weightkg": 73,
+    "color": "Gray",
+    "prevo": "Zorua-Hisui",
+    "evoLevel": 30,
+    "eggGroups": ["Field"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
   },
   "哥德小姐": {
     "img": 576,
@@ -2870,6 +3642,35 @@
     "formeOrder": ["Braviary", "Braviary-Hisui"],
     "tier": "UU"
   },
+  "勇士雄鷹-洗翠": {
+    "img": 10240,
+    "name": "Braviary-Hisui",
+    "baseSpecies": "Braviary",
+    "forme": "Hisui",
+    "types": ["Psychic", "Flying"],
+    "gender": "M",
+    "baseStats": {
+      "hp": 110,
+      "atk": 83,
+      "def": 70,
+      "spa": 112,
+      "spd": 70,
+      "spe": 65
+    },
+    "abilities": {
+      "0": "Keen Eye",
+      "1": "Sheer Force",
+      "H": "Tinted Lens"
+    },
+    "heightm": 1.7,
+    "weightkg": 43.4,
+    "color": "White",
+    "prevo": "Rufflet",
+    "evoLevel": 54,
+    "eggGroups": ["Flying"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
+  },
   "三首惡龍": {
     "img": 635,
     "name": "Hydreigon",
@@ -2916,6 +3717,189 @@
     "evoLevel": 59,
     "eggGroups": ["Bug"],
     "tier": "OU"
+  },
+  "龍捲雲-化身": {
+    "img": 641,
+    "name": "Tornadus",
+    "baseForme": "Incarnate",
+    "types": ["Flying"],
+    "gender": "M",
+    "baseStats": {
+      "hp": 79,
+      "atk": 115,
+      "def": 70,
+      "spa": 125,
+      "spd": 80,
+      "spe": 111
+    }
+  },
+  "龍捲雲-靈獸": {
+    "img": 10019,
+    "name": "Tornadus-Therian",
+    "baseSpecies": "Tornadus",
+    "forme": "Therian",
+    "types": ["Flying"],
+    "gender": "M",
+    "baseStats": {
+      "hp": 79,
+      "atk": 100,
+      "def": 80,
+      "spa": 110,
+      "spd": 90,
+      "spe": 121
+    }
+  },
+  "雷電雲-化身": {
+    "img": 642,
+    "name": "Thundurus",
+    "baseForme": "Incarnate",
+    "types": ["Electric", "Flying"],
+    "gender": "M",
+    "baseStats": {
+      "hp": 79,
+      "atk": 115,
+      "def": 70,
+      "spa": 125,
+      "spd": 80,
+      "spe": 111
+    }
+  },
+  "雷電雲-靈獸": {
+    "img": 10020,
+    "name": "Thundurus-Therian",
+    "baseSpecies": "Thundurus",
+    "forme": "Therian",
+    "types": ["Electric", "Flying"],
+    "gender": "M",
+    "baseStats": {
+      "hp": 79,
+      "atk": 105,
+      "def": 70,
+      "spa": 145,
+      "spd": 80,
+      "spe": 101
+    }
+  },
+  "土地雲-化身": {
+    "img": 645,
+    "name": "Landorus",
+    "baseForme": "Incarnate",
+    "types": ["Ground", "Flying"],
+    "gender": "M",
+    "baseStats": {
+      "hp": 89,
+      "atk": 125,
+      "def": 90,
+      "spa": 115,
+      "spd": 80,
+      "spe": 101
+    }
+  },
+  "土地雲-靈獸": {
+    "img": 10021,
+    "name": "Landorus-Therian",
+    "baseSpecies": "Landorus",
+    "forme": "Therian",
+    "types": ["Ground", "Flying"],
+    "gender": "M",
+    "baseStats": {
+      "hp": 89,
+      "atk": 145,
+      "def": 90,
+      "spa": 105,
+      "spd": 80,
+      "spe": 91
+    }
+  },
+  "布里卡隆": {
+    "img": 652,
+    "name": "Chesnaught",
+    "types": ["Grass", "Fighting"],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 88,
+      "atk": 107,
+      "def": 122,
+      "spa": 74,
+      "spd": 75,
+      "spe": 64
+    },
+    "abilities": {
+      "0": "Overgrow",
+      "H": "Bulletproof"
+    },
+    "heightm": 1.6,
+    "weightkg": 90,
+    "color": "Green",
+    "prevo": "Quilladin",
+    "evoLevel": 36,
+    "eggGroups": ["Field"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
+  },
+  "妖火紅狐": {
+    "img": 655,
+    "name": "Delphox",
+    "types": ["Fire", "Psychic"],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 75,
+      "atk": 69,
+      "def": 72,
+      "spa": 114,
+      "spd": 100,
+      "spe": 104
+    },
+    "abilities": {
+      "0": "Blaze",
+      "H": "Magician"
+    },
+    "heightm": 1.5,
+    "weightkg": 39,
+    "color": "Red",
+    "prevo": "Braixen",
+    "evoLevel": 36,
+    "eggGroups": ["Field"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
+  },
+  "甲賀忍蛙": {
+    "img": 658,
+    "name": "Greninja",
+    "types": ["Water", "Dark"],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 72,
+      "atk": 95,
+      "def": 67,
+      "spa": 103,
+      "spd": 71,
+      "spe": 122
+    },
+    "abilities": {
+      "0": "Torrent",
+      "H": "Protean",
+      "S": "Battle Bond"
+    },
+    "heightm": 1.5,
+    "weightkg": 40,
+    "color": "Blue",
+    "prevo": "Frogadier",
+    "evoLevel": 36,
+    "eggGroups": ["Water 1"],
+    "otherFormes": ["Greninja-Ash"],
+    "formeOrder": ["Greninja", "Greninja", "Greninja-Ash"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
   },
   "烈箭鷹": {
     "img": 663,
@@ -3253,6 +4237,34 @@
     "formeOrder": ["Goodra", "Goodra-Hisui"],
     "tier": "UU"
   },
+  "黏美龍-洗翠": {
+    "img": 10242,
+    "name": "Goodra-Hisui",
+    "baseSpecies": "Goodra",
+    "forme": "Hisui",
+    "types": ["Steel", "Dragon"],
+    "baseStats": {
+      "hp": 80,
+      "atk": 100,
+      "def": 100,
+      "spa": 110,
+      "spd": 150,
+      "spe": 60
+    },
+    "abilities": {
+      "0": "Sap Sipper",
+      "1": "Shell Armor",
+      "H": "Gooey"
+    },
+    "heightm": 1.7,
+    "weightkg": 334.1,
+    "color": "Purple",
+    "prevo": "Sliggoo-Hisui",
+    "evoLevel": 50,
+    "eggGroups": ["Dragon"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
+  },
   "鑰圈兒": {
     "img": 707,
     "name": "Klefki",
@@ -3302,6 +4314,34 @@
     "formeOrder": ["Avalugg", "Avalugg-Hisui"],
     "tier": "UU"
   },
+  "冰岩怪-洗翠": {
+    "img": 10244,
+    "name": "Avalugg-Hisui",
+    "baseSpecies": "Avalugg",
+    "forme": "Hisui",
+    "types": ["Ice", "Rock"],
+    "baseStats": {
+      "hp": 95,
+      "atk": 127,
+      "def": 184,
+      "spa": 34,
+      "spd": 36,
+      "spe": 38
+    },
+    "abilities": {
+      "0": "Strong Jaw",
+      "1": "Ice Body",
+      "H": "Sturdy"
+    },
+    "heightm": 1.4,
+    "weightkg": 262.4,
+    "color": "Blue",
+    "prevo": "Bergmite",
+    "evoLevel": 37,
+    "eggGroups": ["Monster", "Mineral"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
+  },
   "音波龍": {
     "img": 715,
     "name": "Noivern",
@@ -3326,6 +4366,68 @@
     "evoLevel": 48,
     "eggGroups": ["Flying", "Dragon"],
     "tier": "UU"
+  },
+  "狙射樹梟": {
+    "img": 724,
+    "name": "Decidueye",
+    "types": ["Grass", "Ghost"],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 78,
+      "atk": 107,
+      "def": 75,
+      "spa": 100,
+      "spd": 100,
+      "spe": 70
+    },
+    "abilities": {
+      "0": "Overgrow",
+      "H": "Long Reach"
+    },
+    "heightm": 1.6,
+    "weightkg": 36.6,
+    "color": "Brown",
+    "prevo": "Dartrix",
+    "evoLevel": 34,
+    "eggGroups": ["Flying"],
+    "otherFormes": ["Decidueye-Hisui"],
+    "formeOrder": ["Decidueye", "Decidueye-Hisui"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
+  },
+  "狙射樹梟-洗翠": {
+    "img": 10244,
+    "name": "Decidueye-Hisui",
+    "baseSpecies": "Decidueye",
+    "forme": "Hisui",
+    "types": ["Grass", "Fighting"],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 88,
+      "atk": 112,
+      "def": 80,
+      "spa": 95,
+      "spd": 95,
+      "spe": 60
+    },
+    "abilities": {
+      "0": "Overgrow",
+      "H": "Scrappy"
+    },
+    "heightm": 1.6,
+    "weightkg": 37,
+    "color": "Brown",
+    "prevo": "Dartrix",
+    "evoLevel": 36,
+    "eggGroups": ["Flying"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
   },
   "貓鼬探長": {
     "img": 735,
@@ -3718,7 +4820,7 @@
     "eggGroups": ["Field"],
     "tier": "UU"
   },
-  "謎擬Ｑ": {
+  "謎擬Q": {
     "img": 778,
     "name": "Mimikyu",
     "baseForme": "Disguised",
@@ -3769,6 +4871,96 @@
     "color": "Pink",
     "eggGroups": ["Water 2"],
     "tier": "UU"
+  },
+  "轟擂金剛猩": {
+    "img": 812,
+    "name": "Rillaboom",
+    "types": ["Grass"],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 125,
+      "def": 90,
+      "spa": 60,
+      "spd": 70,
+      "spe": 85
+    },
+    "abilities": {
+      "0": "Overgrow",
+      "H": "Grassy Surge"
+    },
+    "heightm": 2.1,
+    "weightkg": 90,
+    "color": "Green",
+    "prevo": "Thwackey",
+    "evoLevel": 35,
+    "eggGroups": ["Field", "Grass"],
+    "canGigantamax": "G-Max Drum Solo",
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
+  },
+  "閃焰王牌": {
+    "img": 815,
+    "name": "Cinderace",
+    "types": ["Fire"],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 116,
+      "def": 75,
+      "spa": 65,
+      "spd": 75,
+      "spe": 119
+    },
+    "abilities": {
+      "0": "Blaze",
+      "H": "Libero"
+    },
+    "heightm": 1.4,
+    "weightkg": 33,
+    "color": "White",
+    "prevo": "Raboot",
+    "evoLevel": 35,
+    "eggGroups": ["Field", "Human-Like"],
+    "canGigantamax": "G-Max Fireball",
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
+  },
+  "千面避役": {
+    "img": 818,
+    "name": "Inteleon",
+    "types": ["Water"],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 70,
+      "atk": 85,
+      "def": 65,
+      "spa": 125,
+      "spd": 65,
+      "spe": 120
+    },
+    "abilities": {
+      "0": "Torrent",
+      "H": "Sniper"
+    },
+    "heightm": 1.9,
+    "weightkg": 45.2,
+    "color": "Blue",
+    "prevo": "Drizzile",
+    "evoLevel": 35,
+    "eggGroups": ["Water 1", "Field"],
+    "canGigantamax": "G-Max Hydrosnipe",
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
   },
   "藏飽栗鼠": {
     "img": 820,
@@ -4327,6 +5519,433 @@
     "prevo": "Drakloak",
     "evoLevel": 60,
     "eggGroups": ["Amorphous", "Dragon"],
+    "tier": "OU"
+  },
+  "武道熊師": {
+    "img": 892,
+    "name": "Urshifu",
+    "baseForme": "Single-Strike",
+    "types": [
+      "Fighting",
+      "Dark"
+    ],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 130,
+      "def": 100,
+      "spa": 63,
+      "spd": 60,
+      "spe": 97
+    },
+    "abilities": {
+      "0": "Unseen Fist"
+    },
+    "heightm": 1.9,
+    "weightkg": 105,
+    "color": "Gray",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "prevo": "Kubfu",
+    "evoType": "other",
+    "evoCondition": "Defeat the Single Strike Tower",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "otherFormes": [
+      "Urshifu-Rapid-Strike"
+    ],
+    "formeOrder": [
+      "Urshifu",
+      "Urshifu-Rapid-Strike"
+    ],
+    "canGigantamax": "G-Max One Blow",
+    "tier": "Uber"
+  },
+  "雷吉艾勒奇": {
+    "img": 894,
+    "name": "Regieleki",
+    "types": [
+      "Electric"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 80,
+      "atk": 100,
+      "def": 50,
+      "spa": 100,
+      "spd": 50,
+      "spe": 200
+    },
+    "abilities": {
+      "0": "Transistor"
+    },
+    "heightm": 1.2,
+    "weightkg": 145,
+    "color": "Yellow",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
+  "雷吉鐸拉戈": {
+    "img": 895,
+    "name": "Regidrago",
+    "types": [
+      "Dragon"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 200,
+      "atk": 100,
+      "def": 50,
+      "spa": 100,
+      "spd": 50,
+      "spe": 80
+    },
+    "abilities": {
+      "0": "Dragon's Maw"
+    },
+    "heightm": 2.1,
+    "weightkg": 200,
+    "color": "Green",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
+  "雪暴馬": {
+    "img": 896,
+    "name": "Glastrier",
+    "types": [
+      "Ice"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 100,
+      "atk": 145,
+      "def": 130,
+      "spa": 65,
+      "spd": 110,
+      "spe": 30
+    },
+    "abilities": {
+      "0": "Chilling Neigh"
+    },
+    "heightm": 2.2,
+    "weightkg": 800,
+    "color": "White",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
+  "靈幽馬": {
+    "img": 897,
+    "name": "Spectrier",
+    "types": [
+      "Ghost"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 100,
+      "atk": 65,
+      "def": 60,
+      "spa": 145,
+      "spd": 80,
+      "spe": 130
+    },
+    "abilities": {
+      "0": "Grim Neigh"
+    },
+    "heightm": 2,
+    "weightkg": 44.5,
+    "color": "Black",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "Uber"
+  },
+  "詭角鹿": {
+    "img": 899,
+    "name": "Wyrdeer",
+    "types": ["Normal", "Psychic"],
+    "baseStats": {
+      "hp": 103,
+      "atk": 105,
+      "def": 72,
+      "spa": 105,
+      "spd": 75,
+      "spe": 65
+    },
+    "abilities": {
+      "0": "Intimidate",
+      "1": "Frisk",
+      "H": "Sap Sipper"
+    },
+    "heightm": 1.8,
+    "weightkg": 95.1,
+    "color": "White",
+    "prevo": "Stantler",
+    "evoType": "other",
+    "evoCondition": "Use Agile style Psyshield Bash 20 times",
+    "eggGroups": ["Field"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
+  },
+  "劈斧螳螂": {
+    "img": 900,
+    "name": "Kleavor",
+    "types": ["Bug", "Rock"],
+    "baseStats": {
+      "hp": 70,
+      "atk": 135,
+      "def": 95,
+      "spa": 45,
+      "spd": 70,
+      "spe": 85
+    },
+    "abilities": {
+      "0": "Swarm",
+      "1": "Sheer Force",
+      "H": "Sharpness"
+    },
+    "heightm": 1.8,
+    "weightkg": 89,
+    "color": "Brown",
+    "prevo": "Scyther",
+    "evoType": "other",
+    "evoCondition": "Black Augurite",
+    "eggGroups": ["Bug"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
+  },
+  "月月熊": {
+    "img": 901,
+    "name": "Ursaluna",
+    "types": ["Ground", "Normal"],
+    "baseStats": {
+      "hp": 130,
+      "atk": 140,
+      "def": 105,
+      "spa": 45,
+      "spd": 80,
+      "spe": 50
+    },
+    "abilities": {
+      "0": "Guts",
+      "1": "Bulletproof",
+      "H": "Unnerve"
+    },
+    "heightm": 2.4,
+    "weightkg": 290,
+    "color": "Brown",
+    "prevo": "Ursaring",
+    "evoType": "other",
+    "evoCondition": "Peat Block when there's a full moon",
+    "eggGroups": ["Field"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
+  },
+  "幽尾玄魚-公": {
+    "img": 902,
+    "name": "Basculegion",
+    "baseForme": "M",
+    "types": ["Water", "Ghost"],
+    "gender": "M",
+    "baseStats": {
+      "hp": 120,
+      "atk": 112,
+      "def": 65,
+      "spa": 80,
+      "spd": 75,
+      "spe": 78
+    },
+    "abilities": {
+      "0": "Swift Swim",
+      "1": "Adaptability",
+      "H": "Mold Breaker"
+    },
+    "heightm": 3,
+    "weightkg": 110,
+    "color": "Green",
+    "prevo": "Basculin-White-Striped",
+    "evoType": "other",
+    "evoCondition": "Receive 294+ recoil without fainting",
+    "eggGroups": ["Water 2"],
+    "otherFormes": ["Basculegion-F"],
+    "formeOrder": ["Basculegion", "Basculegion-F"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
+  },
+  "幽尾玄魚-母": {
+    "img": 10248,
+    "name": "Basculegion-F",
+    "baseSpecies": "Basculegion",
+    "forme": "F",
+    "types": ["Water", "Ghost"],
+    "gender": "F",
+    "baseStats": {
+      "hp": 120,
+      "atk": 92,
+      "def": 65,
+      "spa": 100,
+      "spd": 75,
+      "spe": 78
+    },
+    "abilities": {
+      "0": "Swift Swim",
+      "1": "Adaptability",
+      "H": "Mold Breaker"
+    },
+    "heightm": 3,
+    "weightkg": 110,
+    "color": "Green",
+    "prevo": "Basculin-White-Striped",
+    "evoType": "other",
+    "evoCondition": "Receive 294+ recoil without fainting",
+    "eggGroups": ["Water 2"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
+  },
+  "大狃拉": {
+    "img": 903,
+    "name": "Sneasler",
+    "types": ["Fighting", "Poison"],
+    "baseStats": {
+      "hp": 80,
+      "atk": 130,
+      "def": 60,
+      "spa": 40,
+      "spd": 80,
+      "spe": 120
+    },
+    "abilities": {
+      "0": "Pressure",
+      "1": "Unburden",
+      "H": "Poison Touch"
+    },
+    "heightm": 1.3,
+    "weightkg": 43,
+    "color": "Purple",
+    "prevo": "Sneasel-Hisui",
+    "evoType": "levelHold",
+    "evoItem": "Razor Claw",
+    "evoCondition": "during the day",
+    "eggGroups": ["Field"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
+  },
+  "萬針魚": {
+    "img": 904,
+    "name": "Overqwil",
+    "types": ["Dark", "Poison"],
+    "baseStats": {
+      "hp": 85,
+      "atk": 115,
+      "def": 95,
+      "spa": 65,
+      "spd": 65,
+      "spe": 85
+    },
+    "abilities": {
+      "0": "Poison Point",
+      "1": "Swift Swim",
+      "H": "Intimidate"
+    },
+    "heightm": 0.5,
+    "weightkg": 3.9,
+    "color": "Gray",
+    "prevo": "Qwilfish-Hisui",
+    "evoType": "other",
+    "evoCondition": "Use Strong style Barb Barrage 20 times",
+    "eggGroups": ["Water 2"],
+    "tier": "Unreleased",
+    "isNonstandard": "Unobtainable"
+  },
+  "眷戀雲": {
+    "img": 905,
+    "name": "Enamorus",
+    "baseForme": "Incarnate",
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "gender": "F",
+    "baseStats": {
+      "hp": 74,
+      "atk": 115,
+      "def": 70,
+      "spa": 135,
+      "spd": 80,
+      "spe": 106
+    },
+    "abilities": {
+      "0": "Cute Charm",
+      "H": "Contrary"
+    },
+    "heightm": 1.6,
+    "weightkg": 48,
+    "color": "Pink",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "otherFormes": [
+      "Enamorus-Therian"
+    ],
+    "formeOrder": [
+      "Enamorus",
+      "Enamorus-Therian"
+    ],
+    "tier": "OU"
+  },
+  "眷戀雲-靈獸": {
+    "img": 10249,
+    "name": "Enamorus-Therian",
+    "baseSpecies": "Enamorus",
+    "forme": "Therian",
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "gender": "F",
+    "baseStats": {
+      "hp": 74,
+      "atk": 115,
+      "def": 110,
+      "spa": 135,
+      "spd": 100,
+      "spe": 46
+    },
+    "abilities": {
+      "0": "Overcoat"
+    },
+    "heightm": 1.6,
+    "weightkg": 48,
+    "color": "Pink",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "changesFrom": "Enamorus",
     "tier": "OU"
   },
   "魔幻假面喵": {

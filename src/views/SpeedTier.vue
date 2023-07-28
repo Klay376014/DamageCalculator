@@ -1,10 +1,11 @@
 <script setup>
-import { onMounted } from "vue";
 import { useSpeedTierStore } from "../stores/speedTier";
 
 const pms = useSpeedTierStore();
 const src1 = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/`;
 const src2 = `.png`;
+
+console.log(pms.newList.length);
 
 const extremeSpeed = (spe) => {
   return Math.trunc((((spe * 2 + 31 + 63) * 50) / 100 + 5) * 1.1);
@@ -28,17 +29,17 @@ const slowestSpeed = (spe) => {
 };
 </script>
 <template>
-  <div class="header">
-    <div class="describe text-center mt-2 fw-bold">
-      <h1>寶可夢速線表(Regulation C規則)</h1>
-      <p>
-        術語說明（以下皆為50等數值）<br />
-        頂速︰252S+／滿速︰252S／無練速︰0S／底速︰0S、個體0、性格減速
-      </p>
-    </div>
+  <div class="text-center mt-2 fw-bold">
+    <h1>寶可夢速線表(Regulation D)</h1>
+    <p>
+      術語說明（以下皆為50等數值）<br />
+      頂速︰252S+／滿速︰252S／無練速︰0S／底速︰0S、個體0、性格減速
+    </p>
   </div>
-  <div class="content container-fluid">
-    <table class="table text-white table-sm align-middle table-bordered">
+  <div class="container-fluid">
+    <table
+      class="table text-white table-sm align-middle table-bordered table-hover"
+    >
       <thead>
         <tr class="text-center">
           <th class="w120">寶可夢</th>
@@ -54,11 +55,11 @@ const slowestSpeed = (spe) => {
       <tbody v-for="pm in pms.newList">
         <tr class="text-center">
           <td>
-            <img v-lazy="src1 + pm[1].img + src2" height="45" width="45" />
+            <img :src="src1 + pm[1].img + src2" height="45" width="45" />
             <br />
             {{ pm[0] }}
           </td>
-          <td>{{ pm[1].baseStats.spe }}</td>
+          <td class="text-purple fw-bold">{{ pm[1].baseStats.spe }}</td>
           <td>{{ extremeSpeed(pm[1].baseStats.spe) }}</td>
           <td>{{ fullSpeed(pm[1].baseStats.spe) }}</td>
           <td>{{ extremeSpeedScarf(pm[1].baseStats.spe) }}</td>

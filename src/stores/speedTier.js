@@ -2,7 +2,7 @@ import { defineStore } from "pinia";
 import { ref } from "vue";
 import pm from "../pokedex_speedtier.json";
 
-export const useSpeedTierStore = defineStore("pokemon", () => {
+export const useSpeedTierStore = defineStore("SpeedTier", () => {
   const list = ref(pm);
 
   let newList = Object.entries(list.value).sort(
