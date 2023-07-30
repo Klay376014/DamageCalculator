@@ -1,10 +1,10 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import Calculator from '../views/Calculator.vue'
 import SpeedTier from '../views/SpeedTier.vue'
 
 const routes = [
   {
-    path: '/DamageCalculator',
+    path: '/',
     component: Calculator,
     meta: { keepAlive: true }
   },
@@ -15,7 +15,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes
 })
 
