@@ -10,7 +10,7 @@
       <ul class="list-unstyled d-flex mb-0">
         <li>
           <router-link
-            to="/DamageCalculator"
+            to="/"
             class="text-white fw-bold text-decoration-none"
             >傷害計算機</router-link
           >
