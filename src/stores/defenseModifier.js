@@ -19,7 +19,7 @@ export const UseDefenseStore = defineStore("def", () => {
     let dDown = 2;
     let cat = "Physical";
 
-    if (category === "Physical" || pm[attacker].move.num === 473) {
+    if (category === "Physical" || pm[attacker].move.num === 473 || pm[attacker].move.num === 540) {
       d = pm[defender].stat.def;
       dm.detailStat.defender.def = pm[defender].bp.def + "Def";
       if (attacker === "pokemon1") {
@@ -153,7 +153,7 @@ export const UseDefenseStore = defineStore("def", () => {
         pm[defender].item === "Booster Energy"
       ) {
         if (def > atk && def >= spa && def >= spd && def >= spe) {
-          if (cat === "Physical" || pm[attacker].move.num === 473) {
+          if (cat === "Physical" || pm[attacker].move.num === 473 || pm[attacker].move.num === 540) {
             dm.detailStat.defender.ability = abi.abilityList[defAbi].name;
           }
           return 1.3;
@@ -173,7 +173,7 @@ export const UseDefenseStore = defineStore("def", () => {
         pm[defender].item === "Booster Energy"
       ) {
         if (def > atk && def >= spa && def >= spd && def >= spe) {
-          if (cat === "Physical" || pm[attacker].move.num === 473) {
+          if (cat === "Physical" || pm[attacker].move.num === 473 || pm[attacker].move.num === 540) {
             dm.detailStat.defender.ability = abi.abilityList[defAbi].name;
           }
           return 1.3;
@@ -204,7 +204,7 @@ export const UseDefenseStore = defineStore("def", () => {
 
   const defModifierAura = (attacker, defender, cat) => {
     if (
-      (cat === "Physical" || pm[attacker].move.num === 473) &&
+      (cat === "Physical" || pm[attacker].move.num === 473 || pm[attacker].move.num === 540) &&
       pm.fieldCondition.aura.swordOfRuin &&
       (pm[defender].Name !== "古劍豹" ||
         (pm[defender].Name === "古劍豹" && pm[defender].ability !== "default"))

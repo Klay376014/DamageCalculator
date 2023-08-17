@@ -1657,6 +1657,25 @@
     "target": "normal",
     "type": "Water"
   },
+  "Origin Pulse": {
+    "num": 618,
+    "accuracy": 85,
+    "basePower": 110,
+    "category": "Special",
+    "name": "根源波動",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "pulse": 1,
+      "mirror": 1
+    },
+    "target": "allAdjacentFoes",
+    "type": "Water",
+    "contestType": "Beautiful",
+    "desc": "No additional effect.",
+    "shortDesc": "No additional effect. Hits adjacent foes."
+  },
   "Wave Crash": {
     "num": 834,
     "accuracy": 100,
@@ -2607,6 +2626,22 @@
     "target": "allAdjacentFoes",
     "type": "Ice"
   },
+  "Glacial Lance": {
+    "num": 824,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "雪矛",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "allAdjacentFoes",
+    "type": "Ice"
+  },
   "Mud Slap": {
     "num": 189,
     "accuracy": 100,
@@ -2878,6 +2913,25 @@
     "secondary": null,
     "target": "normal",
     "type": "Ground"
+  },
+  "Precipice Blades": {
+    "num": 619,
+    "accuracy": 85,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "斷崖之劍",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1
+    },
+    "target": "allAdjacentFoes",
+    "type": "Ground",
+    "contestType": "Cool",
+    "desc": "No additional effect.",
+    "shortDesc": "No additional effect. Hits adjacent foes."
   },
   "Disarming Voice": {
     "num": 574,
@@ -3829,6 +3883,47 @@
     "target": "normal",
     "type": "Ghost"
   },
+  "Shadow Force": {
+    "num": 467,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "暗影潛襲",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "charge": 1,
+      "mirror": 1,
+      "nosleeptalk": 1,
+      "noassist": 1,
+      "failinstruct": 1
+    },
+    "breaksProtect": true,
+    "condition": {
+      "duration": 2,
+      "onInvulnerability": false
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "Astral Barrage": {
+    "num": 825,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Special",
+    "name": "星碎",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "allAdjacentFoes",
+    "type": "Ghost"
+  },
   "Poison Sting": {
     "num": 40,
     "accuracy": 100,
@@ -4546,6 +4641,32 @@
     "secondary": null,
     "target": "any",
     "type": "Flying"
+  },
+  "Dragon Ascent": {
+    "num": 620,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "畫龍點晴",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "distance": 1
+    },
+    "self": {
+      "boosts": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "target": "any",
+    "type": "Flying",
+    "contestType": "Beautiful",
+    "desc": "Lowers the user's Defense and Special Defense by 1 stage.",
+    "shortDesc": "Lowers the user's Defense and Sp. Def by 1."
   },
   "Sky Attack": {
     "num": 143,
@@ -6618,6 +6739,23 @@
     "target": "normal",
     "type": "Psychic"
   },
+  "Psystrike": {
+    "num": 540,
+    "accuracy": 100,
+    "basePower": 100,
+    "category": "Special",
+    "overrideDefensiveStat": "def",
+    "name": "精神擊破",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Psychic"
+  },
   "Future Sight": {
     "num": 248,
     "accuracy": 100,
@@ -7288,6 +7426,45 @@
     "target": "normal",
     "type": "Steel"
   },
+  "Behemoth Blade": {
+    "num": 781,
+    "accuracy": 100,
+    "basePower": 100,
+    "category": "Physical",
+    "name": "巨獸斬",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "slicing": 1,
+      "failcopycat": 1,
+      "failmimic": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Steel"
+  },
+  "Behemoth Bash": {
+    "num": 782,
+    "accuracy": 100,
+    "basePower": 100,
+    "category": "Physical",
+    "name": "巨獸彈",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "failcopycat": 1,
+      "failmimic": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Steel"
+  },
   "Make It Rain": {
     "num": 874,
     "accuracy": 100,
@@ -7532,6 +7709,23 @@
     "target": "any",
     "type": "Dragon"
   },
+  "Spacial Rend": {
+    "num": 460,
+    "accuracy": 95,
+    "basePower": 100,
+    "category": "Special",
+    "name": "亞空裂斬",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "critRatio": 2,
+    "secondary": null,
+    "target": "normal",
+    "type": "Dragon"
+  },
   "Dragon Rush": {
     "num": 407,
     "accuracy": 75,
@@ -7551,6 +7745,29 @@
     },
     "target": "normal",
     "type": "Dragon"
+  },
+  "Dynamax Cannon": {
+    "num": 744,
+    "accuracy": 100,
+    "basePower": 100,
+    "category": "Special",
+    "name": "極巨炮",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "failencore": 1,
+      "nosleeptalk": 1,
+      "noparentalbond": 1,
+      "failcopycat": 1,
+      "failinstruct": 1,
+      "failmimic": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Dragon",
+    "desc": "No additional effect.",
+    "shortDesc": "No additional effect."
   },
   "Outrage": {
     "num": 200,
@@ -7631,6 +7848,26 @@
     },
     "secondary": null,
     "target": "allAdjacentFoes",
+    "type": "Dragon"
+  },
+  "Roar of Time": {
+    "num": 459,
+    "accuracy": 90,
+    "basePower": 150,
+    "category": "Special",
+    "name": "時光咆哮",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "recharge": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "self": {
+      "volatileStatus": "mustrecharge"
+    },
+    "secondary": null,
+    "target": "normal",
     "type": "Dragon"
   },
   "Infestation": {

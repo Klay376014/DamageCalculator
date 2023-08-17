@@ -1972,6 +1972,35 @@
     "eggGroups": ["Water 1", "Dragon"],
     "tier": "OU"
   },
+  "超夢": {
+    "num": 150,
+    "name": "Mewtwo",
+    "types": [
+      "Psychic"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 106,
+      "atk": 110,
+      "def": 90,
+      "spa": 154,
+      "spd": 90,
+      "spe": 130
+    },
+    "abilities": {
+      "0": "Pressure",
+      "H": "Unnerve"
+    },
+    "heightm": 2,
+    "weightkg": 122,
+    "color": "Purple",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tags": [
+      "Restricted Legendary"
+    ]
+  },
   "火球鼠": {
     "num": 155,
     "name": "Cyndaquil",
@@ -4247,6 +4276,91 @@
     "formeOrder": ["Salamence", "Salamence-Mega"],
     "tier": "UU"
   },
+  "蓋歐卡": {
+    "num": 382,
+    "name": "Kyogre",
+    "types": [
+      "Water"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 90,
+      "spa": 150,
+      "spd": 140,
+      "spe": 90
+    },
+    "abilities": {
+      "0": "Drizzle"
+    },
+    "heightm": 4.5,
+    "weightkg": 352,
+    "color": "Blue",
+    "tags": [
+      "Restricted Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ]
+  },
+  "固拉多": {
+    "num": 383,
+    "name": "Groudon",
+    "types": [
+      "Ground"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 100,
+      "atk": 150,
+      "def": 140,
+      "spa": 100,
+      "spd": 90,
+      "spe": 90
+    },
+    "abilities": {
+      "0": "Drought"
+    },
+    "heightm": 3.5,
+    "weightkg": 950,
+    "color": "Red",
+    "tags": [
+      "Restricted Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ]
+  },
+  "烈空座": {
+    "num": 384,
+    "name": "Rayquaza",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 105,
+      "atk": 150,
+      "def": 90,
+      "spa": 150,
+      "spd": 90,
+      "spe": 95
+    },
+    "abilities": {
+      "0": "Air Lock"
+    },
+    "heightm": 7,
+    "weightkg": 206.5,
+    "color": "Green",
+    "tags": [
+      "Restricted Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ]
+  },
   "姆克兒": {
     "num": 396,
     "name": "Starly",
@@ -5634,6 +5748,140 @@
     ],
     "tier": "OU"
   },
+  "帝牙盧卡": {
+    "num": 483,
+    "name": "Dialga",
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 100,
+      "atk": 120,
+      "def": 120,
+      "spa": 150,
+      "spd": 100,
+      "spe": 90
+    },
+    "abilities": {
+      "0": "Pressure",
+      "H": "Telepathy"
+    },
+    "heightm": 5.4,
+    "weightkg": 683,
+    "tags": [
+      "Restricted Legendary"
+    ],
+    "color": "White",
+    "eggGroups": [
+      "Undiscovered"
+    ]
+  },
+  "帝牙盧卡-起源": {
+    "num": 483,
+    "name": "Dialga-Origin",
+    "baseSpecies": "Dialga",
+    "forme": "Origin",
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 120,
+      "spa": 150,
+      "spd": 120,
+      "spe": 90
+    },
+    "abilities": {
+      "0": "Pressure",
+      "H": "Telepathy"
+    },
+    "heightm": 7,
+    "weightkg": 850,
+    "color": "White",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "requiredItem": "Adamant Crystal",
+    "changesFrom": "Dialga",
+    "gen": 8,
+    "tier": "Uber"
+  },
+  "帕路奇亞": {
+    "num": 484,
+    "name": "Palkia",
+    "types": [
+      "Water",
+      "Dragon"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 90,
+      "atk": 120,
+      "def": 100,
+      "spa": 150,
+      "spd": 120,
+      "spe": 100
+    },
+    "abilities": {
+      "0": "Pressure",
+      "H": "Telepathy"
+    },
+    "heightm": 4.2,
+    "weightkg": 336,
+    "color": "Purple",
+    "tags": [
+      "Restricted Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "otherFormes": [
+      "Palkia-Origin"
+    ],
+    "formeOrder": [
+      "Palkia",
+      "Palkia-Origin"
+    ],
+    "tier": "Uber"
+  },
+  "帕路奇亞-起源": {
+    "num": 484,
+    "name": "Palkia-Origin",
+    "baseSpecies": "Palkia",
+    "forme": "Origin",
+    "types": [
+      "Water",
+      "Dragon"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 90,
+      "atk": 100,
+      "def": 100,
+      "spa": 150,
+      "spd": 120,
+      "spe": 120
+    },
+    "abilities": {
+      "0": "Pressure",
+      "H": "Telepathy"
+    },
+    "heightm": 6.3,
+    "weightkg": 660,
+    "color": "Purple",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "requiredItem": "Lustrous Globe",
+    "changesFrom": "Palkia",
+    "gen": 8,
+    "tier": "Uber"
+  },
   "席多藍恩": {
     "num": 485,
     "name": "Heatran",
@@ -5663,6 +5911,84 @@
       "Undiscovered"
     ],
     "tier": "OU"
+  },
+  "騎拉帝納-別種": {
+    "num": 487,
+    "name": "Giratina",
+    "baseForme": "Altered",
+    "types": [
+      "Ghost",
+      "Dragon"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 150,
+      "atk": 100,
+      "def": 120,
+      "spa": 100,
+      "spd": 120,
+      "spe": 90
+    },
+    "abilities": {
+      "0": "Pressure",
+      "H": "Telepathy"
+    },
+    "heightm": 4.5,
+    "weightkg": 750,
+    "color": "Black",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tags": [
+      "Restricted Legendary"
+    ],
+    "otherFormes": [
+      "Giratina-Origin"
+    ],
+    "formeOrder": [
+      "Giratina",
+      "Giratina-Origin"
+    ],
+    "tier": "Uber"
+  },
+  "騎拉帝納-起源": {
+    "num": 487,
+    "name": "Giratina",
+    "baseForme": "Altered",
+    "types": [
+      "Ghost",
+      "Dragon"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 150,
+      "atk": 100,
+      "def": 120,
+      "spa": 100,
+      "spd": 120,
+      "spe": 90
+    },
+    "abilities": {
+      "0": "Pressure",
+      "H": "Telepathy"
+    },
+    "heightm": 4.5,
+    "weightkg": 750,
+    "color": "Black",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tags": [
+      "Restricted Legendary"
+    ],
+    "otherFormes": [
+      "Giratina-Origin"
+    ],
+    "formeOrder": [
+      "Giratina",
+      "Giratina-Origin"
+    ],
+    "tier": "Uber"
   },
   "克雷色利亞": {
     "num": 488,
@@ -10412,6 +10738,184 @@
     "eggGroups": ["Amorphous", "Dragon"],
     "tier": "OU"
   },
+  "蒼響-百戰勇者": {
+    "num": 888,
+    "name": "Zacian",
+    "baseForme": "Hero",
+    "types": [
+      "Fairy"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 92,
+      "atk": 120,
+      "def": 115,
+      "spa": 80,
+      "spd": 115,
+      "spe": 138
+    },
+    "abilities": {
+      "0": "Intrepid Sword"
+    },
+    "heightm": 2.8,
+    "weightkg": 110,
+    "color": "Blue",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tags": [
+      "Restricted Legendary"
+    ],
+    "otherFormes": [
+      "Zacian-Crowned"
+    ],
+    "formeOrder": [
+      "Zacian",
+      "Zacian-Crowned"
+    ],
+    "cannotDynamax": true,
+    "tier": "Uber"
+  },
+  "蒼響-劍之王": {
+    "num": 888,
+    "name": "Zacian-Crowned",
+    "baseSpecies": "Zacian",
+    "forme": "Crowned",
+    "types": [
+      "Fairy",
+      "Steel"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 92,
+      "atk": 150,
+      "def": 115,
+      "spa": 80,
+      "spd": 115,
+      "spe": 148
+    },
+    "abilities": {
+      "0": "Intrepid Sword"
+    },
+    "heightm": 2.8,
+    "weightkg": 355,
+    "color": "Blue",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "requiredItem": "Rusted Sword",
+    "battleOnly": "Zacian",
+    "cannotDynamax": true,
+    "tier": "Uber"
+  },
+  "藏瑪然特-百戰勇者": {
+    "num": 889,
+    "name": "Zamazenta",
+    "baseForme": "Hero",
+    "types": [
+      "Fighting"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 92,
+      "atk": 120,
+      "def": 115,
+      "spa": 80,
+      "spd": 115,
+      "spe": 138
+    },
+    "abilities": {
+      "0": "Dauntless Shield"
+    },
+    "heightm": 2.9,
+    "weightkg": 210,
+    "color": "Red",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tags": [
+      "Restricted Legendary"
+    ],
+    "otherFormes": [
+      "Zamazenta-Crowned"
+    ],
+    "formeOrder": [
+      "Zamazenta",
+      "Zamazenta-Crowned"
+    ],
+    "cannotDynamax": true,
+    "tier": "OU"
+  },
+  "藏瑪然特-盾之王": {
+    "num": 889,
+    "name": "Zamazenta-Crowned",
+    "baseSpecies": "Zamazenta",
+    "forme": "Crowned",
+    "types": [
+      "Fighting",
+      "Steel"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 92,
+      "atk": 120,
+      "def": 140,
+      "spa": 80,
+      "spd": 140,
+      "spe": 128
+    },
+    "abilities": {
+      "0": "Dauntless Shield"
+    },
+    "heightm": 2.9,
+    "weightkg": 785,
+    "color": "Red",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "requiredItem": "Rusted Shield",
+    "battleOnly": "Zamazenta",
+    "cannotDynamax": true,
+    "tier": "Uber"
+  },
+  "無極汰那": {
+    "num": 890,
+    "name": "Eternatus",
+    "types": [
+      "Poison",
+      "Dragon"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 140,
+      "atk": 85,
+      "def": 95,
+      "spa": 145,
+      "spd": 95,
+      "spe": 130
+    },
+    "abilities": {
+      "0": "Pressure"
+    },
+    "heightm": 20,
+    "weightkg": 950,
+    "color": "Purple",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tags": [
+      "Restricted Legendary"
+    ],
+    "otherFormes": [
+      "Eternatus-Eternamax"
+    ],
+    "formeOrder": [
+      "Eternatus",
+      "Eternatus-Eternamax"
+    ],
+    "cannotDynamax": true,
+    "tier": "Uber"
+  },
   "熊徒弟": {
     "num": 891,
     "name": "Kubfu",
@@ -10644,6 +11148,105 @@
       "Undiscovered"
     ],
     "tier": "Uber"
+  },
+  "蕾冠王": {
+    "num": 898,
+    "name": "Calyrex",
+    "types": [
+      "Psychic",
+      "Grass"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 100,
+      "atk": 80,
+      "def": 80,
+      "spa": 80,
+      "spd": 80,
+      "spe": 80
+    },
+    "abilities": {
+      "0": "Unnerve"
+    },
+    "heightm": 1.1,
+    "weightkg": 7.7,
+    "color": "Green",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tags": [
+      "Restricted Legendary"
+    ],
+    "otherFormes": [
+      "Calyrex-Ice",
+      "Calyrex-Shadow"
+    ],
+    "formeOrder": [
+      "Calyrex",
+      "Calyrex-Ice",
+      "Calyrex-Shadow"
+    ],
+    "tier": "(PU)"
+  },
+  "蕾冠王-白馬": {
+    "num": 898,
+    "name": "Calyrex-Ice",
+    "baseSpecies": "Calyrex",
+    "forme": "Ice",
+    "types": [
+      "Psychic",
+      "Ice"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 100,
+      "atk": 165,
+      "def": 150,
+      "spa": 85,
+      "spd": 130,
+      "spe": 50
+    },
+    "abilities": {
+      "0": "As One (Glastrier)"
+    },
+    "heightm": 2.4,
+    "weightkg": 809.1,
+    "color": "White",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "changesFrom": "Calyrex",
+    "tier": "Uber"
+  },
+  "蕾冠王-黑馬": {
+    "num": 898,
+    "name": "Calyrex-Shadow",
+    "baseSpecies": "Calyrex",
+    "forme": "Shadow",
+    "types": [
+      "Psychic",
+      "Ghost"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 100,
+      "atk": 85,
+      "def": 80,
+      "spa": 165,
+      "spd": 100,
+      "spe": 150
+    },
+    "abilities": {
+      "0": "As One (Spectrier)"
+    },
+    "heightm": 2.4,
+    "weightkg": 53.6,
+    "color": "Black",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "changesFrom": "Calyrex",
+    "tier": "AG"
   },
   "詭角鹿": {
     "num": 899,
