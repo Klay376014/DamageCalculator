@@ -1714,6 +1714,22 @@
     "target": "normal",
     "type": "Water"
   },
+  "Water Spout": {
+    "num": 323,
+    "accuracy": 100,
+    "basePower": 150,
+    "category": "Special",
+    "name": "噴水",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "allAdjacentFoes",
+    "type": "Water"
+  },
   "Heat Crash": {
     "num": 535,
     "accuracy": 100,
