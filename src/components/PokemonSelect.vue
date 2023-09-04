@@ -27,7 +27,7 @@ const clearName = ()=>{
 }
 
 const imageUrl = ref(
-  new URL(`../assets/images/${selectedPokemon.Name}.png`, import.meta.url).href
+  new URL(`../assets/images/default.png`, import.meta.url).href
 );
 
 const pokemonSelect = function (event) {
@@ -51,11 +51,7 @@ const pokemonSelect = function (event) {
         }
       }
 
-      imageUrl.value = new URL(
-        `../assets/images/${store.pokemon1.Name}.png`,
-        import.meta.url
-      ).href;
-
+      store.pokemon1.num = store.pokemonList[store.pokemon1.Name].num;
       store.pokemon1.type1 = store.pokemonList[store.pokemon1.Name].types[0];
       if (store.pokemonList[store.pokemon1.Name].types.length > 1) {
         store.pokemon1.type2 = store.pokemonList[store.pokemon1.Name].types[1];
@@ -74,6 +70,10 @@ const pokemonSelect = function (event) {
       store.pokemon1.spa = store.pokemonList[store.pokemon1.Name].baseStats.spa;
       store.pokemon1.spd = store.pokemonList[store.pokemon1.Name].baseStats.spd;
       store.pokemon1.spe = store.pokemonList[store.pokemon1.Name].baseStats.spe;
+
+      imageUrl.value = new URL(
+        `https://assets.pokemon.com/assets/cms2/img/pokedex/full/${store.pokemon1.num}.png`,
+      ).href;
     } catch (e) {
       imageUrl.value = new URL(
         `../assets/images/default.png`,
@@ -102,11 +102,7 @@ const pokemonSelect = function (event) {
         }
       }
 
-      imageUrl.value = new URL(
-        `../assets/images/${store.pokemon2.Name}.png`,
-        import.meta.url
-      ).href;
-
+      store.pokemon2.num = store.pokemonList[store.pokemon2.Name].num;
       store.pokemon2.type1 = store.pokemonList[store.pokemon2.Name].types[0];
       if (store.pokemonList[store.pokemon2.Name].types.length > 1) {
         store.pokemon2.type2 = store.pokemonList[store.pokemon2.Name].types[1];
@@ -125,6 +121,10 @@ const pokemonSelect = function (event) {
       store.pokemon2.spa = store.pokemonList[store.pokemon2.Name].baseStats.spa;
       store.pokemon2.spd = store.pokemonList[store.pokemon2.Name].baseStats.spd;
       store.pokemon2.spe = store.pokemonList[store.pokemon2.Name].baseStats.spe;
+
+      imageUrl.value = new URL(
+        `https://assets.pokemon.com/assets/cms2/img/pokedex/full/${store.pokemon2.num}.png`,
+      ).href;
     } catch (e) {
       imageUrl.value = new URL(
         `../assets/images/default.png`,

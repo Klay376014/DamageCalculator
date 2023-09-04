@@ -1,6 +1,6 @@
 {
   "小火龍": {
-    "num": 4,
+    "num": "004",
     "name": "Charmander",
     "types": [
       "Fire"
@@ -34,7 +34,7 @@
     "tier": "LC"
   },
   "火恐龍": {
-    "num": 5,
+    "num": "005",
     "name": "Charmeleon",
     "types": [
       "Fire"
@@ -70,7 +70,7 @@
     "tier": "NFE"
   },
   "噴火龍": {
-    "num": 6,
+    "num": "006",
     "name": "Charizard",
     "types": [
       "Fire",
@@ -114,7 +114,7 @@
     "tier": "OU"
   },
   "阿柏蛇": {
-    "num": 23,
+    "num": "023",
     "name": "Ekans",
     "types": [
       "Poison"
@@ -140,7 +140,7 @@
     ]
   },
   "阿柏怪": {
-    "num": 24,
+    "num": "024",
     "name": "Arbok",
     "types": [
       "Poison"
@@ -165,7 +165,7 @@
     "evoLevel": 22
   },
   "皮卡丘": {
-    "num": 25,
+    "num": "025",
     "name": "Pikachu",
     "types": [
       "Electric"
@@ -234,7 +234,7 @@
     "tier": "NFE"
   },
   "雷丘": {
-    "num": 26,
+    "num": "026",
     "name": "Raichu",
     "types": [
       "Electric"
@@ -271,7 +271,7 @@
     "tier": "UU"
   },
   "雷丘-阿羅拉": {
-    "num": 26,
+    "num": "026_f2",
     "name": "Raichu-Alola",
     "baseSpecies": "Raichu",
     "forme": "Alola",
@@ -304,8 +304,103 @@
     "tier": "Unreleased",
     "isNonstandard": "Unobtainable"
   },
+  "穿山鼠": {
+    "num": "027",
+    "name": "Sandshrew",
+    "types": ["Ground"],
+    "baseStats": {
+      "hp": 50,
+      "atk": 75,
+      "def": 85,
+      "spa": 20,
+      "spd": 30,
+      "spe": 40
+    },
+    "abilities": { "0": "Sand Veil", "H": "Sand Rush" },
+    "heightm": 0.6,
+    "weightkg": 12,
+    "color": "Yellow",
+    "evos": ["Sandslash"],
+    "eggGroups": ["Field"],
+    "otherFormes": ["Sandshrew-Alola"],
+    "formeOrder": ["Sandshrew", "Sandshrew-Alola"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "穿山鼠-阿羅拉": {
+    "num": "027_f2",
+    "name": "Sandshrew-Alola",
+    "baseSpecies": "Sandshrew",
+    "forme": "Alola",
+    "types": ["Ice", "Steel"],
+    "baseStats": {
+      "hp": 50,
+      "atk": 75,
+      "def": 90,
+      "spa": 10,
+      "spd": 35,
+      "spe": 40
+    },
+    "abilities": { "0": "Snow Cloak", "H": "Slush Rush" },
+    "heightm": 0.7,
+    "weightkg": 40,
+    "color": "White",
+    "evos": ["Sandslash-Alola"],
+    "eggGroups": ["Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "穿山王": {
+    "num": "028",
+    "name": "Sandslash",
+    "types": ["Ground"],
+    "baseStats": {
+      "hp": 75,
+      "atk": 100,
+      "def": 110,
+      "spa": 45,
+      "spd": 55,
+      "spe": 65
+    },
+    "abilities": { "0": "Sand Veil", "H": "Sand Rush" },
+    "heightm": 1,
+    "weightkg": 29.5,
+    "color": "Yellow",
+    "prevo": "Sandshrew",
+    "evoLevel": 22,
+    "eggGroups": ["Field"],
+    "otherFormes": ["Sandslash-Alola"],
+    "formeOrder": ["Sandslash", "Sandslash-Alola"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "穿山王-阿羅拉": {
+    "num": "028_f2",
+    "name": "Sandslash-Alola",
+    "baseSpecies": "Sandslash",
+    "forme": "Alola",
+    "types": ["Ice", "Steel"],
+    "baseStats": {
+      "hp": 75,
+      "atk": 100,
+      "def": 120,
+      "spa": 25,
+      "spd": 65,
+      "spe": 65
+    },
+    "abilities": { "0": "Snow Cloak", "H": "Slush Rush" },
+    "heightm": 1.2,
+    "weightkg": 55,
+    "color": "Blue",
+    "prevo": "Sandshrew-Alola",
+    "evoType": "useItem",
+    "evoItem": "Ice Stone",
+    "eggGroups": ["Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "皮皮": {
-    "num": 35,
+    "num": "035",
     "name": "Clefairy",
     "types": [
       "Fairy"
@@ -342,7 +437,7 @@
     "isNonstandard": "Past"
   },
   "皮可西": {
-    "num": 36,
+    "num": "036",
     "name": "Clefable",
     "types": [
       "Fairy"
@@ -377,7 +472,7 @@
     "isNonstandard": "Past"
   },
   "六尾": {
-    "num": 37,
+    "num": "037",
     "name": "Vulpix",
     "types": [
       "Fire"
@@ -418,7 +513,7 @@
     "isNonstandard": "Past"
   },
   "六尾-阿羅拉": {
-    "num": 37,
+    "num": "037_f2",
     "name": "Vulpix-Alola",
     "baseSpecies": "Vulpix",
     "forme": "Alola",
@@ -454,7 +549,7 @@
     "isNonstandard": "Past"
   },
   "九尾": {
-    "num": 38,
+    "num": "038",
     "name": "Ninetales",
     "types": [
       "Fire"
@@ -495,7 +590,7 @@
     "isNonstandard": "Past"
   },
   "九尾-阿羅拉": {
-    "num": 38,
+    "num": "038_f2",
     "name": "Ninetales-Alola",
     "baseSpecies": "Ninetales",
     "forme": "Alola",
@@ -532,7 +627,7 @@
     "isNonstandard": "Past"
   },
   "胖丁": {
-    "num": 39,
+    "num": "039",
     "name": "Jigglypuff",
     "types": [
       "Normal",
@@ -569,7 +664,7 @@
     "tier": "NFE"
   },
   "胖可丁": {
-    "num": 40,
+    "num": "040",
     "name": "Wigglytuff",
     "types": [
       "Normal",
@@ -604,7 +699,7 @@
     "tier": "UU"
   },
   "毛球": {
-    "num": 48,
+    "num": "048",
     "name": "Venonat",
     "types": [
       "Bug",
@@ -635,7 +730,7 @@
     "tier": "LC"
   },
   "摩魯蛾": {
-    "num": 49,
+    "num": "049",
     "name": "Venomoth",
     "types": [
       "Bug",
@@ -665,7 +760,7 @@
     "tier": "UU"
   },
   "地鼠": {
-    "num": 50,
+    "num": "050",
     "name": "Diglett",
     "types": [
       "Ground"
@@ -702,7 +797,7 @@
     "tier": "LC"
   },
   "地鼠-阿羅拉": {
-    "num": 50,
+    "num": "050_f2",
     "name": "Diglett-Alola",
     "baseSpecies": "Diglett",
     "forme": "Alola",
@@ -736,7 +831,7 @@
     "isNonstandard": "Unobtainable"
   },
   "三地鼠": {
-    "num": 51,
+    "num": "051",
     "name": "Dugtrio",
     "types": [
       "Ground"
@@ -772,7 +867,7 @@
     "tier": "UU"
   },
   "三地鼠-阿羅拉": {
-    "num": 51,
+    "num": "051_f2",
     "name": "Dugtrio-Alola",
     "baseSpecies": "Dugtrio",
     "forme": "Alola",
@@ -805,7 +900,7 @@
     "isNonstandard": "Unobtainable"
   },
   "喵喵": {
-    "num": 52,
+    "num": "052",
     "name": "Meowth",
     "types": [
       "Normal"
@@ -845,7 +940,7 @@
     "tier": "LC"
   },
   "喵喵-阿羅拉": {
-    "num": 52,
+    "num": "052_f2",
     "name": "Meowth-Alola",
     "baseSpecies": "Meowth",
     "forme": "Alola",
@@ -878,7 +973,7 @@
     "isNonstandard": "Unobtainable"
   },
   "喵喵-伽勒爾": {
-    "num": 52,
+    "num": "052_f3",
     "name": "Meowth-Galar",
     "baseSpecies": "Meowth",
     "forme": "Galar",
@@ -910,7 +1005,7 @@
     "tier": "LC"
   },
   "貓老大": {
-    "num": 53,
+    "num": "053",
     "name": "Persian",
     "types": [
       "Normal"
@@ -946,7 +1041,7 @@
     "tier": "UU"
   },
   "貓老大-阿羅拉": {
-    "num": 53,
+    "num": "053_f2",
     "name": "Persian-Alola",
     "baseSpecies": "Persian",
     "forme": "Alola",
@@ -978,7 +1073,7 @@
     "isNonstandard": "Unobtainable"
   },
   "可達鴨": {
-    "num": 54,
+    "num": "054",
     "name": "Psyduck",
     "types": [
       "Water"
@@ -1009,7 +1104,7 @@
     "tier": "LC"
   },
   "哥達鴨": {
-    "num": 55,
+    "num": "055",
     "name": "Golduck",
     "types": [
       "Water"
@@ -1039,7 +1134,7 @@
     "tier": "UU"
   },
   "猴怪": {
-    "num": 56,
+    "num": "056",
     "name": "Mankey",
     "types": [
       "Fighting"
@@ -1069,7 +1164,7 @@
     "tier": "LC"
   },
   "火爆猴": {
-    "num": 57,
+    "num": "057",
     "name": "Primeape",
     "types": [
       "Fighting"
@@ -1101,7 +1196,7 @@
     "tier": "NFE"
   },
   "卡蒂狗": {
-    "num": 58,
+    "num": "058",
     "name": "Growlithe",
     "types": [
       "Fire"
@@ -1142,7 +1237,7 @@
     "tier": "LC"
   },
   "卡蒂狗-洗翠": {
-    "num": 58,
+    "num": "058_f2",
     "name": "Growlithe-Hisui",
     "baseSpecies": "Growlithe",
     "forme": "Hisui",
@@ -1180,7 +1275,7 @@
     "isNonstandard": "Unobtainable"
   },
   "風速狗": {
-    "num": 59,
+    "num": "059",
     "name": "Arcanine",
     "types": [
       "Fire"
@@ -1221,7 +1316,7 @@
     "tier": "UU"
   },
   "風速狗-洗翠": {
-    "num": 59,
+    "num": "059_f2",
     "name": "Arcanine-Hisui",
     "baseSpecies": "Arcanine",
     "forme": "Hisui",
@@ -1258,8 +1353,142 @@
     "tier": "Unreleased",
     "isNonstandard": "Unobtainable"
   },
+  "蚊香蝌蚪": {
+    "num": "060",
+    "name": "Poliwag",
+    "types": ["Water"],
+    "baseStats": {
+      "hp": 40,
+      "atk": 50,
+      "def": 40,
+      "spa": 40,
+      "spd": 40,
+      "spe": 90
+    },
+    "abilities": { "0": "Water Absorb", "1": "Damp", "H": "Swift Swim" },
+    "heightm": 0.6,
+    "weightkg": 12.4,
+    "color": "Blue",
+    "evos": ["Poliwhirl"],
+    "eggGroups": ["Water 1"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "蚊香君": {
+    "num": "061",
+    "name": "Poliwhirl",
+    "types": ["Water"],
+    "baseStats": {
+      "hp": 65,
+      "atk": 65,
+      "def": 65,
+      "spa": 50,
+      "spd": 50,
+      "spe": 90
+    },
+    "abilities": { "0": "Water Absorb", "1": "Damp", "H": "Swift Swim" },
+    "heightm": 1,
+    "weightkg": 20,
+    "color": "Blue",
+    "prevo": "Poliwag",
+    "evoLevel": 25,
+    "evos": ["Poliwrath", "Politoed"],
+    "eggGroups": ["Water 1"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "蚊香泳士": {
+    "num": "062",
+    "name": "Poliwrath",
+    "types": ["Water", "Fighting"],
+    "baseStats": {
+      "hp": 90,
+      "atk": 95,
+      "def": 95,
+      "spa": 70,
+      "spd": 90,
+      "spe": 70
+    },
+    "abilities": { "0": "Water Absorb", "1": "Damp", "H": "Swift Swim" },
+    "heightm": 1.3,
+    "weightkg": 54,
+    "color": "Blue",
+    "prevo": "Poliwhirl",
+    "evoType": "useItem",
+    "evoItem": "Water Stone",
+    "eggGroups": ["Water 1"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "喇叭芽": {
+    "num": "069",
+    "name": "Bellsprout",
+    "types": ["Grass", "Poison"],
+    "baseStats": {
+      "hp": 50,
+      "atk": 75,
+      "def": 35,
+      "spa": 70,
+      "spd": 30,
+      "spe": 40
+    },
+    "abilities": { "0": "Chlorophyll", "H": "Gluttony" },
+    "heightm": 0.7,
+    "weightkg": 4,
+    "color": "Green",
+    "evos": ["Weepinbell"],
+    "eggGroups": ["Grass"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "口呆花": {
+    "num": "070",
+    "name": "Weepinbell",
+    "types": ["Grass", "Poison"],
+    "baseStats": {
+      "hp": 65,
+      "atk": 90,
+      "def": 50,
+      "spa": 85,
+      "spd": 45,
+      "spe": 55
+    },
+    "abilities": { "0": "Chlorophyll", "H": "Gluttony" },
+    "heightm": 1,
+    "weightkg": 6.4,
+    "color": "Green",
+    "prevo": "Bellsprout",
+    "evoLevel": 21,
+    "evos": ["Victreebel"],
+    "eggGroups": ["Grass"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "大食花": {
+    "num": "071",
+    "name": "Victreebel",
+    "types": ["Grass", "Poison"],
+    "baseStats": {
+      "hp": 80,
+      "atk": 105,
+      "def": 65,
+      "spa": 100,
+      "spd": 70,
+      "spe": 70
+    },
+    "abilities": { "0": "Chlorophyll", "H": "Gluttony" },
+    "heightm": 1.7,
+    "weightkg": 15.5,
+    "color": "Green",
+    "prevo": "Weepinbell",
+    "evoType": "useItem",
+    "evoItem": "Leaf Stone",
+    "eggGroups": ["Grass"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "小拳石": {
-    "num": 74,
+    "num": "074",
     "name": "Geodude",
     "types": [
       "Rock",
@@ -1298,7 +1527,7 @@
     "isNonstandard": "Past"
   },
   "小拳石-阿羅拉": {
-    "num": 74,
+    "num": "074_f2",
     "name": "Geodude-Alola",
     "baseSpecies": "Geodude",
     "forme": "Alola",
@@ -1332,7 +1561,7 @@
     "isNonstandard": "Past"
   },
   "隆隆石": {
-    "num": 75,
+    "num": "075",
     "name": "Graveler",
     "types": [
       "Rock",
@@ -1373,7 +1602,7 @@
     "isNonstandard": "Past"
   },
   "隆隆石-阿羅拉": {
-    "num": 75,
+    "num": "075_f2",
     "name": "Graveler-Alola",
     "baseSpecies": "Graveler",
     "forme": "Alola",
@@ -1409,7 +1638,7 @@
     "isNonstandard": "Past"
   },
   "隆隆岩": {
-    "num": 76,
+    "num": "076",
     "name": "Golem",
     "types": [
       "Rock",
@@ -1447,7 +1676,7 @@
     "isNonstandard": "Past"
   },
   "隆隆岩-阿羅拉": {
-    "num": 76,
+    "num": "076_f2",
     "name": "Golem-Alola",
     "baseSpecies": "Golem",
     "forme": "Alola",
@@ -1480,7 +1709,7 @@
     "isNonstandard": "Past"
   },
   "呆呆獸": {
-    "num": 79,
+    "num": "079",
     "name": "Slowpoke",
     "types": [
       "Water",
@@ -1520,7 +1749,7 @@
     "tier": "LC"
   },
   "呆呆獸-伽勒爾": {
-    "num": 79,
+    "num": "079_f2",
     "name": "Slowpoke-Galar",
     "baseSpecies": "Slowpoke",
     "forme": "Galar",
@@ -1555,7 +1784,7 @@
     "isNonstandard": "Unobtainable"
   },
   "呆殼獸": {
-    "num": 80,
+    "num": "080",
     "name": "Slowbro",
     "types": [
       "Water",
@@ -1595,7 +1824,7 @@
     "tier": "UU"
   },
   "呆殼獸-伽勒爾": {
-    "num": 80,
+    "num": "080_f2",
     "name": "Slowbro-Galar",
     "baseSpecies": "Slowbro",
     "forme": "Galar",
@@ -1630,7 +1859,7 @@
     "isNonstandard": "Unobtainable"
   },
   "小磁怪": {
-    "num": 81,
+    "num": "081",
     "name": "Magnemite",
     "types": [
       "Electric",
@@ -1662,7 +1891,7 @@
     "tier": "LC"
   },
   "三合一磁怪": {
-    "num": 82,
+    "num": "082",
     "name": "Magneton",
     "types": [
       "Electric",
@@ -1696,7 +1925,7 @@
     "tier": "NFE"
   },
   "臭泥": {
-    "num": 88,
+    "num": "088",
     "name": "Grimer",
     "types": [
       "Poison"
@@ -1733,7 +1962,7 @@
     "tier": "LC"
   },
   "臭泥-阿羅拉": {
-    "num": 88,
+    "num": "088_f2",
     "name": "Grimer-Alola",
     "baseSpecies": "Grimer",
     "forme": "Alola",
@@ -1767,7 +1996,7 @@
     "isNonstandard": "Unobtainable"
   },
   "臭臭泥": {
-    "num": 89,
+    "num": "089",
     "name": "Muk",
     "types": [
       "Poison"
@@ -1803,7 +2032,7 @@
     "tier": "UU"
   },
   "臭臭泥-阿羅拉": {
-    "num": 89,
+    "num": "089_f2",
     "name": "Muk-Alola",
     "baseSpecies": "Muk",
     "forme": "Alola",
@@ -1836,7 +2065,7 @@
     "isNonstandard": "Unobtainable"
   },
   "大舌貝": {
-    "num": 90,
+    "num": "090",
     "name": "Shellder",
     "types": [
       "Water"
@@ -1866,7 +2095,7 @@
     "tier": "LC"
   },
   "刺甲貝": {
-    "num": 91,
+    "num": "091",
     "name": "Cloyster",
     "types": [
       "Water",
@@ -1897,7 +2126,7 @@
     "tier": "UU"
   },
   "鬼斯": {
-    "num": 92,
+    "num": "092",
     "name": "Gastly",
     "types": [
       "Ghost",
@@ -1926,7 +2155,7 @@
     "tier": "LC"
   },
   "鬼斯通": {
-    "num": 93,
+    "num": "093",
     "name": "Haunter",
     "types": [
       "Ghost",
@@ -1957,7 +2186,7 @@
     "tier": "NFE"
   },
   "耿鬼": {
-    "num": 94,
+    "num": "094",
     "name": "Gengar",
     "types": [
       "Ghost",
@@ -1993,7 +2222,7 @@
     "tier": "UU"
   },
   "催眠獏": {
-    "num": 96,
+    "num": "096",
     "name": "Drowzee",
     "types": [
       "Psychic"
@@ -2023,7 +2252,7 @@
     "tier": "LC"
   },
   "引夢獏人": {
-    "num": 97,
+    "num": "097",
     "name": "Hypno",
     "types": [
       "Psychic"
@@ -2052,7 +2281,7 @@
     "tier": "UU"
   },
   "霹靂電球": {
-    "num": 100,
+    "num": "100",
     "name": "Voltorb",
     "types": [
       "Electric"
@@ -2090,7 +2319,7 @@
     "tier": "LC"
   },
   "霹靂電球-洗翠": {
-    "num": 100,
+    "num": "100_f2",
     "name": "Voltorb-Hisui",
     "baseSpecies": "Voltorb",
     "forme": "Hisui",
@@ -2125,7 +2354,7 @@
     "isNonstandard": "Unobtainable"
   },
   "頑皮雷彈": {
-    "num": 101,
+    "num": "101",
     "name": "Electrode",
     "types": [
       "Electric"
@@ -2162,7 +2391,7 @@
     "tier": "UU"
   },
   "頑皮雷彈-洗翠": {
-    "num": 101,
+    "num": "101_f2",
     "name": "Electrode-Hisui",
     "baseSpecies": "Electrode",
     "forme": "Hisui",
@@ -2197,7 +2426,7 @@
     "isNonstandard": "Unobtainable"
   },
   "瓦斯彈": {
-    "num": 109,
+    "num": "109",
     "name": "Koffing",
     "types": [
       "Poison"
@@ -2229,7 +2458,7 @@
     "isNonstandard": "Past"
   },
   "雙彈瓦斯": {
-    "num": 110,
+    "num": "110",
     "name": "Weezing",
     "types": [
       "Poison"
@@ -2266,7 +2495,7 @@
     "isNonstandard": "Past"
   },
   "雙彈瓦斯-伽勒爾": {
-    "num": 110,
+    "num": "110_f2",
     "name": "Weezing-Galar",
     "baseSpecies": "Weezing",
     "forme": "Galar",
@@ -2300,7 +2529,7 @@
     "isNonstandard": "Past"
   },
   "吉利蛋": {
-    "num": 113,
+    "num": "113",
     "name": "Chansey",
     "types": [
       "Normal"
@@ -2336,7 +2565,7 @@
     "tier": "NFE"
   },
   "飛天螳螂": {
-    "num": 123,
+    "num": "123",
     "name": "Scyther",
     "types": [
       "Bug",
@@ -2368,7 +2597,7 @@
     "tier": "NFE"
   },
   "肯泰羅": {
-    "num": 128,
+    "num": "128",
     "name": "Tauros",
     "types": [
       "Normal"
@@ -2408,7 +2637,7 @@
     "isNonstandard": "Unobtainable"
   },
   "肯泰羅-帕底亞-鬥戰": {
-    "num": 128,
+    "num": "128_f2",
     "name": "Tauros-Paldea",
     "baseSpecies": "Tauros",
     "forme": "Paldea",
@@ -2438,7 +2667,7 @@
     "tier": "UU"
   },
   "肯泰羅-帕底亞-火熾": {
-    "num": 128,
+    "num": "128_f3",
     "name": "Tauros-Paldea-Fire",
     "baseSpecies": "Tauros",
     "forme": "Paldea-Fire",
@@ -2469,7 +2698,7 @@
     "tier": "UU"
   },
   "肯泰羅-帕底亞-水瀾": {
-    "num": 128,
+    "num": "128_f4",
     "name": "Tauros-Paldea-Water",
     "baseSpecies": "Tauros",
     "forme": "Paldea-Water",
@@ -2500,7 +2729,7 @@
     "tier": "UU"
   },
   "鯉魚王": {
-    "num": 129,
+    "num": "129",
     "name": "Magikarp",
     "types": [
       "Water"
@@ -2530,7 +2759,7 @@
     "tier": "LC"
   },
   "暴鯉龍": {
-    "num": 130,
+    "num": "130",
     "name": "Gyarados",
     "types": [
       "Water",
@@ -2567,7 +2796,7 @@
     "tier": "UU"
   },
   "百變怪": {
-    "num": 132,
+    "num": "132",
     "name": "Ditto",
     "types": [
       "Normal"
@@ -2594,7 +2823,7 @@
     "tier": "OU"
   },
   "伊布": {
-    "num": 133,
+    "num": "133",
     "name": "Eevee",
     "types": [
       "Normal"
@@ -2643,7 +2872,7 @@
     "tier": "LC"
   },
   "水伊布": {
-    "num": 134,
+    "num": "134",
     "name": "Vaporeon",
     "types": [
       "Water"
@@ -2676,7 +2905,7 @@
     "tier": "UU"
   },
   "雷伊布": {
-    "num": 135,
+    "num": "135",
     "name": "Jolteon",
     "types": [
       "Electric"
@@ -2709,7 +2938,7 @@
     "tier": "UU"
   },
   "火伊布": {
-    "num": 136,
+    "num": "136",
     "name": "Flareon",
     "types": [
       "Fire"
@@ -2741,8 +2970,33 @@
     ],
     "tier": "UU"
   },
+  "卡比獸": {
+    "num": "143",
+    "name": "Snorlax",
+    "types": ["Normal"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 160,
+      "atk": 110,
+      "def": 65,
+      "spa": 65,
+      "spd": 110,
+      "spe": 30
+    },
+    "abilities": { "0": "Immunity", "1": "Thick Fat", "H": "Gluttony" },
+    "heightm": 2.1,
+    "weightkg": 460,
+    "color": "Black",
+    "prevo": "Munchlax",
+    "evoType": "levelFriendship",
+    "eggGroups": ["Monster"],
+    "canHatch": true,
+    "canGigantamax": "G-Max Replenish",
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "急凍鳥": {
-    "num": 144,
+    "num": "144",
     "name": "Articuno",
     "types": [
       "Ice",
@@ -2780,7 +3034,7 @@
     "tier": "OU"
   },
   "急凍鳥-伽勒爾": {
-    "num": 144,
+    "num": "144_f2",
     "name": "Articuno-Galar",
     "baseSpecies": "Articuno",
     "forme": "Galar",
@@ -2809,7 +3063,7 @@
     "tier": "OU"
   },
   "閃電鳥": {
-    "num": 145,
+    "num": "145",
     "name": "Zapdos",
     "types": [
       "Electric",
@@ -2847,7 +3101,7 @@
     "tier": "OU"
   },
   "閃電鳥-伽勒爾": {
-    "num": 145,
+    "num": "145_f2",
     "name": "Zapdos-Galar",
     "baseSpecies": "Zapdos",
     "forme": "Galar",
@@ -2876,7 +3130,7 @@
     "tier": "OU"
   },
   "火焰鳥": {
-    "num": 146,
+    "num": "146",
     "name": "Moltres",
     "types": [
       "Fire",
@@ -2914,7 +3168,7 @@
     "tier": "OU"
   },
   "火焰鳥-伽勒爾": {
-    "num": 146,
+    "num": "146_f2",
     "name": "Moltres-Galar",
     "baseSpecies": "Moltres",
     "forme": "Galar",
@@ -2943,7 +3197,7 @@
     "tier": "OU"
   },
   "迷你龍": {
-    "num": 147,
+    "num": "147",
     "name": "Dratini",
     "types": [
       "Dragon"
@@ -2973,7 +3227,7 @@
     "tier": "LC"
   },
   "哈克龍": {
-    "num": 148,
+    "num": "148",
     "name": "Dragonair",
     "types": [
       "Dragon"
@@ -3005,7 +3259,7 @@
     "tier": "NFE"
   },
   "快龍": {
-    "num": 149,
+    "num": "149",
     "name": "Dragonite",
     "types": [
       "Dragon",
@@ -3035,7 +3289,7 @@
     "tier": "OU"
   },
   "超夢": {
-    "num": 150,
+    "num": "150",
     "name": "Mewtwo",
     "types": [
       "Psychic"
@@ -3064,7 +3318,7 @@
     ]
   },
   "火球鼠": {
-    "num": 155,
+    "num": "155",
     "name": "Cyndaquil",
     "types": [
       "Fire"
@@ -3098,7 +3352,7 @@
     "isNonstandard": "Unobtainable"
   },
   "火岩鼠": {
-    "num": 156,
+    "num": "156",
     "name": "Quilava",
     "types": [
       "Fire"
@@ -3135,7 +3389,7 @@
     "isNonstandard": "Unobtainable"
   },
   "火爆獸": {
-    "num": 157,
+    "num": "157",
     "name": "Typhlosion",
     "types": [
       "Fire"
@@ -3175,7 +3429,7 @@
     "isNonstandard": "Unobtainable"
   },
   "火爆獸-洗翠": {
-    "num": 157,
+    "num": "157_f2",
     "name": "Typhlosion-Hisui",
     "baseSpecies": "Typhlosion",
     "forme": "Hisui",
@@ -3210,8 +3464,51 @@
     "tier": "Unreleased",
     "isNonstandard": "Unobtainable"
   },
+  "尾立": {
+    "num": "161",
+    "name": "Sentret",
+    "types": ["Normal"],
+    "baseStats": {
+      "hp": 35,
+      "atk": 46,
+      "def": 34,
+      "spa": 35,
+      "spd": 45,
+      "spe": 20
+    },
+    "abilities": { "0": "Run Away", "1": "Keen Eye", "H": "Frisk" },
+    "heightm": 0.8,
+    "weightkg": 6,
+    "color": "Brown",
+    "evos": ["Furret"],
+    "eggGroups": ["Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "大尾立": {
+    "num": "162",
+    "name": "Furret",
+    "types": ["Normal"],
+    "baseStats": {
+      "hp": 85,
+      "atk": 76,
+      "def": 64,
+      "spa": 45,
+      "spd": 55,
+      "spe": 90
+    },
+    "abilities": { "0": "Run Away", "1": "Keen Eye", "H": "Frisk" },
+    "heightm": 1.8,
+    "weightkg": 32.5,
+    "color": "Brown",
+    "prevo": "Sentret",
+    "evoLevel": 15,
+    "eggGroups": ["Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "咕咕": {
-    "num": 163,
+    "num": "163",
     "name": "Hoothoot",
     "types": [
       "Normal",
@@ -3243,7 +3540,7 @@
     "isNonstandard": "Past"
   },
   "貓頭夜鷹": {
-    "num": 164,
+    "num": "164",
     "name": "Noctowl",
     "types": [
       "Normal",
@@ -3274,7 +3571,7 @@
     "isNonstandard": "Past"
   },
   "圓絲蛛": {
-    "num": 167,
+    "num": "167",
     "name": "Spinarak",
     "types": [
       "Bug",
@@ -3301,7 +3598,7 @@
     ]
   },
   "阿利多斯": {
-    "num": 168,
+    "num": "168",
     "name": "Ariados",
     "types": [
       "Bug",
@@ -3327,7 +3624,7 @@
     "evoLevel": 22
   },
   "皮丘": {
-    "num": 172,
+    "num": "172",
     "name": "Pichu",
     "types": [
       "Electric"
@@ -3364,7 +3661,7 @@
     "tier": "LC"
   },
   "皮寶寶": {
-    "num": 173,
+    "num": "173",
     "name": "Cleffa",
     "types": [
       "Fairy"
@@ -3400,7 +3697,7 @@
     "isNonstandard": "Past"
   },
   "寶寶丁": {
-    "num": 174,
+    "num": "174",
     "name": "Igglybuff",
     "types": [
       "Normal",
@@ -3436,7 +3733,7 @@
     "tier": "LC"
   },
   "咩利羊": {
-    "num": 179,
+    "num": "179",
     "name": "Mareep",
     "types": [
       "Electric"
@@ -3466,7 +3763,7 @@
     "tier": "LC"
   },
   "茸茸羊": {
-    "num": 180,
+    "num": "180",
     "name": "Flaaffy",
     "types": [
       "Electric"
@@ -3498,7 +3795,7 @@
     "tier": "NFE"
   },
   "電龍": {
-    "num": 181,
+    "num": "181",
     "name": "Ampharos",
     "types": [
       "Electric"
@@ -3534,7 +3831,7 @@
     "tier": "UU"
   },
   "瑪力露": {
-    "num": 183,
+    "num": "183",
     "name": "Marill",
     "types": [
       "Water",
@@ -3569,7 +3866,7 @@
     "tier": "NFE"
   },
   "瑪力露麗": {
-    "num": 184,
+    "num": "184",
     "name": "Azumarill",
     "types": [
       "Water",
@@ -3600,7 +3897,7 @@
     "tier": "UU"
   },
   "樹才怪": {
-    "num": 185,
+    "num": "185",
     "name": "Sudowoodo",
     "types": [
       "Rock"
@@ -3630,8 +3927,31 @@
     "canHatch": true,
     "tier": "UU"
   },
+  "蚊香蛙皇": {
+    "num": "186",
+    "name": "Politoed",
+    "types": ["Water"],
+    "baseStats": {
+      "hp": 90,
+      "atk": 75,
+      "def": 75,
+      "spa": 90,
+      "spd": 100,
+      "spe": 70
+    },
+    "abilities": { "0": "Water Absorb", "1": "Damp", "H": "Drizzle" },
+    "heightm": 1.1,
+    "weightkg": 33.9,
+    "color": "Green",
+    "prevo": "Poliwhirl",
+    "evoType": "trade",
+    "evoItem": "King's Rock",
+    "eggGroups": ["Water 1"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "毽子草": {
-    "num": 187,
+    "num": "187",
     "name": "Hoppip",
     "types": [
       "Grass",
@@ -3663,7 +3983,7 @@
     "tier": "LC"
   },
   "毽子花": {
-    "num": 188,
+    "num": "188",
     "name": "Skiploom",
     "types": [
       "Grass",
@@ -3697,7 +4017,7 @@
     "tier": "NFE"
   },
   "毽子棉": {
-    "num": 189,
+    "num": "189",
     "name": "Jumpluff",
     "types": [
       "Grass",
@@ -3728,7 +4048,7 @@
     "tier": "UU"
   },
   "長尾怪手": {
-    "num": 190,
+    "num": "190",
     "name": "Aipom",
     "types": [
       "Normal"
@@ -3759,7 +4079,7 @@
     "isNonstandard": "Past"
   },
   "向日種子": {
-    "num": 191,
+    "num": "191",
     "name": "Sunkern",
     "types": [
       "Grass"
@@ -3789,7 +4109,7 @@
     "tier": "LC"
   },
   "向日花怪": {
-    "num": 192,
+    "num": "192",
     "name": "Sunflora",
     "types": [
       "Grass"
@@ -3819,7 +4139,7 @@
     "tier": "UU"
   },
   "蜻蜻蜓": {
-    "num": 193,
+    "num": "193",
     "name": "Yanma",
     "types": [
       "Bug",
@@ -3846,7 +4166,7 @@
     ]
   },
   "烏波": {
-    "num": 194,
+    "num": "194",
     "name": "Wooper",
     "types": [
       "Water",
@@ -3885,7 +4205,7 @@
     "tier": "LC"
   },
   "烏波-帕底亞": {
-    "num": 194,
+    "num": "194",
     "name": "Wooper-Paldea",
     "baseSpecies": "Wooper",
     "forme": "Paldea",
@@ -3919,7 +4239,7 @@
     "tier": "LC"
   },
   "沼王": {
-    "num": 195,
+    "num": "195",
     "name": "Quagsire",
     "types": [
       "Water",
@@ -3950,7 +4270,7 @@
     "tier": "UU"
   },
   "太陽伊布": {
-    "num": 196,
+    "num": "196",
     "name": "Espeon",
     "types": [
       "Psychic"
@@ -3983,7 +4303,7 @@
     "tier": "UU"
   },
   "月亮伊布": {
-    "num": 197,
+    "num": "197",
     "name": "Umbreon",
     "types": [
       "Dark"
@@ -4016,7 +4336,7 @@
     "tier": "UU"
   },
   "黑暗鴉": {
-    "num": 198,
+    "num": "198",
     "name": "Murkrow",
     "types": [
       "Dark",
@@ -4047,7 +4367,7 @@
     "tier": "NFE"
   },
   "呆呆王": {
-    "num": 199,
+    "num": "199",
     "name": "Slowking",
     "types": [
       "Water",
@@ -4086,7 +4406,7 @@
     "tier": "UU"
   },
   "呆呆王-伽勒爾": {
-    "num": 199,
+    "num": "199_f2",
     "name": "Slowking-Galar",
     "baseSpecies": "Slowking",
     "forme": "Galar",
@@ -4121,7 +4441,7 @@
     "isNonstandard": "Unobtainable"
   },
   "夢妖": {
-    "num": 200,
+    "num": "200",
     "name": "Misdreavus",
     "types": [
       "Ghost"
@@ -4149,7 +4469,7 @@
     "tier": "NFE"
   },
   "麒麟奇": {
-    "num": 203,
+    "num": "203",
     "name": "Girafarig",
     "types": [
       "Normal",
@@ -4180,7 +4500,7 @@
     "tier": "LC"
   },
   "榛果球": {
-    "num": 204,
+    "num": "204",
     "name": "Pineco",
     "types": [
       "Bug"
@@ -4209,7 +4529,7 @@
     "tier": "LC"
   },
   "佛烈托斯": {
-    "num": 205,
+    "num": "205",
     "name": "Forretress",
     "types": [
       "Bug",
@@ -4238,7 +4558,7 @@
     "tier": "UU"
   },
   "土龍弟弟": {
-    "num": 206,
+    "num": "206",
     "name": "Dunsparce",
     "types": [
       "Normal"
@@ -4269,7 +4589,7 @@
     "tier": "NFE"
   },
   "天蠍": {
-    "num": 207,
+    "num": "207",
     "name": "Gligar",
     "types": [
       "Ground",
@@ -4301,7 +4621,7 @@
     "isNonstandard": "Past"
   },
   "千針魚": {
-    "num": 211,
+    "num": "211",
     "name": "Qwilfish",
     "types": [
       "Water",
@@ -4336,7 +4656,7 @@
     "tier": "UU"
   },
   "千針魚-洗翠": {
-    "num": 211,
+    "num": "211_f2",
     "name": "Qwilfish-Hisui",
     "baseSpecies": "Qwilfish",
     "forme": "Hisui",
@@ -4370,7 +4690,7 @@
     "isNonstandard": "Unobtainable"
   },
   "巨鉗螳螂": {
-    "num": 212,
+    "num": "212",
     "name": "Scizor",
     "types": [
       "Bug",
@@ -4408,7 +4728,7 @@
     "tier": "OU"
   },
   "赫拉克羅斯": {
-    "num": 214,
+    "num": "214",
     "name": "Heracross",
     "types": [
       "Bug",
@@ -4443,7 +4763,7 @@
     "tier": "UU"
   },
   "狃拉": {
-    "num": 215,
+    "num": "215",
     "name": "Sneasel",
     "types": [
       "Dark",
@@ -4481,7 +4801,7 @@
     "tier": "NFE"
   },
   "狃拉-洗翠": {
-    "num": 215,
+    "num": "215_f2",
     "name": "Sneasel-Hisui",
     "baseSpecies": "Sneasel",
     "forme": "Hisui",
@@ -4515,7 +4835,7 @@
     "isNonstandard": "Unobtainable"
   },
   "熊寶寶": {
-    "num": 216,
+    "num": "216",
     "name": "Teddiursa",
     "types": [
       "Normal"
@@ -4545,7 +4865,7 @@
     "tier": "LC"
   },
   "圈圈熊": {
-    "num": 217,
+    "num": "217",
     "name": "Ursaring",
     "types": [
       "Normal"
@@ -4576,8 +4896,51 @@
     ],
     "tier": "UU"
   },
+  "熔岩蟲": {
+    "num": "218",
+    "name": "Slugma",
+    "types": ["Fire"],
+    "baseStats": {
+      "hp": 40,
+      "atk": 40,
+      "def": 40,
+      "spa": 70,
+      "spd": 40,
+      "spe": 20
+    },
+    "abilities": { "0": "Magma Armor", "1": "Flame Body", "H": "Weak Armor" },
+    "heightm": 0.7,
+    "weightkg": 35,
+    "color": "Red",
+    "evos": ["Magcargo"],
+    "eggGroups": ["Amorphous"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "熔岩蝸牛": {
+    "num": "219",
+    "name": "Magcargo",
+    "types": ["Fire", "Rock"],
+    "baseStats": {
+      "hp": 60,
+      "atk": 50,
+      "def": 120,
+      "spa": 90,
+      "spd": 80,
+      "spe": 30
+    },
+    "abilities": { "0": "Magma Armor", "1": "Flame Body", "H": "Weak Armor" },
+    "heightm": 0.8,
+    "weightkg": 55,
+    "color": "Red",
+    "prevo": "Slugma",
+    "evoLevel": 38,
+    "eggGroups": ["Amorphous"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "小山豬": {
-    "num": 220,
+    "num": "220",
     "name": "Swinub",
     "types": [
       "Ice",
@@ -4609,7 +4972,7 @@
     "isNonstandard": "Past"
   },
   "長毛豬": {
-    "num": 221,
+    "num": "221",
     "name": "Piloswine",
     "types": [
       "Ice",
@@ -4643,7 +5006,7 @@
     "isNonstandard": "Past"
   },
   "信使鳥": {
-    "num": 225,
+    "num": "225",
     "name": "Delibird",
     "types": [
       "Ice",
@@ -4672,7 +5035,7 @@
     "tier": "UU"
   },
   "戴魯比": {
-    "num": 228,
+    "num": "228",
     "name": "Houndour",
     "types": [
       "Dark",
@@ -4703,7 +5066,7 @@
     "tier": "LC"
   },
   "黑魯加": {
-    "num": 229,
+    "num": "229",
     "name": "Houndoom",
     "types": [
       "Dark",
@@ -4740,7 +5103,7 @@
     "tier": "UU"
   },
   "小小象": {
-    "num": 231,
+    "num": "231",
     "name": "Phanpy",
     "types": [
       "Ground"
@@ -4769,7 +5132,7 @@
     "tier": "LC"
   },
   "頓甲": {
-    "num": 232,
+    "num": "232",
     "name": "Donphan",
     "types": [
       "Ground"
@@ -4797,7 +5160,7 @@
     "tier": "UU"
   },
   "驚角鹿": {
-    "num": 234,
+    "num": "234",
     "name": "Stantler",
     "types": [
       "Normal"
@@ -4827,7 +5190,7 @@
     "tier": "UU"
   },
   "幸福蛋": {
-    "num": 242,
+    "num": "242",
     "name": "Blissey",
     "types": [
       "Normal"
@@ -4857,7 +5220,7 @@
     "tier": "UU"
   },
   "幼基拉斯": {
-    "num": 246,
+    "num": "246",
     "name": "Larvitar",
     "types": [
       "Rock",
@@ -4887,7 +5250,7 @@
     "tier": "LC"
   },
   "沙基拉斯": {
-    "num": 247,
+    "num": "247",
     "name": "Pupitar",
     "types": [
       "Rock",
@@ -4918,7 +5281,7 @@
     "tier": "NFE"
   },
   "班基拉斯": {
-    "num": 248,
+    "num": "248",
     "name": "Tyranitar",
     "types": [
       "Rock",
@@ -4954,7 +5317,7 @@
     "tier": "OU"
   },
   "土狼犬": {
-    "num": 261,
+    "num": "261",
     "name": "Poochyena",
     "types": [
       "Dark"
@@ -4980,7 +5343,7 @@
     ]
   },
   "大狼犬": {
-    "num": 262,
+    "num": "262",
     "name": "Mightyena",
     "types": [
       "Dark"
@@ -5010,7 +5373,7 @@
     "isNonstandard": "Past"
   },
   "蓮葉童子": {
-    "num": 270,
+    "num": "270",
     "name": "Lotad",
     "types": [
       "Water",
@@ -5043,7 +5406,7 @@
     "isNonstandard": "Past"
   },
   "蓮帽小童": {
-    "num": 271,
+    "num": "271",
     "name": "Lombre",
     "types": [
       "Water",
@@ -5078,7 +5441,7 @@
     "isNonstandard": "Past"
   },
   "樂天河童": {
-    "num": 272,
+    "num": "272",
     "name": "Ludicolo",
     "types": [
       "Water",
@@ -5110,8 +5473,75 @@
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
+  "橡實果": {
+    "num": "273",
+    "name": "Seedot",
+    "types": ["Grass"],
+    "baseStats": {
+      "hp": 40,
+      "atk": 40,
+      "def": 50,
+      "spa": 30,
+      "spd": 30,
+      "spe": 30
+    },
+    "abilities": { "0": "Chlorophyll", "1": "Early Bird", "H": "Pickpocket" },
+    "heightm": 0.5,
+    "weightkg": 4,
+    "color": "Brown",
+    "evos": ["Nuzleaf"],
+    "eggGroups": ["Field", "Grass"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "長鼻葉": {
+    "num": "274",
+    "name": "Nuzleaf",
+    "types": ["Grass", "Dark"],
+    "baseStats": {
+      "hp": 70,
+      "atk": 70,
+      "def": 40,
+      "spa": 60,
+      "spd": 40,
+      "spe": 60
+    },
+    "abilities": { "0": "Chlorophyll", "1": "Early Bird", "H": "Pickpocket" },
+    "heightm": 1,
+    "weightkg": 28,
+    "color": "Brown",
+    "prevo": "Seedot",
+    "evoLevel": 14,
+    "evos": ["Shiftry"],
+    "eggGroups": ["Field", "Grass"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "狡猾天狗": {
+    "num": "275",
+    "name": "Shiftry",
+    "types": ["Grass", "Dark"],
+    "baseStats": {
+      "hp": 90,
+      "atk": 100,
+      "def": 60,
+      "spa": 90,
+      "spd": 60,
+      "spe": 80
+    },
+    "abilities": { "0": "Chlorophyll", "1": "Early Bird", "H": "Pickpocket" },
+    "heightm": 1.3,
+    "weightkg": 59.6,
+    "color": "Brown",
+    "prevo": "Nuzleaf",
+    "evoType": "useItem",
+    "evoItem": "Leaf Stone",
+    "eggGroups": ["Field", "Grass"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "長翅鷗": {
-    "num": 278,
+    "num": "278",
     "name": "Wingull",
     "types": [
       "Water",
@@ -5143,7 +5573,7 @@
     "tier": "LC"
   },
   "大嘴鷗": {
-    "num": 279,
+    "num": "279",
     "name": "Pelipper",
     "types": [
       "Water",
@@ -5174,7 +5604,7 @@
     "tier": "UU"
   },
   "拉魯拉絲": {
-    "num": 280,
+    "num": "280",
     "name": "Ralts",
     "types": [
       "Psychic",
@@ -5206,7 +5636,7 @@
     "tier": "LC"
   },
   "奇魯莉安": {
-    "num": 281,
+    "num": "281",
     "name": "Kirlia",
     "types": [
       "Psychic",
@@ -5241,7 +5671,7 @@
     "tier": "NFE"
   },
   "沙奈朵": {
-    "num": 282,
+    "num": "282",
     "name": "Gardevoir",
     "types": [
       "Psychic",
@@ -5279,7 +5709,7 @@
     "tier": "UU"
   },
   "溜溜糖球": {
-    "num": 283,
+    "num": "283",
     "name": "Surskit",
     "types": [
       "Bug",
@@ -5310,7 +5740,7 @@
     "tier": "LC"
   },
   "雨翅蛾": {
-    "num": 284,
+    "num": "284",
     "name": "Masquerain",
     "types": [
       "Bug",
@@ -5340,7 +5770,7 @@
     "tier": "UU"
   },
   "蘑蘑菇": {
-    "num": 285,
+    "num": "285",
     "name": "Shroomish",
     "types": [
       "Grass"
@@ -5371,7 +5801,7 @@
     "tier": "LC"
   },
   "斗笠菇": {
-    "num": 286,
+    "num": "286",
     "name": "Breloom",
     "types": [
       "Grass",
@@ -5402,7 +5832,7 @@
     "tier": "OU"
   },
   "懶人獺": {
-    "num": 287,
+    "num": "287",
     "name": "Slakoth",
     "types": [
       "Normal"
@@ -5430,7 +5860,7 @@
     "tier": "LC"
   },
   "過動猿": {
-    "num": 288,
+    "num": "288",
     "name": "Vigoroth",
     "types": [
       "Normal"
@@ -5460,7 +5890,7 @@
     "tier": "NFE"
   },
   "請假王": {
-    "num": 289,
+    "num": "289",
     "name": "Slaking",
     "types": [
       "Normal"
@@ -5487,7 +5917,7 @@
     "tier": "UU"
   },
   "幕下力士": {
-    "num": 296,
+    "num": "296",
     "name": "Makuhita",
     "types": [
       "Fighting"
@@ -5521,7 +5951,7 @@
     "tier": "LC"
   },
   "鐵掌力士": {
-    "num": 297,
+    "num": "297",
     "name": "Hariyama",
     "types": [
       "Fighting"
@@ -5554,7 +5984,7 @@
     "tier": "UU"
   },
   "露力麗": {
-    "num": 298,
+    "num": "298",
     "name": "Azurill",
     "types": [
       "Normal",
@@ -5590,7 +6020,7 @@
     "tier": "LC"
   },
   "朝北鼻": {
-    "num": 299,
+    "num": "299",
     "name": "Nosepass",
     "types": [
       "Rock"
@@ -5621,7 +6051,7 @@
     "isNonstandard": "Past"
   },
   "勾魂眼": {
-    "num": 302,
+    "num": "302",
     "name": "Sableye",
     "types": [
       "Dark",
@@ -5656,7 +6086,7 @@
     "tier": "UU"
   },
   "瑪沙那": {
-    "num": 307,
+    "num": "307",
     "name": "Meditite",
     "types": [
       "Fighting",
@@ -5686,7 +6116,7 @@
     "tier": "NFE"
   },
   "恰雷姆": {
-    "num": 308,
+    "num": "308",
     "name": "Medicham",
     "types": [
       "Fighting",
@@ -5721,8 +6151,50 @@
     ],
     "tier": "UU"
   },
+  "電螢蟲": {
+    "num": "313",
+    "name": "Volbeat",
+    "types": ["Bug"],
+    "gender": "M",
+    "baseStats": {
+      "hp": 65,
+      "atk": 73,
+      "def": 75,
+      "spa": 47,
+      "spd": 85,
+      "spe": 85
+    },
+    "abilities": { "0": "Illuminate", "1": "Swarm", "H": "Prankster" },
+    "heightm": 0.7,
+    "weightkg": 17.7,
+    "color": "Gray",
+    "eggGroups": ["Bug", "Human-Like"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "甜甜螢": {
+    "num": "314",
+    "name": "Illumise",
+    "types": ["Bug"],
+    "gender": "F",
+    "baseStats": {
+      "hp": 65,
+      "atk": 47,
+      "def": 75,
+      "spa": 73,
+      "spd": 85,
+      "spe": 85
+    },
+    "abilities": { "0": "Oblivious", "1": "Tinted Lens", "H": "Prankster" },
+    "heightm": 0.6,
+    "weightkg": 17.7,
+    "color": "Purple",
+    "eggGroups": ["Bug", "Human-Like"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "溶食獸": {
-    "num": 316,
+    "num": "316",
     "name": "Gulpin",
     "types": [
       "Poison"
@@ -5752,7 +6224,7 @@
     "tier": "LC"
   },
   "吞食獸": {
-    "num": 317,
+    "num": "317",
     "name": "Swalot",
     "types": [
       "Poison"
@@ -5781,7 +6253,7 @@
     "tier": "UU"
   },
   "呆火駝": {
-    "num": 322,
+    "num": "322",
     "name": "Numel",
     "types": [
       "Fire",
@@ -5812,7 +6284,7 @@
     "tier": "LC"
   },
   "噴火駝": {
-    "num": 323,
+    "num": "323",
     "name": "Camerupt",
     "types": [
       "Fire",
@@ -5849,7 +6321,7 @@
     "tier": "UU"
   },
   "煤炭龜": {
-    "num": 324,
+    "num": "324",
     "name": "Torkoal",
     "types": [
       "Fire"
@@ -5876,7 +6348,7 @@
     "tier": "OU"
   },
   "跳跳豬": {
-    "num": 325,
+    "num": "325",
     "name": "Spoink",
     "types": [
       "Psychic"
@@ -5906,7 +6378,7 @@
     "tier": "LC"
   },
   "噗噗豬": {
-    "num": 326,
+    "num": "326",
     "name": "Grumpig",
     "types": [
       "Psychic"
@@ -5935,7 +6407,7 @@
     "tier": "UU"
   },
   "刺球仙人掌": {
-    "num": 331,
+    "num": "331",
     "name": "Cacnea",
     "types": [
       "Grass"
@@ -5965,7 +6437,7 @@
     "tier": "LC"
   },
   "夢歌仙人掌": {
-    "num": 332,
+    "num": "332",
     "name": "Cacturne",
     "types": [
       "Grass",
@@ -5995,7 +6467,7 @@
     "tier": "UU"
   },
   "青綿鳥": {
-    "num": 333,
+    "num": "333",
     "name": "Swablu",
     "types": [
       "Normal",
@@ -6026,7 +6498,7 @@
     "tier": "LC"
   },
   "七夕青鳥": {
-    "num": 334,
+    "num": "334",
     "name": "Altaria",
     "types": [
       "Dragon",
@@ -6063,7 +6535,7 @@
     "tier": "UU"
   },
   "貓鼬斬": {
-    "num": 335,
+    "num": "335",
     "name": "Zangoose",
     "types": [
       "Normal"
@@ -6089,7 +6561,7 @@
     "tier": "UU"
   },
   "飯匙蛇": {
-    "num": 336,
+    "num": "336",
     "name": "Seviper",
     "types": [
       "Poison"
@@ -6116,7 +6588,7 @@
     "tier": "UU"
   },
   "泥泥鰍": {
-    "num": 339,
+    "num": "339",
     "name": "Barboach",
     "types": [
       "Water",
@@ -6147,7 +6619,7 @@
     "tier": "LC"
   },
   "鯰魚王": {
-    "num": 340,
+    "num": "340",
     "name": "Whiscash",
     "types": [
       "Water",
@@ -6176,8 +6648,103 @@
     ],
     "tier": "UU"
   },
+  "龍蝦小兵": {
+    "num": "341",
+    "name": "Corphish",
+    "types": ["Water"],
+    "baseStats": {
+      "hp": 43,
+      "atk": 80,
+      "def": 65,
+      "spa": 50,
+      "spd": 35,
+      "spe": 35
+    },
+    "abilities": {
+      "0": "Hyper Cutter",
+      "1": "Shell Armor",
+      "H": "Adaptability"
+    },
+    "heightm": 0.6,
+    "weightkg": 11.5,
+    "color": "Red",
+    "evos": ["Crawdaunt"],
+    "eggGroups": ["Water 1", "Water 3"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "鐵螫龍蝦": {
+    "num": "342",
+    "name": "Crawdaunt",
+    "types": ["Water", "Dark"],
+    "baseStats": {
+      "hp": 63,
+      "atk": 120,
+      "def": 85,
+      "spa": 90,
+      "spd": 55,
+      "spe": 55
+    },
+    "abilities": {
+      "0": "Hyper Cutter",
+      "1": "Shell Armor",
+      "H": "Adaptability"
+    },
+    "heightm": 1.1,
+    "weightkg": 32.8,
+    "color": "Red",
+    "prevo": "Corphish",
+    "evoLevel": 30,
+    "eggGroups": ["Water 1", "Water 3"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "醜醜魚": {
+    "num": "349",
+    "name": "Feebas",
+    "types": ["Water"],
+    "baseStats": {
+      "hp": 20,
+      "atk": 15,
+      "def": 20,
+      "spa": 10,
+      "spd": 55,
+      "spe": 80
+    },
+    "abilities": { "0": "Swift Swim", "1": "Oblivious", "H": "Adaptability" },
+    "heightm": 0.6,
+    "weightkg": 7.4,
+    "color": "Brown",
+    "evos": ["Milotic"],
+    "eggGroups": ["Water 1", "Dragon"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "美納斯": {
+    "num": "350",
+    "name": "Milotic",
+    "types": ["Water"],
+    "baseStats": {
+      "hp": 95,
+      "atk": 60,
+      "def": 79,
+      "spa": 100,
+      "spd": 125,
+      "spe": 81
+    },
+    "abilities": { "0": "Marvel Scale", "1": "Competitive", "H": "Cute Charm" },
+    "heightm": 6.2,
+    "weightkg": 162,
+    "color": "Pink",
+    "prevo": "Feebas",
+    "evoType": "trade",
+    "evoItem": "Prism Scale",
+    "eggGroups": ["Water 1", "Dragon"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "怨影娃娃": {
-    "num": 353,
+    "num": "353",
     "name": "Shuppet",
     "types": [
       "Ghost"
@@ -6207,7 +6774,7 @@
     "tier": "LC"
   },
   "詛咒娃娃": {
-    "num": 354,
+    "num": "354",
     "name": "Banette",
     "types": [
       "Ghost"
@@ -6243,7 +6810,7 @@
     "tier": "UU"
   },
   "夜巡靈": {
-    "num": 355,
+    "num": "355",
     "name": "Duskull",
     "types": [
       "Ghost"
@@ -6273,7 +6840,7 @@
     "isNonstandard": "Past"
   },
   "彷徨夜靈": {
-    "num": 356,
+    "num": "356",
     "name": "Dusclops",
     "types": [
       "Ghost"
@@ -6305,7 +6872,7 @@
     "isNonstandard": "Past"
   },
   "熱帶龍": {
-    "num": 357,
+    "num": "357",
     "name": "Tropius",
     "types": [
       "Grass",
@@ -6334,7 +6901,7 @@
     "tier": "UU"
   },
   "風鈴鈴": {
-    "num": 358,
+    "num": "358",
     "name": "Chimecho",
     "types": [
       "Psychic"
@@ -6364,7 +6931,7 @@
     "isNonstandard": "Past"
   },
   "雪童子": {
-    "num": 361,
+    "num": "361",
     "name": "Snorunt",
     "types": [
       "Ice"
@@ -6396,7 +6963,7 @@
     "tier": "LC"
   },
   "冰鬼護": {
-    "num": 362,
+    "num": "362",
     "name": "Glalie",
     "types": [
       "Ice"
@@ -6433,7 +7000,7 @@
     "tier": "UU"
   },
   "愛心魚": {
-    "num": 370,
+    "num": "370",
     "name": "Luvdisc",
     "types": [
       "Water"
@@ -6463,7 +7030,7 @@
     "tier": "UU"
   },
   "寶貝龍": {
-    "num": 371,
+    "num": "371",
     "name": "Bagon",
     "types": [
       "Dragon"
@@ -6492,7 +7059,7 @@
     "tier": "LC"
   },
   "甲殼龍": {
-    "num": 372,
+    "num": "372",
     "name": "Shelgon",
     "types": [
       "Dragon"
@@ -6523,7 +7090,7 @@
     "tier": "NFE"
   },
   "暴飛龍": {
-    "num": 373,
+    "num": "373",
     "name": "Salamence",
     "types": [
       "Dragon",
@@ -6559,7 +7126,7 @@
     "tier": "UU"
   },
   "蓋歐卡": {
-    "num": 382,
+    "num": "382",
     "name": "Kyogre",
     "types": [
       "Water"
@@ -6587,7 +7154,7 @@
     ]
   },
   "固拉多": {
-    "num": 383,
+    "num": "383",
     "name": "Groudon",
     "types": [
       "Ground"
@@ -6615,7 +7182,7 @@
     ]
   },
   "烈空座": {
-    "num": 384,
+    "num": "384",
     "name": "Rayquaza",
     "types": [
       "Dragon",
@@ -6644,7 +7211,7 @@
     ]
   },
   "姆克兒": {
-    "num": 396,
+    "num": "396",
     "name": "Starly",
     "types": [
       "Normal",
@@ -6674,7 +7241,7 @@
     "tier": "LC"
   },
   "姆克鳥": {
-    "num": 397,
+    "num": "397",
     "name": "Staravia",
     "types": [
       "Normal",
@@ -6706,7 +7273,7 @@
     "tier": "NFE"
   },
   "姆克鷹": {
-    "num": 398,
+    "num": "398",
     "name": "Staraptor",
     "types": [
       "Normal",
@@ -6735,7 +7302,7 @@
     "tier": "UU"
   },
   "圓法師": {
-    "num": 401,
+    "num": "401",
     "name": "Kricketot",
     "types": [
       "Bug"
@@ -6764,7 +7331,7 @@
     "tier": "LC"
   },
   "音箱蟀": {
-    "num": 402,
+    "num": "402",
     "name": "Kricketune",
     "types": [
       "Bug"
@@ -6792,7 +7359,7 @@
     "tier": "UU"
   },
   "小貓怪": {
-    "num": 403,
+    "num": "403",
     "name": "Shinx",
     "types": [
       "Electric"
@@ -6822,7 +7389,7 @@
     "tier": "LC"
   },
   "勒克貓": {
-    "num": 404,
+    "num": "404",
     "name": "Luxio",
     "types": [
       "Electric"
@@ -6854,7 +7421,7 @@
     "tier": "NFE"
   },
   "倫琴貓": {
-    "num": 405,
+    "num": "405",
     "name": "Luxray",
     "types": [
       "Electric"
@@ -6883,7 +7450,7 @@
     "tier": "UU"
   },
   "三蜜蜂": {
-    "num": 415,
+    "num": "415",
     "name": "Combee",
     "types": [
       "Bug",
@@ -6917,7 +7484,7 @@
     "tier": "LC"
   },
   "蜂女王": {
-    "num": 416,
+    "num": "416",
     "name": "Vespiquen",
     "types": [
       "Bug",
@@ -6947,7 +7514,7 @@
     "tier": "UU"
   },
   "帕奇利茲": {
-    "num": 417,
+    "num": "417",
     "name": "Pachirisu",
     "types": [
       "Electric"
@@ -6975,7 +7542,7 @@
     "tier": "UU"
   },
   "泳圈鼬": {
-    "num": 418,
+    "num": "418",
     "name": "Buizel",
     "types": [
       "Water"
@@ -7005,7 +7572,7 @@
     "tier": "LC"
   },
   "浮潛鼬": {
-    "num": 419,
+    "num": "419",
     "name": "Floatzel",
     "types": [
       "Water"
@@ -7034,7 +7601,7 @@
     "tier": "UU"
   },
   "無殼海兔": {
-    "num": 422,
+    "num": "422",
     "name": "Shellos",
     "baseForme": "West",
     "types": [
@@ -7073,7 +7640,7 @@
     "tier": "LC"
   },
   "海兔獸": {
-    "num": 423,
+    "num": "423",
     "name": "Gastrodon",
     "baseForme": "West",
     "types": [
@@ -7112,7 +7679,7 @@
     "tier": "UU"
   },
   "雙尾怪手": {
-    "num": 424,
+    "num": "424",
     "name": "Ambipom",
     "types": [
       "Normal"
@@ -7143,7 +7710,7 @@
     "isNonstandard": "Past"
   },
   "飄飄球": {
-    "num": 425,
+    "num": "425",
     "name": "Drifloon",
     "types": [
       "Ghost",
@@ -7174,7 +7741,7 @@
     "tier": "LC"
   },
   "隨風球": {
-    "num": 426,
+    "num": "426",
     "name": "Drifblim",
     "types": [
       "Ghost",
@@ -7204,7 +7771,7 @@
     "tier": "UU"
   },
   "夢妖魔": {
-    "num": 429,
+    "num": "429",
     "name": "Mismagius",
     "types": [
       "Ghost"
@@ -7232,7 +7799,7 @@
     "tier": "UU"
   },
   "烏鴉頭頭": {
-    "num": 430,
+    "num": "430",
     "name": "Honchkrow",
     "types": [
       "Dark",
@@ -7263,7 +7830,7 @@
     "tier": "UU"
   },
   "鈴鐺響": {
-    "num": 433,
+    "num": "433",
     "name": "Chingling",
     "types": [
       "Psychic"
@@ -7293,7 +7860,7 @@
     "isNonstandard": "Past"
   },
   "臭鼬噗": {
-    "num": 434,
+    "num": "434",
     "name": "Stunky",
     "types": [
       "Poison",
@@ -7324,7 +7891,7 @@
     "tier": "LC"
   },
   "坦克臭鼬": {
-    "num": 435,
+    "num": "435",
     "name": "Skuntank",
     "types": [
       "Poison",
@@ -7354,7 +7921,7 @@
     "tier": "UU"
   },
   "銅鏡怪": {
-    "num": 436,
+    "num": "436",
     "name": "Bronzor",
     "types": [
       "Steel",
@@ -7386,7 +7953,7 @@
     "tier": "LC"
   },
   "青銅鐘": {
-    "num": 437,
+    "num": "437",
     "name": "Bronzong",
     "types": [
       "Steel",
@@ -7417,7 +7984,7 @@
     "tier": "UU"
   },
   "盆才怪": {
-    "num": 438,
+    "num": "438",
     "name": "Bonsly",
     "types": [
       "Rock"
@@ -7448,7 +8015,7 @@
     "tier": "LC"
   },
   "小福蛋": {
-    "num": 440,
+    "num": "440",
     "name": "Happiny",
     "types": [
       "Normal"
@@ -7480,7 +8047,7 @@
     "tier": "LC"
   },
   "花岩怪": {
-    "num": 442,
+    "num": "442",
     "name": "Spiritomb",
     "types": [
       "Ghost",
@@ -7507,7 +8074,7 @@
     "tier": "UU"
   },
   "圓陸鯊": {
-    "num": 443,
+    "num": "443",
     "name": "Gible",
     "types": [
       "Dragon",
@@ -7538,7 +8105,7 @@
     "tier": "LC"
   },
   "尖牙陸鯊": {
-    "num": 444,
+    "num": "444",
     "name": "Gabite",
     "types": [
       "Dragon",
@@ -7571,7 +8138,7 @@
     "tier": "NFE"
   },
   "烈咬陸鯊": {
-    "num": 445,
+    "num": "445",
     "name": "Garchomp",
     "types": [
       "Dragon",
@@ -7607,8 +8174,31 @@
     ],
     "tier": "OU"
   },
+  "小卡比獸": {
+    "num": "446",
+    "name": "Munchlax",
+    "types": ["Normal"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 135,
+      "atk": 85,
+      "def": 40,
+      "spa": 40,
+      "spd": 85,
+      "spe": 5
+    },
+    "abilities": { "0": "Pickup", "1": "Thick Fat", "H": "Gluttony" },
+    "heightm": 0.6,
+    "weightkg": 105,
+    "color": "Black",
+    "evos": ["Snorlax"],
+    "eggGroups": ["Undiscovered"],
+    "canHatch": true,
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "利歐路": {
-    "num": 447,
+    "num": "447",
     "name": "Riolu",
     "types": [
       "Fighting"
@@ -7643,7 +8233,7 @@
     "tier": "LC"
   },
   "路卡利歐": {
-    "num": 448,
+    "num": "448",
     "name": "Lucario",
     "types": [
       "Fighting",
@@ -7686,7 +8276,7 @@
     "tier": "UU"
   },
   "沙河馬": {
-    "num": 449,
+    "num": "449",
     "name": "Hippopotas",
     "types": [
       "Ground"
@@ -7715,7 +8305,7 @@
     "tier": "LC"
   },
   "河馬獸": {
-    "num": 450,
+    "num": "450",
     "name": "Hippowdon",
     "types": [
       "Ground"
@@ -7743,7 +8333,7 @@
     "tier": "UU"
   },
   "不良蛙": {
-    "num": 453,
+    "num": "453",
     "name": "Croagunk",
     "types": [
       "Poison",
@@ -7774,7 +8364,7 @@
     "tier": "LC"
   },
   "毒骷蛙": {
-    "num": 454,
+    "num": "454",
     "name": "Toxicroak",
     "types": [
       "Poison",
@@ -7804,7 +8394,7 @@
     "tier": "UU"
   },
   "螢光魚": {
-    "num": 456,
+    "num": "456",
     "name": "Finneon",
     "types": [
       "Water"
@@ -7834,7 +8424,7 @@
     "tier": "LC"
   },
   "霓虹魚": {
-    "num": 457,
+    "num": "457",
     "name": "Lumineon",
     "types": [
       "Water"
@@ -7863,7 +8453,7 @@
     "tier": "UU"
   },
   "雪笠怪": {
-    "num": 459,
+    "num": "459",
     "name": "Snover",
     "types": [
       "Grass",
@@ -7894,7 +8484,7 @@
     "tier": "LC"
   },
   "暴雪王": {
-    "num": 460,
+    "num": "460",
     "name": "Abomasnow",
     "types": [
       "Grass",
@@ -7931,7 +8521,7 @@
     "tier": "UU"
   },
   "瑪狃拉": {
-    "num": 461,
+    "num": "461",
     "name": "Weavile",
     "types": [
       "Dark",
@@ -7962,7 +8552,7 @@
     "tier": "UU"
   },
   "自爆磁怪": {
-    "num": 462,
+    "num": "462",
     "name": "Magnezone",
     "types": [
       "Electric",
@@ -7994,7 +8584,7 @@
     "tier": "UU"
   },
   "遠古巨蜓": {
-    "num": 469,
+    "num": "469",
     "name": "Yanmega",
     "types": [
       "Bug",
@@ -8026,7 +8616,7 @@
     "isNonstandard": "Past"
   },
   "葉伊布": {
-    "num": 470,
+    "num": "470",
     "name": "Leafeon",
     "types": [
       "Grass"
@@ -8059,7 +8649,7 @@
     "tier": "UU"
   },
   "冰伊布": {
-    "num": 471,
+    "num": "471",
     "name": "Glaceon",
     "types": [
       "Ice"
@@ -8092,7 +8682,7 @@
     "tier": "UU"
   },
   "天蠍王": {
-    "num": 472,
+    "num": "472",
     "name": "Gliscor",
     "types": [
       "Ground",
@@ -8125,7 +8715,7 @@
     "isNonstandard": "Past"
   },
   "象牙豬": {
-    "num": 473,
+    "num": "473",
     "name": "Mamoswine",
     "types": [
       "Ice",
@@ -8157,7 +8747,7 @@
     "isNonstandard": "Past"
   },
   "艾路雷朵": {
-    "num": 475,
+    "num": "475",
     "name": "Gallade",
     "types": [
       "Psychic",
@@ -8197,7 +8787,7 @@
     "tier": "UU"
   },
   "大朝北鼻": {
-    "num": 476,
+    "num": "476",
     "name": "Probopass",
     "types": [
       "Rock",
@@ -8229,7 +8819,7 @@
     "isNonstandard": "Past"
   },
   "黑夜魔靈": {
-    "num": 477,
+    "num": "477",
     "name": "Dusknoir",
     "types": [
       "Ghost"
@@ -8259,7 +8849,7 @@
     "isNonstandard": "Past"
   },
   "雪妖女": {
-    "num": 478,
+    "num": "478",
     "name": "Froslass",
     "types": [
       "Ice",
@@ -8291,7 +8881,7 @@
     "tier": "UU"
   },
   "洛托姆": {
-    "num": 479,
+    "num": "479",
     "name": "Rotom",
     "types": [
       "Electric",
@@ -8333,7 +8923,7 @@
     "tier": "UU"
   },
   "洛托姆-加熱": {
-    "num": 479,
+    "num": "479_f2",
     "name": "Rotom-Heat",
     "baseSpecies": "Rotom",
     "forme": "Heat",
@@ -8363,7 +8953,7 @@
     "tier": "UU"
   },
   "洛托姆-清洗": {
-    "num": 479,
+    "num": "479_f3",
     "name": "Rotom-Wash",
     "baseSpecies": "Rotom",
     "forme": "Wash",
@@ -8393,7 +8983,7 @@
     "tier": "UU"
   },
   "洛托姆-結冰": {
-    "num": 479,
+    "num": "479_f4",
     "name": "Rotom-Frost",
     "baseSpecies": "Rotom",
     "forme": "Frost",
@@ -8423,7 +9013,7 @@
     "tier": "UU"
   },
   "洛托姆-旋轉": {
-    "num": 479,
+    "num": "479_f5",
     "name": "Rotom-Fan",
     "baseSpecies": "Rotom",
     "forme": "Fan",
@@ -8453,7 +9043,7 @@
     "tier": "UU"
   },
   "洛托姆-切割": {
-    "num": 479,
+    "num": "479_f6",
     "name": "Rotom-Mow",
     "baseSpecies": "Rotom",
     "forme": "Mow",
@@ -8483,7 +9073,7 @@
     "tier": "UU"
   },
   "由克希": {
-    "num": 480,
+    "num": "480",
     "name": "Uxie",
     "types": [
       "Psychic"
@@ -8512,7 +9102,7 @@
     "tier": "OU"
   },
   "艾姆利多": {
-    "num": 481,
+    "num": "481",
     "name": "Mesprit",
     "types": [
       "Psychic"
@@ -8541,7 +9131,7 @@
     "tier": "OU"
   },
   "亞克諾姆": {
-    "num": 482,
+    "num": "482",
     "name": "Azelf",
     "types": [
       "Psychic"
@@ -8570,7 +9160,7 @@
     "tier": "OU"
   },
   "帝牙盧卡": {
-    "num": 483,
+    "num": "483",
     "name": "Dialga",
     "types": [
       "Steel",
@@ -8600,7 +9190,7 @@
     ]
   },
   "帝牙盧卡-起源": {
-    "num": 483,
+    "num": "483_f2",
     "name": "Dialga-Origin",
     "baseSpecies": "Dialga",
     "forme": "Origin",
@@ -8633,7 +9223,7 @@
     "tier": "Uber"
   },
   "帕路奇亞": {
-    "num": 484,
+    "num": "484",
     "name": "Palkia",
     "types": [
       "Water",
@@ -8671,7 +9261,7 @@
     "tier": "Uber"
   },
   "帕路奇亞-起源": {
-    "num": 484,
+    "num": "484_f2",
     "name": "Palkia-Origin",
     "baseSpecies": "Palkia",
     "forme": "Origin",
@@ -8704,7 +9294,7 @@
     "tier": "Uber"
   },
   "席多藍恩": {
-    "num": 485,
+    "num": "485",
     "name": "Heatran",
     "types": [
       "Fire",
@@ -8734,7 +9324,7 @@
     "tier": "OU"
   },
   "騎拉帝納-別種": {
-    "num": 487,
+    "num": "487",
     "name": "Giratina",
     "baseForme": "Altered",
     "types": [
@@ -8773,7 +9363,7 @@
     "tier": "Uber"
   },
   "騎拉帝納-起源": {
-    "num": 487,
+    "num": "487_f2",
     "name": "Giratina",
     "baseForme": "Altered",
     "types": [
@@ -8812,7 +9402,7 @@
     "tier": "Uber"
   },
   "克雷色利亞": {
-    "num": 488,
+    "num": "488",
     "name": "Cresselia",
     "types": [
       "Psychic"
@@ -8841,7 +9431,7 @@
     "tier": "OU"
   },
   "水水獺": {
-    "num": 501,
+    "num": "501",
     "name": "Oshawott",
     "types": [
       "Water"
@@ -8875,7 +9465,7 @@
     "isNonstandard": "Unobtainable"
   },
   "雙刃丸": {
-    "num": 502,
+    "num": "502",
     "name": "Dewott",
     "types": [
       "Water"
@@ -8912,7 +9502,7 @@
     "isNonstandard": "Unobtainable"
   },
   "大劍鬼": {
-    "num": 503,
+    "num": "503",
     "name": "Samurott",
     "types": [
       "Water"
@@ -8952,7 +9542,7 @@
     "isNonstandard": "Unobtainable"
   },
   "大劍鬼-洗翠": {
-    "num": 503,
+    "num": "503_f2",
     "name": "Samurott-Hisui",
     "baseSpecies": "Samurott",
     "forme": "Hisui",
@@ -8987,8 +9577,143 @@
     "tier": "Unreleased",
     "isNonstandard": "Unobtainable"
   },
+  "搬運小匠": {
+    "num": "532",
+    "name": "Timburr",
+    "types": ["Fighting"],
+    "genderRatio": { "M": 0.75, "F": 0.25 },
+    "baseStats": {
+      "hp": 75,
+      "atk": 80,
+      "def": 55,
+      "spa": 25,
+      "spd": 35,
+      "spe": 35
+    },
+    "abilities": { "0": "Guts", "1": "Sheer Force", "H": "Iron Fist" },
+    "heightm": 0.6,
+    "weightkg": 12.5,
+    "color": "Gray",
+    "evos": ["Gurdurr"],
+    "eggGroups": ["Human-Like"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "鐵骨土人": {
+    "num": "533",
+    "name": "Gurdurr",
+    "types": ["Fighting"],
+    "genderRatio": { "M": 0.75, "F": 0.25 },
+    "baseStats": {
+      "hp": 85,
+      "atk": 105,
+      "def": 85,
+      "spa": 40,
+      "spd": 50,
+      "spe": 40
+    },
+    "abilities": { "0": "Guts", "1": "Sheer Force", "H": "Iron Fist" },
+    "heightm": 1.2,
+    "weightkg": 40,
+    "color": "Gray",
+    "prevo": "Timburr",
+    "evoLevel": 25,
+    "evos": ["Conkeldurr"],
+    "eggGroups": ["Human-Like"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "修建老匠": {
+    "num": "534",
+    "name": "Conkeldurr",
+    "types": ["Fighting"],
+    "genderRatio": { "M": 0.75, "F": 0.25 },
+    "baseStats": {
+      "hp": 105,
+      "atk": 140,
+      "def": 95,
+      "spa": 55,
+      "spd": 65,
+      "spe": 45
+    },
+    "abilities": { "0": "Guts", "1": "Sheer Force", "H": "Iron Fist" },
+    "heightm": 1.4,
+    "weightkg": 87,
+    "color": "Brown",
+    "prevo": "Gurdurr",
+    "evoType": "trade",
+    "eggGroups": ["Human-Like"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "蟲寶包": {
+    "num": "540",
+    "name": "Sewaddle",
+    "types": ["Bug", "Grass"],
+    "baseStats": {
+      "hp": 45,
+      "atk": 53,
+      "def": 70,
+      "spa": 40,
+      "spd": 60,
+      "spe": 42
+    },
+    "abilities": { "0": "Swarm", "1": "Chlorophyll", "H": "Overcoat" },
+    "heightm": 0.3,
+    "weightkg": 2.5,
+    "color": "Yellow",
+    "evos": ["Swadloon"],
+    "eggGroups": ["Bug"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "寶包繭": {
+    "num": "541",
+    "name": "Swadloon",
+    "types": ["Bug", "Grass"],
+    "baseStats": {
+      "hp": 55,
+      "atk": 63,
+      "def": 90,
+      "spa": 50,
+      "spd": 80,
+      "spe": 42
+    },
+    "abilities": { "0": "Leaf Guard", "1": "Chlorophyll", "H": "Overcoat" },
+    "heightm": 0.5,
+    "weightkg": 7.3,
+    "color": "Green",
+    "prevo": "Sewaddle",
+    "evoLevel": 20,
+    "evos": ["Leavanny"],
+    "eggGroups": ["Bug"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "保母蟲": {
+    "num": "542",
+    "name": "Leavanny",
+    "types": ["Bug", "Grass"],
+    "baseStats": {
+      "hp": 75,
+      "atk": 103,
+      "def": 80,
+      "spa": 70,
+      "spd": 80,
+      "spe": 92
+    },
+    "abilities": { "0": "Swarm", "1": "Chlorophyll", "H": "Overcoat" },
+    "heightm": 1.2,
+    "weightkg": 20.5,
+    "color": "Yellow",
+    "prevo": "Swadloon",
+    "evoType": "levelFriendship",
+    "eggGroups": ["Bug"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "百合根娃娃": {
-    "num": 548,
+    "num": "548",
     "name": "Petilil",
     "types": [
       "Grass"
@@ -9020,7 +9745,7 @@
     "tier": "LC"
   },
   "裙兒小姐": {
-    "num": 549,
+    "num": "549",
     "name": "Lilligant",
     "types": [
       "Grass"
@@ -9058,7 +9783,7 @@
     "tier": "UU"
   },
   "裙兒小姐-洗翠": {
-    "num": 549,
+    "num": "549_f2",
     "name": "Lilligant-Hisui",
     "baseSpecies": "Lilligant",
     "forme": "Hisui",
@@ -9093,7 +9818,7 @@
     "isNonstandard": "Unobtainable"
   },
   "野蠻鱸魚": {
-    "num": 550,
+    "num": "550",
     "name": "Basculin",
     "baseForme": "Red-Striped",
     "types": [
@@ -9130,7 +9855,7 @@
     "tier": "UU"
   },
   "黑眼鱷": {
-    "num": 551,
+    "num": "551",
     "name": "Sandile",
     "types": [
       "Ground",
@@ -9161,7 +9886,7 @@
     "tier": "LC"
   },
   "混混鱷": {
-    "num": 552,
+    "num": "552",
     "name": "Krokorok",
     "types": [
       "Ground",
@@ -9194,7 +9919,7 @@
     "tier": "NFE"
   },
   "流氓鱷": {
-    "num": 553,
+    "num": "553",
     "name": "Krookodile",
     "types": [
       "Ground",
@@ -9224,7 +9949,7 @@
     "tier": "UU"
   },
   "索羅亞": {
-    "num": 570,
+    "num": "570",
     "name": "Zorua",
     "types": [
       "Dark"
@@ -9263,7 +9988,7 @@
     "tier": "LC"
   },
   "索羅亞-洗翠": {
-    "num": 570,
+    "num": "570_f2",
     "name": "Zorua-Hisui",
     "baseSpecies": "Zorua",
     "forme": "Hisui",
@@ -9299,7 +10024,7 @@
     "isNonstandard": "Unobtainable"
   },
   "索羅亞克": {
-    "num": 571,
+    "num": "571",
     "name": "Zoroark",
     "types": [
       "Dark"
@@ -9337,7 +10062,7 @@
     "tier": "UU"
   },
   "索羅亞克-洗翠": {
-    "num": 571,
+    "num": "571_f2",
     "name": "Zoroark-Hisui",
     "baseSpecies": "Zoroark",
     "forme": "Hisui",
@@ -9372,7 +10097,7 @@
     "isNonstandard": "Unobtainable"
   },
   "哥德寶寶": {
-    "num": 574,
+    "num": "574",
     "name": "Gothita",
     "types": [
       "Psychic"
@@ -9406,7 +10131,7 @@
     "tier": "LC"
   },
   "哥德小童": {
-    "num": 575,
+    "num": "575",
     "name": "Gothorita",
     "types": [
       "Psychic"
@@ -9442,7 +10167,7 @@
     "tier": "NFE"
   },
   "哥德小姐": {
-    "num": 576,
+    "num": "576",
     "name": "Gothitelle",
     "types": [
       "Psychic"
@@ -9475,7 +10200,7 @@
     "tier": "UU"
   },
   "鴨寶寶": {
-    "num": 580,
+    "num": "580",
     "name": "Ducklett",
     "types": [
       "Water",
@@ -9508,7 +10233,7 @@
     "isNonstandard": "Past"
   },
   "舞天鵝": {
-    "num": 581,
+    "num": "581",
     "name": "Swanna",
     "types": [
       "Water",
@@ -9540,7 +10265,7 @@
     "isNonstandard": "Past"
   },
   "四季鹿": {
-    "num": 585,
+    "num": "585",
     "name": "Deerling",
     "baseForme": "Spring",
     "types": [
@@ -9583,7 +10308,7 @@
     "tier": "LC"
   },
   "萌芽鹿": {
-    "num": 586,
+    "num": "586",
     "name": "Sawsbuck",
     "baseForme": "Spring",
     "types": [
@@ -9625,7 +10350,7 @@
     "tier": "UU"
   },
   "哎呀球菇": {
-    "num": 590,
+    "num": "590",
     "name": "Foongus",
     "types": [
       "Grass",
@@ -9655,7 +10380,7 @@
     "tier": "LC"
   },
   "敗露球菇": {
-    "num": 591,
+    "num": "591",
     "name": "Amoonguss",
     "types": [
       "Grass",
@@ -9684,7 +10409,7 @@
     "tier": "OU"
   },
   "保母曼波": {
-    "num": 594,
+    "num": "594",
     "name": "Alomomola",
     "types": [
       "Water"
@@ -9712,7 +10437,7 @@
     "tier": "UU"
   },
   "麻麻小魚": {
-    "num": 602,
+    "num": "602",
     "name": "Tynamo",
     "types": [
       "Electric"
@@ -9740,7 +10465,7 @@
     "tier": "LC"
   },
   "麻麻鰻": {
-    "num": 603,
+    "num": "603",
     "name": "Eelektrik",
     "types": [
       "Electric"
@@ -9770,7 +10495,7 @@
     "tier": "NFE"
   },
   "麻麻鰻魚王": {
-    "num": 604,
+    "num": "604",
     "name": "Eelektross",
     "types": [
       "Electric"
@@ -9797,8 +10522,75 @@
     ],
     "tier": "UU"
   },
+  "燭光靈": {
+    "num": "607",
+    "name": "Litwick",
+    "types": ["Ghost", "Fire"],
+    "baseStats": {
+      "hp": 50,
+      "atk": 30,
+      "def": 55,
+      "spa": 65,
+      "spd": 55,
+      "spe": 20
+    },
+    "abilities": { "0": "Flash Fire", "1": "Flame Body", "H": "Infiltrator" },
+    "heightm": 0.3,
+    "weightkg": 3.1,
+    "color": "White",
+    "evos": ["Lampent"],
+    "eggGroups": ["Amorphous"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "燈火幽靈": {
+    "num": "608",
+    "name": "Lampent",
+    "types": ["Ghost", "Fire"],
+    "baseStats": {
+      "hp": 60,
+      "atk": 40,
+      "def": 60,
+      "spa": 95,
+      "spd": 60,
+      "spe": 55
+    },
+    "abilities": { "0": "Flash Fire", "1": "Flame Body", "H": "Infiltrator" },
+    "heightm": 0.6,
+    "weightkg": 13,
+    "color": "Black",
+    "prevo": "Litwick",
+    "evoLevel": 41,
+    "evos": ["Chandelure"],
+    "eggGroups": ["Amorphous"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "水晶燈火靈": {
+    "num": "609",
+    "name": "Chandelure",
+    "types": ["Ghost", "Fire"],
+    "baseStats": {
+      "hp": 60,
+      "atk": 55,
+      "def": 90,
+      "spa": 145,
+      "spd": 90,
+      "spe": 80
+    },
+    "abilities": { "0": "Flash Fire", "1": "Flame Body", "H": "Infiltrator" },
+    "heightm": 1,
+    "weightkg": 34.3,
+    "color": "Black",
+    "prevo": "Lampent",
+    "evoType": "useItem",
+    "evoItem": "Dusk Stone",
+    "eggGroups": ["Amorphous"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "牙牙": {
-    "num": 610,
+    "num": "610",
     "name": "Axew",
     "types": [
       "Dragon"
@@ -9829,7 +10621,7 @@
     "tier": "LC"
   },
   "斧牙龍": {
-    "num": 611,
+    "num": "611",
     "name": "Fraxure",
     "types": [
       "Dragon"
@@ -9862,7 +10654,7 @@
     "tier": "NFE"
   },
   "雙斧戰龍": {
-    "num": 612,
+    "num": "612",
     "name": "Haxorus",
     "types": [
       "Dragon"
@@ -9892,7 +10684,7 @@
     "tier": "UU"
   },
   "噴嚏熊": {
-    "num": 613,
+    "num": "613",
     "name": "Cubchoo",
     "types": [
       "Ice"
@@ -9922,7 +10714,7 @@
     "tier": "LC"
   },
   "凍原熊": {
-    "num": 614,
+    "num": "614",
     "name": "Beartic",
     "types": [
       "Ice"
@@ -9951,7 +10743,7 @@
     "tier": "UU"
   },
   "幾何雪花": {
-    "num": 615,
+    "num": "615",
     "name": "Cryogonal",
     "types": [
       "Ice"
@@ -9977,7 +10769,7 @@
     "tier": "UU"
   },
   "功夫鼬": {
-    "num": 619,
+    "num": "619",
     "name": "Mienfoo",
     "types": [
       "Fighting"
@@ -10009,7 +10801,7 @@
     "isNonstandard": "Past"
   },
   "師父鼬": {
-    "num": 620,
+    "num": "620",
     "name": "Mienshao",
     "types": [
       "Fighting"
@@ -10040,7 +10832,7 @@
     "isNonstandard": "Past"
   },
   "駒刀小兵": {
-    "num": 624,
+    "num": "624",
     "name": "Pawniard",
     "types": [
       "Dark",
@@ -10071,7 +10863,7 @@
     "tier": "LC"
   },
   "劈斬司令": {
-    "num": 625,
+    "num": "625",
     "name": "Bisharp",
     "types": [
       "Dark",
@@ -10104,7 +10896,7 @@
     "tier": "NFE"
   },
   "毛頭小鷹": {
-    "num": 627,
+    "num": "627",
     "name": "Rufflet",
     "types": [
       "Normal",
@@ -10137,7 +10929,7 @@
     "tier": "NFE"
   },
   "勇士雄鷹": {
-    "num": 628,
+    "num": "628",
     "name": "Braviary",
     "types": [
       "Normal",
@@ -10175,7 +10967,7 @@
     "tier": "UU"
   },
   "勇士雄鷹-洗翠": {
-    "num": 628,
+    "num": "628_f2",
     "name": "Braviary-Hisui",
     "baseSpecies": "Braviary",
     "forme": "Hisui",
@@ -10209,7 +11001,7 @@
     "isNonstandard": "Unobtainable"
   },
   "禿鷹丫頭": {
-    "num": 629,
+    "num": "629",
     "name": "Vullaby",
     "types": [
       "Dark",
@@ -10242,7 +11034,7 @@
     "isNonstandard": "Past"
   },
   "禿鷹娜": {
-    "num": 630,
+    "num": "630",
     "name": "Mandibuzz",
     "types": [
       "Dark",
@@ -10274,7 +11066,7 @@
     "isNonstandard": "Past"
   },
   "單首龍": {
-    "num": 633,
+    "num": "633",
     "name": "Deino",
     "types": [
       "Dark",
@@ -10303,7 +11095,7 @@
     "tier": "LC"
   },
   "雙首暴龍": {
-    "num": 634,
+    "num": "634",
     "name": "Zweilous",
     "types": [
       "Dark",
@@ -10334,7 +11126,7 @@
     "tier": "NFE"
   },
   "三首惡龍": {
-    "num": 635,
+    "num": "635",
     "name": "Hydreigon",
     "types": [
       "Dark",
@@ -10362,7 +11154,7 @@
     "tier": "UU"
   },
   "燃燒蟲": {
-    "num": 636,
+    "num": "636",
     "name": "Larvesta",
     "types": [
       "Bug",
@@ -10392,7 +11184,7 @@
     "tier": "LC"
   },
   "火神蛾": {
-    "num": 637,
+    "num": "637",
     "name": "Volcarona",
     "types": [
       "Bug",
@@ -10421,7 +11213,7 @@
     "tier": "OU"
   },
   "龍捲雲-化身": {
-    "num": 641,
+    "num": "641",
     "name": "Tornadus",
     "baseForme": "Incarnate",
     "types": [
@@ -10459,7 +11251,7 @@
     "tier": "OU"
   },
   "龍捲雲-靈獸": {
-    "num": 641,
+    "num": "641_f2",
     "name": "Tornadus-Therian",
     "baseSpecies": "Tornadus",
     "forme": "Therian",
@@ -10488,7 +11280,7 @@
     "tier": "OU"
   },
   "雷電雲-化身": {
-    "num": 642,
+    "num": "642",
     "name": "Thundurus",
     "baseForme": "Incarnate",
     "types": [
@@ -10527,7 +11319,7 @@
     "tier": "OU"
   },
   "雷電雲-靈獸": {
-    "num": 642,
+    "num": "642_f2",
     "name": "Thundurus-Therian",
     "baseSpecies": "Thundurus",
     "forme": "Therian",
@@ -10557,7 +11349,7 @@
     "tier": "OU"
   },
   "土地雲-化身": {
-    "num": 645,
+    "num": "645",
     "name": "Landorus",
     "baseForme": "Incarnate",
     "types": [
@@ -10596,7 +11388,7 @@
     "tier": "Uber"
   },
   "土地雲-靈獸": {
-    "num": 645,
+    "num": "645_f2",
     "name": "Landorus-Therian",
     "baseSpecies": "Landorus",
     "forme": "Therian",
@@ -10626,7 +11418,7 @@
     "tier": "OU"
   },
   "哈力栗": {
-    "num": 650,
+    "num": "650",
     "name": "Chespin",
     "types": [
       "Grass"
@@ -10660,7 +11452,7 @@
     "isNonstandard": "Unobtainable"
   },
   "胖胖哈力": {
-    "num": 651,
+    "num": "651",
     "name": "Quilladin",
     "types": [
       "Grass"
@@ -10696,7 +11488,7 @@
     "isNonstandard": "Unobtainable"
   },
   "布里卡隆": {
-    "num": 652,
+    "num": "652",
     "name": "Chesnaught",
     "types": [
       "Grass",
@@ -10730,7 +11522,7 @@
     "isNonstandard": "Unobtainable"
   },
   "火狐狸": {
-    "num": 653,
+    "num": "653",
     "name": "Fennekin",
     "types": [
       "Fire"
@@ -10764,7 +11556,7 @@
     "isNonstandard": "Unobtainable"
   },
   "長尾火狐": {
-    "num": 654,
+    "num": "654",
     "name": "Braixen",
     "types": [
       "Fire"
@@ -10800,7 +11592,7 @@
     "isNonstandard": "Unobtainable"
   },
   "妖火紅狐": {
-    "num": 655,
+    "num": "655",
     "name": "Delphox",
     "types": [
       "Fire",
@@ -10834,7 +11626,7 @@
     "isNonstandard": "Unobtainable"
   },
   "呱呱泡蛙": {
-    "num": 656,
+    "num": "656",
     "name": "Froakie",
     "types": [
       "Water"
@@ -10868,7 +11660,7 @@
     "isNonstandard": "Unobtainable"
   },
   "呱頭蛙": {
-    "num": 657,
+    "num": "657",
     "name": "Frogadier",
     "types": [
       "Water"
@@ -10904,7 +11696,7 @@
     "isNonstandard": "Unobtainable"
   },
   "甲賀忍蛙": {
-    "num": 658,
+    "num": "658",
     "name": "Greninja",
     "types": [
       "Water",
@@ -10947,7 +11739,7 @@
     "isNonstandard": "Unobtainable"
   },
   "甲賀忍蛙-小智": {
-    "num": 658,
+    "num": "658_f2",
     "name": "Greninja-Ash",
     "baseSpecies": "Greninja",
     "forme": "Ash",
@@ -10980,7 +11772,7 @@
     "isNonstandard": "Past"
   },
   "小箭雀": {
-    "num": 661,
+    "num": "661",
     "name": "Fletchling",
     "types": [
       "Normal",
@@ -11010,7 +11802,7 @@
     "tier": "LC"
   },
   "火箭雀": {
-    "num": 662,
+    "num": "662",
     "name": "Fletchinder",
     "types": [
       "Fire",
@@ -11042,7 +11834,7 @@
     "tier": "NFE"
   },
   "烈箭鷹": {
-    "num": 663,
+    "num": "663",
     "name": "Talonflame",
     "types": [
       "Fire",
@@ -11071,7 +11863,7 @@
     "tier": "UU"
   },
   "粉蝶蟲": {
-    "num": 664,
+    "num": "664",
     "name": "Scatterbug",
     "types": [
       "Bug"
@@ -11101,7 +11893,7 @@
     "tier": "LC"
   },
   "粉蝶蛹": {
-    "num": 665,
+    "num": "665",
     "name": "Spewpa",
     "types": [
       "Bug"
@@ -11133,7 +11925,7 @@
     "tier": "NFE"
   },
   "彩粉蝶": {
-    "num": 666,
+    "num": "666",
     "name": "Vivillon",
     "baseForme": "Meadow",
     "types": [
@@ -11210,7 +12002,7 @@
     "isNonstandard": "Unobtainable"
   },
   "小獅獅": {
-    "num": 667,
+    "num": "667",
     "name": "Litleo",
     "types": [
       "Fire",
@@ -11245,7 +12037,7 @@
     "tier": "LC"
   },
   "火炎獅": {
-    "num": 668,
+    "num": "668",
     "name": "Pyroar",
     "types": [
       "Fire",
@@ -11279,7 +12071,7 @@
     "tier": "UU"
   },
   "花蓓蓓": {
-    "num": 669,
+    "num": "669",
     "name": "Flabébé",
     "baseForme": "Red",
     "types": [
@@ -11323,7 +12115,7 @@
     "tier": "LC"
   },
   "花葉蒂": {
-    "num": 670,
+    "num": "670",
     "name": "Floette",
     "baseForme": "Red",
     "types": [
@@ -11373,7 +12165,7 @@
     "tier": "NFE"
   },
   "花潔夫人": {
-    "num": 671,
+    "num": "671",
     "name": "Florges",
     "baseForme": "Red",
     "types": [
@@ -11417,7 +12209,7 @@
     "tier": "UU"
   },
   "坐騎小羊": {
-    "num": 672,
+    "num": "672",
     "name": "Skiddo",
     "types": [
       "Grass"
@@ -11446,7 +12238,7 @@
     "tier": "LC"
   },
   "坐騎山羊": {
-    "num": 673,
+    "num": "673",
     "name": "Gogoat",
     "types": [
       "Grass"
@@ -11474,7 +12266,7 @@
     "tier": "UU"
   },
   "垃垃藻": {
-    "num": 690,
+    "num": "690",
     "name": "Skrelp",
     "types": [
       "Poison",
@@ -11506,7 +12298,7 @@
     "tier": "LC"
   },
   "毒藻龍": {
-    "num": 691,
+    "num": "691",
     "name": "Dragalge",
     "types": [
       "Poison",
@@ -11537,7 +12329,7 @@
     "tier": "UU"
   },
   "鐵臂槍蝦": {
-    "num": 692,
+    "num": "692",
     "name": "Clauncher",
     "types": [
       "Water"
@@ -11566,7 +12358,7 @@
     "tier": "LC"
   },
   "鋼炮臂蝦": {
-    "num": 693,
+    "num": "693",
     "name": "Clawitzer",
     "types": [
       "Water"
@@ -11594,7 +12386,7 @@
     "tier": "UU"
   },
   "仙子伊布": {
-    "num": 700,
+    "num": "700",
     "name": "Sylveon",
     "types": [
       "Fairy"
@@ -11627,7 +12419,7 @@
     "tier": "UU"
   },
   "摔角鷹人": {
-    "num": 701,
+    "num": "701",
     "name": "Hawlucha",
     "types": [
       "Fighting",
@@ -11656,7 +12448,7 @@
     "tier": "UU"
   },
   "咚咚鼠": {
-    "num": 702,
+    "num": "702",
     "name": "Dedenne",
     "types": [
       "Electric",
@@ -11685,7 +12477,7 @@
     "tier": "UU"
   },
   "小碎鑽": {
-    "num": 703,
+    "num": "703",
     "name": "Carbink",
     "types": [
       "Rock",
@@ -11714,7 +12506,7 @@
     "tier": "OU"
   },
   "黏黏寶": {
-    "num": 704,
+    "num": "704",
     "name": "Goomy",
     "types": [
       "Dragon"
@@ -11745,7 +12537,7 @@
     "tier": "LC"
   },
   "黏美兒": {
-    "num": 705,
+    "num": "705",
     "name": "Sliggoo",
     "types": [
       "Dragon"
@@ -11784,7 +12576,7 @@
     "tier": "NFE"
   },
   "黏美兒-洗翠": {
-    "num": 705,
+    "num": "705_f2",
     "name": "Sliggoo-Hisui",
     "baseSpecies": "Sliggoo",
     "forme": "Hisui",
@@ -11820,7 +12612,7 @@
     "isNonstandard": "Unobtainable"
   },
   "黏美龍": {
-    "num": 706,
+    "num": "706",
     "name": "Goodra",
     "types": [
       "Dragon"
@@ -11856,7 +12648,7 @@
     "tier": "UU"
   },
   "黏美龍-洗翠": {
-    "num": 706,
+    "num": "706_f2",
     "name": "Goodra-Hisui",
     "baseSpecies": "Goodra",
     "forme": "Hisui",
@@ -11889,7 +12681,7 @@
     "isNonstandard": "Unobtainable"
   },
   "鑰圈兒": {
-    "num": 707,
+    "num": "707",
     "name": "Klefki",
     "types": [
       "Steel",
@@ -11915,8 +12707,51 @@
     ],
     "tier": "UU"
   },
+  "小木靈": {
+    "num": "708",
+    "name": "Phantump",
+    "types": ["Ghost", "Grass"],
+    "baseStats": {
+      "hp": 43,
+      "atk": 70,
+      "def": 48,
+      "spa": 50,
+      "spd": 60,
+      "spe": 38
+    },
+    "abilities": { "0": "Natural Cure", "1": "Frisk", "H": "Harvest" },
+    "heightm": 0.4,
+    "weightkg": 7,
+    "color": "Brown",
+    "evos": ["Trevenant"],
+    "eggGroups": ["Grass", "Amorphous"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "朽木妖": {
+    "num": "709",
+    "name": "Trevenant",
+    "types": ["Ghost", "Grass"],
+    "baseStats": {
+      "hp": 85,
+      "atk": 110,
+      "def": 76,
+      "spa": 65,
+      "spd": 82,
+      "spe": 56
+    },
+    "abilities": { "0": "Natural Cure", "1": "Frisk", "H": "Harvest" },
+    "heightm": 1.5,
+    "weightkg": 71,
+    "color": "Brown",
+    "prevo": "Phantump",
+    "evoType": "trade",
+    "eggGroups": ["Grass", "Amorphous"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "冰寶": {
-    "num": 712,
+    "num": "712",
     "name": "Bergmite",
     "types": [
       "Ice"
@@ -11948,7 +12783,7 @@
     "tier": "LC"
   },
   "冰岩怪": {
-    "num": 713,
+    "num": "713",
     "name": "Avalugg",
     "types": [
       "Ice"
@@ -11985,7 +12820,7 @@
     "tier": "UU"
   },
   "冰岩怪-洗翠": {
-    "num": 713,
+    "num": "713_f2",
     "name": "Avalugg-Hisui",
     "baseSpecies": "Avalugg",
     "forme": "Hisui",
@@ -12019,7 +12854,7 @@
     "isNonstandard": "Unobtainable"
   },
   "嗡蝠": {
-    "num": 714,
+    "num": "714",
     "name": "Noibat",
     "types": [
       "Flying",
@@ -12051,7 +12886,7 @@
     "tier": "LC"
   },
   "音波龍": {
-    "num": 715,
+    "num": "715",
     "name": "Noivern",
     "types": [
       "Flying",
@@ -12082,7 +12917,7 @@
     "tier": "UU"
   },
   "木木梟": {
-    "num": 722,
+    "num": "722",
     "name": "Rowlet",
     "types": [
       "Grass",
@@ -12117,7 +12952,7 @@
     "isNonstandard": "Unobtainable"
   },
   "投羽梟": {
-    "num": 723,
+    "num": "723",
     "name": "Dartrix",
     "types": [
       "Grass",
@@ -12155,7 +12990,7 @@
     "isNonstandard": "Unobtainable"
   },
   "狙射樹梟": {
-    "num": 724,
+    "num": "724",
     "name": "Decidueye",
     "types": [
       "Grass",
@@ -12196,7 +13031,7 @@
     "isNonstandard": "Unobtainable"
   },
   "狙射樹梟-洗翠": {
-    "num": 724,
+    "num": "724_f2",
     "name": "Decidueye-Hisui",
     "baseSpecies": "Decidueye",
     "forme": "Hisui",
@@ -12232,7 +13067,7 @@
     "isNonstandard": "Unobtainable"
   },
   "貓鼬少": {
-    "num": 734,
+    "num": "734",
     "name": "Yungoos",
     "types": [
       "Normal"
@@ -12262,7 +13097,7 @@
     "tier": "LC"
   },
   "貓鼬探長": {
-    "num": 735,
+    "num": "735",
     "name": "Gumshoos",
     "types": [
       "Normal"
@@ -12299,7 +13134,7 @@
     "tier": "UU"
   },
   "強顎雞母蟲": {
-    "num": 736,
+    "num": "736",
     "name": "Grubbin",
     "types": [
       "Bug"
@@ -12328,7 +13163,7 @@
     "isNonstandard": "Past"
   },
   "蟲電寶": {
-    "num": 737,
+    "num": "737",
     "name": "Charjabug",
     "types": [
       "Bug",
@@ -12360,7 +13195,7 @@
     "isNonstandard": "Past"
   },
   "鍬農炮蟲": {
-    "num": 738,
+    "num": "738",
     "name": "Vikavolt",
     "types": [
       "Bug",
@@ -12397,7 +13232,7 @@
     "isNonstandard": "Past"
   },
   "好勝蟹": {
-    "num": 739,
+    "num": "739",
     "name": "Crabrawler",
     "types": [
       "Fighting"
@@ -12427,7 +13262,7 @@
     "tier": "LC"
   },
   "好勝毛蟹": {
-    "num": 740,
+    "num": "740",
     "name": "Crabominable",
     "types": [
       "Fighting",
@@ -12458,7 +13293,7 @@
     "tier": "UU"
   },
   "花舞鳥-熱辣熱辣": {
-    "num": 741,
+    "num": "741",
     "name": "Oricorio",
     "baseForme": "Baile",
     "types": [
@@ -12500,7 +13335,7 @@
     "tier": "UU"
   },
   "花舞鳥-啪滋啪滋": {
-    "num": 741,
+    "num": "741_f2",
     "name": "Oricorio-Pom-Pom",
     "baseSpecies": "Oricorio",
     "forme": "Pom-Pom",
@@ -12533,7 +13368,7 @@
     "tier": "UU"
   },
   "花舞鳥-呼拉呼拉": {
-    "num": 741,
+    "num": "741_f3",
     "name": "Oricorio-Pa'u",
     "baseSpecies": "Oricorio",
     "forme": "Pa'u",
@@ -12566,7 +13401,7 @@
     "tier": "UU"
   },
   "花舞鳥-輕盈輕盈": {
-    "num": 741,
+    "num": "741_f4",
     "name": "Oricorio-Sensu",
     "baseSpecies": "Oricorio",
     "forme": "Sensu",
@@ -12599,7 +13434,7 @@
     "tier": "UU"
   },
   "萌虻": {
-    "num": 742,
+    "num": "742",
     "name": "Cutiefly",
     "types": [
       "Bug",
@@ -12626,7 +13461,7 @@
     ]
   },
   "蝶結萌虻": {
-    "num": 743,
+    "num": "743",
     "name": "Ribombee",
     "types": [
       "Bug",
@@ -12652,7 +13487,7 @@
     "evoLevel": 25
   },
   "岩狗狗": {
-    "num": 744,
+    "num": "744",
     "name": "Rockruff",
     "baseForme": "Midday",
     "types": [
@@ -12690,7 +13525,7 @@
     "tier": "LC"
   },
   "鬃岩狼人-白晝": {
-    "num": 745,
+    "num": "745",
     "name": "Lycanroc",
     "baseForme": "Midday",
     "types": [
@@ -12730,7 +13565,7 @@
     "tier": "UU"
   },
   "鬃岩狼人-黑夜": {
-    "num": 745,
+    "num": "745_f2",
     "name": "Lycanroc-Midnight",
     "baseSpecies": "Lycanroc",
     "forme": "Midnight",
@@ -12762,7 +13597,7 @@
     "tier": "UU"
   },
   "鬃岩狼人-黃昏": {
-    "num": 745,
+    "num": "745_f3",
     "name": "Lycanroc-Dusk",
     "baseSpecies": "Lycanroc",
     "forme": "Dusk",
@@ -12792,7 +13627,7 @@
     "tier": "UU"
   },
   "好壞星": {
-    "num": 747,
+    "num": "747",
     "name": "Mareanie",
     "types": [
       "Poison",
@@ -12823,7 +13658,7 @@
     "tier": "LC"
   },
   "超壞星": {
-    "num": 748,
+    "num": "748",
     "name": "Toxapex",
     "types": [
       "Poison",
@@ -12853,7 +13688,7 @@
     "tier": "OU"
   },
   "泥驢仔": {
-    "num": 749,
+    "num": "749",
     "name": "Mudbray",
     "types": [
       "Ground"
@@ -12883,7 +13718,7 @@
     "tier": "LC"
   },
   "重泥挽馬": {
-    "num": 750,
+    "num": "750",
     "name": "Mudsdale",
     "types": [
       "Ground"
@@ -12912,7 +13747,7 @@
     "tier": "UU"
   },
   "偽螳草": {
-    "num": 753,
+    "num": "753",
     "name": "Fomantis",
     "types": [
       "Grass"
@@ -12941,7 +13776,7 @@
     "tier": "LC"
   },
   "蘭螳花": {
-    "num": 754,
+    "num": "754",
     "name": "Lurantis",
     "types": [
       "Grass"
@@ -12977,7 +13812,7 @@
     "tier": "UU"
   },
   "夜盜火蜥": {
-    "num": 757,
+    "num": "757",
     "name": "Salandit",
     "types": [
       "Poison",
@@ -13012,7 +13847,7 @@
     "tier": "LC"
   },
   "焰后蜥": {
-    "num": 758,
+    "num": "758",
     "name": "Salazzle",
     "types": [
       "Poison",
@@ -13050,7 +13885,7 @@
     "tier": "UU"
   },
   "甜竹竹": {
-    "num": 761,
+    "num": "761",
     "name": "Bounsweet",
     "types": [
       "Grass"
@@ -13081,7 +13916,7 @@
     "tier": "LC"
   },
   "甜舞妮": {
-    "num": 762,
+    "num": "762",
     "name": "Steenee",
     "types": [
       "Grass"
@@ -13114,7 +13949,7 @@
     "tier": "NFE"
   },
   "甜冷美后": {
-    "num": 763,
+    "num": "763",
     "name": "Tsareena",
     "types": [
       "Grass"
@@ -13145,7 +13980,7 @@
     "tier": "UU"
   },
   "智揮猩": {
-    "num": 765,
+    "num": "765",
     "name": "Oranguru",
     "types": [
       "Normal",
@@ -13173,7 +14008,7 @@
     "tier": "UU"
   },
   "投擲猴": {
-    "num": 766,
+    "num": "766",
     "name": "Passimian",
     "types": [
       "Fighting"
@@ -13199,7 +14034,7 @@
     "tier": "UU"
   },
   "沙丘娃": {
-    "num": 769,
+    "num": "769",
     "name": "Sandygast",
     "types": [
       "Ghost",
@@ -13229,7 +14064,7 @@
     "tier": "LC"
   },
   "噬沙堡爺": {
-    "num": 770,
+    "num": "770",
     "name": "Palossand",
     "types": [
       "Ghost",
@@ -13258,7 +14093,7 @@
     "tier": "UU"
   },
   "樹枕尾熊": {
-    "num": 775,
+    "num": "775",
     "name": "Komala",
     "types": [
       "Normal"
@@ -13283,7 +14118,7 @@
     "tier": "UU"
   },
   "謎擬Ｑ": {
-    "num": 778,
+    "num": "778",
     "name": "Mimikyu",
     "baseForme": "Disguised",
     "types": [
@@ -13321,7 +14156,7 @@
     "tier": "UU"
   },
   "磨牙彩皮魚": {
-    "num": 779,
+    "num": "779",
     "name": "Bruxish",
     "types": [
       "Water",
@@ -13348,8 +14183,76 @@
     ],
     "tier": "UU"
   },
+  "心鱗寶": {
+    "num": "782",
+    "name": "Jangmo-o",
+    "types": ["Dragon"],
+    "baseStats": {
+      "hp": 45,
+      "atk": 55,
+      "def": 65,
+      "spa": 45,
+      "spd": 45,
+      "spe": 45
+    },
+    "abilities": { "0": "Bulletproof", "1": "Soundproof", "H": "Overcoat" },
+    "heightm": 0.6,
+    "weightkg": 29.7,
+    "color": "Gray",
+    "evos": ["Hakamo-o"],
+    "eggGroups": ["Dragon"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "鱗甲龍": {
+    "num": "783",
+    "name": "Hakamo-o",
+    "types": ["Dragon", "Fighting"],
+    "baseStats": {
+      "hp": 55,
+      "atk": 75,
+      "def": 90,
+      "spa": 65,
+      "spd": 70,
+      "spe": 65
+    },
+    "abilities": { "0": "Bulletproof", "1": "Soundproof", "H": "Overcoat" },
+    "heightm": 1.2,
+    "weightkg": 47,
+    "color": "Gray",
+    "prevo": "Jangmo-o",
+    "evoLevel": 35,
+    "evos": ["Kommo-o"],
+    "eggGroups": ["Dragon"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "杖尾鱗甲龍": {
+    "num": "784",
+    "name": "Kommo-o",
+    "types": ["Dragon", "Fighting"],
+    "baseStats": {
+      "hp": 75,
+      "atk": 110,
+      "def": 125,
+      "spa": 100,
+      "spd": 105,
+      "spe": 85
+    },
+    "abilities": { "0": "Bulletproof", "1": "Soundproof", "H": "Overcoat" },
+    "heightm": 1.6,
+    "weightkg": 78.2,
+    "color": "Gray",
+    "prevo": "Hakamo-o",
+    "evoLevel": 45,
+    "eggGroups": ["Dragon"],
+    "otherFormes": ["Kommo-o-Totem"],
+    "formeOrder": ["Kommo-o", "Kommo-o-Totem"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "敲音猴": {
-    "num": 810,
+    "num": "810",
     "name": "Grookey",
     "types": [
       "Grass"
@@ -13384,7 +14287,7 @@
     "isNonstandard": "Unobtainable"
   },
   "啪咚猴": {
-    "num": 811,
+    "num": "811",
     "name": "Thwackey",
     "types": [
       "Grass"
@@ -13421,7 +14324,7 @@
     "isNonstandard": "Unobtainable"
   },
   "轟擂金剛猩": {
-    "num": 812,
+    "num": "812",
     "name": "Rillaboom",
     "types": [
       "Grass"
@@ -13456,7 +14359,7 @@
     "isNonstandard": "Unobtainable"
   },
   "炎兔兒": {
-    "num": 813,
+    "num": "813",
     "name": "Scorbunny",
     "types": [
       "Fire"
@@ -13491,7 +14394,7 @@
     "isNonstandard": "Unobtainable"
   },
   "騰蹴小將": {
-    "num": 814,
+    "num": "814",
     "name": "Raboot",
     "types": [
       "Fire"
@@ -13528,7 +14431,7 @@
     "isNonstandard": "Unobtainable"
   },
   "閃焰王牌": {
-    "num": 815,
+    "num": "815",
     "name": "Cinderace",
     "types": [
       "Fire"
@@ -13563,7 +14466,7 @@
     "isNonstandard": "Unobtainable"
   },
   "淚眼蜥": {
-    "num": 816,
+    "num": "816",
     "name": "Sobble",
     "types": [
       "Water"
@@ -13598,7 +14501,7 @@
     "isNonstandard": "Unobtainable"
   },
   "變澀蜥": {
-    "num": 817,
+    "num": "817",
     "name": "Drizzile",
     "types": [
       "Water"
@@ -13635,7 +14538,7 @@
     "isNonstandard": "Unobtainable"
   },
   "千面避役": {
-    "num": 818,
+    "num": "818",
     "name": "Inteleon",
     "types": [
       "Water"
@@ -13670,7 +14573,7 @@
     "isNonstandard": "Unobtainable"
   },
   "貪心栗鼠": {
-    "num": 819,
+    "num": "819",
     "name": "Skwovet",
     "types": [
       "Normal"
@@ -13699,7 +14602,7 @@
     "tier": "LC"
   },
   "藏飽栗鼠": {
-    "num": 820,
+    "num": "820",
     "name": "Greedent",
     "types": [
       "Normal"
@@ -13727,7 +14630,7 @@
     "tier": "UU"
   },
   "稚山雀": {
-    "num": 821,
+    "num": "821",
     "name": "Rookidee",
     "types": [
       "Flying"
@@ -13757,7 +14660,7 @@
     "tier": "LC"
   },
   "藍鴉": {
-    "num": 822,
+    "num": "822",
     "name": "Corvisquire",
     "types": [
       "Flying"
@@ -13789,7 +14692,7 @@
     "tier": "NFE"
   },
   "鋼鎧鴉": {
-    "num": 823,
+    "num": "823",
     "name": "Corviknight",
     "types": [
       "Flying",
@@ -13820,7 +14723,7 @@
     "tier": "OU"
   },
   "咬咬龜": {
-    "num": 833,
+    "num": "833",
     "name": "Chewtle",
     "types": [
       "Water"
@@ -13851,7 +14754,7 @@
     "tier": "LC"
   },
   "暴噬龜": {
-    "num": 834,
+    "num": "834",
     "name": "Drednaw",
     "types": [
       "Water",
@@ -13883,7 +14786,7 @@
     "tier": "UU"
   },
   "小炭仔": {
-    "num": 837,
+    "num": "837",
     "name": "Rolycoly",
     "types": [
       "Rock"
@@ -13913,7 +14816,7 @@
     "tier": "LC"
   },
   "大炭車": {
-    "num": 838,
+    "num": "838",
     "name": "Carkol",
     "types": [
       "Rock",
@@ -13946,7 +14849,7 @@
     "tier": "NFE"
   },
   "巨炭山": {
-    "num": 839,
+    "num": "839",
     "name": "Coalossal",
     "types": [
       "Rock",
@@ -13977,7 +14880,7 @@
     "tier": "UU"
   },
   "啃果蟲": {
-    "num": 840,
+    "num": "840",
     "name": "Applin",
     "types": [
       "Grass",
@@ -14010,7 +14913,7 @@
     "tier": "LC"
   },
   "蘋裹龍": {
-    "num": 841,
+    "num": "841",
     "name": "Flapple",
     "types": [
       "Grass",
@@ -14043,7 +14946,7 @@
     "tier": "UU"
   },
   "豐蜜龍": {
-    "num": 842,
+    "num": "842",
     "name": "Appletun",
     "types": [
       "Grass",
@@ -14076,7 +14979,7 @@
     "tier": "UU"
   },
   "沙包蛇": {
-    "num": 843,
+    "num": "843",
     "name": "Silicobra",
     "types": [
       "Ground"
@@ -14107,7 +15010,7 @@
     "tier": "LC"
   },
   "沙螺蟒": {
-    "num": 844,
+    "num": "844",
     "name": "Sandaconda",
     "types": [
       "Ground"
@@ -14138,7 +15041,7 @@
     "tier": "UU"
   },
   "古月鳥": {
-    "num": 845,
+    "num": "845",
     "name": "Cramorant",
     "types": [
       "Flying",
@@ -14175,7 +15078,7 @@
     "isNonstandard": "Past"
   },
   "刺梭魚": {
-    "num": 846,
+    "num": "846",
     "name": "Arrokuda",
     "types": [
       "Water"
@@ -14204,7 +15107,7 @@
     "tier": "LC"
   },
   "戽斗尖梭": {
-    "num": 847,
+    "num": "847",
     "name": "Barraskewda",
     "types": [
       "Water"
@@ -14232,7 +15135,7 @@
     "tier": "UU"
   },
   "毒電嬰": {
-    "num": 848,
+    "num": "848",
     "name": "Toxel",
     "types": [
       "Electric",
@@ -14265,7 +15168,7 @@
     "tier": "LC"
   },
   "顫弦蠑螈": {
-    "num": 849,
+    "num": "849",
     "name": "Toxtricity",
     "baseForme": "Amped",
     "types": [
@@ -14304,7 +15207,7 @@
     "tier": "UU"
   },
   "來悲茶": {
-    "num": 854,
+    "num": "854",
     "name": "Sinistea",
     "baseForme": "Phony",
     "types": [
@@ -14343,7 +15246,7 @@
     "tier": "LC"
   },
   "怖思壺": {
-    "num": 855,
+    "num": "855",
     "name": "Polteageist",
     "baseForme": "Phony",
     "types": [
@@ -14382,7 +15285,7 @@
     "tier": "UU"
   },
   "迷布莉姆": {
-    "num": 856,
+    "num": "856",
     "name": "Hatenna",
     "types": [
       "Psychic"
@@ -14413,7 +15316,7 @@
     "tier": "LC"
   },
   "提布莉姆": {
-    "num": 857,
+    "num": "857",
     "name": "Hattrem",
     "types": [
       "Psychic"
@@ -14446,7 +15349,7 @@
     "tier": "NFE"
   },
   "布莉姆溫": {
-    "num": 858,
+    "num": "858",
     "name": "Hatterene",
     "types": [
       "Psychic",
@@ -14478,7 +15381,7 @@
     "tier": "UU"
   },
   "搗蛋小妖": {
-    "num": 859,
+    "num": "859",
     "name": "Impidimp",
     "types": [
       "Dark",
@@ -14511,7 +15414,7 @@
     "tier": "LC"
   },
   "詐唬魔": {
-    "num": 860,
+    "num": "860",
     "name": "Morgrem",
     "types": [
       "Dark",
@@ -14546,7 +15449,7 @@
     "tier": "NFE"
   },
   "長毛巨魔": {
-    "num": 861,
+    "num": "861",
     "name": "Grimmsnarl",
     "types": [
       "Dark",
@@ -14579,7 +15482,7 @@
     "tier": "OU"
   },
   "喵頭目": {
-    "num": 863,
+    "num": "863",
     "name": "Perrserker",
     "types": [
       "Steel"
@@ -14608,7 +15511,7 @@
     "tier": "UU"
   },
   "列陣兵": {
-    "num": 870,
+    "num": "870",
     "name": "Falinks",
     "types": [
       "Fighting"
@@ -14636,7 +15539,7 @@
     "tier": "UU"
   },
   "啪嚓海膽": {
-    "num": 871,
+    "num": "871",
     "name": "Pincurchin",
     "types": [
       "Electric"
@@ -14663,7 +15566,7 @@
     "tier": "UU"
   },
   "雪吞蟲": {
-    "num": 872,
+    "num": "872",
     "name": "Snom",
     "types": [
       "Ice",
@@ -14693,7 +15596,7 @@
     "tier": "LC"
   },
   "雪絨蛾": {
-    "num": 873,
+    "num": "873",
     "name": "Frosmoth",
     "types": [
       "Ice",
@@ -14723,7 +15626,7 @@
     "tier": "UU"
   },
   "巨石丁": {
-    "num": 874,
+    "num": "874",
     "name": "Stonjourner",
     "types": [
       "Rock"
@@ -14748,7 +15651,7 @@
     "tier": "UU"
   },
   "冰砌鵝": {
-    "num": 875,
+    "num": "875",
     "name": "Eiscue",
     "types": [
       "Ice"
@@ -14781,7 +15684,7 @@
     "tier": "UU"
   },
   "冰砌鵝-解凍": {
-    "num": 875,
+    "num": "875",
     "name": "Eiscue-Noice",
     "baseSpecies": "Eiscue",
     "forme": "Noice",
@@ -14810,7 +15713,7 @@
     "battleOnly": "Eiscue"
   },
   "愛管侍-公": {
-    "num": 876,
+    "num": "876",
     "name": "Indeedee",
     "baseForme": "M",
     "types": [
@@ -14847,7 +15750,7 @@
     "tier": "UU"
   },
   "愛管侍-母": {
-    "num": 876,
+    "num": "876_f2",
     "name": "Indeedee-F",
     "baseSpecies": "Indeedee",
     "forme": "F",
@@ -14878,7 +15781,7 @@
     "tier": "UU"
   },
   "莫魯貝可": {
-    "num": 877,
+    "num": "877",
     "name": "Morpeko",
     "types": [
       "Electric",
@@ -14913,7 +15816,7 @@
     "isNonstandard": "Past"
   },
   "銅象": {
-    "num": 878,
+    "num": "878",
     "name": "Cufant",
     "types": [
       "Steel"
@@ -14943,7 +15846,7 @@
     "tier": "LC"
   },
   "大王銅象": {
-    "num": 879,
+    "num": "879",
     "name": "Copperajah",
     "types": [
       "Steel"
@@ -14973,7 +15876,7 @@
     "tier": "UU"
   },
   "多龍梅西亞": {
-    "num": 885,
+    "num": "885",
     "name": "Dreepy",
     "types": [
       "Dragon",
@@ -15005,7 +15908,7 @@
     "tier": "LC"
   },
   "多龍奇": {
-    "num": 886,
+    "num": "886",
     "name": "Drakloak",
     "types": [
       "Dragon",
@@ -15039,7 +15942,7 @@
     "tier": "NFE"
   },
   "多龍巴魯托": {
-    "num": 887,
+    "num": "887",
     "name": "Dragapult",
     "types": [
       "Dragon",
@@ -15070,7 +15973,7 @@
     "tier": "OU"
   },
   "蒼響-百戰勇者": {
-    "num": 888,
+    "num": "888",
     "name": "Zacian",
     "baseForme": "Hero",
     "types": [
@@ -15108,7 +16011,7 @@
     "tier": "Uber"
   },
   "蒼響-劍之王": {
-    "num": 888,
+    "num": "888_f2",
     "name": "Zacian-Crowned",
     "baseSpecies": "Zacian",
     "forme": "Crowned",
@@ -15140,7 +16043,7 @@
     "tier": "Uber"
   },
   "藏瑪然特-百戰勇者": {
-    "num": 889,
+    "num": "889",
     "name": "Zamazenta",
     "baseForme": "Hero",
     "types": [
@@ -15178,7 +16081,7 @@
     "tier": "OU"
   },
   "藏瑪然特-盾之王": {
-    "num": 889,
+    "num": "889_f2",
     "name": "Zamazenta-Crowned",
     "baseSpecies": "Zamazenta",
     "forme": "Crowned",
@@ -15210,7 +16113,7 @@
     "tier": "Uber"
   },
   "無極汰那": {
-    "num": 890,
+    "num": "890",
     "name": "Eternatus",
     "types": [
       "Poison",
@@ -15248,7 +16151,7 @@
     "tier": "Uber"
   },
   "熊徒弟": {
-    "num": 891,
+    "num": "891",
     "name": "Kubfu",
     "types": [
       "Fighting"
@@ -15284,7 +16187,7 @@
     "tier": "NFE"
   },
   "武道熊師-一擊流": {
-    "num": 892,
+    "num": "892",
     "name": "Urshifu",
     "baseForme": "Single-Strike",
     "types": [
@@ -15329,7 +16232,7 @@
     "tier": "Uber"
   },
   "武道熊師-連擊流": {
-    "num": 892,
+    "num": "892_f2",
     "name": "Urshifu-Rapid-Strike",
     "baseSpecies": "Urshifu",
     "forme": "Rapid-Strike",
@@ -15365,7 +16268,7 @@
     "tier": "OU"
   },
   "雷吉艾勒奇": {
-    "num": 894,
+    "num": "894",
     "name": "Regieleki",
     "types": [
       "Electric"
@@ -15394,7 +16297,7 @@
     "tier": "OU"
   },
   "雷吉鐸拉戈": {
-    "num": 895,
+    "num": "895",
     "name": "Regidrago",
     "types": [
       "Dragon"
@@ -15423,7 +16326,7 @@
     "tier": "OU"
   },
   "雪暴馬": {
-    "num": 896,
+    "num": "896",
     "name": "Glastrier",
     "types": [
       "Ice"
@@ -15452,7 +16355,7 @@
     "tier": "OU"
   },
   "靈幽馬": {
-    "num": 897,
+    "num": "897",
     "name": "Spectrier",
     "types": [
       "Ghost"
@@ -15481,7 +16384,7 @@
     "tier": "Uber"
   },
   "蕾冠王": {
-    "num": 898,
+    "num": "898",
     "name": "Calyrex",
     "types": [
       "Psychic",
@@ -15520,7 +16423,7 @@
     "tier": "(PU)"
   },
   "蕾冠王-白馬": {
-    "num": 898,
+    "num": "898_f2",
     "name": "Calyrex-Ice",
     "baseSpecies": "Calyrex",
     "forme": "Ice",
@@ -15550,7 +16453,7 @@
     "tier": "Uber"
   },
   "蕾冠王-黑馬": {
-    "num": 898,
+    "num": "898_f3",
     "name": "Calyrex-Shadow",
     "baseSpecies": "Calyrex",
     "forme": "Shadow",
@@ -15580,7 +16483,7 @@
     "tier": "AG"
   },
   "詭角鹿": {
-    "num": 899,
+    "num": "899",
     "name": "Wyrdeer",
     "types": [
       "Normal",
@@ -15612,7 +16515,7 @@
     "isNonstandard": "Unobtainable"
   },
   "劈斧螳螂": {
-    "num": 900,
+    "num": "900",
     "name": "Kleavor",
     "types": [
       "Bug",
@@ -15644,7 +16547,7 @@
     "isNonstandard": "Unobtainable"
   },
   "月月熊": {
-    "num": 901,
+    "num": "901",
     "name": "Ursaluna",
     "types": [
       "Ground",
@@ -15676,7 +16579,7 @@
     "isNonstandard": "Unobtainable"
   },
   "幽尾玄魚-公": {
-    "num": 902,
+    "num": "902",
     "name": "Basculegion",
     "baseForme": "M",
     "types": [
@@ -15717,7 +16620,7 @@
     "isNonstandard": "Unobtainable"
   },
   "幽尾玄魚-母": {
-    "num": 902,
+    "num": "902_f2",
     "name": "Basculegion-F",
     "baseSpecies": "Basculegion",
     "forme": "F",
@@ -15752,7 +16655,7 @@
     "isNonstandard": "Unobtainable"
   },
   "大狃拉": {
-    "num": 903,
+    "num": "903",
     "name": "Sneasler",
     "types": [
       "Fighting",
@@ -15785,7 +16688,7 @@
     "isNonstandard": "Unobtainable"
   },
   "萬針魚": {
-    "num": 904,
+    "num": "904",
     "name": "Overqwil",
     "types": [
       "Dark",
@@ -15817,7 +16720,7 @@
     "isNonstandard": "Unobtainable"
   },
   "眷戀雲": {
-    "num": 905,
+    "num": "905",
     "name": "Enamorus",
     "baseForme": "Incarnate",
     "types": [
@@ -15856,7 +16759,7 @@
     "tier": "OU"
   },
   "眷戀雲-靈獸": {
-    "num": 905,
+    "num": "905",
     "name": "Enamorus-Therian",
     "baseSpecies": "Enamorus",
     "forme": "Therian",
@@ -15886,7 +16789,7 @@
     "tier": "OU"
   },
   "新葉喵": {
-    "num": 906,
+    "num": "906",
     "name": "Sprigatito",
     "types": [
       "Grass"
@@ -15920,7 +16823,7 @@
     "tier": "LC"
   },
   "蒂蕾喵": {
-    "num": 907,
+    "num": "907",
     "name": "Floragato",
     "types": [
       "Grass"
@@ -15956,7 +16859,7 @@
     "tier": "NFE"
   },
   "魔幻假面喵": {
-    "num": 908,
+    "num": "908",
     "name": "Meowscarada",
     "types": [
       "Grass",
@@ -15990,7 +16893,7 @@
     "tier": "OU"
   },
   "呆火鱷": {
-    "num": 909,
+    "num": "909",
     "name": "Fuecoco",
     "types": [
       "Fire"
@@ -16023,7 +16926,7 @@
     "tier": "LC"
   },
   "炙燙鱷": {
-    "num": 910,
+    "num": "910",
     "name": "Crocalor",
     "types": [
       "Fire"
@@ -16058,7 +16961,7 @@
     "tier": "NFE"
   },
   "骨紋巨聲鱷": {
-    "num": 911,
+    "num": "911",
     "name": "Skeledirge",
     "types": [
       "Fire",
@@ -16091,7 +16994,7 @@
     "tier": "OU"
   },
   "潤水鴨": {
-    "num": 912,
+    "num": "912",
     "name": "Quaxly",
     "types": [
       "Water"
@@ -16125,7 +17028,7 @@
     "tier": "LC"
   },
   "涌躍鴨": {
-    "num": 913,
+    "num": "913",
     "name": "Quaxwell",
     "types": [
       "Water"
@@ -16161,7 +17064,7 @@
     "tier": "NFE"
   },
   "狂歡浪舞鴨": {
-    "num": 914,
+    "num": "914",
     "name": "Quaquaval",
     "types": [
       "Water",
@@ -16195,7 +17098,7 @@
     "tier": "OU"
   },
   "愛吃豚": {
-    "num": 915,
+    "num": "915",
     "name": "Lechonk",
     "types": [
       "Normal"
@@ -16226,7 +17129,7 @@
     "tier": "LC"
   },
   "飄香豚-公": {
-    "num": 916,
+    "num": "916",
     "name": "Oinkologne",
     "baseForme": "M",
     "types": [
@@ -16264,7 +17167,7 @@
     "tier": "UU"
   },
   "飄香豚-母": {
-    "num": 916,
+    "num": "916_f2",
     "name": "Oinkologne-F",
     "baseSpecies": "Oinkologne",
     "forme": "F",
@@ -16296,7 +17199,7 @@
     "tier": "UU"
   },
   "團珠蛛": {
-    "num": 917,
+    "num": "917",
     "name": "Tarountula",
     "types": [
       "Bug"
@@ -16325,7 +17228,7 @@
     "tier": "LC"
   },
   "操陷蛛": {
-    "num": 918,
+    "num": "918",
     "name": "Spidops",
     "types": [
       "Bug"
@@ -16353,7 +17256,7 @@
     "tier": "UU"
   },
   "豆蟋蟀": {
-    "num": 919,
+    "num": "919",
     "name": "Nymble",
     "types": [
       "Bug"
@@ -16382,7 +17285,7 @@
     "tier": "LC"
   },
   "烈腿蝗": {
-    "num": 920,
+    "num": "920",
     "name": "Lokix",
     "types": [
       "Bug",
@@ -16411,7 +17314,7 @@
     "tier": "OU"
   },
   "布撥": {
-    "num": 921,
+    "num": "921",
     "name": "Pawmi",
     "types": [
       "Electric"
@@ -16441,7 +17344,7 @@
     "tier": "LC"
   },
   "布土撥": {
-    "num": 922,
+    "num": "922",
     "name": "Pawmo",
     "types": [
       "Electric",
@@ -16474,7 +17377,7 @@
     "tier": "NFE"
   },
   "巴布土撥": {
-    "num": 923,
+    "num": "923",
     "name": "Pawmot",
     "types": [
       "Electric",
@@ -16505,7 +17408,7 @@
     "tier": "UU"
   },
   "一對鼠": {
-    "num": 924,
+    "num": "924",
     "name": "Tandemaus",
     "types": [
       "Normal"
@@ -16538,7 +17441,7 @@
     "tier": "LC"
   },
   "一家鼠": {
-    "num": 925,
+    "num": "925",
     "name": "Maushold",
     "baseForme": "Three",
     "types": [
@@ -16577,7 +17480,7 @@
     "tier": "OU"
   },
   "狗仔包": {
-    "num": 926,
+    "num": "926",
     "name": "Fidough",
     "types": [
       "Fairy"
@@ -16607,7 +17510,7 @@
     "tier": "LC"
   },
   "麻花犬": {
-    "num": 927,
+    "num": "927",
     "name": "Dachsbun",
     "types": [
       "Fairy"
@@ -16636,7 +17539,7 @@
     "tier": "UU"
   },
   "迷你芙": {
-    "num": 928,
+    "num": "928",
     "name": "Smoliv",
     "types": [
       "Grass",
@@ -16666,7 +17569,7 @@
     "tier": "LC"
   },
   "奧利紐": {
-    "num": 929,
+    "num": "929",
     "name": "Dolliv",
     "types": [
       "Grass",
@@ -16698,7 +17601,7 @@
     "tier": "NFE"
   },
   "奧利瓦": {
-    "num": 930,
+    "num": "930",
     "name": "Arboliva",
     "types": [
       "Grass",
@@ -16727,7 +17630,7 @@
     "tier": "UU"
   },
   "怒鸚哥": {
-    "num": 931,
+    "num": "931",
     "name": "Squawkabilly",
     "baseForme": "Green",
     "types": [
@@ -16767,7 +17670,7 @@
     "tier": "UU"
   },
   "鹽石寶": {
-    "num": 932,
+    "num": "932",
     "name": "Nacli",
     "types": [
       "Rock"
@@ -16797,7 +17700,7 @@
     "tier": "LC"
   },
   "鹽石壘": {
-    "num": 933,
+    "num": "933",
     "name": "Naclstack",
     "types": [
       "Rock"
@@ -16829,7 +17732,7 @@
     "tier": "NFE"
   },
   "鹽石巨靈": {
-    "num": 934,
+    "num": "934",
     "name": "Garganacl",
     "types": [
       "Rock"
@@ -16858,7 +17761,7 @@
     "tier": "OU"
   },
   "炭小侍": {
-    "num": 935,
+    "num": "935",
     "name": "Charcadet",
     "types": [
       "Fire"
@@ -16888,7 +17791,7 @@
     "tier": "LC"
   },
   "紅蓮鎧騎": {
-    "num": 936,
+    "num": "936",
     "name": "Armarouge",
     "types": [
       "Fire",
@@ -16918,7 +17821,7 @@
     "tier": "UU"
   },
   "蒼炎刃鬼": {
-    "num": 937,
+    "num": "937",
     "name": "Ceruledge",
     "types": [
       "Fire",
@@ -16948,7 +17851,7 @@
     "tier": "OU"
   },
   "光蚪仔": {
-    "num": 938,
+    "num": "938",
     "name": "Tadbulb",
     "types": [
       "Electric"
@@ -16978,7 +17881,7 @@
     "tier": "LC"
   },
   "電肚蛙": {
-    "num": 939,
+    "num": "939",
     "name": "Bellibolt",
     "types": [
       "Electric"
@@ -17008,7 +17911,7 @@
     "tier": "UU"
   },
   "電海燕": {
-    "num": 940,
+    "num": "940",
     "name": "Wattrel",
     "types": [
       "Electric",
@@ -17040,7 +17943,7 @@
     "tier": "LC"
   },
   "大電海燕": {
-    "num": 941,
+    "num": "941",
     "name": "Kilowattrel",
     "types": [
       "Electric",
@@ -17071,7 +17974,7 @@
     "tier": "UU"
   },
   "偶叫獒": {
-    "num": 942,
+    "num": "942",
     "name": "Maschiff",
     "types": [
       "Dark"
@@ -17101,7 +18004,7 @@
     "tier": "LC"
   },
   "獒教父": {
-    "num": 943,
+    "num": "943",
     "name": "Mabosstiff",
     "types": [
       "Dark"
@@ -17130,7 +18033,7 @@
     "tier": "UU"
   },
   "滋汁鼴": {
-    "num": 944,
+    "num": "944",
     "name": "Shroodle",
     "types": [
       "Poison",
@@ -17161,7 +18064,7 @@
     "tier": "LC"
   },
   "塗標客": {
-    "num": 945,
+    "num": "945",
     "name": "Grafaiai",
     "types": [
       "Poison",
@@ -17191,7 +18094,7 @@
     "tier": "UU"
   },
   "納噬草": {
-    "num": 946,
+    "num": "946",
     "name": "Bramblin",
     "types": [
       "Grass",
@@ -17221,7 +18124,7 @@
     "tier": "LC"
   },
   "怖納噬草": {
-    "num": 947,
+    "num": "947",
     "name": "Brambleghast",
     "types": [
       "Grass",
@@ -17251,7 +18154,7 @@
     "tier": "UU"
   },
   "原野水母": {
-    "num": 948,
+    "num": "948",
     "name": "Toedscool",
     "types": [
       "Ground",
@@ -17280,7 +18183,7 @@
     "tier": "LC"
   },
   "陸地水母": {
-    "num": 949,
+    "num": "949",
     "name": "Toedscruel",
     "types": [
       "Ground",
@@ -17308,7 +18211,7 @@
     "tier": "UU"
   },
   "毛崖蟹": {
-    "num": 950,
+    "num": "950",
     "name": "Klawf",
     "types": [
       "Rock"
@@ -17335,7 +18238,7 @@
     "tier": "UU"
   },
   "熱辣娃": {
-    "num": 951,
+    "num": "951",
     "name": "Capsakid",
     "types": [
       "Grass"
@@ -17365,7 +18268,7 @@
     "tier": "LC"
   },
   "狠辣椒": {
-    "num": 952,
+    "num": "952",
     "name": "Scovillain",
     "types": [
       "Grass",
@@ -17396,7 +18299,7 @@
     "tier": "UU"
   },
   "蟲滾泥": {
-    "num": 953,
+    "num": "953",
     "name": "Rellor",
     "types": [
       "Bug"
@@ -17425,7 +18328,7 @@
     "tier": "LC"
   },
   "蟲甲聖": {
-    "num": 954,
+    "num": "954",
     "name": "Rabsca",
     "types": [
       "Bug",
@@ -17455,7 +18358,7 @@
     "tier": "UU"
   },
   "飄飄雛": {
-    "num": 955,
+    "num": "955",
     "name": "Flittle",
     "types": [
       "Psychic"
@@ -17485,7 +18388,7 @@
     "tier": "NFE"
   },
   "超能艷鴕": {
-    "num": 956,
+    "num": "956",
     "name": "Espathra",
     "types": [
       "Psychic"
@@ -17514,7 +18417,7 @@
     "tier": "UU"
   },
   "小鍛匠": {
-    "num": 957,
+    "num": "957",
     "name": "Tinkatink",
     "types": [
       "Fairy",
@@ -17546,7 +18449,7 @@
     "tier": "LC"
   },
   "巧鍛匠": {
-    "num": 958,
+    "num": "958",
     "name": "Tinkatuff",
     "types": [
       "Fairy",
@@ -17580,7 +18483,7 @@
     "tier": "NFE"
   },
   "巨鍛匠": {
-    "num": 959,
+    "num": "959",
     "name": "Tinkaton",
     "types": [
       "Fairy",
@@ -17611,7 +18514,7 @@
     "tier": "UU"
   },
   "海地鼠": {
-    "num": 960,
+    "num": "960",
     "name": "Wiglett",
     "types": [
       "Water"
@@ -17641,7 +18544,7 @@
     "tier": "LC"
   },
   "三海地鼠": {
-    "num": 961,
+    "num": "961",
     "name": "Wugtrio",
     "types": [
       "Water"
@@ -17670,7 +18573,7 @@
     "tier": "UU"
   },
   "下石鳥": {
-    "num": 962,
+    "num": "962",
     "name": "Bombirdier",
     "types": [
       "Flying",
@@ -17698,7 +18601,7 @@
     "tier": "UU"
   },
   "波普海豚": {
-    "num": 963,
+    "num": "963",
     "name": "Finizen",
     "types": [
       "Water"
@@ -17727,7 +18630,7 @@
     "tier": "LC"
   },
   "海豚俠-平凡": {
-    "num": 964,
+    "num": "964",
     "name": "Palafin",
     "baseForme": "Zero",
     "types": [
@@ -17763,7 +18666,7 @@
     "tier": "Uber"
   },
   "海豚俠-全能": {
-    "num": 964,
+    "num": "964_f2",
     "name": "Palafin-Hero",
     "baseSpecies": "Palafin",
     "forme": "Hero",
@@ -17792,7 +18695,7 @@
     "battleOnly": "Palafin"
   },
   "噗隆隆": {
-    "num": 965,
+    "num": "965",
     "name": "Varoom",
     "types": [
       "Steel",
@@ -17822,7 +18725,7 @@
     "tier": "LC"
   },
   "普隆隆姆": {
-    "num": 966,
+    "num": "966",
     "name": "Revavroom",
     "types": [
       "Steel",
@@ -17851,7 +18754,7 @@
     "tier": "UU"
   },
   "摩托蜥": {
-    "num": 967,
+    "num": "967",
     "name": "Cyclizar",
     "types": [
       "Dragon",
@@ -17878,7 +18781,7 @@
     "tier": "OU"
   },
   "拖拖蚓": {
-    "num": 968,
+    "num": "968",
     "name": "Orthworm",
     "types": [
       "Steel"
@@ -17904,7 +18807,7 @@
     "tier": "OU"
   },
   "晶光芽": {
-    "num": 969,
+    "num": "969",
     "name": "Glimmet",
     "types": [
       "Rock",
@@ -17934,7 +18837,7 @@
     "tier": "LC"
   },
   "晶光花": {
-    "num": 970,
+    "num": "970",
     "name": "Glimmora",
     "types": [
       "Rock",
@@ -17963,7 +18866,7 @@
     "tier": "OU"
   },
   "墓仔狗": {
-    "num": 971,
+    "num": "971",
     "name": "Greavard",
     "types": [
       "Ghost"
@@ -17992,7 +18895,7 @@
     "tier": "LC"
   },
   "墓揚犬": {
-    "num": 972,
+    "num": "972",
     "name": "Houndstone",
     "types": [
       "Ghost"
@@ -18021,7 +18924,7 @@
     "tier": "Uber"
   },
   "纏紅鶴": {
-    "num": 973,
+    "num": "973",
     "name": "Flamigo",
     "types": [
       "Flying",
@@ -18049,7 +18952,7 @@
     "tier": "UU"
   },
   "走鯨": {
-    "num": 974,
+    "num": "974",
     "name": "Cetoddle",
     "types": [
       "Ice"
@@ -18079,7 +18982,7 @@
     "tier": "LC"
   },
   "浩大鯨": {
-    "num": 975,
+    "num": "975",
     "name": "Cetitan",
     "types": [
       "Ice"
@@ -18109,7 +19012,7 @@
     "tier": "UU"
   },
   "輕身鱈": {
-    "num": 976,
+    "num": "976",
     "name": "Veluza",
     "types": [
       "Water",
@@ -18136,7 +19039,7 @@
     "tier": "UU"
   },
   "吃吼霸": {
-    "num": 977,
+    "num": "977",
     "name": "Dondozo",
     "types": [
       "Water"
@@ -18163,7 +19066,7 @@
     "tier": "OU"
   },
   "米立龍": {
-    "num": 978,
+    "num": "978",
     "name": "Tatsugiri",
     "baseForme": "Curly",
     "types": [
@@ -18200,7 +19103,7 @@
     "tier": "UU"
   },
   "棄世猴": {
-    "num": 979,
+    "num": "979",
     "name": "Annihilape",
     "types": [
       "Fighting",
@@ -18231,7 +19134,7 @@
     "tier": "OU"
   },
   "土王": {
-    "num": 980,
+    "num": "980",
     "name": "Clodsire",
     "types": [
       "Poison",
@@ -18262,7 +19165,7 @@
     "tier": "OU"
   },
   "奇麒麟": {
-    "num": 981,
+    "num": "981",
     "name": "Farigiraf",
     "types": [
       "Normal",
@@ -18293,7 +19196,7 @@
     "tier": "UU"
   },
   "土龍節節": {
-    "num": 982,
+    "num": "982",
     "name": "Dudunsparce",
     "baseForme": "Two-Segment",
     "types": [
@@ -18331,7 +19234,7 @@
     "tier": "UU"
   },
   "仆斬將軍": {
-    "num": 983,
+    "num": "983",
     "name": "Kingambit",
     "types": [
       "Dark",
@@ -18362,7 +19265,7 @@
     "tier": "OU"
   },
   "雄偉牙": {
-    "num": 984,
+    "num": "984",
     "name": "Great Tusk",
     "types": [
       "Ground",
@@ -18393,7 +19296,7 @@
     "tier": "OU"
   },
   "吼叫尾": {
-    "num": 985,
+    "num": "985",
     "name": "Scream Tail",
     "types": [
       "Fairy",
@@ -18424,7 +19327,7 @@
     "tier": "UU"
   },
   "猛惡菇": {
-    "num": 986,
+    "num": "986",
     "name": "Brute Bonnet",
     "types": [
       "Grass",
@@ -18455,7 +19358,7 @@
     "tier": "UU"
   },
   "振翼髮": {
-    "num": 987,
+    "num": "987",
     "name": "Flutter Mane",
     "types": [
       "Ghost",
@@ -18486,7 +19389,7 @@
     "tier": "Uber"
   },
   "爬地翅": {
-    "num": 988,
+    "num": "988",
     "name": "Slither Wing",
     "types": [
       "Bug",
@@ -18517,7 +19420,7 @@
     "tier": "UU"
   },
   "沙鐵皮": {
-    "num": 989,
+    "num": "989",
     "name": "Sandy Shocks",
     "types": [
       "Electric",
@@ -18548,7 +19451,7 @@
     "tier": "UU"
   },
   "鐵轍跡": {
-    "num": 990,
+    "num": "990",
     "name": "Iron Treads",
     "types": [
       "Ground",
@@ -18579,7 +19482,7 @@
     "tier": "OU"
   },
   "鐵包袱": {
-    "num": 991,
+    "num": "991",
     "name": "Iron Bundle",
     "types": [
       "Ice",
@@ -18610,7 +19513,7 @@
     "tier": "Uber"
   },
   "鐵臂膀": {
-    "num": 992,
+    "num": "992",
     "name": "Iron Hands",
     "types": [
       "Fighting",
@@ -18641,7 +19544,7 @@
     "tier": "OU"
   },
   "鐵脖頸": {
-    "num": 993,
+    "num": "993",
     "name": "Iron Jugulis",
     "types": [
       "Dark",
@@ -18672,7 +19575,7 @@
     "tier": "UU"
   },
   "鐵毒蛾": {
-    "num": 994,
+    "num": "994",
     "name": "Iron Moth",
     "types": [
       "Fire",
@@ -18703,7 +19606,7 @@
     "tier": "OU"
   },
   "鐵荊棘": {
-    "num": 995,
+    "num": "995",
     "name": "Iron Thorns",
     "types": [
       "Rock",
@@ -18734,7 +19637,7 @@
     "tier": "UU"
   },
   "涼脊龍": {
-    "num": 996,
+    "num": "996",
     "name": "Frigibax",
     "types": [
       "Dragon",
@@ -18765,7 +19668,7 @@
     "tier": "LC"
   },
   "凍脊龍": {
-    "num": 997,
+    "num": "997",
     "name": "Arctibax",
     "types": [
       "Dragon",
@@ -18798,7 +19701,7 @@
     "tier": "NFE"
   },
   "戟脊龍": {
-    "num": 998,
+    "num": "998",
     "name": "Baxcalibur",
     "types": [
       "Dragon",
@@ -18828,7 +19731,7 @@
     "tier": "OU"
   },
   "索財靈-寶箱": {
-    "num": 999,
+    "num": "999",
     "name": "Gimmighoul",
     "baseForme": "Chest",
     "types": [
@@ -18865,7 +19768,7 @@
     "tier": "LC"
   },
   "索財靈-徒步": {
-    "num": 999,
+    "num": "999",
     "name": "Gimmighoul-Roaming",
     "baseSpecies": "Gimmighoul",
     "forme": "Roaming",
@@ -18897,7 +19800,7 @@
     "isNonstandard": "Custom"
   },
   "賽富豪": {
-    "num": 1000,
+    "num": "1000",
     "name": "Gholdengo",
     "types": [
       "Steel",
@@ -18927,7 +19830,7 @@
     "tier": "OU"
   },
   "古簡蝸": {
-    "num": 1001,
+    "num": "1001",
     "name": "Wo-Chien",
     "types": [
       "Dark",
@@ -18957,7 +19860,7 @@
     "tier": "UU"
   },
   "古劍豹": {
-    "num": 1002,
+    "num": "1002",
     "name": "Chien-Pao",
     "types": [
       "Dark",
@@ -18987,7 +19890,7 @@
     "tier": "OU"
   },
   "古鼎鹿": {
-    "num": 1003,
+    "num": "1003",
     "name": "Ting-Lu",
     "types": [
       "Dark",
@@ -19017,7 +19920,7 @@
     "tier": "OU"
   },
   "古玉魚": {
-    "num": 1004,
+    "num": "1004",
     "name": "Chi-Yu",
     "types": [
       "Dark",
@@ -19047,7 +19950,7 @@
     "tier": "OU"
   },
   "轟鳴月": {
-    "num": 1005,
+    "num": "1005",
     "name": "Roaring Moon",
     "types": [
       "Dragon",
@@ -19078,7 +19981,7 @@
     "tier": "OU"
   },
   "鐵武者": {
-    "num": 1006,
+    "num": "1006",
     "name": "Iron Valiant",
     "types": [
       "Fairy",
@@ -19109,7 +20012,7 @@
     "tier": "OU"
   },
   "故勒頓": {
-    "num": 1007,
+    "num": "1007",
     "name": "Koraidon",
     "types": [
       "Fighting",
@@ -19139,7 +20042,7 @@
     "tier": "Uber"
   },
   "密勒頓": {
-    "num": 1008,
+    "num": "1008",
     "name": "Miraidon",
     "types": [
       "Electric",
@@ -19169,7 +20072,7 @@
     "tier": "Uber"
   },
   "波盪水": {
-    "num": 1009,
+    "num": "1009",
     "name": "Walking Wake",
     "types": [
       "Water",
@@ -19199,7 +20102,7 @@
     "tier": "OU"
   },
   "鐵斑葉": {
-    "num": 1010,
+    "num": "1010",
     "name": "Iron Leaves",
     "types": [
       "Grass",

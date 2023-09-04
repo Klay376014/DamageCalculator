@@ -32,6 +32,7 @@ export const usePokemonStore = defineStore("pokemon", () => {
 
   const pokemon1 = reactive({
     Name: "default",
+    num: 0,
     type1: "",
     type2: "",
     teraType: "None",
@@ -191,6 +192,7 @@ export const usePokemonStore = defineStore("pokemon", () => {
 
   const pokemon2 = reactive({
     Name: "default",
+    num: 0,
     type1: "",
     type2: "",
     teraType: "None",
