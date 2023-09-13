@@ -1545,6 +1545,20 @@
     "target": "normal",
     "type": "Water"
   },
+  "Scald": {
+    "num": 503,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "熱水",
+    "pp": 15,
+    "priority": 0,
+    "flags": { "protect": 1, "mirror": 1, "defrost": 1 },
+    "thawsTarget": true,
+    "secondary": { "chance": 30, "status": "brn" },
+    "target": "normal",
+    "type": "Water"
+  },
   "Liquidation": {
     "num": 710,
     "accuracy": 100,
@@ -1879,6 +1893,19 @@
       }
     ],
     "target": "normal",
+    "type": "Fire"
+  },
+  "Burning Jealousy": {
+    "num": 807,
+    "accuracy": 100,
+    "basePower": 70,
+    "category": "Special",
+    "name": "妒火",
+    "pp": 5,
+    "priority": 0,
+    "flags": { "protect": 1, "mirror": 1 },
+    "secondary": { "chance": 100 },
+    "target": "allAdjacentFoes",
     "type": "Fire"
   },
   "Fire Punch": {
@@ -3106,6 +3133,22 @@
     "target": "allAdjacentFoes",
     "type": "Fairy"
   },
+  "Misty Explosion": {
+    "num": 802,
+    "accuracy": 100,
+    "basePower": 100,
+    "category": "Special",
+    "name": "薄霧炸裂",
+    "pp": 5,
+    "priority": 0,
+    "flags": { "protect": 1, "mirror": 1 },
+    "selfdestruct": "always",
+    "secondary": null,
+    "target": "allAdjacent",
+    "type": "Fairy",
+    "desc": "If the current terrain is Misty Terrain and the user is grounded, this move's power is multiplied by 1.5. The user faints after using this move, even if this move fails for having no target. This move is prevented from executing if any active Pokemon has the Damp Ability.",
+    "shortDesc": "User faints. User on Misty Terrain: 1.5x power."
+  },
   "Rock Blast": {
     "num": 350,
     "accuracy": 90,
@@ -3895,6 +3938,19 @@
       "duration": 2,
       "onInvulnerability": false
     },
+    "secondary": null,
+    "target": "normal",
+    "type": "Ghost"
+  },
+  "Poltergeist": {
+    "num": 809,
+    "accuracy": 90,
+    "basePower": 110,
+    "category": "Physical",
+    "name": "靈騷",
+    "pp": 5,
+    "priority": 0,
+    "flags": { "protect": 1, "mirror": 1 },
     "secondary": null,
     "target": "normal",
     "type": "Ghost"
@@ -5531,7 +5587,7 @@
   "Grassy Glide": {
     "num": 803,
     "accuracy": 100,
-    "basePower": 60,
+    "basePower": 55,
     "category": "Physical",
     "name": "青草滑梯",
     "pp": 20,
@@ -6204,6 +6260,32 @@
       "mirror": 1
     },
     "willCrit": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Dark"
+  },
+  "Lash Out": {
+    "num": 808,
+    "accuracy": 100,
+    "basePower": 75,
+    "category": "Physical",
+    "name": "洩憤",
+    "pp": 5,
+    "priority": 0,
+    "flags": { "contact": 1, "protect": 1, "mirror": 1 },
+    "secondary": null,
+    "target": "normal",
+    "type": "Dark"
+  },
+  "Lash Out - 2": {
+    "num": 808,
+    "accuracy": 100,
+    "basePower": 150,
+    "category": "Physical",
+    "name": "洩憤-本回合能力下降",
+    "pp": 5,
+    "priority": 0,
+    "flags": { "contact": 1, "protect": 1, "mirror": 1 },
     "secondary": null,
     "target": "normal",
     "type": "Dark"

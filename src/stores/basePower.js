@@ -47,6 +47,14 @@ export const UseBasePowerStore = defineStore("basePower", () => {
       }
     }
 
+    if (move.num === 802) {
+      //精神劍
+      if (pm.fieldCondition.field.misty) {
+        dm.detailStat.attacker.field = "薄霧場地";
+        return 150;
+      }
+    }
+
     if (pm.fieldCondition.field.grassy) {
       //地震、重踏
       if (move.num === 89) {
