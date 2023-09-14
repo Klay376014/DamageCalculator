@@ -1084,6 +1084,21 @@
     "target": "allAdjacent",
     "type": "Normal"
   },
+  "Blood Moon": {
+    "num": 901,
+    "accuracy": 100,
+    "basePower": 140,
+    "category": "Special",
+    "name": "血月",
+    "pp": 5,
+    "priority": 0,
+    "flags": { "protect": 1, "mirror": 1, "cantusetwice": 1 },
+    "secondary": null,
+    "target": "normal",
+    "type": "Normal",
+    "desc": "Cannot be used twice in a row.",
+    "shortDesc": "Cannot be used twice in a row."
+  },
   "Hyper Beam": {
     "num": 63,
     "accuracy": 90,
@@ -5600,6 +5615,20 @@
     "target": "normal",
     "type": "Grass"
   },
+  "Syrup Bomb": {
+    "num": 903,
+    "accuracy": 85,
+    "basePower": 60,
+    "category": "Special",
+    "name": "糖漿炸彈",
+    "pp": 10,
+    "priority": 0,
+    "flags": { "protect": 1, "mirror": 1, "bullet": 1 },
+    "condition": { "noCopy": true, "duration": 3, "onResidualOrder": 14 },
+    "secondary": { "chance": 100, "volatileStatus": "syrupbomb" },
+    "target": "normal",
+    "type": "Grass"
+  },
   "Trop Kick": {
     "num": 688,
     "accuracy": 100,
@@ -5799,6 +5828,22 @@
     "target": "normal",
     "type": "Grass"
   },
+  "Matcha Gotcha": {
+    "num": 902,
+    "accuracy": 90,
+    "basePower": 80,
+    "category": "Special",
+    "name": "抹茶陷阱",
+    "pp": 15,
+    "priority": 0,
+    "flags": { "protect": 1, "mirror": 1, "defrost": 1 },
+    "drain": [1, 2],
+    "secondary": { "chance": 20, "status": "brn" },
+    "target": "allAdjacentFoes",
+    "type": "Grass",
+    "desc": "Has a 20% chance to burn the target. The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
+    "shortDesc": "20% burn. User recovers 50% of damage dealt."
+  },
   "Leaf Blade": {
     "num": 348,
     "accuracy": 100,
@@ -5856,6 +5901,21 @@
     "secondary": null,
     "target": "allAdjacent",
     "type": "Grass"
+  },
+  "Ivy Cudgel": {
+    "num": 904,
+    "accuracy": 100,
+    "basePower": 100,
+    "category": "Physical",
+    "name": "藤蔓棍擊",
+    "pp": 10,
+    "priority": 0,
+    "flags": { "protect": 1, "mirror": 1 },
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass",
+    "desc": "If the user is an Ogerpon holding a mask, this move's type changes to match. Water type for Wellspring Mask, Fire type for Hearthflame Mask, and Rock type for Cornerstone Mask.",
+    "shortDesc": "Type depends on user's form."
   },
   "Solar Beam": {
     "num": 76,

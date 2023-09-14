@@ -61,7 +61,7 @@ export const UseBasePowerStore = defineStore("basePower", () => {
         dm.detailStat.attacker.field = "青草場地";
         return 50;
       }
-      if(move.num === 523){
+      if (move.num === 523) {
         dm.detailStat.attacker.field = "青草場地";
         return 30;
       }
@@ -244,6 +244,19 @@ export const UseBasePowerStore = defineStore("basePower", () => {
           pm[attacker].move.category = "Special";
           pm[attacker].move.type = pm[attacker].teraType;
         }
+      }
+    }
+
+    if (move.num === 904) {
+      //藤蔓棍擊
+      if (
+        pm[attacker].Name === "厄鬼椪-水井" ||
+        pm[attacker].Name === "厄鬼椪-火灶" ||
+        pm[attacker].Name === "厄鬼椪-礎石"
+      ) {
+        pm[attacker].move.type = pm[attacker].type2;
+        console.log(pm[attacker].move.type)
+        console.log(pm[attacker].type2);
       }
     }
 

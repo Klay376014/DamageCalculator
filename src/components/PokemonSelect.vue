@@ -71,9 +71,13 @@ const pokemonSelect = function (event) {
       store.pokemon1.spd = store.pokemonList[store.pokemon1.Name].baseStats.spd;
       store.pokemon1.spe = store.pokemonList[store.pokemon1.Name].baseStats.spe;
 
-      imageUrl.value = new URL(
+      if(store.pokemon1.num!=='default'){
+        imageUrl.value = new URL(
         `https://assets.pokemon.com/assets/cms2/img/pokedex/full/${store.pokemon1.num}.png`,
-      ).href;
+        ).href;
+      }else{
+        imgaeUrl.value = new URL(`../assets/images/default.png`, import.meta.url).href;
+      }
     } catch (e) {
       imageUrl.value = new URL(
         `../assets/images/default.png`,
@@ -122,9 +126,13 @@ const pokemonSelect = function (event) {
       store.pokemon2.spd = store.pokemonList[store.pokemon2.Name].baseStats.spd;
       store.pokemon2.spe = store.pokemonList[store.pokemon2.Name].baseStats.spe;
 
-      imageUrl.value = new URL(
+      if(store.pokemon2.num!=='default'){
+        imageUrl.value = new URL(
         `https://assets.pokemon.com/assets/cms2/img/pokedex/full/${store.pokemon2.num}.png`,
-      ).href;
+        ).href;
+      }else{
+        imgaeUrl.value = new URL(`../assets/images/default.png`, import.meta.url).href;
+      }
     } catch (e) {
       imageUrl.value = new URL(
         `../assets/images/default.png`,

@@ -307,7 +307,9 @@
   "穿山鼠": {
     "num": "027",
     "name": "Sandshrew",
-    "types": ["Ground"],
+    "types": [
+      "Ground"
+    ],
     "baseStats": {
       "hp": 50,
       "atk": 75,
@@ -316,14 +318,26 @@
       "spd": 30,
       "spe": 40
     },
-    "abilities": { "0": "Sand Veil", "H": "Sand Rush" },
+    "abilities": {
+      "0": "Sand Veil",
+      "H": "Sand Rush"
+    },
     "heightm": 0.6,
     "weightkg": 12,
     "color": "Yellow",
-    "evos": ["Sandslash"],
-    "eggGroups": ["Field"],
-    "otherFormes": ["Sandshrew-Alola"],
-    "formeOrder": ["Sandshrew", "Sandshrew-Alola"],
+    "evos": [
+      "Sandslash"
+    ],
+    "eggGroups": [
+      "Field"
+    ],
+    "otherFormes": [
+      "Sandshrew-Alola"
+    ],
+    "formeOrder": [
+      "Sandshrew",
+      "Sandshrew-Alola"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
@@ -332,7 +346,10 @@
     "name": "Sandshrew-Alola",
     "baseSpecies": "Sandshrew",
     "forme": "Alola",
-    "types": ["Ice", "Steel"],
+    "types": [
+      "Ice",
+      "Steel"
+    ],
     "baseStats": {
       "hp": 50,
       "atk": 75,
@@ -341,19 +358,28 @@
       "spd": 35,
       "spe": 40
     },
-    "abilities": { "0": "Snow Cloak", "H": "Slush Rush" },
+    "abilities": {
+      "0": "Snow Cloak",
+      "H": "Slush Rush"
+    },
     "heightm": 0.7,
     "weightkg": 40,
     "color": "White",
-    "evos": ["Sandslash-Alola"],
-    "eggGroups": ["Field"],
+    "evos": [
+      "Sandslash-Alola"
+    ],
+    "eggGroups": [
+      "Field"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
   "穿山王": {
     "num": "028",
     "name": "Sandslash",
-    "types": ["Ground"],
+    "types": [
+      "Ground"
+    ],
     "baseStats": {
       "hp": 75,
       "atk": 100,
@@ -362,15 +388,25 @@
       "spd": 55,
       "spe": 65
     },
-    "abilities": { "0": "Sand Veil", "H": "Sand Rush" },
+    "abilities": {
+      "0": "Sand Veil",
+      "H": "Sand Rush"
+    },
     "heightm": 1,
     "weightkg": 29.5,
     "color": "Yellow",
     "prevo": "Sandshrew",
     "evoLevel": 22,
-    "eggGroups": ["Field"],
-    "otherFormes": ["Sandslash-Alola"],
-    "formeOrder": ["Sandslash", "Sandslash-Alola"],
+    "eggGroups": [
+      "Field"
+    ],
+    "otherFormes": [
+      "Sandslash-Alola"
+    ],
+    "formeOrder": [
+      "Sandslash",
+      "Sandslash-Alola"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
@@ -379,7 +415,10 @@
     "name": "Sandslash-Alola",
     "baseSpecies": "Sandslash",
     "forme": "Alola",
-    "types": ["Ice", "Steel"],
+    "types": [
+      "Ice",
+      "Steel"
+    ],
     "baseStats": {
       "hp": 75,
       "atk": 100,
@@ -388,14 +427,19 @@
       "spd": 65,
       "spe": 65
     },
-    "abilities": { "0": "Snow Cloak", "H": "Slush Rush" },
+    "abilities": {
+      "0": "Snow Cloak",
+      "H": "Slush Rush"
+    },
     "heightm": 1.2,
     "weightkg": 55,
     "color": "Blue",
     "prevo": "Sandshrew-Alola",
     "evoType": "useItem",
     "evoItem": "Ice Stone",
-    "eggGroups": ["Field"],
+    "eggGroups": [
+      "Field"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
@@ -1356,7 +1400,9 @@
   "蚊香蝌蚪": {
     "num": "060",
     "name": "Poliwag",
-    "types": ["Water"],
+    "types": [
+      "Water"
+    ],
     "baseStats": {
       "hp": 40,
       "atk": 50,
@@ -1365,19 +1411,29 @@
       "spd": 40,
       "spe": 90
     },
-    "abilities": { "0": "Water Absorb", "1": "Damp", "H": "Swift Swim" },
+    "abilities": {
+      "0": "Water Absorb",
+      "1": "Damp",
+      "H": "Swift Swim"
+    },
     "heightm": 0.6,
     "weightkg": 12.4,
     "color": "Blue",
-    "evos": ["Poliwhirl"],
-    "eggGroups": ["Water 1"],
+    "evos": [
+      "Poliwhirl"
+    ],
+    "eggGroups": [
+      "Water 1"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
   "蚊香君": {
     "num": "061",
     "name": "Poliwhirl",
-    "types": ["Water"],
+    "types": [
+      "Water"
+    ],
     "baseStats": {
       "hp": 65,
       "atk": 65,
@@ -1386,21 +1442,33 @@
       "spd": 50,
       "spe": 90
     },
-    "abilities": { "0": "Water Absorb", "1": "Damp", "H": "Swift Swim" },
+    "abilities": {
+      "0": "Water Absorb",
+      "1": "Damp",
+      "H": "Swift Swim"
+    },
     "heightm": 1,
     "weightkg": 20,
     "color": "Blue",
     "prevo": "Poliwag",
     "evoLevel": 25,
-    "evos": ["Poliwrath", "Politoed"],
-    "eggGroups": ["Water 1"],
+    "evos": [
+      "Poliwrath",
+      "Politoed"
+    ],
+    "eggGroups": [
+      "Water 1"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
   "蚊香泳士": {
     "num": "062",
     "name": "Poliwrath",
-    "types": ["Water", "Fighting"],
+    "types": [
+      "Water",
+      "Fighting"
+    ],
     "baseStats": {
       "hp": 90,
       "atk": 95,
@@ -1409,21 +1477,30 @@
       "spd": 90,
       "spe": 70
     },
-    "abilities": { "0": "Water Absorb", "1": "Damp", "H": "Swift Swim" },
+    "abilities": {
+      "0": "Water Absorb",
+      "1": "Damp",
+      "H": "Swift Swim"
+    },
     "heightm": 1.3,
     "weightkg": 54,
     "color": "Blue",
     "prevo": "Poliwhirl",
     "evoType": "useItem",
     "evoItem": "Water Stone",
-    "eggGroups": ["Water 1"],
+    "eggGroups": [
+      "Water 1"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
   "喇叭芽": {
     "num": "069",
     "name": "Bellsprout",
-    "types": ["Grass", "Poison"],
+    "types": [
+      "Grass",
+      "Poison"
+    ],
     "baseStats": {
       "hp": 50,
       "atk": 75,
@@ -1432,19 +1509,29 @@
       "spd": 30,
       "spe": 40
     },
-    "abilities": { "0": "Chlorophyll", "H": "Gluttony" },
+    "abilities": {
+      "0": "Chlorophyll",
+      "H": "Gluttony"
+    },
     "heightm": 0.7,
     "weightkg": 4,
     "color": "Green",
-    "evos": ["Weepinbell"],
-    "eggGroups": ["Grass"],
+    "evos": [
+      "Weepinbell"
+    ],
+    "eggGroups": [
+      "Grass"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
   "口呆花": {
     "num": "070",
     "name": "Weepinbell",
-    "types": ["Grass", "Poison"],
+    "types": [
+      "Grass",
+      "Poison"
+    ],
     "baseStats": {
       "hp": 65,
       "atk": 90,
@@ -1453,21 +1540,31 @@
       "spd": 45,
       "spe": 55
     },
-    "abilities": { "0": "Chlorophyll", "H": "Gluttony" },
+    "abilities": {
+      "0": "Chlorophyll",
+      "H": "Gluttony"
+    },
     "heightm": 1,
     "weightkg": 6.4,
     "color": "Green",
     "prevo": "Bellsprout",
     "evoLevel": 21,
-    "evos": ["Victreebel"],
-    "eggGroups": ["Grass"],
+    "evos": [
+      "Victreebel"
+    ],
+    "eggGroups": [
+      "Grass"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
   "大食花": {
     "num": "071",
     "name": "Victreebel",
-    "types": ["Grass", "Poison"],
+    "types": [
+      "Grass",
+      "Poison"
+    ],
     "baseStats": {
       "hp": 80,
       "atk": 105,
@@ -1476,14 +1573,19 @@
       "spd": 70,
       "spe": 70
     },
-    "abilities": { "0": "Chlorophyll", "H": "Gluttony" },
+    "abilities": {
+      "0": "Chlorophyll",
+      "H": "Gluttony"
+    },
     "heightm": 1.7,
     "weightkg": 15.5,
     "color": "Green",
     "prevo": "Weepinbell",
     "evoType": "useItem",
     "evoItem": "Leaf Stone",
-    "eggGroups": ["Grass"],
+    "eggGroups": [
+      "Grass"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
@@ -2973,8 +3075,13 @@
   "卡比獸": {
     "num": "143",
     "name": "Snorlax",
-    "types": ["Normal"],
-    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "types": [
+      "Normal"
+    ],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "baseStats": {
       "hp": 160,
       "atk": 110,
@@ -2983,13 +3090,19 @@
       "spd": 110,
       "spe": 30
     },
-    "abilities": { "0": "Immunity", "1": "Thick Fat", "H": "Gluttony" },
+    "abilities": {
+      "0": "Immunity",
+      "1": "Thick Fat",
+      "H": "Gluttony"
+    },
     "heightm": 2.1,
     "weightkg": 460,
     "color": "Black",
     "prevo": "Munchlax",
     "evoType": "levelFriendship",
-    "eggGroups": ["Monster"],
+    "eggGroups": [
+      "Monster"
+    ],
     "canHatch": true,
     "canGigantamax": "G-Max Replenish",
     "tier": "Illegal",
@@ -3467,7 +3580,9 @@
   "尾立": {
     "num": "161",
     "name": "Sentret",
-    "types": ["Normal"],
+    "types": [
+      "Normal"
+    ],
     "baseStats": {
       "hp": 35,
       "atk": 46,
@@ -3476,19 +3591,29 @@
       "spd": 45,
       "spe": 20
     },
-    "abilities": { "0": "Run Away", "1": "Keen Eye", "H": "Frisk" },
+    "abilities": {
+      "0": "Run Away",
+      "1": "Keen Eye",
+      "H": "Frisk"
+    },
     "heightm": 0.8,
     "weightkg": 6,
     "color": "Brown",
-    "evos": ["Furret"],
-    "eggGroups": ["Field"],
+    "evos": [
+      "Furret"
+    ],
+    "eggGroups": [
+      "Field"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
   "大尾立": {
     "num": "162",
     "name": "Furret",
-    "types": ["Normal"],
+    "types": [
+      "Normal"
+    ],
     "baseStats": {
       "hp": 85,
       "atk": 76,
@@ -3497,13 +3622,19 @@
       "spd": 55,
       "spe": 90
     },
-    "abilities": { "0": "Run Away", "1": "Keen Eye", "H": "Frisk" },
+    "abilities": {
+      "0": "Run Away",
+      "1": "Keen Eye",
+      "H": "Frisk"
+    },
     "heightm": 1.8,
     "weightkg": 32.5,
     "color": "Brown",
     "prevo": "Sentret",
     "evoLevel": 15,
-    "eggGroups": ["Field"],
+    "eggGroups": [
+      "Field"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
@@ -3930,7 +4061,9 @@
   "蚊香蛙皇": {
     "num": "186",
     "name": "Politoed",
-    "types": ["Water"],
+    "types": [
+      "Water"
+    ],
     "baseStats": {
       "hp": 90,
       "atk": 75,
@@ -3939,14 +4072,20 @@
       "spd": 100,
       "spe": 70
     },
-    "abilities": { "0": "Water Absorb", "1": "Damp", "H": "Drizzle" },
+    "abilities": {
+      "0": "Water Absorb",
+      "1": "Damp",
+      "H": "Drizzle"
+    },
     "heightm": 1.1,
     "weightkg": 33.9,
     "color": "Green",
     "prevo": "Poliwhirl",
     "evoType": "trade",
     "evoItem": "King's Rock",
-    "eggGroups": ["Water 1"],
+    "eggGroups": [
+      "Water 1"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
@@ -4899,7 +5038,9 @@
   "熔岩蟲": {
     "num": "218",
     "name": "Slugma",
-    "types": ["Fire"],
+    "types": [
+      "Fire"
+    ],
     "baseStats": {
       "hp": 40,
       "atk": 40,
@@ -4908,19 +5049,30 @@
       "spd": 40,
       "spe": 20
     },
-    "abilities": { "0": "Magma Armor", "1": "Flame Body", "H": "Weak Armor" },
+    "abilities": {
+      "0": "Magma Armor",
+      "1": "Flame Body",
+      "H": "Weak Armor"
+    },
     "heightm": 0.7,
     "weightkg": 35,
     "color": "Red",
-    "evos": ["Magcargo"],
-    "eggGroups": ["Amorphous"],
+    "evos": [
+      "Magcargo"
+    ],
+    "eggGroups": [
+      "Amorphous"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
   "熔岩蝸牛": {
     "num": "219",
     "name": "Magcargo",
-    "types": ["Fire", "Rock"],
+    "types": [
+      "Fire",
+      "Rock"
+    ],
     "baseStats": {
       "hp": 60,
       "atk": 50,
@@ -4929,13 +5081,19 @@
       "spd": 80,
       "spe": 30
     },
-    "abilities": { "0": "Magma Armor", "1": "Flame Body", "H": "Weak Armor" },
+    "abilities": {
+      "0": "Magma Armor",
+      "1": "Flame Body",
+      "H": "Weak Armor"
+    },
     "heightm": 0.8,
     "weightkg": 55,
     "color": "Red",
     "prevo": "Slugma",
     "evoLevel": 38,
-    "eggGroups": ["Amorphous"],
+    "eggGroups": [
+      "Amorphous"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
@@ -5476,7 +5634,9 @@
   "橡實果": {
     "num": "273",
     "name": "Seedot",
-    "types": ["Grass"],
+    "types": [
+      "Grass"
+    ],
     "baseStats": {
       "hp": 40,
       "atk": 40,
@@ -5485,19 +5645,31 @@
       "spd": 30,
       "spe": 30
     },
-    "abilities": { "0": "Chlorophyll", "1": "Early Bird", "H": "Pickpocket" },
+    "abilities": {
+      "0": "Chlorophyll",
+      "1": "Early Bird",
+      "H": "Pickpocket"
+    },
     "heightm": 0.5,
     "weightkg": 4,
     "color": "Brown",
-    "evos": ["Nuzleaf"],
-    "eggGroups": ["Field", "Grass"],
+    "evos": [
+      "Nuzleaf"
+    ],
+    "eggGroups": [
+      "Field",
+      "Grass"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
   "長鼻葉": {
     "num": "274",
     "name": "Nuzleaf",
-    "types": ["Grass", "Dark"],
+    "types": [
+      "Grass",
+      "Dark"
+    ],
     "baseStats": {
       "hp": 70,
       "atk": 70,
@@ -5506,21 +5678,33 @@
       "spd": 40,
       "spe": 60
     },
-    "abilities": { "0": "Chlorophyll", "1": "Early Bird", "H": "Pickpocket" },
+    "abilities": {
+      "0": "Chlorophyll",
+      "1": "Early Bird",
+      "H": "Pickpocket"
+    },
     "heightm": 1,
     "weightkg": 28,
     "color": "Brown",
     "prevo": "Seedot",
     "evoLevel": 14,
-    "evos": ["Shiftry"],
-    "eggGroups": ["Field", "Grass"],
+    "evos": [
+      "Shiftry"
+    ],
+    "eggGroups": [
+      "Field",
+      "Grass"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
   "狡猾天狗": {
     "num": "275",
     "name": "Shiftry",
-    "types": ["Grass", "Dark"],
+    "types": [
+      "Grass",
+      "Dark"
+    ],
     "baseStats": {
       "hp": 90,
       "atk": 100,
@@ -5529,14 +5713,21 @@
       "spd": 60,
       "spe": 80
     },
-    "abilities": { "0": "Chlorophyll", "1": "Early Bird", "H": "Pickpocket" },
+    "abilities": {
+      "0": "Chlorophyll",
+      "1": "Early Bird",
+      "H": "Pickpocket"
+    },
     "heightm": 1.3,
     "weightkg": 59.6,
     "color": "Brown",
     "prevo": "Nuzleaf",
     "evoType": "useItem",
     "evoItem": "Leaf Stone",
-    "eggGroups": ["Field", "Grass"],
+    "eggGroups": [
+      "Field",
+      "Grass"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
@@ -6154,7 +6345,9 @@
   "電螢蟲": {
     "num": "313",
     "name": "Volbeat",
-    "types": ["Bug"],
+    "types": [
+      "Bug"
+    ],
     "gender": "M",
     "baseStats": {
       "hp": 65,
@@ -6164,18 +6357,27 @@
       "spd": 85,
       "spe": 85
     },
-    "abilities": { "0": "Illuminate", "1": "Swarm", "H": "Prankster" },
+    "abilities": {
+      "0": "Illuminate",
+      "1": "Swarm",
+      "H": "Prankster"
+    },
     "heightm": 0.7,
     "weightkg": 17.7,
     "color": "Gray",
-    "eggGroups": ["Bug", "Human-Like"],
+    "eggGroups": [
+      "Bug",
+      "Human-Like"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
   "甜甜螢": {
     "num": "314",
     "name": "Illumise",
-    "types": ["Bug"],
+    "types": [
+      "Bug"
+    ],
     "gender": "F",
     "baseStats": {
       "hp": 65,
@@ -6185,11 +6387,18 @@
       "spd": 85,
       "spe": 85
     },
-    "abilities": { "0": "Oblivious", "1": "Tinted Lens", "H": "Prankster" },
+    "abilities": {
+      "0": "Oblivious",
+      "1": "Tinted Lens",
+      "H": "Prankster"
+    },
     "heightm": 0.6,
     "weightkg": 17.7,
     "color": "Purple",
-    "eggGroups": ["Bug", "Human-Like"],
+    "eggGroups": [
+      "Bug",
+      "Human-Like"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
@@ -6651,7 +6860,9 @@
   "龍蝦小兵": {
     "num": "341",
     "name": "Corphish",
-    "types": ["Water"],
+    "types": [
+      "Water"
+    ],
     "baseStats": {
       "hp": 43,
       "atk": 80,
@@ -6668,15 +6879,23 @@
     "heightm": 0.6,
     "weightkg": 11.5,
     "color": "Red",
-    "evos": ["Crawdaunt"],
-    "eggGroups": ["Water 1", "Water 3"],
+    "evos": [
+      "Crawdaunt"
+    ],
+    "eggGroups": [
+      "Water 1",
+      "Water 3"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
   "鐵螫龍蝦": {
     "num": "342",
     "name": "Crawdaunt",
-    "types": ["Water", "Dark"],
+    "types": [
+      "Water",
+      "Dark"
+    ],
     "baseStats": {
       "hp": 63,
       "atk": 120,
@@ -6695,14 +6914,19 @@
     "color": "Red",
     "prevo": "Corphish",
     "evoLevel": 30,
-    "eggGroups": ["Water 1", "Water 3"],
+    "eggGroups": [
+      "Water 1",
+      "Water 3"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
   "醜醜魚": {
     "num": "349",
     "name": "Feebas",
-    "types": ["Water"],
+    "types": [
+      "Water"
+    ],
     "baseStats": {
       "hp": 20,
       "atk": 15,
@@ -6711,19 +6935,30 @@
       "spd": 55,
       "spe": 80
     },
-    "abilities": { "0": "Swift Swim", "1": "Oblivious", "H": "Adaptability" },
+    "abilities": {
+      "0": "Swift Swim",
+      "1": "Oblivious",
+      "H": "Adaptability"
+    },
     "heightm": 0.6,
     "weightkg": 7.4,
     "color": "Brown",
-    "evos": ["Milotic"],
-    "eggGroups": ["Water 1", "Dragon"],
+    "evos": [
+      "Milotic"
+    ],
+    "eggGroups": [
+      "Water 1",
+      "Dragon"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
   "美納斯": {
     "num": "350",
     "name": "Milotic",
-    "types": ["Water"],
+    "types": [
+      "Water"
+    ],
     "baseStats": {
       "hp": 95,
       "atk": 60,
@@ -6732,14 +6967,21 @@
       "spd": 125,
       "spe": 81
     },
-    "abilities": { "0": "Marvel Scale", "1": "Competitive", "H": "Cute Charm" },
+    "abilities": {
+      "0": "Marvel Scale",
+      "1": "Competitive",
+      "H": "Cute Charm"
+    },
     "heightm": 6.2,
     "weightkg": 162,
     "color": "Pink",
     "prevo": "Feebas",
     "evoType": "trade",
     "evoItem": "Prism Scale",
-    "eggGroups": ["Water 1", "Dragon"],
+    "eggGroups": [
+      "Water 1",
+      "Dragon"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
@@ -8177,8 +8419,13 @@
   "小卡比獸": {
     "num": "446",
     "name": "Munchlax",
-    "types": ["Normal"],
-    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "types": [
+      "Normal"
+    ],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "baseStats": {
       "hp": 135,
       "atk": 85,
@@ -8187,12 +8434,20 @@
       "spd": 85,
       "spe": 5
     },
-    "abilities": { "0": "Pickup", "1": "Thick Fat", "H": "Gluttony" },
+    "abilities": {
+      "0": "Pickup",
+      "1": "Thick Fat",
+      "H": "Gluttony"
+    },
     "heightm": 0.6,
     "weightkg": 105,
     "color": "Black",
-    "evos": ["Snorlax"],
-    "eggGroups": ["Undiscovered"],
+    "evos": [
+      "Snorlax"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
     "canHatch": true,
     "tier": "Illegal",
     "isNonstandard": "Past"
@@ -9580,8 +9835,13 @@
   "搬運小匠": {
     "num": "532",
     "name": "Timburr",
-    "types": ["Fighting"],
-    "genderRatio": { "M": 0.75, "F": 0.25 },
+    "types": [
+      "Fighting"
+    ],
+    "genderRatio": {
+      "M": 0.75,
+      "F": 0.25
+    },
     "baseStats": {
       "hp": 75,
       "atk": 80,
@@ -9590,20 +9850,33 @@
       "spd": 35,
       "spe": 35
     },
-    "abilities": { "0": "Guts", "1": "Sheer Force", "H": "Iron Fist" },
+    "abilities": {
+      "0": "Guts",
+      "1": "Sheer Force",
+      "H": "Iron Fist"
+    },
     "heightm": 0.6,
     "weightkg": 12.5,
     "color": "Gray",
-    "evos": ["Gurdurr"],
-    "eggGroups": ["Human-Like"],
+    "evos": [
+      "Gurdurr"
+    ],
+    "eggGroups": [
+      "Human-Like"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
   "鐵骨土人": {
     "num": "533",
     "name": "Gurdurr",
-    "types": ["Fighting"],
-    "genderRatio": { "M": 0.75, "F": 0.25 },
+    "types": [
+      "Fighting"
+    ],
+    "genderRatio": {
+      "M": 0.75,
+      "F": 0.25
+    },
     "baseStats": {
       "hp": 85,
       "atk": 105,
@@ -9612,22 +9885,35 @@
       "spd": 50,
       "spe": 40
     },
-    "abilities": { "0": "Guts", "1": "Sheer Force", "H": "Iron Fist" },
+    "abilities": {
+      "0": "Guts",
+      "1": "Sheer Force",
+      "H": "Iron Fist"
+    },
     "heightm": 1.2,
     "weightkg": 40,
     "color": "Gray",
     "prevo": "Timburr",
     "evoLevel": 25,
-    "evos": ["Conkeldurr"],
-    "eggGroups": ["Human-Like"],
+    "evos": [
+      "Conkeldurr"
+    ],
+    "eggGroups": [
+      "Human-Like"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
   "修建老匠": {
     "num": "534",
     "name": "Conkeldurr",
-    "types": ["Fighting"],
-    "genderRatio": { "M": 0.75, "F": 0.25 },
+    "types": [
+      "Fighting"
+    ],
+    "genderRatio": {
+      "M": 0.75,
+      "F": 0.25
+    },
     "baseStats": {
       "hp": 105,
       "atk": 140,
@@ -9636,20 +9922,29 @@
       "spd": 65,
       "spe": 45
     },
-    "abilities": { "0": "Guts", "1": "Sheer Force", "H": "Iron Fist" },
+    "abilities": {
+      "0": "Guts",
+      "1": "Sheer Force",
+      "H": "Iron Fist"
+    },
     "heightm": 1.4,
     "weightkg": 87,
     "color": "Brown",
     "prevo": "Gurdurr",
     "evoType": "trade",
-    "eggGroups": ["Human-Like"],
+    "eggGroups": [
+      "Human-Like"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
   "蟲寶包": {
     "num": "540",
     "name": "Sewaddle",
-    "types": ["Bug", "Grass"],
+    "types": [
+      "Bug",
+      "Grass"
+    ],
     "baseStats": {
       "hp": 45,
       "atk": 53,
@@ -9658,19 +9953,30 @@
       "spd": 60,
       "spe": 42
     },
-    "abilities": { "0": "Swarm", "1": "Chlorophyll", "H": "Overcoat" },
+    "abilities": {
+      "0": "Swarm",
+      "1": "Chlorophyll",
+      "H": "Overcoat"
+    },
     "heightm": 0.3,
     "weightkg": 2.5,
     "color": "Yellow",
-    "evos": ["Swadloon"],
-    "eggGroups": ["Bug"],
+    "evos": [
+      "Swadloon"
+    ],
+    "eggGroups": [
+      "Bug"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
   "寶包繭": {
     "num": "541",
     "name": "Swadloon",
-    "types": ["Bug", "Grass"],
+    "types": [
+      "Bug",
+      "Grass"
+    ],
     "baseStats": {
       "hp": 55,
       "atk": 63,
@@ -9679,21 +9985,32 @@
       "spd": 80,
       "spe": 42
     },
-    "abilities": { "0": "Leaf Guard", "1": "Chlorophyll", "H": "Overcoat" },
+    "abilities": {
+      "0": "Leaf Guard",
+      "1": "Chlorophyll",
+      "H": "Overcoat"
+    },
     "heightm": 0.5,
     "weightkg": 7.3,
     "color": "Green",
     "prevo": "Sewaddle",
     "evoLevel": 20,
-    "evos": ["Leavanny"],
-    "eggGroups": ["Bug"],
+    "evos": [
+      "Leavanny"
+    ],
+    "eggGroups": [
+      "Bug"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
   "保母蟲": {
     "num": "542",
     "name": "Leavanny",
-    "types": ["Bug", "Grass"],
+    "types": [
+      "Bug",
+      "Grass"
+    ],
     "baseStats": {
       "hp": 75,
       "atk": 103,
@@ -9702,13 +10019,19 @@
       "spd": 80,
       "spe": 92
     },
-    "abilities": { "0": "Swarm", "1": "Chlorophyll", "H": "Overcoat" },
+    "abilities": {
+      "0": "Swarm",
+      "1": "Chlorophyll",
+      "H": "Overcoat"
+    },
     "heightm": 1.2,
     "weightkg": 20.5,
     "color": "Yellow",
     "prevo": "Swadloon",
     "evoType": "levelFriendship",
-    "eggGroups": ["Bug"],
+    "eggGroups": [
+      "Bug"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
@@ -10525,7 +10848,10 @@
   "燭光靈": {
     "num": "607",
     "name": "Litwick",
-    "types": ["Ghost", "Fire"],
+    "types": [
+      "Ghost",
+      "Fire"
+    ],
     "baseStats": {
       "hp": 50,
       "atk": 30,
@@ -10534,19 +10860,30 @@
       "spd": 55,
       "spe": 20
     },
-    "abilities": { "0": "Flash Fire", "1": "Flame Body", "H": "Infiltrator" },
+    "abilities": {
+      "0": "Flash Fire",
+      "1": "Flame Body",
+      "H": "Infiltrator"
+    },
     "heightm": 0.3,
     "weightkg": 3.1,
     "color": "White",
-    "evos": ["Lampent"],
-    "eggGroups": ["Amorphous"],
+    "evos": [
+      "Lampent"
+    ],
+    "eggGroups": [
+      "Amorphous"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
   "燈火幽靈": {
     "num": "608",
     "name": "Lampent",
-    "types": ["Ghost", "Fire"],
+    "types": [
+      "Ghost",
+      "Fire"
+    ],
     "baseStats": {
       "hp": 60,
       "atk": 40,
@@ -10555,21 +10892,32 @@
       "spd": 60,
       "spe": 55
     },
-    "abilities": { "0": "Flash Fire", "1": "Flame Body", "H": "Infiltrator" },
+    "abilities": {
+      "0": "Flash Fire",
+      "1": "Flame Body",
+      "H": "Infiltrator"
+    },
     "heightm": 0.6,
     "weightkg": 13,
     "color": "Black",
     "prevo": "Litwick",
     "evoLevel": 41,
-    "evos": ["Chandelure"],
-    "eggGroups": ["Amorphous"],
+    "evos": [
+      "Chandelure"
+    ],
+    "eggGroups": [
+      "Amorphous"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
   "水晶燈火靈": {
     "num": "609",
     "name": "Chandelure",
-    "types": ["Ghost", "Fire"],
+    "types": [
+      "Ghost",
+      "Fire"
+    ],
     "baseStats": {
       "hp": 60,
       "atk": 55,
@@ -10578,14 +10926,20 @@
       "spd": 90,
       "spe": 80
     },
-    "abilities": { "0": "Flash Fire", "1": "Flame Body", "H": "Infiltrator" },
+    "abilities": {
+      "0": "Flash Fire",
+      "1": "Flame Body",
+      "H": "Infiltrator"
+    },
     "heightm": 1,
     "weightkg": 34.3,
     "color": "Black",
     "prevo": "Lampent",
     "evoType": "useItem",
     "evoItem": "Dusk Stone",
-    "eggGroups": ["Amorphous"],
+    "eggGroups": [
+      "Amorphous"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
@@ -12710,7 +13064,10 @@
   "小木靈": {
     "num": "708",
     "name": "Phantump",
-    "types": ["Ghost", "Grass"],
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
     "baseStats": {
       "hp": 43,
       "atk": 70,
@@ -12719,19 +13076,31 @@
       "spd": 60,
       "spe": 38
     },
-    "abilities": { "0": "Natural Cure", "1": "Frisk", "H": "Harvest" },
+    "abilities": {
+      "0": "Natural Cure",
+      "1": "Frisk",
+      "H": "Harvest"
+    },
     "heightm": 0.4,
     "weightkg": 7,
     "color": "Brown",
-    "evos": ["Trevenant"],
-    "eggGroups": ["Grass", "Amorphous"],
+    "evos": [
+      "Trevenant"
+    ],
+    "eggGroups": [
+      "Grass",
+      "Amorphous"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
   "朽木妖": {
     "num": "709",
     "name": "Trevenant",
-    "types": ["Ghost", "Grass"],
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
     "baseStats": {
       "hp": 85,
       "atk": 110,
@@ -12740,13 +13109,20 @@
       "spd": 82,
       "spe": 56
     },
-    "abilities": { "0": "Natural Cure", "1": "Frisk", "H": "Harvest" },
+    "abilities": {
+      "0": "Natural Cure",
+      "1": "Frisk",
+      "H": "Harvest"
+    },
     "heightm": 1.5,
     "weightkg": 71,
     "color": "Brown",
     "prevo": "Phantump",
     "evoType": "trade",
-    "eggGroups": ["Grass", "Amorphous"],
+    "eggGroups": [
+      "Grass",
+      "Amorphous"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
@@ -14186,7 +14562,9 @@
   "心鱗寶": {
     "num": "782",
     "name": "Jangmo-o",
-    "types": ["Dragon"],
+    "types": [
+      "Dragon"
+    ],
     "baseStats": {
       "hp": 45,
       "atk": 55,
@@ -14195,19 +14573,30 @@
       "spd": 45,
       "spe": 45
     },
-    "abilities": { "0": "Bulletproof", "1": "Soundproof", "H": "Overcoat" },
+    "abilities": {
+      "0": "Bulletproof",
+      "1": "Soundproof",
+      "H": "Overcoat"
+    },
     "heightm": 0.6,
     "weightkg": 29.7,
     "color": "Gray",
-    "evos": ["Hakamo-o"],
-    "eggGroups": ["Dragon"],
+    "evos": [
+      "Hakamo-o"
+    ],
+    "eggGroups": [
+      "Dragon"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
   "鱗甲龍": {
     "num": "783",
     "name": "Hakamo-o",
-    "types": ["Dragon", "Fighting"],
+    "types": [
+      "Dragon",
+      "Fighting"
+    ],
     "baseStats": {
       "hp": 55,
       "atk": 75,
@@ -14216,21 +14605,32 @@
       "spd": 70,
       "spe": 65
     },
-    "abilities": { "0": "Bulletproof", "1": "Soundproof", "H": "Overcoat" },
+    "abilities": {
+      "0": "Bulletproof",
+      "1": "Soundproof",
+      "H": "Overcoat"
+    },
     "heightm": 1.2,
     "weightkg": 47,
     "color": "Gray",
     "prevo": "Jangmo-o",
     "evoLevel": 35,
-    "evos": ["Kommo-o"],
-    "eggGroups": ["Dragon"],
+    "evos": [
+      "Kommo-o"
+    ],
+    "eggGroups": [
+      "Dragon"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
   "杖尾鱗甲龍": {
     "num": "784",
     "name": "Kommo-o",
-    "types": ["Dragon", "Fighting"],
+    "types": [
+      "Dragon",
+      "Fighting"
+    ],
     "baseStats": {
       "hp": 75,
       "atk": 110,
@@ -14239,15 +14639,26 @@
       "spd": 105,
       "spe": 85
     },
-    "abilities": { "0": "Bulletproof", "1": "Soundproof", "H": "Overcoat" },
+    "abilities": {
+      "0": "Bulletproof",
+      "1": "Soundproof",
+      "H": "Overcoat"
+    },
     "heightm": 1.6,
     "weightkg": 78.2,
     "color": "Gray",
     "prevo": "Hakamo-o",
     "evoLevel": 45,
-    "eggGroups": ["Dragon"],
-    "otherFormes": ["Kommo-o-Totem"],
-    "formeOrder": ["Kommo-o", "Kommo-o-Totem"],
+    "eggGroups": [
+      "Dragon"
+    ],
+    "otherFormes": [
+      "Kommo-o-Totem"
+    ],
+    "formeOrder": [
+      "Kommo-o",
+      "Kommo-o-Totem"
+    ],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
@@ -20129,6 +20540,345 @@
     "eggGroups": [
       "Undiscovered"
     ],
+    "tier": "OU"
+  },
+  "裹蜜蟲": {
+    "num": "default",
+    "name": "Dipplin",
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 80,
+      "def": 110,
+      "spa": 95,
+      "spd": 80,
+      "spe": 40
+    },
+    "abilities": {
+      "0": "Supersweet Syrup",
+      "1": "Gluttony",
+      "H": "Sticky Hold"
+    },
+    "heightm": 0.4,
+    "weightkg": 4.4,
+    "color": "Green",
+    "prevo": "Applin",
+    "evoType": "useItem",
+    "evoItem": "Syrupy Apple",
+    "eggGroups": [
+      "Grass",
+      "Dragon"
+    ],
+    "tier": "OU"
+  },
+  "斯魔茶": {
+    "num": "default",
+    "name": "Poltchageist",
+    "baseForme": "Counterfeit",
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 40,
+      "atk": 45,
+      "def": 45,
+      "spa": 74,
+      "spd": 54,
+      "spe": 50
+    },
+    "abilities": {
+      "0": "Hospitality",
+      "H": "Heatproof"
+    },
+    "heightm": 0.1,
+    "weightkg": 1.1,
+    "color": "Green",
+    "evos": [
+      "Sinistcha"
+    ],
+    "eggGroups": [
+      "Mineral",
+      "Amorphous"
+    ],
+    "otherFormes": [
+      "Poltchageist-Artisan"
+    ],
+    "formeOrder": [
+      "Poltchageist",
+      "Poltchageist-Artisan"
+    ],
+    "tier": "LC"
+  },
+  "來悲粗茶": {
+    "num": "default",
+    "name": "Sinistcha",
+    "baseForme": "Unremarkable",
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 71,
+      "atk": 60,
+      "def": 106,
+      "spa": 121,
+      "spd": 80,
+      "spe": 70
+    },
+    "abilities": {
+      "0": "Hospitality",
+      "H": "Heatproof"
+    },
+    "heightm": 0.2,
+    "weightkg": 2.2,
+    "color": "Green",
+    "prevo": "Poltchageist",
+    "evoType": "useItem",
+    "evoItem": "Unremarkable Teacup",
+    "eggGroups": [
+      "Mineral",
+      "Amorphous"
+    ],
+    "otherFormes": [
+      "Sinistcha-Masterpiece"
+    ],
+    "formeOrder": [
+      "Sinistcha",
+      "Sinistcha-Masterpiece"
+    ],
+    "tier": "OU"
+  },
+  "夠讚狗": {
+    "num": "default",
+    "name": "Okidogi",
+    "types": [
+      "Poison",
+      "Fighting"
+    ],
+    "gender": "M",
+    "baseStats": {
+      "hp": 88,
+      "atk": 128,
+      "def": 115,
+      "spa": 58,
+      "spd": 86,
+      "spe": 80
+    },
+    "abilities": {
+      "0": "Toxic Chain",
+      "H": "Guard Dog"
+    },
+    "heightm": 1.8,
+    "weightkg": 92,
+    "color": "Black",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
+  "願增猿": {
+    "num": "default",
+    "name": "Munkidori",
+    "types": [
+      "Poison",
+      "Psychic"
+    ],
+    "gender": "M",
+    "baseStats": {
+      "hp": 88,
+      "atk": 75,
+      "def": 66,
+      "spa": 130,
+      "spd": 90,
+      "spe": 106
+    },
+    "abilities": {
+      "0": "Toxic Chain",
+      "H": "Frisk"
+    },
+    "heightm": 1,
+    "weightkg": 12.2,
+    "color": "Black",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
+  "吉雉雞": {
+    "num": "default",
+    "name": "Fezandipiti",
+    "types": [
+      "Poison",
+      "Fairy"
+    ],
+    "gender": "M",
+    "baseStats": {
+      "hp": 88,
+      "atk": 91,
+      "def": 82,
+      "spa": 70,
+      "spd": 125,
+      "spe": 99
+    },
+    "abilities": {
+      "0": "Toxic Chain",
+      "H": "Technician"
+    },
+    "heightm": 1.4,
+    "weightkg": 30.1,
+    "color": "Black",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "tier": "OU"
+  },
+  "厄鬼椪-碧草": {
+    "num": "default",
+    "name": "Ogerpon",
+    "baseForme": "Teal",
+    "types": [
+      "Grass"
+    ],
+    "gender": "F",
+    "baseStats": {
+      "hp": 80,
+      "atk": 120,
+      "def": 84,
+      "spa": 60,
+      "spd": 96,
+      "spe": 110
+    },
+    "abilities": {
+      "0": "Defiant"
+    },
+    "heightm": 1.2,
+    "weightkg": 39.8,
+    "color": "Green",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "otherFormes": [
+      "Ogerpon-Wellspring",
+      "Ogerpon-Hearthflame",
+      "Ogerpon-Cornerstone",
+      "Ogerpon-Teal-Tera",
+      "Ogerpon-Wellspring-Tera",
+      "Ogerpon-Hearthflame-Tera",
+      "Ogerpon-Cornerstone-Tera"
+    ],
+    "formeOrder": [
+      "Ogerpon",
+      "Ogerpon-Wellspring",
+      "Ogerpon-Hearthflame",
+      "Ogerpon-Cornerstone",
+      "Ogerpon-Teal-Tera",
+      "Ogerpon-Wellspring-Tera",
+      "Ogerpon-Hearthflame-Tera",
+      "Ogerpon-Cornerstone-Tera"
+    ],
+    "forceTeraType": "Grass",
+    "tier": "OU"
+  },
+  "厄鬼椪-水井": {
+    "num": "default",
+    "name": "Ogerpon-Wellspring",
+    "baseSpecies": "Ogerpon",
+    "forme": "Wellspring",
+    "types": [
+      "Grass",
+      "Water"
+    ],
+    "gender": "F",
+    "baseStats": {
+      "hp": 80,
+      "atk": 120,
+      "def": 84,
+      "spa": 60,
+      "spd": 96,
+      "spe": 110
+    },
+    "abilities": {
+      "0": "Water Absorb"
+    },
+    "heightm": 1.2,
+    "weightkg": 39.8,
+    "color": "Green",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "requiredItem": "Wellspring Mask",
+    "changesFrom": "Ogerpon",
+    "forceTeraType": "Water",
+    "tier": "OU"
+  },
+  "厄鬼椪-火灶": {
+    "num": "default",
+    "name": "Ogerpon-Hearthflame",
+    "baseSpecies": "Ogerpon",
+    "forme": "Hearthflame",
+    "types": [
+      "Grass",
+      "Fire"
+    ],
+    "gender": "F",
+    "baseStats": {
+      "hp": 80,
+      "atk": 120,
+      "def": 84,
+      "spa": 60,
+      "spd": 96,
+      "spe": 110
+    },
+    "abilities": {
+      "0": "Mold Breaker"
+    },
+    "heightm": 1.2,
+    "weightkg": 39.8,
+    "color": "Red",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "requiredItem": "Hearthflame Mask",
+    "changesFrom": "Ogerpon",
+    "forceTeraType": "Fire",
+    "tier": "OU"
+  },
+  "厄鬼椪-礎石": {
+    "num": "default",
+    "name": "Ogerpon-Cornerstone",
+    "baseSpecies": "Ogerpon",
+    "forme": "Cornerstone",
+    "types": [
+      "Grass",
+      "Rock"
+    ],
+    "gender": "F",
+    "baseStats": {
+      "hp": 80,
+      "atk": 120,
+      "def": 84,
+      "spa": 60,
+      "spd": 96,
+      "spe": 110
+    },
+    "abilities": {
+      "0": "Sturdy"
+    },
+    "heightm": 1.2,
+    "weightkg": 39.8,
+    "color": "Gray",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "requiredItem": "Cornerstone Mask",
+    "changesFrom": "Ogerpon",
+    "forceTeraType": "Rock",
     "tier": "OU"
   }
 }
