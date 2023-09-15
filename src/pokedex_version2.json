@@ -16989,6 +16989,36 @@
     "tier": "Unreleased",
     "isNonstandard": "Unobtainable"
   },
+  "月月熊-赫月": {
+    "num": 901,
+    "name": "Ursaluna-Bloodmoon",
+    "baseSpecies": "Ursaluna",
+    "forme": "Bloodmoon",
+    "types": [
+      "Ground",
+      "Normal"
+    ],
+    "gender": "M",
+    "baseStats": {
+      "hp": 113,
+      "atk": 70,
+      "def": 120,
+      "spa": 135,
+      "spd": 65,
+      "spe": 52
+    },
+    "abilities": {
+      "0": "Mind's Eye"
+    },
+    "heightm": 2.7,
+    "weightkg": 333,
+    "color": "Brown",
+    "eggGroups": [
+      "Field"
+    ],
+    "gen": 9,
+    "tier": "OU"
+  },
   "幽尾玄魚-公": {
     "num": "902",
     "name": "Basculegion",
