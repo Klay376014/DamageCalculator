@@ -146,6 +146,12 @@ export const UseDefenseStore = defineStore("def", () => {
       return 2;
     }
 
+    if (defAbi === "Marvel Scale" && pm[defender].condition.burned) {
+      //神奇鱗片
+      dm.detailStat.defender.ability = abi.abilityList[defAbi].name;
+      return 1.5;
+    }
+
     if (defAbi === "Quark Drive") {
       //夸克充能
       if (
