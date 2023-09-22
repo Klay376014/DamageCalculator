@@ -20595,6 +20595,9 @@
     "heightm": 0.4,
     "weightkg": 4.4,
     "color": "Green",
+    "evos": [
+      "Unknown"
+    ],
     "prevo": "Applin",
     "evoType": "useItem",
     "evoItem": "Syrupy Apple",
