@@ -255,8 +255,6 @@ export const UseBasePowerStore = defineStore("basePower", () => {
         pm[attacker].Name === "厄鬼椪-礎石"
       ) {
         pm[attacker].move.type = pm[attacker].type2;
-        console.log(pm[attacker].move.type)
-        console.log(pm[attacker].type2);
       }
     }
 

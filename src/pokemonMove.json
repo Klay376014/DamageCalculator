@@ -7927,6 +7927,23 @@
     "desc": "No additional effect.",
     "shortDesc": "No additional effect."
   },
+  "Clanging Scales": {
+    "num": 691,
+    "accuracy": 100,
+    "basePower": 110,
+    "category": "Special",
+    "name": "鱗片噪音",
+    "pp": 5,
+    "priority": 0,
+    "flags": { "protect": 1, "mirror": 1, "sound": 1, "bypasssub": 1 },
+    "selfBoost": { "boosts": { "def": -1 } },
+    "secondary": null,
+    "target": "allAdjacentFoes",
+    "type": "Dragon",
+    "contestType": "Tough",
+    "desc": "Lowers the user's Defense by 1 stage.",
+    "shortDesc": "Lowers the user's Defense by 1."
+  },
   "Outrage": {
     "num": 200,
     "accuracy": 100,

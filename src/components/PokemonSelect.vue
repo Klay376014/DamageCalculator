@@ -70,6 +70,9 @@ const pokemonSelect = function (event) {
       store.pokemon1.spa = store.pokemonList[store.pokemon1.Name].baseStats.spa;
       store.pokemon1.spd = store.pokemonList[store.pokemon1.Name].baseStats.spd;
       store.pokemon1.spe = store.pokemonList[store.pokemon1.Name].baseStats.spe;
+      if (["厄鬼椪-水井", "厄鬼椪-火灶", "厄鬼椪-礎石"].indexOf(store.pokemon1.Name) !== -1) {
+        store.pokemon1.item = "Ogerpon Mask";
+      }
 
       if(store.pokemon1.num!=='default'){
         imageUrl.value = new URL(
@@ -125,6 +128,9 @@ const pokemonSelect = function (event) {
       store.pokemon2.spa = store.pokemonList[store.pokemon2.Name].baseStats.spa;
       store.pokemon2.spd = store.pokemonList[store.pokemon2.Name].baseStats.spd;
       store.pokemon2.spe = store.pokemonList[store.pokemon2.Name].baseStats.spe;
+      if (["厄鬼椪-水井", "厄鬼椪-火灶", "厄鬼椪-礎石"].indexOf(store.pokemon2.Name) !== -1) {
+        store.pokemon2.item = "Ogerpon Mask";
+      }
 
       if(store.pokemon2.num!=='default'){
         imageUrl.value = new URL(

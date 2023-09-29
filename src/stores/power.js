@@ -135,7 +135,7 @@ export const UsePowerStore = defineStore("power", () => {
     ) {
       dm.detailStat.attacker.item = it.itemList[item].name;
       return 1.1;
-    } else if (item === "Type Enhancing") {
+    } else if (item === "Type Enhancing" || item === "Ogerpon Mask") {
       dm.detailStat.attacker.item = it.itemList[item].name;
       return 1.2;
     } else if (item === "Normal Gem" && pm[attacker].move.type === "Normal") {

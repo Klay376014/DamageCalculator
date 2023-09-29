@@ -1,6 +1,6 @@
 <script setup>
 import { usePokemonStore } from "../stores/pokemon";
-import { ref } from "vue";
+import { ref, computed } from "vue";
 const props = defineProps({ pokemonNum: String });
 const emit = defineEmits(["terastal"]);
 
@@ -23,6 +23,16 @@ const changeTera = function () {
 };
 
 const store = usePokemonStore();
+
+const isOgerpon = function(type) {
+  const name = store[props.pokemonNum].Name
+  if (["厄鬼椪-水井", "厄鬼椪-火灶", "厄鬼椪-礎石"].indexOf(name) !== -1) {
+    return type.localeCompare(store[props.pokemonNum].type2) !== 0
+  } else if (name === "厄鬼椪-碧草") {
+    return type.localeCompare('Grass') !== 0
+  }
+  return false
+}
 </script>
 <template>
   <button
@@ -65,6 +75,7 @@ const store = usePokemonStore();
                     :value="props.pokemonNum + 'Tera' + key"
                     :name="props.pokemonNum + 'Tera'"
                     @click="changeChecked(key, type)"
+                    :disabled="isOgerpon(key)"
                   />
                   <label class="form-check-label" :for="props.pokemonNum + key">
                     {{ type }}

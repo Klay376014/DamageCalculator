@@ -27,6 +27,10 @@
     "name": "屬性增強道具",
     "effect": "（對應屬性招式威力x1.2）"
   },
+  "Ogerpon Mask": {
+    "name": "厄鬼椪面具",
+    "effect": "（全招式威力x1.2）"
+  },
   "Expert Belt": {
     "name": "達人帶",
     "effect": "（效果絕佳時傷害x1.2）"
