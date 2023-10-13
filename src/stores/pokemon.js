@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import { ref, reactive, computed } from "vue";
+import { reactive, computed, ref } from "vue";
 import pokemon from "../pokedex_version2.json";
 import { useNatureStore } from "./nature";
 import damageTaken from "../typeDamageTaken.json";
@@ -360,9 +360,6 @@ export const usePokemonStore = defineStore("pokemon", () => {
         } else if (value < 0) {
           pokemon1.statModifier.atkDown = 2 - value;
         }
-        console.log(
-          pokemon1.statModifier.atkUp + "\n" + pokemon1.statModifier.atkDown
-        );
       } else {
         pokemon2.statModifier.atkUp = 2;
         pokemon2.statModifier.atkDown = 2;
@@ -401,9 +398,6 @@ export const usePokemonStore = defineStore("pokemon", () => {
         } else if (value < 0) {
           pokemon1.statModifier.spaDown = 2 - value;
         }
-        console.log(
-          pokemon1.statModifier.spaUp + "\n" + pokemon1.statModifier.spaDown
-        );
       } else {
         pokemon2.statModifier.spaUp = 2;
         pokemon2.statModifier.spaDown = 2;
@@ -567,6 +561,50 @@ export const usePokemonStore = defineStore("pokemon", () => {
     }
   };
 
+  const savePokemon = (pm) => {
+    if (pm === 'pokemon1') {
+      savedPokemon.value.push(
+        { 
+        Name: pokemon1.Name, 
+        num: pokemonList[pokemon1.Name].num,
+        hp: pokemon1.bp.hp,
+        atk: pokemon1.bp.atk,
+        def: pokemon1.bp.def,
+        spa: pokemon1.bp.spa,
+        spd: pokemon1.bp.spd,
+        spe: pokemon1.bp.spe
+        }
+      )
+    } else {
+      savedPokemon.value.push(
+        { 
+        Name: pokemon2.Name, 
+        num: pokemonList[pokemon2.Name].num,
+        hp: pokemon2.bp.hp,
+        atk: pokemon2.bp.atk,
+        def: pokemon2.bp.def,
+        spa: pokemon2.bp.spa,
+        spd: pokemon2.bp.spd,
+        spe: pokemon2.bp.spe
+        }
+      )
+    }
+    localStorage.setItem("savedPokemon", JSON.stringify(savedPokemon.value))
+  }
+
+  const loadPokemon = () => {
+    savedPokemon.value = JSON.parse(localStorage.getItem("savedPokemon") || "[]")
+  }
+
+  const savedPokemon = ref([]);
+
+  const deletePokemon = (index) =>{
+    const pm = JSON.parse(JSON.stringify(savedPokemon.value))
+    pm.splice(index, 1);
+    localStorage.setItem("savedPokemon", JSON.stringify(pm))
+    loadPokemon()
+  }
+
   return {
     pokemonList,
     typeList,
@@ -578,6 +616,10 @@ export const usePokemonStore = defineStore("pokemon", () => {
     bpMinus,
     bpPlus,
     bp0,
-    bp252
+    bp252,
+    savePokemon,
+    loadPokemon,
+    deletePokemon,
+    savedPokemon
   };
 });

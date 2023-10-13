@@ -1,12 +1,10 @@
 <script setup>
-import { ref } from "vue";
-import { toast, toastContainers } from "vue3-toastify";
+import { toast } from "vue3-toastify";
 import "vue3-toastify/dist/index.css";
 import { UseDamageStore } from "../stores/damage";
 import { usePokemonStore } from "../stores/pokemon";
 
 const store = UseDamageStore();
-const pm = usePokemonStore();
 
 const copy = (index) => {
   console.log(index);

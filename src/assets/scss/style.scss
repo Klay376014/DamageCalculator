@@ -56,11 +56,10 @@ body {
 }
 
 .card {
-  height: 40px;
+  height: 65px;
   margin: 0;
   font-weight: bold;
   font-size: 20px;
-  line-height: 40px;
   border-radius: 0;
 }
 
@@ -116,14 +115,21 @@ body {
   }
 }
 
-.tera {
-  .modal-content {
-    background-color: #333333;
-    h5 {
-      font-weight: bold;
-      font-size: 20px;
-    }
+.modal-content {
+  background-color: #333333;
+  h5 {
+    font-weight: bold;
+    font-size: 20px;
   }
+}
+
+.modal-table {
+  td {
+    min-width: 56px;
+  }
+}
+
+.tera {
   input[type="radio"]:checked,
   input[type="radio"]:active {
     background-color: #ff0000 !important;

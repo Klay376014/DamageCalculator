@@ -7453,7 +7453,7 @@
     ]
   },
   "草苗龜": {
-    "num": 387,
+    "num": "387",
     "name": "Turtwig",
     "types": ["Grass"],
     "genderRatio": { "M": 0.875, "F": 0.125 },
@@ -7474,7 +7474,7 @@
     "tier": "LC"
   },
   "樹林龜": {
-    "num": 388,
+    "num": "388",
     "name": "Grotle",
     "types": ["Grass"],
     "genderRatio": { "M": 0.875, "F": 0.125 },
@@ -7497,7 +7497,7 @@
     "tier": "NFE"
   },
   "土台龜": {
-    "num": 389,
+    "num": "389",
     "name": "Torterra",
     "types": ["Grass", "Ground"],
     "genderRatio": { "M": 0.875, "F": 0.125 },
@@ -7519,7 +7519,7 @@
     "tier": "OU"
   },
   "小火焰猴": {
-    "num": 390,
+    "num": "390",
     "name": "Chimchar",
     "types": ["Fire"],
     "genderRatio": { "M": 0.875, "F": 0.125 },
@@ -7540,7 +7540,7 @@
     "tier": "LC"
   },
   "猛火猴": {
-    "num": 391,
+    "num": "391",
     "name": "Monferno",
     "types": ["Fire", "Fighting"],
     "genderRatio": { "M": 0.875, "F": 0.125 },
@@ -7563,7 +7563,7 @@
     "tier": "NFE"
   },
   "烈焰猴": {
-    "num": 392,
+    "num": "392",
     "name": "Infernape",
     "types": ["Fire", "Fighting"],
     "genderRatio": { "M": 0.875, "F": 0.125 },
@@ -7585,7 +7585,7 @@
     "tier": "OU"
   },
   "波加曼": {
-    "num": 393,
+    "num": "393",
     "name": "Piplup",
     "types": ["Water"],
     "genderRatio": { "M": 0.875, "F": 0.125 },
@@ -7606,7 +7606,7 @@
     "tier": "LC"
   },
   "波皇子": {
-    "num": 394,
+    "num": "394",
     "name": "Prinplup",
     "types": ["Water"],
     "genderRatio": { "M": 0.875, "F": 0.125 },
@@ -7629,7 +7629,7 @@
     "tier": "NFE"
   },
   "帝王拿波": {
-    "num": 395,
+    "num": "395",
     "name": "Empoleon",
     "types": ["Water", "Steel"],
     "genderRatio": { "M": 0.875, "F": 0.125 },

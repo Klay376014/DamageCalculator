@@ -1,6 +1,6 @@
 <script setup>
 import { usePokemonStore } from "../stores/pokemon";
-import { ref, computed } from "vue";
+import { ref } from "vue";
 const props = defineProps({ pokemonNum: String });
 const emit = defineEmits(["terastal"]);
 
