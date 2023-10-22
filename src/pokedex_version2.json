@@ -271,7 +271,7 @@
     "tier": "UU"
   },
   "雷丘-阿羅拉": {
-    "num": "026_f2",
+    "num": "026-a",
     "name": "Raichu-Alola",
     "baseSpecies": "Raichu",
     "forme": "Alola",
@@ -342,7 +342,7 @@
     "isNonstandard": "Past"
   },
   "穿山鼠-阿羅拉": {
-    "num": "027_f2",
+    "num": "027-a",
     "name": "Sandshrew-Alola",
     "baseSpecies": "Sandshrew",
     "forme": "Alola",
@@ -411,7 +411,7 @@
     "isNonstandard": "Past"
   },
   "穿山王-阿羅拉": {
-    "num": "028_f2",
+    "num": "028-a",
     "name": "Sandslash-Alola",
     "baseSpecies": "Sandslash",
     "forme": "Alola",
@@ -557,7 +557,7 @@
     "isNonstandard": "Past"
   },
   "六尾-阿羅拉": {
-    "num": "037_f2",
+    "num": "037-a",
     "name": "Vulpix-Alola",
     "baseSpecies": "Vulpix",
     "forme": "Alola",
@@ -634,7 +634,7 @@
     "isNonstandard": "Past"
   },
   "九尾-阿羅拉": {
-    "num": "038_f2",
+    "num": "038-a",
     "name": "Ninetales-Alola",
     "baseSpecies": "Ninetales",
     "forme": "Alola",
@@ -841,7 +841,7 @@
     "tier": "LC"
   },
   "地鼠-阿羅拉": {
-    "num": "050_f2",
+    "num": "050-a",
     "name": "Diglett-Alola",
     "baseSpecies": "Diglett",
     "forme": "Alola",
@@ -911,7 +911,7 @@
     "tier": "UU"
   },
   "三地鼠-阿羅拉": {
-    "num": "051_f2",
+    "num": "051-a",
     "name": "Dugtrio-Alola",
     "baseSpecies": "Dugtrio",
     "forme": "Alola",
@@ -984,7 +984,7 @@
     "tier": "LC"
   },
   "喵喵-阿羅拉": {
-    "num": "052_f2",
+    "num": "052-a",
     "name": "Meowth-Alola",
     "baseSpecies": "Meowth",
     "forme": "Alola",
@@ -1017,7 +1017,7 @@
     "isNonstandard": "Unobtainable"
   },
   "喵喵-伽勒爾": {
-    "num": "052_f3",
+    "num": "052-g",
     "name": "Meowth-Galar",
     "baseSpecies": "Meowth",
     "forme": "Galar",
@@ -1085,7 +1085,7 @@
     "tier": "UU"
   },
   "貓老大-阿羅拉": {
-    "num": "053_f2",
+    "num": "053-a",
     "name": "Persian-Alola",
     "baseSpecies": "Persian",
     "forme": "Alola",
@@ -1281,7 +1281,7 @@
     "tier": "LC"
   },
   "卡蒂狗-洗翠": {
-    "num": "058_f2",
+    "num": "058-h",
     "name": "Growlithe-Hisui",
     "baseSpecies": "Growlithe",
     "forme": "Hisui",
@@ -1360,7 +1360,7 @@
     "tier": "UU"
   },
   "風速狗-洗翠": {
-    "num": "059_f2",
+    "num": "059-h",
     "name": "Arcanine-Hisui",
     "baseSpecies": "Arcanine",
     "forme": "Hisui",
@@ -1629,7 +1629,7 @@
     "isNonstandard": "Past"
   },
   "小拳石-阿羅拉": {
-    "num": "074_f2",
+    "num": "074-a",
     "name": "Geodude-Alola",
     "baseSpecies": "Geodude",
     "forme": "Alola",
@@ -1704,7 +1704,7 @@
     "isNonstandard": "Past"
   },
   "隆隆石-阿羅拉": {
-    "num": "075_f2",
+    "num": "075-a",
     "name": "Graveler-Alola",
     "baseSpecies": "Graveler",
     "forme": "Alola",
@@ -1778,7 +1778,7 @@
     "isNonstandard": "Past"
   },
   "隆隆岩-阿羅拉": {
-    "num": "076_f2",
+    "num": "076-a",
     "name": "Golem-Alola",
     "baseSpecies": "Golem",
     "forme": "Alola",
@@ -1851,7 +1851,7 @@
     "tier": "LC"
   },
   "呆呆獸-伽勒爾": {
-    "num": "079_f2",
+    "num": "079-g",
     "name": "Slowpoke-Galar",
     "baseSpecies": "Slowpoke",
     "forme": "Galar",
@@ -1926,7 +1926,7 @@
     "tier": "UU"
   },
   "呆殼獸-伽勒爾": {
-    "num": "080_f2",
+    "num": "080-g",
     "name": "Slowbro-Galar",
     "baseSpecies": "Slowbro",
     "forme": "Galar",
@@ -2064,7 +2064,7 @@
     "tier": "LC"
   },
   "臭泥-阿羅拉": {
-    "num": "088_f2",
+    "num": "088-a",
     "name": "Grimer-Alola",
     "baseSpecies": "Grimer",
     "forme": "Alola",
@@ -2134,7 +2134,7 @@
     "tier": "UU"
   },
   "臭臭泥-阿羅拉": {
-    "num": "089_f2",
+    "num": "089-a",
     "name": "Muk-Alola",
     "baseSpecies": "Muk",
     "forme": "Alola",
@@ -2421,7 +2421,7 @@
     "tier": "LC"
   },
   "霹靂電球-洗翠": {
-    "num": "100_f2",
+    "num": "100-h",
     "name": "Voltorb-Hisui",
     "baseSpecies": "Voltorb",
     "forme": "Hisui",
@@ -2493,7 +2493,7 @@
     "tier": "UU"
   },
   "頑皮雷彈-洗翠": {
-    "num": "101_f2",
+    "num": "101-h",
     "name": "Electrode-Hisui",
     "baseSpecies": "Electrode",
     "forme": "Hisui",
@@ -2597,7 +2597,7 @@
     "isNonstandard": "Past"
   },
   "雙彈瓦斯-伽勒爾": {
-    "num": "110_f2",
+    "num": "110-g",
     "name": "Weezing-Galar",
     "baseSpecies": "Weezing",
     "forme": "Galar",
@@ -2739,7 +2739,7 @@
     "isNonstandard": "Unobtainable"
   },
   "肯泰羅-帕底亞-鬥戰": {
-    "num": "128_f2",
+    "num": "128-p",
     "name": "Tauros-Paldea",
     "baseSpecies": "Tauros",
     "forme": "Paldea",
@@ -2769,7 +2769,7 @@
     "tier": "UU"
   },
   "肯泰羅-帕底亞-火熾": {
-    "num": "128_f3",
+    "num": "128-b",
     "name": "Tauros-Paldea-Fire",
     "baseSpecies": "Tauros",
     "forme": "Paldea-Fire",
@@ -2800,7 +2800,7 @@
     "tier": "UU"
   },
   "肯泰羅-帕底亞-水瀾": {
-    "num": "128_f4",
+    "num": "128-a",
     "name": "Tauros-Paldea-Water",
     "baseSpecies": "Tauros",
     "forme": "Paldea-Water",
@@ -3147,7 +3147,7 @@
     "tier": "OU"
   },
   "急凍鳥-伽勒爾": {
-    "num": "144_f2",
+    "num": "144-g",
     "name": "Articuno-Galar",
     "baseSpecies": "Articuno",
     "forme": "Galar",
@@ -3214,7 +3214,7 @@
     "tier": "OU"
   },
   "閃電鳥-伽勒爾": {
-    "num": "145_f2",
+    "num": "145-g",
     "name": "Zapdos-Galar",
     "baseSpecies": "Zapdos",
     "forme": "Galar",
@@ -3281,7 +3281,7 @@
     "tier": "OU"
   },
   "火焰鳥-伽勒爾": {
-    "num": "146_f2",
+    "num": "146-g",
     "name": "Moltres-Galar",
     "baseSpecies": "Moltres",
     "forme": "Galar",
@@ -3542,7 +3542,7 @@
     "isNonstandard": "Unobtainable"
   },
   "火爆獸-洗翠": {
-    "num": "157_f2",
+    "num": "157-h",
     "name": "Typhlosion-Hisui",
     "baseSpecies": "Typhlosion",
     "forme": "Hisui",
@@ -4344,7 +4344,7 @@
     "tier": "LC"
   },
   "烏波-帕底亞": {
-    "num": "194",
+    "num": "194-p",
     "name": "Wooper-Paldea",
     "baseSpecies": "Wooper",
     "forme": "Paldea",
@@ -4545,7 +4545,7 @@
     "tier": "UU"
   },
   "呆呆王-伽勒爾": {
-    "num": "199_f2",
+    "num": "199-g",
     "name": "Slowking-Galar",
     "baseSpecies": "Slowking",
     "forme": "Galar",
@@ -4795,7 +4795,7 @@
     "tier": "UU"
   },
   "千針魚-洗翠": {
-    "num": "211_f2",
+    "num": "211-h",
     "name": "Qwilfish-Hisui",
     "baseSpecies": "Qwilfish",
     "forme": "Hisui",
@@ -4940,7 +4940,7 @@
     "tier": "NFE"
   },
   "狃拉-洗翠": {
-    "num": "215_f2",
+    "num": "215-h",
     "name": "Sneasel-Hisui",
     "baseSpecies": "Sneasel",
     "forme": "Hisui",
@@ -9376,7 +9376,7 @@
     "tier": "UU"
   },
   "洛托姆-加熱": {
-    "num": "479_f2",
+    "num": "479-h",
     "name": "Rotom-Heat",
     "baseSpecies": "Rotom",
     "forme": "Heat",
@@ -9406,7 +9406,7 @@
     "tier": "UU"
   },
   "洛托姆-清洗": {
-    "num": "479_f3",
+    "num": "479-w",
     "name": "Rotom-Wash",
     "baseSpecies": "Rotom",
     "forme": "Wash",
@@ -9436,7 +9436,7 @@
     "tier": "UU"
   },
   "洛托姆-結冰": {
-    "num": "479_f4",
+    "num": "479-f",
     "name": "Rotom-Frost",
     "baseSpecies": "Rotom",
     "forme": "Frost",
@@ -9466,7 +9466,7 @@
     "tier": "UU"
   },
   "洛托姆-旋轉": {
-    "num": "479_f5",
+    "num": "479-s",
     "name": "Rotom-Fan",
     "baseSpecies": "Rotom",
     "forme": "Fan",
@@ -9496,7 +9496,7 @@
     "tier": "UU"
   },
   "洛托姆-切割": {
-    "num": "479_f6",
+    "num": "479-m",
     "name": "Rotom-Mow",
     "baseSpecies": "Rotom",
     "forme": "Mow",
@@ -9643,7 +9643,7 @@
     ]
   },
   "帝牙盧卡-起源": {
-    "num": "483_f2",
+    "num": "483-o",
     "name": "Dialga-Origin",
     "baseSpecies": "Dialga",
     "forme": "Origin",
@@ -9714,7 +9714,7 @@
     "tier": "Uber"
   },
   "帕路奇亞-起源": {
-    "num": "484_f2",
+    "num": "484-o",
     "name": "Palkia-Origin",
     "baseSpecies": "Palkia",
     "forme": "Origin",
@@ -9816,7 +9816,7 @@
     "tier": "Uber"
   },
   "騎拉帝納-起源": {
-    "num": "487_f2",
+    "num": "487-o",
     "name": "Giratina",
     "baseForme": "Altered",
     "types": [
@@ -9995,7 +9995,7 @@
     "isNonstandard": "Unobtainable"
   },
   "大劍鬼-洗翠": {
-    "num": "503_f2",
+    "num": "503-h",
     "name": "Samurott-Hisui",
     "baseSpecies": "Samurott",
     "forme": "Hisui",
@@ -10304,7 +10304,7 @@
     "tier": "UU"
   },
   "裙兒小姐-洗翠": {
-    "num": "549_f2",
+    "num": "549-h",
     "name": "Lilligant-Hisui",
     "baseSpecies": "Lilligant",
     "forme": "Hisui",
@@ -10509,7 +10509,7 @@
     "tier": "LC"
   },
   "索羅亞-洗翠": {
-    "num": "570_f2",
+    "num": "570-h",
     "name": "Zorua-Hisui",
     "baseSpecies": "Zorua",
     "forme": "Hisui",
@@ -10583,7 +10583,7 @@
     "tier": "UU"
   },
   "索羅亞克-洗翠": {
-    "num": "571_f2",
+    "num": "571-h",
     "name": "Zoroark-Hisui",
     "baseSpecies": "Zoroark",
     "forme": "Hisui",
@@ -11519,7 +11519,7 @@
     "tier": "UU"
   },
   "勇士雄鷹-洗翠": {
-    "num": "628_f2",
+    "num": "628-h",
     "name": "Braviary-Hisui",
     "baseSpecies": "Braviary",
     "forme": "Hisui",
@@ -11803,7 +11803,7 @@
     "tier": "OU"
   },
   "龍捲雲-靈獸": {
-    "num": "641_f2",
+    "num": "641-s",
     "name": "Tornadus-Therian",
     "baseSpecies": "Tornadus",
     "forme": "Therian",
@@ -11871,7 +11871,7 @@
     "tier": "OU"
   },
   "雷電雲-靈獸": {
-    "num": "642_f2",
+    "num": "642-s",
     "name": "Thundurus-Therian",
     "baseSpecies": "Thundurus",
     "forme": "Therian",
@@ -11940,7 +11940,7 @@
     "tier": "Uber"
   },
   "土地雲-靈獸": {
-    "num": "645_f2",
+    "num": "645-s",
     "name": "Landorus-Therian",
     "baseSpecies": "Landorus",
     "forme": "Therian",
@@ -13128,7 +13128,7 @@
     "tier": "NFE"
   },
   "黏美兒-洗翠": {
-    "num": "705_f2",
+    "num": "705-h",
     "name": "Sliggoo-Hisui",
     "baseSpecies": "Sliggoo",
     "forme": "Hisui",
@@ -13200,7 +13200,7 @@
     "tier": "UU"
   },
   "黏美龍-洗翠": {
-    "num": "706_f2",
+    "num": "706-h",
     "name": "Goodra-Hisui",
     "baseSpecies": "Goodra",
     "forme": "Hisui",
@@ -13394,7 +13394,7 @@
     "tier": "UU"
   },
   "冰岩怪-洗翠": {
-    "num": "713_f2",
+    "num": "713-h",
     "name": "Avalugg-Hisui",
     "baseSpecies": "Avalugg",
     "forme": "Hisui",
@@ -13605,7 +13605,7 @@
     "isNonstandard": "Unobtainable"
   },
   "狙射樹梟-洗翠": {
-    "num": "724_f2",
+    "num": "724-h",
     "name": "Decidueye-Hisui",
     "baseSpecies": "Decidueye",
     "forme": "Hisui",
@@ -13909,7 +13909,7 @@
     "tier": "UU"
   },
   "花舞鳥-啪滋啪滋": {
-    "num": "741_f2",
+    "num": "741-p",
     "name": "Oricorio-Pom-Pom",
     "baseSpecies": "Oricorio",
     "forme": "Pom-Pom",
@@ -13942,7 +13942,7 @@
     "tier": "UU"
   },
   "花舞鳥-呼拉呼拉": {
-    "num": "741_f3",
+    "num": "741-pau",
     "name": "Oricorio-Pa'u",
     "baseSpecies": "Oricorio",
     "forme": "Pa'u",
@@ -13975,7 +13975,7 @@
     "tier": "UU"
   },
   "花舞鳥-輕盈輕盈": {
-    "num": "741_f4",
+    "num": "741-s",
     "name": "Oricorio-Sensu",
     "baseSpecies": "Oricorio",
     "forme": "Sensu",
@@ -14139,7 +14139,7 @@
     "tier": "UU"
   },
   "鬃岩狼人-黑夜": {
-    "num": "745_f2",
+    "num": "745-m",
     "name": "Lycanroc-Midnight",
     "baseSpecies": "Lycanroc",
     "forme": "Midnight",
@@ -14171,7 +14171,7 @@
     "tier": "UU"
   },
   "鬃岩狼人-黃昏": {
-    "num": "745_f3",
+    "num": "745-d",
     "name": "Lycanroc-Dusk",
     "baseSpecies": "Lycanroc",
     "forme": "Dusk",
@@ -16293,7 +16293,7 @@
     "tier": "UU"
   },
   "冰砌鵝-解凍": {
-    "num": "875",
+    "num": "875-n",
     "name": "Eiscue-Noice",
     "baseSpecies": "Eiscue",
     "forme": "Noice",
@@ -16359,7 +16359,7 @@
     "tier": "UU"
   },
   "愛管侍-母": {
-    "num": "876_f2",
+    "num": "876-f",
     "name": "Indeedee-F",
     "baseSpecies": "Indeedee",
     "forme": "F",
@@ -16620,7 +16620,7 @@
     "tier": "Uber"
   },
   "蒼響-劍之王": {
-    "num": "888_f2",
+    "num": "888-c",
     "name": "Zacian-Crowned",
     "baseSpecies": "Zacian",
     "forme": "Crowned",
@@ -16690,7 +16690,7 @@
     "tier": "OU"
   },
   "藏瑪然特-盾之王": {
-    "num": "889_f2",
+    "num": "889-c",
     "name": "Zamazenta-Crowned",
     "baseSpecies": "Zamazenta",
     "forme": "Crowned",
@@ -16841,7 +16841,7 @@
     "tier": "Uber"
   },
   "武道熊師-連擊流": {
-    "num": "892_f2",
+    "num": "892-r",
     "name": "Urshifu-Rapid-Strike",
     "baseSpecies": "Urshifu",
     "forme": "Rapid-Strike",
@@ -17032,7 +17032,7 @@
     "tier": "(PU)"
   },
   "蕾冠王-白馬": {
-    "num": "898_f2",
+    "num": "898-i",
     "name": "Calyrex-Ice",
     "baseSpecies": "Calyrex",
     "forme": "Ice",
@@ -17062,7 +17062,7 @@
     "tier": "Uber"
   },
   "蕾冠王-黑馬": {
-    "num": "898_f3",
+    "num": "898-s",
     "name": "Calyrex-Shadow",
     "baseSpecies": "Calyrex",
     "forme": "Shadow",
@@ -17188,7 +17188,7 @@
     "isNonstandard": "Unobtainable"
   },
   "月月熊-赫月": {
-    "num": 901,
+    "num": "901-b",
     "name": "Ursaluna-Bloodmoon",
     "baseSpecies": "Ursaluna",
     "forme": "Bloodmoon",
@@ -17259,7 +17259,7 @@
     "isNonstandard": "Unobtainable"
   },
   "幽尾玄魚-母": {
-    "num": "902_f2",
+    "num": "902-f",
     "name": "Basculegion-F",
     "baseSpecies": "Basculegion",
     "forme": "F",
@@ -17398,7 +17398,7 @@
     "tier": "OU"
   },
   "眷戀雲-靈獸": {
-    "num": "905",
+    "num": "905-s",
     "name": "Enamorus-Therian",
     "baseSpecies": "Enamorus",
     "forme": "Therian",
@@ -17806,7 +17806,7 @@
     "tier": "UU"
   },
   "飄香豚-母": {
-    "num": "916_f2",
+    "num": "916-f",
     "name": "Oinkologne-F",
     "baseSpecies": "Oinkologne",
     "forme": "F",
@@ -19305,7 +19305,7 @@
     "tier": "Uber"
   },
   "海豚俠-全能": {
-    "num": "964_f2",
+    "num": "964-h",
     "name": "Palafin-Hero",
     "baseSpecies": "Palafin",
     "forme": "Hero",
@@ -20771,7 +20771,7 @@
     "tier": "OU"
   },
   "裹蜜蟲": {
-    "num": "default",
+    "num": "1011",
     "name": "Dipplin",
     "types": [
       "Grass",
@@ -20806,7 +20806,7 @@
     "tier": "OU"
   },
   "斯魔茶": {
-    "num": "default",
+    "num": "1012",
     "name": "Poltchageist",
     "baseForme": "Counterfeit",
     "types": [
@@ -20846,7 +20846,7 @@
     "tier": "LC"
   },
   "來悲粗茶": {
-    "num": "default",
+    "num": "1013",
     "name": "Sinistcha",
     "baseForme": "Unremarkable",
     "types": [
@@ -20886,7 +20886,7 @@
     "tier": "OU"
   },
   "夠讚狗": {
-    "num": "default",
+    "num": "1014",
     "name": "Okidogi",
     "types": [
       "Poison",
@@ -20914,7 +20914,7 @@
     "tier": "OU"
   },
   "願增猿": {
-    "num": "default",
+    "num": "1015",
     "name": "Munkidori",
     "types": [
       "Poison",
@@ -20942,7 +20942,7 @@
     "tier": "OU"
   },
   "吉雉雞": {
-    "num": "default",
+    "num": "1016",
     "name": "Fezandipiti",
     "types": [
       "Poison",
@@ -20970,7 +20970,7 @@
     "tier": "OU"
   },
   "厄鬼椪-碧草": {
-    "num": "default",
+    "num": "1017",
     "name": "Ogerpon",
     "baseForme": "Teal",
     "types": [
@@ -21017,7 +21017,7 @@
     "tier": "OU"
   },
   "厄鬼椪-水井": {
-    "num": "default",
+    "num": "1017-w",
     "name": "Ogerpon-Wellspring",
     "baseSpecies": "Ogerpon",
     "forme": "Wellspring",
@@ -21049,7 +21049,7 @@
     "tier": "OU"
   },
   "厄鬼椪-火灶": {
-    "num": "default",
+    "num": "1017-h",
     "name": "Ogerpon-Hearthflame",
     "baseSpecies": "Ogerpon",
     "forme": "Hearthflame",
@@ -21081,7 +21081,7 @@
     "tier": "OU"
   },
   "厄鬼椪-礎石": {
-    "num": "default",
+    "num": "1017-c",
     "name": "Ogerpon-Cornerstone",
     "baseSpecies": "Ogerpon",
     "forme": "Cornerstone",

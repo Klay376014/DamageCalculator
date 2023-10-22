@@ -90,11 +90,11 @@ export const useSelectStore = defineStore("select", () => {
       if (store[pokemonNum].num !== "default") {
         if (pokemonNum === "pokemon1") {
           imageUrl1.value = new URL(
-            `https://assets.pokemon.com/assets/cms2/img/pokedex/full/${store[pokemonNum].num}.png`
+            `https://www.serebii.net/pokemon/art/${store[pokemonNum].num}.png`
           ).href;
         } else {
           imageUrl2.value = new URL(
-            `https://assets.pokemon.com/assets/cms2/img/pokedex/full/${store[pokemonNum].num}.png`
+            `https://www.serebii.net/pokemon/art/${store[pokemonNum].num}.png`
           ).href;
         }
       } else {

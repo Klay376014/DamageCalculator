@@ -23,7 +23,7 @@
       return new URL(`../assets/images/default.png`, import.meta.url).href;
     }
     return new URL(
-      `https://assets.pokemon.com/assets/cms2/img/pokedex/full/${num}.png`
+      `https://www.serebii.net/pokemon/art/${num}.png`
     ).href;
   };
 </script>
