@@ -1,10 +1,12 @@
 <script setup>
-  import { onMounted, ref, watch } from "vue";
+  import { onMounted } from "vue";
   import { usePokemonStore } from "../stores/pokemon";
   import { useSelectStore } from "../stores/pokemonSelect";
+  import { useNatureStore } from "../stores/nature";
 
   const store = usePokemonStore();
   const select = useSelectStore();
+  const nature = useNatureStore();
 
   const props = defineProps({
     pokemonNum: String,
@@ -12,11 +14,20 @@
 
   const selected = (pokemon) => {
     select.pokemonSelect(pokemon.Name, props.pokemonNum, pokemon);
+    nature.natureChange(pokemon.nature, props.pokemonNum)
   };
 
   onMounted(() => {
     store.loadPokemon();
   });
+
+  const natureChange = (pokemon, stat) => {
+    if (stat === pokemon.plus) {
+      return '＋';
+    } else if (stat === pokemon.minus) {
+      return '－';
+    } else return '';
+  }
 
   const imageUrl = (num) => {
     if (num === "default") {
@@ -59,13 +70,13 @@
                 <tbody>
                   <tr>
                     <td class="px-2">{{ `H${pokemon.hp}` }}</td>
-                    <td class="px-2">{{ `A${pokemon.atk}` }}</td>
-                    <td class="px-2">{{ `B${pokemon.def}` }}</td>
+                    <td class="px-2">{{ `A${pokemon.atk}${natureChange(pokemon, 'atk')}` }}</td>
+                    <td class="px-2">{{ `B${pokemon.def}${natureChange(pokemon, 'def')}` }}</td>
                   </tr>
                   <tr>
-                    <td class="px-2">{{ `C${pokemon.spa}` }}</td>
-                    <td class="px-2">{{ `D${pokemon.spd}` }}</td>
-                    <td class="px-2">{{ `S${pokemon.spe}` }}</td>
+                    <td class="px-2">{{ `C${pokemon.spa}${natureChange(pokemon, 'spa')}` }}</td>
+                    <td class="px-2">{{ `D${pokemon.spd}${natureChange(pokemon, 'spd')}` }}</td>
+                    <td class="px-2">{{ `S${pokemon.spe}${natureChange(pokemon, 'spe')}` }}</td>
                   </tr>
                 </tbody>
               </table>

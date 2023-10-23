@@ -40,6 +40,9 @@ export const usePokemonStore = defineStore("pokemon", () => {
     teraContent: "太晶化︰無",
     ability: "default",
     item: "default",
+    nature: "",
+    natureUp: "",
+    natureDown: "",
     hp: 100,
     atk: 100,
     def: 100,
@@ -200,6 +203,9 @@ export const usePokemonStore = defineStore("pokemon", () => {
     teraContent: "太晶化︰無",
     ability: "default",
     item: "default",
+    nature: "",
+    natureUp: "",
+    natureDown: "",
     hp: 100,
     atk: 100,
     def: 100,
@@ -572,7 +578,10 @@ export const usePokemonStore = defineStore("pokemon", () => {
         def: pokemon1.bp.def,
         spa: pokemon1.bp.spa,
         spd: pokemon1.bp.spd,
-        spe: pokemon1.bp.spe
+        spe: pokemon1.bp.spe,
+        nature: pokemon1.nature,
+        plus: pokemon1.natureUp,
+        minus: pokemon1.natureDown
         }
       )
     } else {
@@ -585,7 +594,10 @@ export const usePokemonStore = defineStore("pokemon", () => {
         def: pokemon2.bp.def,
         spa: pokemon2.bp.spa,
         spd: pokemon2.bp.spd,
-        spe: pokemon2.bp.spe
+        spe: pokemon2.bp.spe,
+        nature: pokemon2.nature,
+        plus: pokemon2.natureUp,
+        minus: pokemon2.natureDown
         }
       )
     }

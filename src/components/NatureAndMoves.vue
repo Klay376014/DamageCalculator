@@ -34,6 +34,11 @@ const levelCheck = function (value) {
 
 const list = NatureList;
 
+const showNature = () => {
+  const nature = list.find(nature => nature.name === pm[props.pokemonNum].nature)
+  return nature.content
+}
+
 const moveContentValue = (move) => {
   return `屬性︰${moves.typeList[move.type]}/威力︰${move.basePower}/${
     moves.categoryList[move.category]
@@ -84,12 +89,11 @@ const moveSelect = (e, num) => {
       <select
         class="form-select"
         @change="
-          props.pokemonNum == 'pokemon1'
-            ? store.natureChange($event.target.value)
-            : store.natureChange2($event.target.value)
+          store.natureChange($event.target.value, props.pokemonNum)
         "
       >
-        <option value="default" selected>選擇性格</option>
+        <option :value="pm[props.pokemonNum].nature" v-if="pm[props.pokemonNum].nature !== ''" selected>{{ showNature() }}</option>
+        <option value="default" v-else selected>選擇性格</option>
         <option v-for="nature in list" :value="nature.name">
           {{ nature.content }}
         </option>
@@ -98,7 +102,6 @@ const moveSelect = (e, num) => {
   </div>
   <div class="move d-flex px-1">
     <div class="form-group move-list mb-2">
-      <!-- <label for="searchMove" class="form-label"></label> -->
       <input
         class="form-control"
         list="moveList"
