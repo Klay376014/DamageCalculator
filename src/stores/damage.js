@@ -131,66 +131,39 @@ export const UseDamageStore = defineStore("damage", () => {
     detailStat.value.defender.hp = pm[defender].bp.hp + "Hp";
 
     detailContent.unshift(
-      `${detailStat.value.attacker.name+" "}${
-        attckerContent("atkUp") //能力等級
+      `${detailStat.value.attacker.name + " "}${attckerContent("atkUp") //能力等級
       }${
-        //努力值&性格
-        detailStat.value.attacker.atk + detailStat.value.attacker.nature + " "
-      }${
-        attckerContent("tera") //太晶
-      }${
-        attckerContent("ability") //特性
-      }${
-        attckerContent("item") //道具
-      }${
-        attckerContent("weather") //天氣
-      }${
-        attckerContent("field") //場地
-      }${
-        attckerContent("helpingHand") //幫助
-      }${
-        attckerContent("criticalHit") //要害
-      }${
-        attckerContent("charge") //充電
-      }${
-        attckerContent("powerSpot") //能量點
-      }${
-        attckerContent("steelySpirit") //鋼之意志
-      }${
-        attckerContent("tabletsOfRuin") //災禍之簡
-      }${
-        attckerContent("vesselOfRuin") //災禍之鼎
-      }${
-        attckerContent("fairyAura") //妖精氣場
-      }${
-        attckerContent("darkAura") //暗黑氣場
-      }${
-        attckerContent("burned") //燒傷
-      }${
-        attckerContent("spread") //
-      }${detailStat.value.attacker.move} vs ${detailStat.value.defender.name} ${
-        defenderContent("defUp") //能力等級
+      //努力值&性格
+      detailStat.value.attacker.atk + detailStat.value.attacker.nature + " "
+      }${attckerContent("tera") //太晶
+      }${attckerContent("ability") //特性
+      }${attckerContent("item") //道具
+      }${attckerContent("weather") //天氣
+      }${attckerContent("field") //場地
+      }${attckerContent("helpingHand") //幫助
+      }${attckerContent("criticalHit") //要害
+      }${attckerContent("charge") //充電
+      }${attckerContent("powerSpot") //能量點
+      }${attckerContent("steelySpirit") //鋼之意志
+      }${attckerContent("tabletsOfRuin") //災禍之簡
+      }${attckerContent("vesselOfRuin") //災禍之鼎
+      }${attckerContent("fairyAura") //妖精氣場
+      }${attckerContent("darkAura") //暗黑氣場
+      }${attckerContent("burned") //燒傷
+      }${attckerContent("spread") //
+      }${detailStat.value.attacker.move} vs ${detailStat.value.defender.name} ${defenderContent("defUp") //能力等級
       }${detailStat.value.defender.hp + " "}${
-        //努力值&性格
-        detailStat.value.defender.def + detailStat.value.defender.nature + " "
-      }${
-        defenderContent("tera") //太晶
-      }${
-        defenderContent("ability") //特性
-      }${
-        defenderContent("item") //道具
-      }${
-        defenderContent("weather") //天氣
-      }${
-        defenderContent("lightScreen") //光牆
-      }${
-        defenderContent("reflect") //反射壁
-      }${
-        defenderContent("friendGuard") //友情防守
-      }${
-        defenderContent("swordOfRuin") //災禍之劍
-      }${
-        defenderContent("beadsOfRuin") //災禍之玉
+      //努力值&性格
+      detailStat.value.defender.def + detailStat.value.defender.nature + " "
+      }${defenderContent("tera") //太晶
+      }${defenderContent("ability") //特性
+      }${defenderContent("item") //道具
+      }${defenderContent("weather") //天氣
+      }${defenderContent("lightScreen") //光牆
+      }${defenderContent("reflect") //反射壁
+      }${defenderContent("friendGuard") //友情防守
+      }${defenderContent("swordOfRuin") //災禍之劍
+      }${defenderContent("beadsOfRuin") //災禍之玉
       }`
     );
   };
@@ -210,8 +183,8 @@ export const UseDamageStore = defineStore("damage", () => {
       Math.trunc(
         (Math.trunc((nt.level * 2) / 5 + 2) * st.power * st.atk) / st.def
       ) /
-        50 +
-        2
+      50 +
+      2
     );
   };
 
@@ -228,21 +201,23 @@ export const UseDamageStore = defineStore("damage", () => {
 
   const weatherAtk = (attacker) => {
     let moveType = pm[attacker].move.type;
-    if (moveType === "Water" && pm.fieldCondition.weather.rain) {
+    if (pm.fieldCondition.weather.rain) {
       detailStat.value.attacker.weather = "雨天";
-      return 1.5;
-    } else if (moveType === "Fire" && pm.fieldCondition.weather.sun) {
-      detailStat.value.attacker.weather = "晴天";
-      return 1.5;
-    } else if (moveType === "Water" && pm.fieldCondition.weather.sun) {
-      detailStat.value.attacker.weather = "晴天";
-      if (pm[attacker].move.num === 875) {
-        return 1;
+      if (moveType === "Water") {
+        return 1.5;
+      } else if (moveType === "Fire") {
+        return 0.5;
       }
-      return 0.5;
-    } else if (moveType === "Fire" && pm.fieldCondition.weather.rain) {
-      detailStat.value.attacker.weather = "雨天";
-      return 0.5;
+    } else if (pm.fieldCondition.weather.sun) {
+      detailStat.value.attacker.weather = "晴天";
+      if (moveType === "Water") {
+        if (pm[attacker].move.num === 875) {
+          return 1;
+        }
+        return 0.5;
+      } else if (moveType === "Fire") {
+        return 1.5;
+      }
     } else {
       return 1;
     }
@@ -481,82 +456,38 @@ export const UseDamageStore = defineStore("damage", () => {
                 Math.round(
                   Math.round(
                     damageFormula(attacker, defender) * spreadDamage(attacker) -
-                      0.001
-                  ) *
-                    weatherAtk(attacker) -
                     0.001
-                ) *
-                  criticalHit(attacker) -
+                  ) *
+                  weatherAtk(attacker) -
                   0.001
+                ) *
+                criticalHit(attacker) -
+                0.001
               ) * randomNum
             ) *
-              sameType(attacker) -
-              0.001
+            sameType(attacker) -
+            0.001
           ) * typeModifier(attacker, defender)
         ) *
-          burnedJudge(attacker) -
-          0.001
-      ) *
-        dm.damageModifier(attacker, defender) -
+        burnedJudge(attacker) -
         0.001
+      ) *
+      dm.damageModifier(attacker, defender) -
+      0.001
     );
   };
 
   const ohko = (attacker, defender, hp) => {
-    let dm1 = damageResult(attacker, defender, 0.85),
-      dm2 = damageResult(attacker, defender, 0.86),
-      dm3 = damageResult(attacker, defender, 0.87),
-      dm4 = damageResult(attacker, defender, 0.88),
-      dm5 = damageResult(attacker, defender, 0.89),
-      dm6 = damageResult(attacker, defender, 0.9),
-      dm7 = damageResult(attacker, defender, 0.91),
-      dm8 = damageResult(attacker, defender, 0.92),
-      dm9 = damageResult(attacker, defender, 0.93),
-      dm10 = damageResult(attacker, defender, 0.94),
-      dm11 = damageResult(attacker, defender, 0.95),
-      dm12 = damageResult(attacker, defender, 0.96),
-      dm13 = damageResult(attacker, defender, 0.97),
-      dm14 = damageResult(attacker, defender, 0.98),
-      dm15 = damageResult(attacker, defender, 0.99),
-      dm16 = damageResult(attacker, defender, 1);
-
-    if (dm1 / hp >= 1) {
+    const damageRolls = Array.from({ length: 5 }, (v, i) => (85 + i) / 100).map((modifier) => damageResult(attacker, defender, modifier));
+    // Find the minimum roll that ko opponent
+    const minKoIndex = damageRolls.findIndex(dm => dm / hp >= 1);
+    if (minKoIndex === 0) {
       return "　確一";
-    } else if (dm16 / hp >= 1 && dm1 / hp < 1) {
-      if (dm2 / hp >= 1) {
-        return "　亂一 (93.75%)";
-      } else if (dm3 / hp >= 1) {
-        return "　亂一 (87.5%)";
-      } else if (dm4 / hp >= 1) {
-        return "　亂一 (81.25%)";
-      } else if (dm5 / hp >= 1) {
-        return "　亂一 (75%)";
-      } else if (dm6 / hp >= 1) {
-        return "　亂一 (68.75%)";
-      } else if (dm7 / hp >= 1) {
-        return "　亂一 (62.5%)";
-      } else if (dm8 / hp >= 1) {
-        return "　亂一 (56.25%)";
-      } else if (dm9 / hp >= 1) {
-        return "　亂一 (50%)";
-      } else if (dm10 / hp >= 1) {
-        return "　亂一 (43.75%)";
-      } else if (dm11 / hp >= 1) {
-        return "　亂一 (37.5%)";
-      } else if (dm12 / hp >= 1) {
-        return "　亂一 (31.25%)";
-      } else if (dm13 / hp >= 1) {
-        return "　亂一 (25%)";
-      } else if (dm14 / hp >= 1) {
-        return "　亂一 (18.75%)";
-      } else if (dm15 / hp >= 1) {
-        return "　亂一 (12.5%)";
-      } else {
-        return "　亂一 (6.25%)";
-      }
-    } else if (dm16 / hp < 1 && dm1 / hp > 0.5) {
+    } else if (minKoIndex > 0) {
+      return `　亂一 (${(minKoIndex / 16) * 100}%)`;
+    } else if (damageRolls[0] / hp > 0.5) {
       return "　確二";
-    } else if (dm16 / hp >= 0.5 && dm1 / hp < 0.5) {
+    } else if (damageRolls[15] / hp >= 0.5 && damageRolls[0] / hp < 0.5) {
       return "　亂二";
     } else {
       return "";
