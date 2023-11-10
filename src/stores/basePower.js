@@ -172,7 +172,7 @@ export const UseBasePowerStore = defineStore("basePower", () => {
       } else if (pm[defender].ability === "Light Metal") {
         dm.detailStat.defender.ability = "輕金屬";
       }
-      return 20 + Math.min(Math.floor(aw / dw), 5)
+      return 20 + Math.min(Math.floor(aw / dw), 5) * 20
     }
 
     if (move.num === 311) {
