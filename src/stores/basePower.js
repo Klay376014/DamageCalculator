@@ -12,20 +12,20 @@ export const UseBasePowerStore = defineStore("basePower", () => {
     let atkSpe = Math.round(
       (Math.trunc(
         (pm[attacker].stat.spe * pm[attacker].statModifier.speUp) /
-          pm[attacker].statModifier.speDown
+        pm[attacker].statModifier.speDown
       ) *
         (4096 * itemModifier(attacker))) /
-        4096 -
-        0.001
+      4096 -
+      0.001
     );
     let defSpe = Math.round(
       (Math.trunc(
         (pm[defender].stat.spe * pm[defender].statModifier.speUp) /
-          pm[defender].statModifier.speDown
+        pm[defender].statModifier.speDown
       ) *
         (4096 * itemModifier(defender))) /
-        4096 -
-        0.001
+      4096 -
+      0.001
     );
     let aw =
       pm.pokemonList[pm[attacker].Name].weightkg * weightAbility(attacker);
@@ -152,7 +152,7 @@ export const UseBasePowerStore = defineStore("basePower", () => {
         return 80;
       } else if (dw >= 25) {
         return 60;
-      } else if (dw >= 100) {
+      } else if (dw >= 10) {
         return 40;
       } else {
         return 20;
@@ -172,18 +172,7 @@ export const UseBasePowerStore = defineStore("basePower", () => {
       } else if (pm[defender].ability === "Light Metal") {
         dm.detailStat.defender.ability = "輕金屬";
       }
-
-      if (aw / dw >= 5) {
-        return 120;
-      } else if (aw / dw >= 4) {
-        return 100;
-      } else if (aw / dw >= 3) {
-        return 80;
-      } else if (aw / dw >= 2) {
-        return 60;
-      } else {
-        return 40;
-      }
+      return 20 + Math.min(Math.floor(aw / dw), 5)
     }
 
     if (move.num === 311) {
