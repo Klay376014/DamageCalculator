@@ -1,7 +1,5 @@
-import { ref } from "vue";
 import { defineStore } from "pinia";
 import { usePokemonStore } from "./pokemon";
-import { storeToRefs } from "pinia";
 import { UseDamageStore } from "./damage";
 
 export const UseBasePowerStore = defineStore("basePower", () => {
@@ -9,23 +7,18 @@ export const UseBasePowerStore = defineStore("basePower", () => {
   const dm = UseDamageStore();
 
   const basePowerModifier = (attacker, defender, move) => {
-    let atkSpe = Math.round(
-      (Math.trunc(
-        (pm[attacker].stat.spe * pm[attacker].statModifier.speUp) /
-          pm[attacker].statModifier.speDown
-      ) *
-        (4096 * itemModifier(attacker))) /
-        4096 -
-        0.001
+
+    let atkSpe = speedModifier(
+      pm[attacker].stat.spe,
+      pm[attacker].statModifier.speUp,
+      pm[attacker].statModifier.speDown,
+      pm[attacker].item
     );
-    let defSpe = Math.round(
-      (Math.trunc(
-        (pm[defender].stat.spe * pm[defender].statModifier.speUp) /
-          pm[defender].statModifier.speDown
-      ) *
-        (4096 * itemModifier(defender))) /
-        4096 -
-        0.001
+    let defSpe = speedModifier(
+      pm[defender].stat.spe,
+      pm[defender].statModifier.speUp,
+      pm[defender].statModifier.speDown,
+      pm[defender].item
     );
     let aw =
       pm.pokemonList[pm[attacker].Name].weightkg * weightAbility(attacker);
@@ -103,14 +96,8 @@ export const UseBasePowerStore = defineStore("basePower", () => {
 
       if (atkSpe / defSpe >= 4) {
         return 150;
-      } else if (atkSpe / defSpe >= 3) {
-        return 120;
-      } else if (atkSpe / defSpe >= 2) {
-        return 80;
-      } else if (atkSpe / defSpe >= 1) {
-        return 60;
       } else {
-        return 40;
+        return 20 + Math.floor(atkSpe / defSpe) * 3;
       }
     }
 
@@ -128,11 +115,7 @@ export const UseBasePowerStore = defineStore("basePower", () => {
       }
 
       let pw = Math.trunc((25 * defSpe) / atkSpe) + 1;
-      if (pw > 150) {
-        return 150;
-      } else {
-        return pw;
-      }
+      return Math.min(pw, 150)
     }
 
     if (move.num === 447 || move.num === 67) {
@@ -152,7 +135,7 @@ export const UseBasePowerStore = defineStore("basePower", () => {
         return 80;
       } else if (dw >= 25) {
         return 60;
-      } else if (dw >= 100) {
+      } else if (dw >= 10) {
         return 40;
       } else {
         return 20;
@@ -172,21 +155,11 @@ export const UseBasePowerStore = defineStore("basePower", () => {
       } else if (pm[defender].ability === "Light Metal") {
         dm.detailStat.defender.ability = "輕金屬";
       }
-
-      if (aw / dw >= 5) {
-        return 120;
-      } else if (aw / dw >= 4) {
-        return 100;
-      } else if (aw / dw >= 3) {
-        return 80;
-      } else if (aw / dw >= 2) {
-        return 60;
-      } else {
-        return 40;
-      }
+      return 20 + Math.min(Math.floor(aw / dw), 5) * 20
     }
 
     if (move.num === 311) {
+      // 氣象球
       if (pm.fieldCondition.weather.sun) {
         dm.detailStat.attacker.weather = "晴天";
         pm[attacker].move.type = "Fire";
@@ -207,6 +180,7 @@ export const UseBasePowerStore = defineStore("basePower", () => {
     }
 
     if (move.num === 805) {
+      // 大地波動
       if (pm.fieldCondition.field.electric) {
         dm.detailStat.attacker.field = "電氣場地";
         pm[attacker].move.type = "Electric";
@@ -228,10 +202,12 @@ export const UseBasePowerStore = defineStore("basePower", () => {
 
     if (move.num === 851) {
       //太晶爆發
-      let atkUp = pm[attacker].statModifier.atkUp;
-      let atkDown = pm[attacker].statModifier.atkDown;
-      let spaUp = pm[attacker].statModifier.spaUp;
-      let spaDown = pm[attacker].statModifier.spaDown;
+      const {
+        atkUp,
+        atkDown,
+        spaUp,
+        spaDown
+      } = pm[attacker].statModifier
       let atk = Math.trunc((pm[attacker].stat.atk * atkUp) / atkDown);
       let spa = Math.trunc((pm[attacker].stat.spa * spaUp) / spaDown);
       if (pm[attacker].teraType !== "None") {
@@ -261,8 +237,7 @@ export const UseBasePowerStore = defineStore("basePower", () => {
     return move.basePower;
   };
 
-  const itemModifier = (num) => {
-    let item = pm[num].item;
+  const itemModifier = (item) => {
     if (item === "Choice Scarf") {
       return 1.5;
     } else if (item === "Iron Ball") {
@@ -282,6 +257,28 @@ export const UseBasePowerStore = defineStore("basePower", () => {
       return 1;
     }
   };
+
+  /**
+   * Description placeholder
+   * @date 2023/11/10 - 下午3:32:27
+   *
+   * @param {number} speed
+   * @param {number} speUp
+   * @param {number} speDown
+   * @param {string} item
+   * @returns {number}
+   */
+  function speedModifier(speed, speUp, speDown, item) {
+    return Math.round(
+      (Math.trunc(
+        (speed * speUp) /
+        speDown
+      ) *
+        (4096 * itemModifier(item))) /
+      4096 -
+      0.001
+    )
+  }
 
   return {
     basePowerModifier,

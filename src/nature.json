@@ -1,83 +1,123 @@
 [
   {
     "name": "timid",
-    "content": "膽小(+速度-攻擊)"
+    "content": "膽小(+速度-攻擊)",
+    "boost": "spe",
+    "weaken": "atk"
   },
   {
     "name": "hasty",
-    "content": "急躁(+速度-防禦)"
+    "content": "急躁(+速度-防禦)",
+    "boost": "spe",
+    "weaken": "def"
   },
   {
     "name": "jolly",
-    "content": "爽朗(+速度-特攻)"
+    "content": "爽朗(+速度-特攻)",
+    "boost": "spe",
+    "weaken": "spa"
   },
   {
     "name": "naive",
-    "content": "天真(+速度-特防)"
+    "content": "天真(+速度-特防)",
+    "boost": "spe",
+    "weaken": "spd"
   },
   {
     "name": "calm",
-    "content": "溫和(+特防-攻擊)"
+    "content": "溫和(+特防-攻擊)",
+    "boost": "spd",
+    "weaken": "atk"
   },
   {
     "name": "gentle",
-    "content": "溫順(+特防-防禦)"
+    "content": "溫順(+特防-防禦)",
+    "boost": "spd",
+    "weaken": "def"
   },
   {
     "name": "careful",
-    "content": "慎重(+特防-特攻)"
+    "content": "慎重(+特防-特攻)",
+    "boost": "spd",
+    "weaken": "spa"
   },
   {
     "name": "sassy",
-    "content": "自大(+特防-速度)"
+    "content": "自大(+特防-速度)",
+    "boost": "spd",
+    "weaken": "spe"
   },
   {
     "name": "modest",
-    "content": "內斂(+特攻-攻擊)"
+    "content": "內斂(+特攻-攻擊)",
+    "boost": "spa",
+    "weaken": "atk"
   },
   {
     "name": "mild",
-    "content": "慢吞吞(+特攻-防禦)"
+    "content": "慢吞吞(+特攻-防禦)",
+    "boost": "spe",
+    "weaken": "def"
   },
   {
     "name": "rash",
-    "content": "馬虎(+特攻-特防)"
+    "content": "馬虎(+特攻-特防)",
+    "boost": "spa",
+    "weaken": "spd"
   },
   {
     "name": "quiet",
-    "content": "冷靜(+特攻-速度)"
+    "content": "冷靜(+特攻-速度)",
+    "boost": "spa",
+    "weaken": "spe"
   },
   {
     "name": "bold",
-    "content": "大膽(+防禦-攻擊)"
+    "content": "大膽(+防禦-攻擊)",
+    "boost": "def",
+    "weaken": "atk"
   },
   {
     "name": "impish",
-    "content": "淘氣(+防禦-特攻)"
+    "content": "淘氣(+防禦-特攻)",
+    "boost": "def",
+    "weaken": "spa"
   },
   {
     "name": "lax",
-    "content": "樂天(+防禦-特防)"
+    "content": "樂天(+防禦-特防)",
+    "boost": "def",
+    "weaken": "spd"
   },
   {
     "name": "relaxed",
-    "content": "悠閒(+防禦-速度)"
+    "content": "悠閒(+防禦-速度)",
+    "boost": "def",
+    "weaken": "spe"
   },
   {
     "name": "lonely",
-    "content": "怕寂寞(+攻擊-防禦)"
+    "content": "怕寂寞(+攻擊-防禦)",
+    "boost": "atk",
+    "weaken": "def"
   },
   {
     "name": "adamant",
-    "content": "固執(+攻擊-特攻)"
+    "content": "固執(+攻擊-特攻)",
+    "boost": "atk",
+    "weaken": "spa"
   },
   {
     "name": "naughty",
-    "content": "頑皮(+攻擊-特防)"
+    "content": "頑皮(+攻擊-特防)",
+    "boost": "atk",
+    "weaken": "spd"
   },
   {
     "name": "brave",
-    "content": "勇敢(+攻擊-速度)"
+    "content": "勇敢(+攻擊-速度)",
+    "boost": "atk",
+    "weaken": "spe"
   },
   {
     "name": "hardy",
