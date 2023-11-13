@@ -478,16 +478,17 @@ export const UseDamageStore = defineStore("damage", () => {
   };
 
   const ohko = (attacker, defender, hp) => {
-    const damageRolls = Array.from({ length: 5 }, (v, i) => (85 + i) / 100).map((modifier) => damageResult(attacker, defender, modifier));
+    const dmgRollCounts = 16;
+    const damageRolls = Array.from({ length: dmgRollCounts }, (v, i) => (85 + i) / 100).map((modifier) => damageResult(attacker, defender, modifier));
     // Find the minimum roll that ko opponent
     const minKoIndex = damageRolls.findIndex(dm => dm / hp >= 1);
     if (minKoIndex === 0) {
       return "　確一";
     } else if (minKoIndex > 0) {
-      return `　亂一 (${(minKoIndex / 16) * 100}%)`;
+      return `　亂一 (${(minKoIndex / dmgRollCounts) * 100}%)`;
     } else if (damageRolls[0] / hp > 0.5) {
       return "　確二";
-    } else if (damageRolls[15] / hp >= 0.5 && damageRolls[0] / hp < 0.5) {
+    } else if (damageRolls[dmgRollCounts - 1] / hp >= 0.5 && damageRolls[0] / hp < 0.5) {
       return "　亂二";
     } else {
       return "";
