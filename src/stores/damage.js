@@ -485,7 +485,7 @@ export const UseDamageStore = defineStore("damage", () => {
     if (minKoIndex === 0) {
       return "　確一";
     } else if (minKoIndex > 0) {
-      return `　亂一 (${(minKoIndex / dmgRollCounts) * 100}%)`;
+      return `　亂一 (${((dmgRollCounts - minKoIndex) / dmgRollCounts) * 100}%)`;
     } else if (damageRolls[0] / hp > 0.5) {
       return "　確二";
     } else if (damageRolls[dmgRollCounts - 1] / hp >= 0.5 && damageRolls[0] / hp < 0.5) {
