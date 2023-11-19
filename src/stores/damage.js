@@ -208,6 +208,7 @@ export const UseDamageStore = defineStore("damage", () => {
       } else if (moveType === "Fire") {
         return 0.5;
       }
+      return 1
     } else if (pm.fieldCondition.weather.sun) {
       detailStat.value.attacker.weather = "晴天";
       if (moveType === "Water") {
@@ -218,6 +219,7 @@ export const UseDamageStore = defineStore("damage", () => {
       } else if (moveType === "Fire") {
         return 1.5;
       }
+      return 1
     } else {
       return 1;
     }
