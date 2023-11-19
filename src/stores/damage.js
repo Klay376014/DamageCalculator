@@ -43,6 +43,7 @@ export const UseDamageStore = defineStore("damage", () => {
       fairyAura: "",
       darkAura: "",
       spread: "",
+      defenderHasItem: ""
     },
     defender: {
       name: "",
@@ -88,6 +89,7 @@ export const UseDamageStore = defineStore("damage", () => {
       fairyAura: "",
       darkAura: "",
       spread: "",
+      defenderHasItem: ""
     },
     defender: {
       name: "",
@@ -150,7 +152,8 @@ export const UseDamageStore = defineStore("damage", () => {
       }${attckerContent("fairyAura") //妖精氣場
       }${attckerContent("darkAura") //暗黑氣場
       }${attckerContent("burned") //燒傷
-      }${attckerContent("spread") //
+      }${attckerContent("spread") //拍落
+      }${attckerContent("defenderHasItem") //對手摧帶道具(拍落專用)
       }${detailStat.value.attacker.move} vs ${detailStat.value.defender.name} ${defenderContent("defUp") //能力等級
       }${detailStat.value.defender.hp + " "}${
       //努力值&性格

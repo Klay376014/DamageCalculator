@@ -27,7 +27,7 @@ export const UsePowerStore = defineStore("power", () => {
                           Math.round(4096 * powerModifierAbility(attacker)) *
                             powerModifierAbility2(attacker, defender)
                         ) * powerModifierItem(attacker)
-                      ) * powerModifierMove(attacker)
+                      ) * powerModifierMove(attacker, defender)
                     ) * powerModifierHelpingHand(attacker)
                   ) * powerModifierPowerSpot(attacker)
                 ) * powerModifierSteelySpirit(attacker)
@@ -146,7 +146,7 @@ export const UsePowerStore = defineStore("power", () => {
     }
   };
 
-  const powerModifierMove = (attacker) => {
+  const powerModifierMove = (attacker, defender) => {
     let move = pm[attacker].move.num;
     if (move === 797 && pm.fieldCondition.field.psychic) {
       dm.detailStat.attacker.field = "電氣場地";
@@ -161,6 +161,9 @@ export const UsePowerStore = defineStore("power", () => {
     } else if (move === 263 && pm[attacker].condition.burned) {
       dm.detailStat.attacker.burned = "燒傷";
       return 2;
+    } else if (move === 282 && pm[defender].item !== "default") {
+      dm.detailStat.attacker.defenderHasItem = "對手攜帶道具";
+      return 1.5;
     } else {
       return 1;
     }
