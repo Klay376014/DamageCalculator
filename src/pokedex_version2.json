@@ -1,4 +1,76 @@
 {
+  "妙蛙種子": {
+    "num": "001",
+    "name": "Bulbasaur",
+    "types": ["Grass", "Poison"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 45,
+      "atk": 49,
+      "def": 49,
+      "spa": 65,
+      "spd": 65,
+      "spe": 45
+    },
+    "abilities": { "0": "Overgrow", "H": "Chlorophyll" },
+    "heightm": 0.7,
+    "weightkg": 6.9,
+    "color": "Green",
+    "evos": ["Ivysaur"],
+    "eggGroups": ["Monster", "Grass"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "妙蛙草": {
+    "num": "002",
+    "name": "Ivysaur",
+    "types": ["Grass", "Poison"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 60,
+      "atk": 62,
+      "def": 63,
+      "spa": 80,
+      "spd": 80,
+      "spe": 60
+    },
+    "abilities": { "0": "Overgrow", "H": "Chlorophyll" },
+    "heightm": 1,
+    "weightkg": 13,
+    "color": "Green",
+    "prevo": "Bulbasaur",
+    "evoLevel": 16,
+    "evos": ["Venusaur"],
+    "eggGroups": ["Monster", "Grass"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "妙蛙花": {
+    "num": "003",
+    "name": "Venusaur",
+    "types": ["Grass", "Poison"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 80,
+      "atk": 82,
+      "def": 83,
+      "spa": 100,
+      "spd": 100,
+      "spe": 80
+    },
+    "abilities": { "0": "Overgrow", "H": "Chlorophyll" },
+    "heightm": 2,
+    "weightkg": 100,
+    "color": "Green",
+    "prevo": "Ivysaur",
+    "evoLevel": 32,
+    "eggGroups": ["Monster", "Grass"],
+    "otherFormes": ["Venusaur-Mega"],
+    "formeOrder": ["Venusaur", "Venusaur-Mega"],
+    "canGigantamax": "G-Max Vine Lash",
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "小火龍": {
     "num": "004",
     "name": "Charmander",
@@ -112,6 +184,78 @@
     ],
     "canGigantamax": "G-Max Wildfire",
     "tier": "OU"
+  },
+  "傑尼龜": {
+    "num": "007",
+    "name": "Squirtle",
+    "types": ["Water"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 44,
+      "atk": 48,
+      "def": 65,
+      "spa": 50,
+      "spd": 64,
+      "spe": 43
+    },
+    "abilities": { "0": "Torrent", "H": "Rain Dish" },
+    "heightm": 0.5,
+    "weightkg": 9,
+    "color": "Blue",
+    "evos": ["Wartortle"],
+    "eggGroups": ["Monster", "Water 1"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "卡咪龜": {
+    "num": "008",
+    "name": "Wartortle",
+    "types": ["Water"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 59,
+      "atk": 63,
+      "def": 80,
+      "spa": 65,
+      "spd": 80,
+      "spe": 58
+    },
+    "abilities": { "0": "Torrent", "H": "Rain Dish" },
+    "heightm": 1,
+    "weightkg": 22.5,
+    "color": "Blue",
+    "prevo": "Squirtle",
+    "evoLevel": 16,
+    "evos": ["Blastoise"],
+    "eggGroups": ["Monster", "Water 1"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "水箭龜": {
+    "num": "009",
+    "name": "Blastoise",
+    "types": ["Water"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 79,
+      "atk": 83,
+      "def": 100,
+      "spa": 85,
+      "spd": 105,
+      "spe": 78
+    },
+    "abilities": { "0": "Torrent", "H": "Rain Dish" },
+    "heightm": 1.6,
+    "weightkg": 85.5,
+    "color": "Blue",
+    "prevo": "Wartortle",
+    "evoLevel": 36,
+    "eggGroups": ["Monster", "Water 1"],
+    "otherFormes": ["Blastoise-Mega"],
+    "formeOrder": ["Blastoise", "Blastoise-Mega"],
+    "canGigantamax": "G-Max Cannonade",
+    "tier": "Illegal",
+    "isNonstandard": "Past"
   },
   "阿柏蛇": {
     "num": "023",
@@ -741,6 +885,73 @@
       "Fairy"
     ],
     "tier": "UU"
+  },
+  "走路草": {
+    "num": "043",
+    "name": "Oddish",
+    "types": ["Grass", "Poison"],
+    "baseStats": {
+      "hp": 45,
+      "atk": 50,
+      "def": 55,
+      "spa": 75,
+      "spd": 65,
+      "spe": 30
+    },
+    "abilities": { "0": "Chlorophyll", "H": "Run Away" },
+    "heightm": 0.5,
+    "weightkg": 5.4,
+    "color": "Blue",
+    "evos": ["Gloom"],
+    "eggGroups": ["Grass"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "臭臭花": {
+    "num": "044",
+    "name": "Gloom",
+    "types": ["Grass", "Poison"],
+    "baseStats": {
+      "hp": 60,
+      "atk": 65,
+      "def": 70,
+      "spa": 85,
+      "spd": 75,
+      "spe": 40
+    },
+    "abilities": { "0": "Chlorophyll", "H": "Stench" },
+    "heightm": 0.8,
+    "weightkg": 8.6,
+    "color": "Blue",
+    "prevo": "Oddish",
+    "evoLevel": 21,
+    "evos": ["Vileplume", "Bellossom"],
+    "eggGroups": ["Grass"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "霸王花": {
+    "num": "045",
+    "name": "Vileplume",
+    "types": ["Grass", "Poison"],
+    "baseStats": {
+      "hp": 75,
+      "atk": 80,
+      "def": 85,
+      "spa": 110,
+      "spd": 90,
+      "spe": 50
+    },
+    "abilities": { "0": "Chlorophyll", "H": "Effect Spore" },
+    "heightm": 1.2,
+    "weightkg": 18.6,
+    "color": "Red",
+    "prevo": "Gloom",
+    "evoType": "useItem",
+    "evoItem": "Leaf Stone",
+    "eggGroups": ["Grass"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
   },
   "毛球": {
     "num": "048",
@@ -2026,6 +2237,92 @@
     ],
     "tier": "NFE"
   },
+  "嘟嘟": {
+    "num": "084",
+    "name": "Doduo",
+    "types": ["Normal", "Flying"],
+    "baseStats": {
+      "hp": 35,
+      "atk": 85,
+      "def": 45,
+      "spa": 35,
+      "spd": 35,
+      "spe": 75
+    },
+    "abilities": { "0": "Run Away", "1": "Early Bird", "H": "Tangled Feet" },
+    "heightm": 1.4,
+    "weightkg": 39.2,
+    "color": "Brown",
+    "evos": ["Dodrio"],
+    "eggGroups": ["Flying"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "嘟嘟利": {
+    "num": "085",
+    "name": "Dodrio",
+    "types": ["Normal", "Flying"],
+    "baseStats": {
+      "hp": 60,
+      "atk": 110,
+      "def": 70,
+      "spa": 60,
+      "spd": 60,
+      "spe": 110
+    },
+    "abilities": { "0": "Run Away", "1": "Early Bird", "H": "Tangled Feet" },
+    "heightm": 1.8,
+    "weightkg": 85.2,
+    "color": "Brown",
+    "prevo": "Doduo",
+    "evoLevel": 31,
+    "eggGroups": ["Flying"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "小海獅": {
+    "num": "086",
+    "name": "Seel",
+    "types": ["Water"],
+    "baseStats": {
+      "hp": 65,
+      "atk": 45,
+      "def": 55,
+      "spa": 45,
+      "spd": 70,
+      "spe": 45
+    },
+    "abilities": { "0": "Thick Fat", "1": "Hydration", "H": "Ice Body" },
+    "heightm": 1.1,
+    "weightkg": 90,
+    "color": "White",
+    "evos": ["Dewgong"],
+    "eggGroups": ["Water 1", "Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "白海獅": {
+    "num": "087",
+    "name": "Dewgong",
+    "types": ["Water", "Ice"],
+    "baseStats": {
+      "hp": 90,
+      "atk": 70,
+      "def": 80,
+      "spa": 70,
+      "spd": 95,
+      "spe": 70
+    },
+    "abilities": { "0": "Thick Fat", "1": "Hydration", "H": "Ice Body" },
+    "heightm": 1.7,
+    "weightkg": 120,
+    "color": "White",
+    "prevo": "Seel",
+    "evoLevel": 34,
+    "eggGroups": ["Water 1", "Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "臭泥": {
     "num": "088",
     "name": "Grimer",
@@ -2527,6 +2824,126 @@
     "tier": "Unreleased",
     "isNonstandard": "Unobtainable"
   },
+  "蛋蛋": {
+    "num": "102",
+    "name": "Exeggcute",
+    "types": ["Grass", "Psychic"],
+    "baseStats": {
+      "hp": 60,
+      "atk": 40,
+      "def": 80,
+      "spa": 60,
+      "spd": 45,
+      "spe": 40
+    },
+    "abilities": { "0": "Chlorophyll", "H": "Harvest" },
+    "heightm": 0.4,
+    "weightkg": 2.5,
+    "color": "Pink",
+    "evos": ["Exeggutor", "Exeggutor-Alola"],
+    "eggGroups": ["Grass"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "椰蛋樹": {
+    "num": "103",
+    "name": "Exeggutor",
+    "types": ["Grass", "Psychic"],
+    "baseStats": {
+      "hp": 95,
+      "atk": 95,
+      "def": 85,
+      "spa": 125,
+      "spd": 75,
+      "spe": 55
+    },
+    "abilities": { "0": "Chlorophyll", "H": "Harvest" },
+    "heightm": 2,
+    "weightkg": 120,
+    "color": "Yellow",
+    "prevo": "Exeggcute",
+    "evoType": "useItem",
+    "evoItem": "Leaf Stone",
+    "eggGroups": ["Grass"],
+    "otherFormes": ["Exeggutor-Alola"],
+    "formeOrder": ["Exeggutor", "Exeggutor-Alola"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "椰蛋樹-阿羅拉": {
+    "num": "103-a",
+    "name": "Exeggutor-Alola",
+    "baseSpecies": "Exeggutor",
+    "forme": "Alola",
+    "types": ["Grass", "Dragon"],
+    "baseStats": {
+      "hp": 95,
+      "atk": 105,
+      "def": 85,
+      "spa": 125,
+      "spd": 75,
+      "spe": 45
+    },
+    "abilities": { "0": "Frisk", "H": "Harvest" },
+    "heightm": 10.9,
+    "weightkg": 415.6,
+    "color": "Yellow",
+    "prevo": "Exeggcute",
+    "evoType": "useItem",
+    "evoItem": "Leaf Stone",
+    "evoRegion": "Alola",
+    "eggGroups": ["Grass"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "飛腿郎": {
+    "num": "106",
+    "name": "Hitmonlee",
+    "types": ["Fighting"],
+    "gender": "M",
+    "baseStats": {
+      "hp": 50,
+      "atk": 120,
+      "def": 53,
+      "spa": 35,
+      "spd": 110,
+      "spe": 87
+    },
+    "abilities": { "0": "Limber", "1": "Reckless", "H": "Unburden" },
+    "heightm": 1.5,
+    "weightkg": 49.8,
+    "color": "Brown",
+    "prevo": "Tyrogue",
+    "evoLevel": 20,
+    "evoCondition": "with an Atk stat > its Def stat",
+    "eggGroups": ["Human-Like"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "快拳郎": {
+    "num": "107",
+    "name": "Hitmonchan",
+    "types": ["Fighting"],
+    "gender": "M",
+    "baseStats": {
+      "hp": 50,
+      "atk": 105,
+      "def": 79,
+      "spa": 35,
+      "spd": 110,
+      "spe": 76
+    },
+    "abilities": { "0": "Keen Eye", "1": "Iron Fist", "H": "Inner Focus" },
+    "heightm": 1.4,
+    "weightkg": 50.2,
+    "color": "Brown",
+    "prevo": "Tyrogue",
+    "evoLevel": 20,
+    "evoCondition": "with an Atk stat < its Def stat",
+    "eggGroups": ["Human-Like"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "瓦斯彈": {
     "num": "109",
     "name": "Koffing",
@@ -2630,6 +3047,50 @@
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
+  "獨角犀牛": {
+    "num": "111",
+    "name": "Rhyhorn",
+    "types": ["Ground", "Rock"],
+    "baseStats": {
+      "hp": 80,
+      "atk": 85,
+      "def": 95,
+      "spa": 30,
+      "spd": 30,
+      "spe": 25
+    },
+    "abilities": { "0": "Lightning Rod", "1": "Rock Head", "H": "Reckless" },
+    "heightm": 1,
+    "weightkg": 115,
+    "color": "Gray",
+    "evos": ["Rhydon"],
+    "eggGroups": ["Monster", "Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "鑽角犀獸": {
+    "num": "112",
+    "name": "Rhydon",
+    "types": ["Ground", "Rock"],
+    "baseStats": {
+      "hp": 105,
+      "atk": 130,
+      "def": 120,
+      "spa": 45,
+      "spd": 45,
+      "spe": 40
+    },
+    "abilities": { "0": "Lightning Rod", "1": "Rock Head", "H": "Reckless" },
+    "heightm": 1.9,
+    "weightkg": 120,
+    "color": "Gray",
+    "prevo": "Rhyhorn",
+    "evoLevel": 42,
+    "evos": ["Rhyperior"],
+    "eggGroups": ["Monster", "Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "吉利蛋": {
     "num": "113",
     "name": "Chansey",
@@ -2697,6 +3158,30 @@
       "Bug"
     ],
     "tier": "NFE"
+  },
+  "鴨嘴火獸": {
+    "num": "126",
+    "name": "Magmar",
+    "types": ["Fire"],
+    "genderRatio": { "M": 0.75, "F": 0.25 },
+    "baseStats": {
+      "hp": 65,
+      "atk": 95,
+      "def": 57,
+      "spa": 100,
+      "spd": 85,
+      "spe": 93
+    },
+    "abilities": { "0": "Flame Body", "H": "Vital Spirit" },
+    "heightm": 1.3,
+    "weightkg": 44.5,
+    "color": "Red",
+    "prevo": "Magby",
+    "evoLevel": 30,
+    "evos": ["Magmortar"],
+    "eggGroups": ["Human-Like"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
   },
   "肯泰羅": {
     "num": "128",
@@ -2896,6 +3381,27 @@
       "Gyarados-Mega"
     ],
     "tier": "UU"
+  },
+  "拉普拉斯": {
+    "num": "131",
+    "name": "Lapras",
+    "types": ["Water", "Ice"],
+    "baseStats": {
+      "hp": 130,
+      "atk": 85,
+      "def": 80,
+      "spa": 85,
+      "spd": 95,
+      "spe": 60
+    },
+    "abilities": { "0": "Water Absorb", "1": "Shell Armor", "H": "Hydration" },
+    "heightm": 2.5,
+    "weightkg": 220,
+    "color": "Blue",
+    "eggGroups": ["Monster", "Water 1"],
+    "canGigantamax": "G-Max Resonance",
+    "tier": "Illegal",
+    "isNonstandard": "Past"
   },
   "百變怪": {
     "num": "132",
@@ -3430,6 +3936,96 @@
       "Restricted Legendary"
     ]
   },
+  "夢幻": {
+    "num": "151",
+    "name": "Mew",
+    "types": ["Psychic"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "abilities": { "0": "Synchronize" },
+    "heightm": 0.4,
+    "weightkg": 4,
+    "color": "Pink",
+    "tags": ["Mythical"],
+    "eggGroups": ["Undiscovered"],
+    "tier": "RUBL"
+  },
+  "菊草葉": {
+    "num": "152",
+    "name": "Chikorita",
+    "types": ["Grass"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 45,
+      "atk": 49,
+      "def": 65,
+      "spa": 49,
+      "spd": 65,
+      "spe": 45
+    },
+    "abilities": { "0": "Overgrow", "H": "Leaf Guard" },
+    "heightm": 0.9,
+    "weightkg": 6.4,
+    "color": "Green",
+    "evos": ["Bayleef"],
+    "eggGroups": ["Monster", "Grass"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "月桂葉": {
+    "num": "153",
+    "name": "Bayleef",
+    "types": ["Grass"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 60,
+      "atk": 62,
+      "def": 80,
+      "spa": 63,
+      "spd": 80,
+      "spe": 60
+    },
+    "abilities": { "0": "Overgrow", "H": "Leaf Guard" },
+    "heightm": 1.2,
+    "weightkg": 15.8,
+    "color": "Green",
+    "prevo": "Chikorita",
+    "evoLevel": 16,
+    "evos": ["Meganium"],
+    "eggGroups": ["Monster", "Grass"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "大竺葵": {
+    "num": "154",
+    "name": "Meganium",
+    "types": ["Grass"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 80,
+      "atk": 82,
+      "def": 100,
+      "spa": 83,
+      "spd": 100,
+      "spe": 80
+    },
+    "abilities": { "0": "Overgrow", "H": "Leaf Guard" },
+    "heightm": 1.8,
+    "weightkg": 100.5,
+    "color": "Green",
+    "prevo": "Bayleef",
+    "evoLevel": 32,
+    "eggGroups": ["Monster", "Grass"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "火球鼠": {
     "num": "155",
     "name": "Cyndaquil",
@@ -3576,6 +4172,75 @@
     ],
     "tier": "Unreleased",
     "isNonstandard": "Unobtainable"
+  },
+  "小鋸鱷": {
+    "num": "158",
+    "name": "Totodile",
+    "types": ["Water"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 50,
+      "atk": 65,
+      "def": 64,
+      "spa": 44,
+      "spd": 48,
+      "spe": 43
+    },
+    "abilities": { "0": "Torrent", "H": "Sheer Force" },
+    "heightm": 0.6,
+    "weightkg": 9.5,
+    "color": "Blue",
+    "evos": ["Croconaw"],
+    "eggGroups": ["Monster", "Water 1"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "藍鱷": {
+    "num": "159",
+    "name": "Croconaw",
+    "types": ["Water"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 65,
+      "atk": 80,
+      "def": 80,
+      "spa": 59,
+      "spd": 63,
+      "spe": 58
+    },
+    "abilities": { "0": "Torrent", "H": "Sheer Force" },
+    "heightm": 1.1,
+    "weightkg": 25,
+    "color": "Blue",
+    "prevo": "Totodile",
+    "evoLevel": 18,
+    "evos": ["Feraligatr"],
+    "eggGroups": ["Monster", "Water 1"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "大力鱷": {
+    "num": "160",
+    "name": "Feraligatr",
+    "types": ["Water"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 85,
+      "atk": 105,
+      "def": 100,
+      "spa": 79,
+      "spd": 83,
+      "spe": 78
+    },
+    "abilities": { "0": "Torrent", "H": "Sheer Force" },
+    "heightm": 2.3,
+    "weightkg": 88.8,
+    "color": "Blue",
+    "prevo": "Croconaw",
+    "evoLevel": 30,
+    "eggGroups": ["Monster", "Water 1"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
   },
   "尾立": {
     "num": "161",
@@ -3960,6 +4625,29 @@
       "Ampharos-Mega"
     ],
     "tier": "UU"
+  },
+  "美麗花": {
+    "num": "182",
+    "name": "Bellossom",
+    "types": ["Grass"],
+    "baseStats": {
+      "hp": 75,
+      "atk": 80,
+      "def": 95,
+      "spa": 90,
+      "spd": 100,
+      "spe": 50
+    },
+    "abilities": { "0": "Chlorophyll", "H": "Healer" },
+    "heightm": 0.4,
+    "weightkg": 5.8,
+    "color": "Green",
+    "prevo": "Gloom",
+    "evoType": "useItem",
+    "evoItem": "Sun Stone",
+    "eggGroups": ["Grass"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
   },
   "瑪力露": {
     "num": "183",
@@ -5192,6 +5880,26 @@
     ],
     "tier": "UU"
   },
+  "盔甲鳥": {
+    "num": "227",
+    "name": "Skarmory",
+    "types": ["Steel", "Flying"],
+    "baseStats": {
+      "hp": 65,
+      "atk": 80,
+      "def": 140,
+      "spa": 40,
+      "spd": 70,
+      "spe": 70
+    },
+    "abilities": { "0": "Keen Eye", "1": "Sturdy", "H": "Weak Armor" },
+    "heightm": 1.7,
+    "weightkg": 50.5,
+    "color": "Gray",
+    "eggGroups": ["Flying"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "戴魯比": {
     "num": "228",
     "name": "Houndour",
@@ -5347,6 +6055,96 @@
     ],
     "tier": "UU"
   },
+  "圖圖犬": {
+    "num": "235",
+    "name": "Smeargle",
+    "types": ["Normal"],
+    "baseStats": {
+      "hp": 55,
+      "atk": 20,
+      "def": 35,
+      "spa": 20,
+      "spd": 45,
+      "spe": 75
+    },
+    "abilities": { "0": "Own Tempo", "1": "Technician", "H": "Moody" },
+    "heightm": 1.2,
+    "weightkg": 58,
+    "color": "White",
+    "eggGroups": ["Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "無畏小子": {
+    "num": "236",
+    "name": "Tyrogue",
+    "types": ["Fighting"],
+    "gender": "M",
+    "baseStats": {
+      "hp": 35,
+      "atk": 35,
+      "def": 35,
+      "spa": 35,
+      "spd": 35,
+      "spe": 35
+    },
+    "abilities": { "0": "Guts", "1": "Steadfast", "H": "Vital Spirit" },
+    "heightm": 0.7,
+    "weightkg": 21,
+    "color": "Purple",
+    "evos": ["Hitmonlee", "Hitmonchan", "Hitmontop"],
+    "eggGroups": ["Undiscovered"],
+    "canHatch": true,
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "戰舞郎": {
+    "num": "237",
+    "name": "Hitmontop",
+    "types": ["Fighting"],
+    "gender": "M",
+    "baseStats": {
+      "hp": 50,
+      "atk": 95,
+      "def": 95,
+      "spa": 35,
+      "spd": 110,
+      "spe": 70
+    },
+    "abilities": { "0": "Intimidate", "1": "Technician", "H": "Steadfast" },
+    "heightm": 1.4,
+    "weightkg": 48,
+    "color": "Brown",
+    "prevo": "Tyrogue",
+    "evoLevel": 20,
+    "evoCondition": "with an Atk stat equal to its Def stat",
+    "eggGroups": ["Human-Like"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "小鴨嘴獸": {
+    "num": "240",
+    "name": "Magby",
+    "types": ["Fire"],
+    "genderRatio": { "M": 0.75, "F": 0.25 },
+    "baseStats": {
+      "hp": 45,
+      "atk": 75,
+      "def": 37,
+      "spa": 70,
+      "spd": 55,
+      "spe": 83
+    },
+    "abilities": { "0": "Flame Body", "H": "Vital Spirit" },
+    "heightm": 0.7,
+    "weightkg": 21.4,
+    "color": "Red",
+    "evos": ["Magmar"],
+    "eggGroups": ["Undiscovered"],
+    "canHatch": true,
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "幸福蛋": {
     "num": "242",
     "name": "Blissey",
@@ -5376,6 +6174,72 @@
       "Fairy"
     ],
     "tier": "UU"
+  },
+  "雷公": {
+    "num": "243",
+    "name": "Raikou",
+    "types": ["Electric"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 90,
+      "atk": 85,
+      "def": 75,
+      "spa": 115,
+      "spd": 100,
+      "spe": 115
+    },
+    "abilities": { "0": "Pressure", "H": "Inner Focus" },
+    "heightm": 1.9,
+    "weightkg": 178,
+    "color": "Yellow",
+    "tags": ["Sub-Legendary"],
+    "eggGroups": ["Undiscovered"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "炎帝": {
+    "num": "244",
+    "name": "Entei",
+    "types": ["Fire"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 115,
+      "atk": 115,
+      "def": 85,
+      "spa": 90,
+      "spd": 75,
+      "spe": 100
+    },
+    "abilities": { "0": "Pressure", "H": "Inner Focus" },
+    "heightm": 2.1,
+    "weightkg": 198,
+    "color": "Brown",
+    "tags": ["Sub-Legendary"],
+    "eggGroups": ["Undiscovered"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "水君": {
+    "num": "245",
+    "name": "Suicune",
+    "types": ["Water"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 100,
+      "atk": 75,
+      "def": 115,
+      "spa": 90,
+      "spd": 115,
+      "spe": 85
+    },
+    "abilities": { "0": "Pressure", "H": "Inner Focus" },
+    "heightm": 2,
+    "weightkg": 187,
+    "color": "Blue",
+    "tags": ["Sub-Legendary"],
+    "eggGroups": ["Undiscovered"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
   },
   "幼基拉斯": {
     "num": "246",
@@ -5473,6 +6337,263 @@
       "Tyranitar-Mega"
     ],
     "tier": "OU"
+  },
+  "洛奇亞": {
+    "num": "249",
+    "name": "Lugia",
+    "types": ["Psychic", "Flying"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 106,
+      "atk": 90,
+      "def": 130,
+      "spa": 90,
+      "spd": 154,
+      "spe": 110
+    },
+    "abilities": { "0": "Pressure", "H": "Multiscale" },
+    "heightm": 5.2,
+    "weightkg": 216,
+    "color": "White",
+    "tags": ["Restricted Legendary"],
+    "eggGroups": ["Undiscovered"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "鳳王": {
+    "num": "250",
+    "name": "Ho-Oh",
+    "types": ["Fire", "Flying"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 106,
+      "atk": 130,
+      "def": 90,
+      "spa": 110,
+      "spd": 154,
+      "spe": 90
+    },
+    "abilities": { "0": "Pressure", "H": "Regenerator" },
+    "heightm": 3.8,
+    "weightkg": 199,
+    "color": "Red",
+    "tags": ["Restricted Legendary"],
+    "eggGroups": ["Undiscovered"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "木守宮": {
+    "num": "252",
+    "name": "Treecko",
+    "types": ["Grass"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 40,
+      "atk": 45,
+      "def": 35,
+      "spa": 65,
+      "spd": 55,
+      "spe": 70
+    },
+    "abilities": { "0": "Overgrow", "H": "Unburden" },
+    "heightm": 0.5,
+    "weightkg": 5,
+    "color": "Green",
+    "evos": ["Grovyle"],
+    "eggGroups": ["Monster", "Dragon"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "森林蜥蜴": {
+    "num": "253",
+    "name": "Grovyle",
+    "types": ["Grass"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 50,
+      "atk": 65,
+      "def": 45,
+      "spa": 85,
+      "spd": 65,
+      "spe": 95
+    },
+    "abilities": { "0": "Overgrow", "H": "Unburden" },
+    "heightm": 0.9,
+    "weightkg": 21.6,
+    "color": "Green",
+    "prevo": "Treecko",
+    "evoLevel": 16,
+    "evos": ["Sceptile"],
+    "eggGroups": ["Monster", "Dragon"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "蜥蜴王": {
+    "num": "254",
+    "name": "Sceptile",
+    "types": ["Grass"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 70,
+      "atk": 85,
+      "def": 65,
+      "spa": 105,
+      "spd": 85,
+      "spe": 120
+    },
+    "abilities": { "0": "Overgrow", "H": "Unburden" },
+    "heightm": 1.7,
+    "weightkg": 52.2,
+    "color": "Green",
+    "prevo": "Grovyle",
+    "evoLevel": 36,
+    "eggGroups": ["Monster", "Dragon"],
+    "otherFormes": ["Sceptile-Mega"],
+    "formeOrder": ["Sceptile", "Sceptile-Mega"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "火稚雞": {
+    "num": "255",
+    "name": "Torchic",
+    "types": ["Fire"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 45,
+      "atk": 60,
+      "def": 40,
+      "spa": 70,
+      "spd": 50,
+      "spe": 45
+    },
+    "abilities": { "0": "Blaze", "H": "Speed Boost" },
+    "heightm": 0.4,
+    "weightkg": 2.5,
+    "color": "Red",
+    "evos": ["Combusken"],
+    "eggGroups": ["Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "力壯雞": {
+    "num": "256",
+    "name": "Combusken",
+    "types": ["Fire", "Fighting"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 60,
+      "atk": 85,
+      "def": 60,
+      "spa": 85,
+      "spd": 60,
+      "spe": 55
+    },
+    "abilities": { "0": "Blaze", "H": "Speed Boost" },
+    "heightm": 0.9,
+    "weightkg": 19.5,
+    "color": "Red",
+    "prevo": "Torchic",
+    "evoLevel": 16,
+    "evos": ["Blaziken"],
+    "eggGroups": ["Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "火焰雞": {
+    "num": "257",
+    "name": "Blaziken",
+    "types": ["Fire", "Fighting"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 80,
+      "atk": 120,
+      "def": 70,
+      "spa": 110,
+      "spd": 70,
+      "spe": 80
+    },
+    "abilities": { "0": "Blaze", "H": "Speed Boost" },
+    "heightm": 1.9,
+    "weightkg": 52,
+    "color": "Red",
+    "prevo": "Combusken",
+    "evoLevel": 36,
+    "eggGroups": ["Field"],
+    "otherFormes": ["Blaziken-Mega"],
+    "formeOrder": ["Blaziken", "Blaziken-Mega"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "水躍魚": {
+    "num": "258",
+    "name": "Mudkip",
+    "types": ["Water"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 50,
+      "atk": 70,
+      "def": 50,
+      "spa": 50,
+      "spd": 50,
+      "spe": 40
+    },
+    "abilities": { "0": "Torrent", "H": "Damp" },
+    "heightm": 0.4,
+    "weightkg": 7.6,
+    "color": "Blue",
+    "evos": ["Marshtomp"],
+    "eggGroups": ["Monster", "Water 1"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "沼躍魚": {
+    "num": "259",
+    "name": "Marshtomp",
+    "types": ["Water", "Ground"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 70,
+      "atk": 85,
+      "def": 70,
+      "spa": 60,
+      "spd": 70,
+      "spe": 50
+    },
+    "abilities": { "0": "Torrent", "H": "Damp" },
+    "heightm": 0.7,
+    "weightkg": 28,
+    "color": "Blue",
+    "prevo": "Mudkip",
+    "evoLevel": 16,
+    "evos": ["Swampert"],
+    "eggGroups": ["Monster", "Water 1"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "巨沼怪": {
+    "num": "260",
+    "name": "Swampert",
+    "types": ["Water", "Ground"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 100,
+      "atk": 110,
+      "def": 90,
+      "spa": 85,
+      "spd": 90,
+      "spe": 60
+    },
+    "abilities": { "0": "Torrent", "H": "Damp" },
+    "heightm": 1.5,
+    "weightkg": 81.9,
+    "color": "Blue",
+    "prevo": "Marshtomp",
+    "evoLevel": 36,
+    "eggGroups": ["Monster", "Water 1"],
+    "otherFormes": ["Swampert-Mega"],
+    "formeOrder": ["Swampert", "Swampert-Mega"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
   },
   "土狼犬": {
     "num": "261",
@@ -6342,6 +7463,46 @@
     ],
     "tier": "UU"
   },
+  "正電拍拍": {
+    "num": "311",
+    "name": "Plusle",
+    "types": ["Electric"],
+    "baseStats": {
+      "hp": 60,
+      "atk": 50,
+      "def": 40,
+      "spa": 85,
+      "spd": 75,
+      "spe": 95
+    },
+    "abilities": { "0": "Plus", "H": "Lightning Rod" },
+    "heightm": 0.4,
+    "weightkg": 4.2,
+    "color": "Yellow",
+    "eggGroups": ["Fairy"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "負電拍拍": {
+    "num": "312",
+    "name": "Minun",
+    "types": ["Electric"],
+    "baseStats": {
+      "hp": 60,
+      "atk": 40,
+      "def": 50,
+      "spa": 75,
+      "spd": 85,
+      "spe": 95
+    },
+    "abilities": { "0": "Minus", "H": "Volt Absorb" },
+    "heightm": 0.4,
+    "weightkg": 4.2,
+    "color": "Yellow",
+    "eggGroups": ["Fairy"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "電螢蟲": {
     "num": "313",
     "name": "Volbeat",
@@ -6614,6 +7775,72 @@
       "Field"
     ],
     "tier": "UU"
+  },
+  "大顎蟻": {
+    "num": "328",
+    "name": "Trapinch",
+    "types": ["Ground"],
+    "baseStats": {
+      "hp": 45,
+      "atk": 100,
+      "def": 45,
+      "spa": 45,
+      "spd": 45,
+      "spe": 10
+    },
+    "abilities": { "0": "Hyper Cutter", "1": "Arena Trap", "H": "Sheer Force" },
+    "heightm": 0.7,
+    "weightkg": 15,
+    "color": "Brown",
+    "evos": ["Vibrava"],
+    "eggGroups": ["Bug", "Dragon"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "超音波幼蟲": {
+    "num": "329",
+    "name": "Vibrava",
+    "types": ["Ground", "Dragon"],
+    "baseStats": {
+      "hp": 50,
+      "atk": 70,
+      "def": 50,
+      "spa": 50,
+      "spd": 50,
+      "spe": 70
+    },
+    "abilities": { "0": "Levitate" },
+    "heightm": 1.1,
+    "weightkg": 15.3,
+    "color": "Green",
+    "prevo": "Trapinch",
+    "evoLevel": 35,
+    "evos": ["Flygon"],
+    "eggGroups": ["Bug", "Dragon"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "沙漠蜻蜓": {
+    "num": "330",
+    "name": "Flygon",
+    "types": ["Ground", "Dragon"],
+    "baseStats": {
+      "hp": 80,
+      "atk": 100,
+      "def": 80,
+      "spa": 80,
+      "spd": 80,
+      "spe": 100
+    },
+    "abilities": { "0": "Levitate" },
+    "heightm": 2,
+    "weightkg": 82,
+    "color": "Green",
+    "prevo": "Vibrava",
+    "evoLevel": 45,
+    "eggGroups": ["Bug", "Dragon"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
   },
   "刺球仙人掌": {
     "num": "331",
@@ -7367,6 +8594,125 @@
     ],
     "tier": "UU"
   },
+  "鐵啞鈴": {
+    "num": "374",
+    "name": "Beldum",
+    "types": ["Steel", "Psychic"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 40,
+      "atk": 55,
+      "def": 80,
+      "spa": 35,
+      "spd": 60,
+      "spe": 30
+    },
+    "abilities": { "0": "Clear Body", "H": "Light Metal" },
+    "heightm": 0.6,
+    "weightkg": 95.2,
+    "color": "Blue",
+    "evos": ["Metang"],
+    "eggGroups": ["Mineral"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "金屬怪": {
+    "num": "375",
+    "name": "Metang",
+    "types": ["Steel", "Psychic"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 60,
+      "atk": 75,
+      "def": 100,
+      "spa": 55,
+      "spd": 80,
+      "spe": 50
+    },
+    "abilities": { "0": "Clear Body", "H": "Light Metal" },
+    "heightm": 1.2,
+    "weightkg": 202.5,
+    "color": "Blue",
+    "prevo": "Beldum",
+    "evoLevel": 20,
+    "evos": ["Metagross"],
+    "eggGroups": ["Mineral"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "巨金怪": {
+    "num": "376",
+    "name": "Metagross",
+    "types": ["Steel", "Psychic"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 80,
+      "atk": 135,
+      "def": 130,
+      "spa": 95,
+      "spd": 90,
+      "spe": 70
+    },
+    "abilities": { "0": "Clear Body", "H": "Light Metal" },
+    "heightm": 1.6,
+    "weightkg": 550,
+    "color": "Blue",
+    "prevo": "Metang",
+    "evoLevel": 45,
+    "eggGroups": ["Mineral"],
+    "otherFormes": ["Metagross-Mega"],
+    "formeOrder": ["Metagross", "Metagross-Mega"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "拉帝亞斯": {
+    "num": "380",
+    "name": "Latias",
+    "types": ["Dragon", "Psychic"],
+    "gender": "F",
+    "baseStats": {
+      "hp": 80,
+      "atk": 80,
+      "def": 90,
+      "spa": 110,
+      "spd": 130,
+      "spe": 110
+    },
+    "abilities": { "0": "Levitate" },
+    "heightm": 1.4,
+    "weightkg": 40,
+    "color": "Red",
+    "tags": ["Sub-Legendary"],
+    "eggGroups": ["Undiscovered"],
+    "otherFormes": ["Latias-Mega"],
+    "formeOrder": ["Latias", "Latias-Mega"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "拉帝歐斯": {
+    "num": "381",
+    "name": "Latios",
+    "types": ["Dragon", "Psychic"],
+    "gender": "M",
+    "baseStats": {
+      "hp": 80,
+      "atk": 90,
+      "def": 80,
+      "spa": 130,
+      "spd": 110,
+      "spe": 110
+    },
+    "abilities": { "0": "Levitate" },
+    "heightm": 2,
+    "weightkg": 60,
+    "color": "Blue",
+    "eggGroups": ["Undiscovered"],
+    "tags": ["Sub-Legendary"],
+    "otherFormes": ["Latios-Mega"],
+    "formeOrder": ["Latios", "Latios-Mega"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "蓋歐卡": {
     "num": "382",
     "name": "Kyogre",
@@ -7888,6 +9234,96 @@
       "Field"
     ],
     "tier": "UU"
+  },
+  "頭蓋龍": {
+    "num": "408",
+    "name": "Cranidos",
+    "types": ["Rock"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 67,
+      "atk": 125,
+      "def": 40,
+      "spa": 30,
+      "spd": 30,
+      "spe": 58
+    },
+    "abilities": { "0": "Mold Breaker", "H": "Sheer Force" },
+    "heightm": 0.9,
+    "weightkg": 31.5,
+    "color": "Blue",
+    "evos": ["Rampardos"],
+    "eggGroups": ["Monster"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "戰槌龍": {
+    "num": "409",
+    "name": "Rampardos",
+    "types": ["Rock"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 97,
+      "atk": 165,
+      "def": 60,
+      "spa": 65,
+      "spd": 50,
+      "spe": 58
+    },
+    "abilities": { "0": "Mold Breaker", "H": "Sheer Force" },
+    "heightm": 1.6,
+    "weightkg": 102.5,
+    "color": "Blue",
+    "prevo": "Cranidos",
+    "evoLevel": 30,
+    "eggGroups": ["Monster"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "盾甲龍": {
+    "num": "410",
+    "name": "Shieldon",
+    "types": ["Rock", "Steel"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 30,
+      "atk": 42,
+      "def": 118,
+      "spa": 42,
+      "spd": 88,
+      "spe": 30
+    },
+    "abilities": { "0": "Sturdy", "H": "Soundproof" },
+    "heightm": 0.5,
+    "weightkg": 57,
+    "color": "Gray",
+    "evos": ["Bastiodon"],
+    "eggGroups": ["Monster"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "護城龍": {
+    "num": "411",
+    "name": "Bastiodon",
+    "types": ["Rock", "Steel"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 60,
+      "atk": 52,
+      "def": 168,
+      "spa": 47,
+      "spd": 138,
+      "spe": 30
+    },
+    "abilities": { "0": "Sturdy", "H": "Soundproof" },
+    "heightm": 1.3,
+    "weightkg": 149.5,
+    "color": "Gray",
+    "prevo": "Shieldon",
+    "evoLevel": 30,
+    "eggGroups": ["Monster"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
   },
   "三蜜蜂": {
     "num": "415",
@@ -9036,6 +10472,53 @@
     ],
     "tier": "UU"
   },
+  "超甲狂犀": {
+    "num": "464",
+    "name": "Rhyperior",
+    "types": ["Ground", "Rock"],
+    "baseStats": {
+      "hp": 115,
+      "atk": 140,
+      "def": 130,
+      "spa": 55,
+      "spd": 55,
+      "spe": 40
+    },
+    "abilities": { "0": "Lightning Rod", "1": "Solid Rock", "H": "Reckless" },
+    "heightm": 2.4,
+    "weightkg": 282.8,
+    "color": "Gray",
+    "prevo": "Rhydon",
+    "evoType": "trade",
+    "evoItem": "Protector",
+    "eggGroups": ["Monster", "Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "鴨嘴炎獸": {
+    "num": "467",
+    "name": "Magmortar",
+    "types": ["Fire"],
+    "genderRatio": { "M": 0.75, "F": 0.25 },
+    "baseStats": {
+      "hp": 75,
+      "atk": 95,
+      "def": 67,
+      "spa": 125,
+      "spd": 95,
+      "spe": 83
+    },
+    "abilities": { "0": "Flame Body", "H": "Vital Spirit" },
+    "heightm": 1.6,
+    "weightkg": 68,
+    "color": "Red",
+    "prevo": "Magmar",
+    "evoType": "trade",
+    "evoItem": "Magmarizer",
+    "eggGroups": ["Human-Like"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "遠古巨蜓": {
     "num": "469",
     "name": "Yanmega",
@@ -9883,6 +11366,144 @@
     ],
     "tier": "OU"
   },
+  "藤藤蛇": {
+    "num": "495",
+    "name": "Snivy",
+    "types": ["Grass"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 45,
+      "atk": 45,
+      "def": 55,
+      "spa": 45,
+      "spd": 55,
+      "spe": 63
+    },
+    "abilities": { "0": "Overgrow", "H": "Contrary" },
+    "heightm": 0.6,
+    "weightkg": 8.1,
+    "color": "Green",
+    "evos": ["Servine"],
+    "eggGroups": ["Field", "Grass"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "青藤蛇": {
+    "num": "496",
+    "name": "Servine",
+    "types": ["Grass"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 60,
+      "atk": 60,
+      "def": 75,
+      "spa": 60,
+      "spd": 75,
+      "spe": 83
+    },
+    "abilities": { "0": "Overgrow", "H": "Contrary" },
+    "heightm": 0.8,
+    "weightkg": 16,
+    "color": "Green",
+    "prevo": "Snivy",
+    "evoLevel": 17,
+    "evos": ["Serperior"],
+    "eggGroups": ["Field", "Grass"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "君主蛇": {
+    "num": "497",
+    "name": "Serperior",
+    "types": ["Grass"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 75,
+      "atk": 75,
+      "def": 95,
+      "spa": 75,
+      "spd": 95,
+      "spe": 113
+    },
+    "abilities": { "0": "Overgrow", "H": "Contrary" },
+    "heightm": 3.3,
+    "weightkg": 63,
+    "color": "Green",
+    "prevo": "Servine",
+    "evoLevel": 36,
+    "eggGroups": ["Field", "Grass"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "暖暖豬": {
+    "num": "498",
+    "name": "Tepig",
+    "types": ["Fire"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 65,
+      "atk": 63,
+      "def": 45,
+      "spa": 45,
+      "spd": 45,
+      "spe": 45
+    },
+    "abilities": { "0": "Blaze", "H": "Thick Fat" },
+    "heightm": 0.5,
+    "weightkg": 9.9,
+    "color": "Red",
+    "evos": ["Pignite"],
+    "eggGroups": ["Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "炒炒豬": {
+    "num": "499",
+    "name": "Pignite",
+    "types": ["Fire", "Fighting"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 90,
+      "atk": 93,
+      "def": 55,
+      "spa": 70,
+      "spd": 55,
+      "spe": 55
+    },
+    "abilities": { "0": "Blaze", "H": "Thick Fat" },
+    "heightm": 1,
+    "weightkg": 55.5,
+    "color": "Red",
+    "prevo": "Tepig",
+    "evoLevel": 17,
+    "evos": ["Emboar"],
+    "eggGroups": ["Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "炎武王": {
+    "num": "500",
+    "name": "Emboar",
+    "types": ["Fire", "Fighting"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 110,
+      "atk": 123,
+      "def": 65,
+      "spa": 100,
+      "spd": 65,
+      "spe": 65
+    },
+    "abilities": { "0": "Blaze", "H": "Reckless" },
+    "heightm": 1.6,
+    "weightkg": 150,
+    "color": "Red",
+    "prevo": "Pignite",
+    "evoLevel": 36,
+    "eggGroups": ["Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "水水獺": {
     "num": "501",
     "name": "Oshawott",
@@ -10029,6 +11650,57 @@
     ],
     "tier": "Unreleased",
     "isNonstandard": "Unobtainable"
+  },
+  "斑斑馬": {
+    "num": "522",
+    "name": "Blitzle",
+    "types": ["Electric"],
+    "baseStats": {
+      "hp": 45,
+      "atk": 60,
+      "def": 32,
+      "spa": 50,
+      "spd": 32,
+      "spe": 76
+    },
+    "abilities": {
+      "0": "Lightning Rod",
+      "1": "Motor Drive",
+      "H": "Sap Sipper"
+    },
+    "heightm": 0.8,
+    "weightkg": 29.8,
+    "color": "Black",
+    "evos": ["Zebstrika"],
+    "eggGroups": ["Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "雷電斑馬": {
+    "num": "523",
+    "name": "Zebstrika",
+    "types": ["Electric"],
+    "baseStats": {
+      "hp": 75,
+      "atk": 100,
+      "def": 63,
+      "spa": 80,
+      "spd": 63,
+      "spe": 116
+    },
+    "abilities": {
+      "0": "Lightning Rod",
+      "1": "Motor Drive",
+      "H": "Sap Sipper"
+    },
+    "heightm": 1.6,
+    "weightkg": 79.5,
+    "color": "Black",
+    "prevo": "Blitzle",
+    "evoLevel": 27,
+    "eggGroups": ["Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
   },
   "搬運小匠": {
     "num": "532",
@@ -10230,6 +11902,50 @@
     "eggGroups": [
       "Bug"
     ],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "木棉球": {
+    "num": "546",
+    "name": "Cottonee",
+    "types": ["Grass", "Fairy"],
+    "baseStats": {
+      "hp": 40,
+      "atk": 27,
+      "def": 60,
+      "spa": 37,
+      "spd": 50,
+      "spe": 66
+    },
+    "abilities": { "0": "Prankster", "1": "Infiltrator", "H": "Chlorophyll" },
+    "heightm": 0.3,
+    "weightkg": 0.6,
+    "color": "Green",
+    "evos": ["Whimsicott"],
+    "eggGroups": ["Fairy", "Grass"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "風妖精": {
+    "num": "547",
+    "name": "Whimsicott",
+    "types": ["Grass", "Fairy"],
+    "baseStats": {
+      "hp": 60,
+      "atk": 67,
+      "def": 85,
+      "spa": 77,
+      "spd": 75,
+      "spe": 116
+    },
+    "abilities": { "0": "Prankster", "1": "Infiltrator", "H": "Chlorophyll" },
+    "heightm": 0.7,
+    "weightkg": 6.6,
+    "color": "Green",
+    "prevo": "Cottonee",
+    "evoType": "useItem",
+    "evoItem": "Sun Stone",
+    "eggGroups": ["Fairy", "Grass"],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
@@ -10617,6 +12333,52 @@
     "tier": "Unreleased",
     "isNonstandard": "Unobtainable"
   },
+  "泡沫栗鼠": {
+    "num": "572",
+    "name": "Minccino",
+    "types": ["Normal"],
+    "genderRatio": { "M": 0.25, "F": 0.75 },
+    "baseStats": {
+      "hp": 55,
+      "atk": 50,
+      "def": 40,
+      "spa": 40,
+      "spd": 40,
+      "spe": 75
+    },
+    "abilities": { "0": "Cute Charm", "1": "Technician", "H": "Skill Link" },
+    "heightm": 0.4,
+    "weightkg": 5.8,
+    "color": "Gray",
+    "evos": ["Cinccino"],
+    "eggGroups": ["Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "奇諾栗鼠": {
+    "num": "573",
+    "name": "Cinccino",
+    "types": ["Normal"],
+    "genderRatio": { "M": 0.25, "F": 0.75 },
+    "baseStats": {
+      "hp": 75,
+      "atk": 95,
+      "def": 60,
+      "spa": 65,
+      "spd": 60,
+      "spe": 115
+    },
+    "abilities": { "0": "Cute Charm", "1": "Technician", "H": "Skill Link" },
+    "heightm": 0.5,
+    "weightkg": 7.5,
+    "color": "Gray",
+    "prevo": "Minccino",
+    "evoType": "useItem",
+    "evoItem": "Shiny Stone",
+    "eggGroups": ["Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "哥德寶寶": {
     "num": "574",
     "name": "Gothita",
@@ -10719,6 +12481,72 @@
       "Human-Like"
     ],
     "tier": "UU"
+  },
+  "單卵細胞球": {
+    "num": "577",
+    "name": "Solosis",
+    "types": ["Psychic"],
+    "baseStats": {
+      "hp": 45,
+      "atk": 30,
+      "def": 40,
+      "spa": 105,
+      "spd": 50,
+      "spe": 20
+    },
+    "abilities": { "0": "Overcoat", "1": "Magic Guard", "H": "Regenerator" },
+    "heightm": 0.3,
+    "weightkg": 1,
+    "color": "Green",
+    "evos": ["Duosion"],
+    "eggGroups": ["Amorphous"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "雙卵細胞球": {
+    "num": "578",
+    "name": "Duosion",
+    "types": ["Psychic"],
+    "baseStats": {
+      "hp": 65,
+      "atk": 40,
+      "def": 50,
+      "spa": 125,
+      "spd": 60,
+      "spe": 30
+    },
+    "abilities": { "0": "Overcoat", "1": "Magic Guard", "H": "Regenerator" },
+    "heightm": 0.6,
+    "weightkg": 8,
+    "color": "Green",
+    "prevo": "Solosis",
+    "evoLevel": 32,
+    "evos": ["Reuniclus"],
+    "eggGroups": ["Amorphous"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "人造細胞卵": {
+    "num": "579",
+    "name": "Reuniclus",
+    "types": ["Psychic"],
+    "baseStats": {
+      "hp": 110,
+      "atk": 65,
+      "def": 75,
+      "spa": 125,
+      "spd": 85,
+      "spe": 30
+    },
+    "abilities": { "0": "Overcoat", "1": "Magic Guard", "H": "Regenerator" },
+    "heightm": 1,
+    "weightkg": 20.1,
+    "color": "Green",
+    "prevo": "Duosion",
+    "evoLevel": 41,
+    "eggGroups": ["Amorphous"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
   },
   "鴨寶寶": {
     "num": "580",
@@ -10956,6 +12784,49 @@
       "Water 2"
     ],
     "tier": "UU"
+  },
+  "電電蟲": {
+    "num": "595",
+    "name": "Joltik",
+    "types": ["Bug", "Electric"],
+    "baseStats": {
+      "hp": 50,
+      "atk": 47,
+      "def": 50,
+      "spa": 57,
+      "spd": 50,
+      "spe": 65
+    },
+    "abilities": { "0": "Compound Eyes", "1": "Unnerve", "H": "Swarm" },
+    "heightm": 0.1,
+    "weightkg": 0.6,
+    "color": "Yellow",
+    "evos": ["Galvantula"],
+    "eggGroups": ["Bug"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "電蜘蛛": {
+    "num": "596",
+    "name": "Galvantula",
+    "types": ["Bug", "Electric"],
+    "baseStats": {
+      "hp": 70,
+      "atk": 77,
+      "def": 60,
+      "spa": 97,
+      "spd": 60,
+      "spe": 108
+    },
+    "abilities": { "0": "Compound Eyes", "1": "Unnerve", "H": "Swarm" },
+    "heightm": 0.8,
+    "weightkg": 14.3,
+    "color": "Yellow",
+    "prevo": "Joltik",
+    "evoLevel": 36,
+    "eggGroups": ["Bug"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
   },
   "麻麻小魚": {
     "num": "602",
@@ -11383,6 +13254,51 @@
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
+  "泥偶小人": {
+    "num": "622",
+    "name": "Golett",
+    "types": ["Ground", "Ghost"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 59,
+      "atk": 74,
+      "def": 50,
+      "spa": 35,
+      "spd": 50,
+      "spe": 35
+    },
+    "abilities": { "0": "Iron Fist", "1": "Klutz", "H": "No Guard" },
+    "heightm": 1,
+    "weightkg": 92,
+    "color": "Green",
+    "evos": ["Golurk"],
+    "eggGroups": ["Mineral"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "泥偶巨人": {
+    "num": "623",
+    "name": "Golurk",
+    "types": ["Ground", "Ghost"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 89,
+      "atk": 124,
+      "def": 80,
+      "spa": 55,
+      "spd": 80,
+      "spe": 55
+    },
+    "abilities": { "0": "Iron Fist", "1": "Klutz", "H": "No Guard" },
+    "heightm": 2.8,
+    "weightkg": 330,
+    "color": "Green",
+    "prevo": "Golett",
+    "evoLevel": 43,
+    "eggGroups": ["Mineral"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "駒刀小兵": {
     "num": "624",
     "name": "Pawniard",
@@ -11764,6 +13680,72 @@
     ],
     "tier": "OU"
   },
+  "勾帕路翁": {
+    "num": "638",
+    "name": "Cobalion",
+    "types": ["Steel", "Fighting"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 91,
+      "atk": 90,
+      "def": 129,
+      "spa": 90,
+      "spd": 72,
+      "spe": 108
+    },
+    "abilities": { "0": "Justified" },
+    "heightm": 2.1,
+    "weightkg": 250,
+    "color": "Blue",
+    "tags": ["Sub-Legendary"],
+    "eggGroups": ["Undiscovered"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "代拉基翁": {
+    "num": "639",
+    "name": "Terrakion",
+    "types": ["Rock", "Fighting"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 91,
+      "atk": 129,
+      "def": 90,
+      "spa": 72,
+      "spd": 90,
+      "spe": 108
+    },
+    "abilities": { "0": "Justified" },
+    "heightm": 1.9,
+    "weightkg": 260,
+    "color": "Gray",
+    "tags": ["Sub-Legendary"],
+    "eggGroups": ["Undiscovered"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "畢力吉翁": {
+    "num": "640",
+    "name": "Virizion",
+    "types": ["Grass", "Fighting"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 91,
+      "atk": 90,
+      "def": 72,
+      "spa": 90,
+      "spd": 129,
+      "spe": 108
+    },
+    "abilities": { "0": "Justified" },
+    "heightm": 2,
+    "weightkg": 200,
+    "color": "Green",
+    "tags": ["Sub-Legendary"],
+    "eggGroups": ["Undiscovered"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "龍捲雲-化身": {
     "num": "641",
     "name": "Tornadus",
@@ -11900,6 +13882,50 @@
     "changesFrom": "Thundurus",
     "tier": "OU"
   },
+  "萊希拉姆": {
+    "num": "643",
+    "name": "Reshiram",
+    "types": ["Dragon", "Fire"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 100,
+      "atk": 120,
+      "def": 100,
+      "spa": 150,
+      "spd": 120,
+      "spe": 90
+    },
+    "abilities": { "0": "Turboblaze" },
+    "heightm": 3.2,
+    "weightkg": 330,
+    "color": "White",
+    "tags": ["Restricted Legendary"],
+    "eggGroups": ["Undiscovered"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "捷克羅姆": {
+    "num": "644",
+    "name": "Zekrom",
+    "types": ["Dragon", "Electric"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 100,
+      "atk": 150,
+      "def": 120,
+      "spa": 120,
+      "spd": 100,
+      "spe": 90
+    },
+    "abilities": { "0": "Teravolt" },
+    "heightm": 2.9,
+    "weightkg": 345,
+    "color": "Black",
+    "tags": ["Restricted Legendary"],
+    "eggGroups": ["Undiscovered"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "土地雲-化身": {
     "num": "645",
     "name": "Landorus",
@@ -11968,6 +13994,78 @@
     ],
     "changesFrom": "Landorus",
     "tier": "OU"
+  },
+  "酋雷姆": {
+    "num": "646",
+    "name": "Kyurem",
+    "types": ["Dragon", "Ice"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 125,
+      "atk": 130,
+      "def": 90,
+      "spa": 130,
+      "spd": 90,
+      "spe": 95
+    },
+    "abilities": { "0": "Pressure" },
+    "heightm": 3,
+    "weightkg": 325,
+    "color": "Gray",
+    "eggGroups": ["Undiscovered"],
+    "tags": ["Restricted Legendary"],
+    "otherFormes": ["Kyurem-Black", "Kyurem-White"],
+    "formeOrder": ["Kyurem", "Kyurem-White", "Kyurem-Black"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "酋雷姆-闇黑": {
+    "num": "646-b",
+    "name": "Kyurem-Black",
+    "baseSpecies": "Kyurem",
+    "forme": "Black",
+    "types": ["Dragon", "Ice"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 125,
+      "atk": 170,
+      "def": 100,
+      "spa": 120,
+      "spd": 90,
+      "spe": 95
+    },
+    "abilities": { "0": "Teravolt" },
+    "heightm": 3.3,
+    "weightkg": 325,
+    "color": "Gray",
+    "eggGroups": ["Undiscovered"],
+    "changesFrom": "Kyurem",
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "酋雷姆-焰白": {
+    "num": "646-w",
+    "name": "Kyurem-White",
+    "baseSpecies": "Kyurem",
+    "forme": "White",
+    "types": ["Dragon", "Ice"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 125,
+      "atk": 120,
+      "def": 90,
+      "spa": 170,
+      "spd": 100,
+      "spe": 95
+    },
+    "abilities": { "0": "Turboblaze" },
+    "heightm": 3.6,
+    "weightkg": 325,
+    "color": "Gray",
+    "eggGroups": ["Undiscovered"],
+    "changesFrom": "Kyurem",
+    "tier": "Illegal",
+    "isNonstandard": "Past"
   },
   "哈力栗": {
     "num": "650",
@@ -12817,6 +14915,122 @@
     ],
     "tier": "UU"
   },
+  "妙喵": {
+    "num": "677",
+    "name": "Espurr",
+    "types": ["Psychic"],
+    "baseStats": {
+      "hp": 62,
+      "atk": 48,
+      "def": 54,
+      "spa": 63,
+      "spd": 60,
+      "spe": 68
+    },
+    "abilities": { "0": "Keen Eye", "1": "Infiltrator", "H": "Own Tempo" },
+    "heightm": 0.3,
+    "weightkg": 3.5,
+    "color": "Gray",
+    "evos": ["Meowstic", "Meowstic-F"],
+    "eggGroups": ["Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "超能妙喵-公": {
+    "num": "678",
+    "name": "Meowstic",
+    "baseForme": "M",
+    "types": ["Psychic"],
+    "gender": "M",
+    "baseStats": {
+      "hp": 74,
+      "atk": 48,
+      "def": 76,
+      "spa": 83,
+      "spd": 81,
+      "spe": 104
+    },
+    "abilities": { "0": "Keen Eye", "1": "Infiltrator", "H": "Prankster" },
+    "heightm": 0.6,
+    "weightkg": 8.5,
+    "color": "Blue",
+    "prevo": "Espurr",
+    "evoLevel": 25,
+    "eggGroups": ["Field"],
+    "otherFormes": ["Meowstic-F"],
+    "formeOrder": ["Meowstic", "Meowstic-F"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "超能妙喵-母": {
+    "num": "678-f",
+    "name": "Meowstic-F",
+    "baseSpecies": "Meowstic",
+    "forme": "F",
+    "types": ["Psychic"],
+    "gender": "F",
+    "baseStats": {
+      "hp": 74,
+      "atk": 48,
+      "def": 76,
+      "spa": 83,
+      "spd": 81,
+      "spe": 104
+    },
+    "abilities": { "0": "Keen Eye", "1": "Infiltrator", "H": "Competitive" },
+    "heightm": 0.6,
+    "weightkg": 8.5,
+    "color": "White",
+    "prevo": "Espurr",
+    "evoLevel": 25,
+    "eggGroups": ["Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "好啦魷": {
+    "num": "686",
+    "name": "Inkay",
+    "types": ["Dark", "Psychic"],
+    "baseStats": {
+      "hp": 53,
+      "atk": 54,
+      "def": 53,
+      "spa": 37,
+      "spd": 46,
+      "spe": 45
+    },
+    "abilities": { "0": "Contrary", "1": "Suction Cups", "H": "Infiltrator" },
+    "heightm": 0.4,
+    "weightkg": 3.5,
+    "color": "Blue",
+    "evos": ["Malamar"],
+    "eggGroups": ["Water 1", "Water 2"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "烏賊王": {
+    "num": "687",
+    "name": "Malamar",
+    "types": ["Dark", "Psychic"],
+    "baseStats": {
+      "hp": 86,
+      "atk": 92,
+      "def": 88,
+      "spa": 68,
+      "spd": 75,
+      "spe": 73
+    },
+    "abilities": { "0": "Contrary", "1": "Suction Cups", "H": "Infiltrator" },
+    "heightm": 1.5,
+    "weightkg": 47,
+    "color": "Blue",
+    "prevo": "Inkay",
+    "evoLevel": 30,
+    "evoCondition": "with the console turned upside-down",
+    "eggGroups": ["Water 1", "Water 2"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "垃垃藻": {
     "num": "690",
     "name": "Skrelp",
@@ -13639,6 +15853,210 @@
     ],
     "tier": "Unreleased",
     "isNonstandard": "Unobtainable"
+  },
+  "火斑喵": {
+    "num": "725",
+    "name": "Litten",
+    "types": ["Fire"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 45,
+      "atk": 65,
+      "def": 40,
+      "spa": 60,
+      "spd": 40,
+      "spe": 70
+    },
+    "abilities": { "0": "Blaze", "H": "Intimidate" },
+    "heightm": 0.4,
+    "weightkg": 4.3,
+    "color": "Red",
+    "evos": ["Torracat"],
+    "eggGroups": ["Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "炎熱喵": {
+    "num": "726",
+    "name": "Torracat",
+    "types": ["Fire"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 65,
+      "atk": 85,
+      "def": 50,
+      "spa": 80,
+      "spd": 50,
+      "spe": 90
+    },
+    "abilities": { "0": "Blaze", "H": "Intimidate" },
+    "heightm": 0.7,
+    "weightkg": 25,
+    "color": "Red",
+    "prevo": "Litten",
+    "evoLevel": 17,
+    "evos": ["Incineroar"],
+    "eggGroups": ["Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "熾焰咆哮虎": {
+    "num": "727",
+    "name": "Incineroar",
+    "types": ["Fire", "Dark"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 95,
+      "atk": 115,
+      "def": 90,
+      "spa": 80,
+      "spd": 90,
+      "spe": 60
+    },
+    "abilities": { "0": "Blaze", "H": "Intimidate" },
+    "heightm": 1.8,
+    "weightkg": 83,
+    "color": "Red",
+    "prevo": "Torracat",
+    "evoLevel": 34,
+    "eggGroups": ["Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "球球海獅": {
+    "num": "728",
+    "name": "Popplio",
+    "types": ["Water"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 50,
+      "atk": 54,
+      "def": 54,
+      "spa": 66,
+      "spd": 56,
+      "spe": 40
+    },
+    "abilities": { "0": "Torrent", "H": "Liquid Voice" },
+    "heightm": 0.4,
+    "weightkg": 7.5,
+    "color": "Blue",
+    "evos": ["Brionne"],
+    "eggGroups": ["Water 1", "Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "花漾海獅": {
+    "num": "729",
+    "name": "Brionne",
+    "types": ["Water"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 60,
+      "atk": 69,
+      "def": 69,
+      "spa": 91,
+      "spd": 81,
+      "spe": 50
+    },
+    "abilities": { "0": "Torrent", "H": "Liquid Voice" },
+    "heightm": 0.6,
+    "weightkg": 17.5,
+    "color": "Blue",
+    "prevo": "Popplio",
+    "evoLevel": 17,
+    "evos": ["Primarina"],
+    "eggGroups": ["Water 1", "Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "西獅海壬": {
+    "num": "730",
+    "name": "Primarina",
+    "types": ["Water", "Fairy"],
+    "genderRatio": { "M": 0.875, "F": 0.125 },
+    "baseStats": {
+      "hp": 80,
+      "atk": 74,
+      "def": 74,
+      "spa": 126,
+      "spd": 116,
+      "spe": 60
+    },
+    "abilities": { "0": "Torrent", "H": "Liquid Voice" },
+    "heightm": 1.8,
+    "weightkg": 44,
+    "color": "Blue",
+    "prevo": "Brionne",
+    "evoLevel": 34,
+    "eggGroups": ["Water 1", "Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "小篤兒": {
+    "num": "731",
+    "name": "Pikipek",
+    "types": ["Normal", "Flying"],
+    "baseStats": {
+      "hp": 35,
+      "atk": 75,
+      "def": 30,
+      "spa": 30,
+      "spd": 30,
+      "spe": 65
+    },
+    "abilities": { "0": "Keen Eye", "1": "Skill Link", "H": "Pickup" },
+    "heightm": 0.3,
+    "weightkg": 1.2,
+    "color": "Black",
+    "evos": ["Trumbeak"],
+    "eggGroups": ["Flying"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "喇叭啄鳥": {
+    "num": "732",
+    "name": "Trumbeak",
+    "types": ["Normal", "Flying"],
+    "baseStats": {
+      "hp": 55,
+      "atk": 85,
+      "def": 50,
+      "spa": 40,
+      "spd": 50,
+      "spe": 75
+    },
+    "abilities": { "0": "Keen Eye", "1": "Skill Link", "H": "Pickup" },
+    "heightm": 0.6,
+    "weightkg": 14.8,
+    "color": "Black",
+    "prevo": "Pikipek",
+    "evoLevel": 14,
+    "evos": ["Toucannon"],
+    "eggGroups": ["Flying"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "銃嘴大鳥": {
+    "num": "733",
+    "name": "Toucannon",
+    "types": ["Normal", "Flying"],
+    "baseStats": {
+      "hp": 80,
+      "atk": 120,
+      "def": 75,
+      "spa": 75,
+      "spd": 75,
+      "spe": 60
+    },
+    "abilities": { "0": "Keen Eye", "1": "Skill Link", "H": "Sheer Force" },
+    "heightm": 1.1,
+    "weightkg": 26,
+    "color": "Black",
+    "prevo": "Trumbeak",
+    "evoLevel": 28,
+    "eggGroups": ["Flying"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
   },
   "貓鼬少": {
     "num": "734",
@@ -14857,6 +17275,183 @@
       "Kommo-o",
       "Kommo-o-Totem"
     ],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "科斯莫古": {
+    "num": "789",
+    "name": "Cosmog",
+    "types": ["Psychic"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 43,
+      "atk": 29,
+      "def": 31,
+      "spa": 29,
+      "spd": 31,
+      "spe": 37
+    },
+    "abilities": { "0": "Unaware" },
+    "heightm": 0.2,
+    "weightkg": 0.1,
+    "color": "Blue",
+    "evos": ["Cosmoem"],
+    "tags": ["Restricted Legendary"],
+    "eggGroups": ["Undiscovered"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "科斯莫姆": {
+    "num": "790",
+    "name": "Cosmoem",
+    "types": ["Psychic"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 43,
+      "atk": 29,
+      "def": 131,
+      "spa": 29,
+      "spd": 131,
+      "spe": 37
+    },
+    "abilities": { "0": "Sturdy" },
+    "heightm": 0.1,
+    "weightkg": 999.9,
+    "color": "Blue",
+    "tags": ["Restricted Legendary"],
+    "prevo": "Cosmog",
+    "evoLevel": 43,
+    "evos": ["Solgaleo", "Lunala"],
+    "eggGroups": ["Undiscovered"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "索爾迦雷歐": {
+    "num": "791",
+    "name": "Solgaleo",
+    "types": ["Psychic", "Steel"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 137,
+      "atk": 137,
+      "def": 107,
+      "spa": 113,
+      "spd": 89,
+      "spe": 97
+    },
+    "abilities": { "0": "Full Metal Body" },
+    "heightm": 3.4,
+    "weightkg": 230,
+    "color": "White",
+    "tags": ["Restricted Legendary"],
+    "prevo": "Cosmoem",
+    "evoLevel": 53,
+    "eggGroups": ["Undiscovered"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "露奈雅拉": {
+    "num": "792",
+    "name": "Lunala",
+    "types": ["Psychic", "Ghost"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 137,
+      "atk": 113,
+      "def": 89,
+      "spa": 137,
+      "spd": 107,
+      "spe": 97
+    },
+    "abilities": { "0": "Shadow Shield" },
+    "heightm": 4,
+    "weightkg": 120,
+    "color": "Purple",
+    "tags": ["Restricted Legendary"],
+    "prevo": "Cosmoem",
+    "evoLevel": 53,
+    "eggGroups": ["Undiscovered"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "奈克洛茲瑪": {
+    "num": 800,
+    "name": "Necrozma",
+    "types": ["Psychic"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 97,
+      "atk": 107,
+      "def": 101,
+      "spa": 127,
+      "spd": 89,
+      "spe": 79
+    },
+    "abilities": { "0": "Prism Armor" },
+    "heightm": 2.4,
+    "weightkg": 230,
+    "color": "Black",
+    "tags": ["Restricted Legendary"],
+    "eggGroups": ["Undiscovered"],
+    "otherFormes": [
+      "Necrozma-Dusk-Mane",
+      "Necrozma-Dawn-Wings",
+      "Necrozma-Ultra"
+    ],
+    "formeOrder": [
+      "Necrozma",
+      "Necrozma-Dusk-Mane",
+      "Necrozma-Dawn-Wings",
+      "Necrozma-Ultra"
+    ],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "奈克洛茲瑪-黃昏之鬃": {
+    "num": "800-dm",
+    "name": "Necrozma-Dusk-Mane",
+    "baseSpecies": "Necrozma",
+    "forme": "Dusk-Mane",
+    "types": ["Psychic", "Steel"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 97,
+      "atk": 157,
+      "def": 127,
+      "spa": 113,
+      "spd": 109,
+      "spe": 77
+    },
+    "abilities": { "0": "Prism Armor" },
+    "heightm": 3.8,
+    "weightkg": 460,
+    "color": "Yellow",
+    "eggGroups": ["Undiscovered"],
+    "changesFrom": "Necrozma",
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "奈克洛茲瑪-拂曉之翼": {
+    "num": "800-dw",
+    "name": "Necrozma-Dawn-Wings",
+    "baseSpecies": "Necrozma",
+    "forme": "Dawn-Wings",
+    "types": ["Psychic", "Ghost"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 97,
+      "atk": 113,
+      "def": 109,
+      "spa": 157,
+      "spd": 127,
+      "spe": 77
+    },
+    "abilities": { "0": "Prism Armor" },
+    "heightm": 4.2,
+    "weightkg": 350,
+    "color": "Blue",
+    "eggGroups": ["Undiscovered"],
+    "changesFrom": "Necrozma",
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
@@ -16119,6 +18714,75 @@
     ],
     "tier": "UU"
   },
+  "小仙奶": {
+    "num": 868,
+    "name": "Milcery",
+    "types": ["Fairy"],
+    "gender": "F",
+    "baseStats": {
+      "hp": 45,
+      "atk": 40,
+      "def": 40,
+      "spa": 50,
+      "spd": 61,
+      "spe": 34
+    },
+    "abilities": { "0": "Sweet Veil", "H": "Aroma Veil" },
+    "heightm": 0.2,
+    "weightkg": 0.3,
+    "color": "White",
+    "evos": ["Alcremie"],
+    "eggGroups": ["Fairy", "Amorphous"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "霜奶仙": {
+    "num": 869,
+    "name": "Alcremie",
+    "baseForme": "Vanilla Cream",
+    "types": ["Fairy"],
+    "gender": "F",
+    "baseStats": {
+      "hp": 65,
+      "atk": 60,
+      "def": 75,
+      "spa": 110,
+      "spd": 121,
+      "spe": 64
+    },
+    "abilities": { "0": "Sweet Veil", "H": "Aroma Veil" },
+    "heightm": 0.3,
+    "weightkg": 0.5,
+    "color": "White",
+    "prevo": "Milcery",
+    "evoType": "other",
+    "evoCondition": "spin while holding a Sweet",
+    "eggGroups": ["Fairy", "Amorphous"],
+    "cosmeticFormes": [
+      "Alcremie-Ruby-Cream",
+      "Alcremie-Matcha-Cream",
+      "Alcremie-Mint-Cream",
+      "Alcremie-Lemon-Cream",
+      "Alcremie-Salted-Cream",
+      "Alcremie-Ruby-Swirl",
+      "Alcremie-Caramel-Swirl",
+      "Alcremie-Rainbow-Swirl"
+    ],
+    "formeOrder": [
+      "Alcremie",
+      "Alcremie-Ruby-Cream",
+      "Alcremie-Matcha-Cream",
+      "Alcremie-Mint-Cream",
+      "Alcremie-Lemon-Cream",
+      "Alcremie-Salted-Cream",
+      "Alcremie-Ruby-Swirl",
+      "Alcremie-Caramel-Swirl",
+      "Alcremie-Rainbow-Swirl"
+    ],
+    "canGigantamax": "G-Max Finale",
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "列陣兵": {
     "num": "870",
     "name": "Falinks",
@@ -16483,6 +19147,27 @@
     ],
     "canGigantamax": "G-Max Steelsurge",
     "tier": "UU"
+  },
+  "鋁鋼龍": {
+    "num": 884,
+    "name": "Duraludon",
+    "types": ["Steel", "Dragon"],
+    "baseStats": {
+      "hp": 70,
+      "atk": 95,
+      "def": 115,
+      "spa": 120,
+      "spd": 50,
+      "spe": 85
+    },
+    "abilities": { "0": "Light Metal", "1": "Heavy Metal", "H": "Stalwart" },
+    "heightm": 1.8,
+    "weightkg": 40,
+    "color": "White",
+    "eggGroups": ["Mineral", "Dragon"],
+    "canGigantamax": "G-Max Depletion",
+    "tier": "Illegal",
+    "isNonstandard": "Past"
   },
   "多龍梅西亞": {
     "num": "885",
