@@ -3127,6 +3127,50 @@
     "canHatch": true,
     "tier": "NFE"
   },
+  "墨海馬": {
+    "num": "116",
+    "name": "Horsea",
+    "types": ["Water"],
+    "baseStats": {
+      "hp": 30,
+      "atk": 40,
+      "def": 70,
+      "spa": 70,
+      "spd": 25,
+      "spe": 60
+    },
+    "abilities": { "0": "Swift Swim", "1": "Sniper", "H": "Damp" },
+    "heightm": 0.4,
+    "weightkg": 8,
+    "color": "Blue",
+    "evos": ["Seadra"],
+    "eggGroups": ["Water 1", "Dragon"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "海刺龍": {
+    "num": "117",
+    "name": "Seadra",
+    "types": ["Water"],
+    "baseStats": {
+      "hp": 55,
+      "atk": 65,
+      "def": 95,
+      "spa": 95,
+      "spd": 45,
+      "spe": 85
+    },
+    "abilities": { "0": "Poison Point", "1": "Sniper", "H": "Damp" },
+    "heightm": 1.2,
+    "weightkg": 25,
+    "color": "Blue",
+    "prevo": "Horsea",
+    "evoLevel": 32,
+    "evos": ["Kingdra"],
+    "eggGroups": ["Water 1", "Dragon"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "飛天螳螂": {
     "num": "123",
     "name": "Scyther",
@@ -3158,6 +3202,30 @@
       "Bug"
     ],
     "tier": "NFE"
+  },
+  "電擊獸": {
+    "num": "125",
+    "name": "Electabuzz",
+    "types": ["Electric"],
+    "genderRatio": { "M": 0.75, "F": 0.25 },
+    "baseStats": {
+      "hp": 65,
+      "atk": 83,
+      "def": 57,
+      "spa": 95,
+      "spd": 85,
+      "spe": 105
+    },
+    "abilities": { "0": "Static", "H": "Vital Spirit" },
+    "heightm": 1.1,
+    "weightkg": 30,
+    "color": "Yellow",
+    "prevo": "Elekid",
+    "evoLevel": 30,
+    "evos": ["Electivire"],
+    "eggGroups": ["Human-Like"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
   },
   "鴨嘴火獸": {
     "num": "126",
@@ -3577,6 +3645,28 @@
       "Field"
     ],
     "tier": "UU"
+  },
+  "多邊獸": {
+    "num": "137",
+    "name": "Porygon",
+    "types": ["Normal"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 65,
+      "atk": 60,
+      "def": 70,
+      "spa": 85,
+      "spd": 75,
+      "spe": 40
+    },
+    "abilities": { "0": "Trace", "1": "Download", "H": "Analytic" },
+    "heightm": 0.8,
+    "weightkg": 36.5,
+    "color": "Pink",
+    "evos": ["Porygon2"],
+    "eggGroups": ["Mineral"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
   },
   "卡比獸": {
     "num": "143",
@@ -5447,6 +5537,51 @@
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
+  "布魯": {
+    "num": "209",
+    "name": "Snubbull",
+    "types": ["Fairy"],
+    "genderRatio": { "M": 0.25, "F": 0.75 },
+    "baseStats": {
+      "hp": 60,
+      "atk": 80,
+      "def": 50,
+      "spa": 40,
+      "spd": 40,
+      "spe": 30
+    },
+    "abilities": { "0": "Intimidate", "1": "Run Away", "H": "Rattled" },
+    "heightm": 0.6,
+    "weightkg": 7.8,
+    "color": "Pink",
+    "evos": ["Granbull"],
+    "eggGroups": ["Field", "Fairy"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "布魯皇": {
+    "num": "210",
+    "name": "Granbull",
+    "types": ["Fairy"],
+    "genderRatio": { "M": 0.25, "F": 0.75 },
+    "baseStats": {
+      "hp": 90,
+      "atk": 120,
+      "def": 75,
+      "spa": 60,
+      "spd": 60,
+      "spe": 45
+    },
+    "abilities": { "0": "Intimidate", "1": "Quick Feet", "H": "Rattled" },
+    "heightm": 1.4,
+    "weightkg": 48.7,
+    "color": "Purple",
+    "prevo": "Snubbull",
+    "evoLevel": 23,
+    "eggGroups": ["Field", "Fairy"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "千針魚": {
     "num": "211",
     "name": "Qwilfish",
@@ -5968,6 +6103,29 @@
     ],
     "tier": "UU"
   },
+  "刺龍王": {
+    "num": "230",
+    "name": "Kingdra",
+    "types": ["Water", "Dragon"],
+    "baseStats": {
+      "hp": 75,
+      "atk": 95,
+      "def": 95,
+      "spa": 95,
+      "spd": 95,
+      "spe": 85
+    },
+    "abilities": { "0": "Swift Swim", "1": "Sniper", "H": "Damp" },
+    "heightm": 1.8,
+    "weightkg": 152,
+    "color": "Blue",
+    "prevo": "Seadra",
+    "evoType": "trade",
+    "evoItem": "Dragon Scale",
+    "eggGroups": ["Water 1", "Dragon"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "小小象": {
     "num": "231",
     "name": "Phanpy",
@@ -6024,6 +6182,31 @@
       "Field"
     ],
     "tier": "UU"
+  },
+  "多邊獸2": {
+    "num": "233",
+    "name": "Porygon2",
+    "types": ["Normal"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 85,
+      "atk": 80,
+      "def": 90,
+      "spa": 105,
+      "spd": 95,
+      "spe": 60
+    },
+    "abilities": { "0": "Trace", "1": "Download", "H": "Analytic" },
+    "heightm": 0.6,
+    "weightkg": 32.5,
+    "color": "Red",
+    "prevo": "Porygon",
+    "evoType": "trade",
+    "evoItem": "Up-Grade",
+    "evos": ["Porygon-Z"],
+    "eggGroups": ["Mineral"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
   },
   "驚角鹿": {
     "num": "234",
@@ -6119,6 +6302,29 @@
     "evoLevel": 20,
     "evoCondition": "with an Atk stat equal to its Def stat",
     "eggGroups": ["Human-Like"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "電擊怪": {
+    "num": "239",
+    "name": "Elekid",
+    "types": ["Electric"],
+    "genderRatio": { "M": 0.75, "F": 0.25 },
+    "baseStats": {
+      "hp": 45,
+      "atk": 63,
+      "def": 37,
+      "spa": 65,
+      "spd": 55,
+      "spe": 95
+    },
+    "abilities": { "0": "Static", "H": "Vital Spirit" },
+    "heightm": 0.6,
+    "weightkg": 23.5,
+    "color": "Yellow",
+    "evos": ["Electabuzz"],
+    "eggGroups": ["Undiscovered"],
+    "canHatch": true,
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
@@ -10495,6 +10701,30 @@
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
+  "電擊魔獸": {
+    "num": "466",
+    "name": "Electivire",
+    "types": ["Electric"],
+    "genderRatio": { "M": 0.75, "F": 0.25 },
+    "baseStats": {
+      "hp": 75,
+      "atk": 123,
+      "def": 67,
+      "spa": 95,
+      "spd": 85,
+      "spe": 95
+    },
+    "abilities": { "0": "Motor Drive", "H": "Vital Spirit" },
+    "heightm": 1.8,
+    "weightkg": 138.6,
+    "color": "Yellow",
+    "prevo": "Electabuzz",
+    "evoType": "trade",
+    "evoItem": "Electirizer",
+    "eggGroups": ["Human-Like"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "鴨嘴炎獸": {
     "num": "467",
     "name": "Magmortar",
@@ -10679,6 +10909,30 @@
     "eggGroups": [
       "Field"
     ],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "多邊獸Z": {
+    "num": "474",
+    "name": "Porygon-Z",
+    "types": ["Normal"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 85,
+      "atk": 80,
+      "def": 70,
+      "spa": 135,
+      "spd": 75,
+      "spe": 90
+    },
+    "abilities": { "0": "Adaptability", "1": "Download", "H": "Analytic" },
+    "heightm": 0.9,
+    "weightkg": 34,
+    "color": "Red",
+    "prevo": "Porygon2",
+    "evoType": "trade",
+    "evoItem": "Dubious Disc",
+    "eggGroups": ["Mineral"],
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
@@ -11702,6 +11956,49 @@
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
+  "螺釘地鼠": {
+    "num": "529",
+    "name": "Drilbur",
+    "types": ["Ground"],
+    "baseStats": {
+      "hp": 60,
+      "atk": 85,
+      "def": 40,
+      "spa": 30,
+      "spd": 45,
+      "spe": 68
+    },
+    "abilities": { "0": "Sand Rush", "1": "Sand Force", "H": "Mold Breaker" },
+    "heightm": 0.3,
+    "weightkg": 8.5,
+    "color": "Gray",
+    "evos": ["Excadrill"],
+    "eggGroups": ["Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "龍頭地鼠": {
+    "num": "530",
+    "name": "Excadrill",
+    "types": ["Ground", "Steel"],
+    "baseStats": {
+      "hp": 110,
+      "atk": 135,
+      "def": 60,
+      "spa": 50,
+      "spd": 65,
+      "spe": 88
+    },
+    "abilities": { "0": "Sand Rush", "1": "Sand Force", "H": "Mold Breaker" },
+    "heightm": 0.7,
+    "weightkg": 40.4,
+    "color": "Gray",
+    "prevo": "Drilbur",
+    "evoLevel": 31,
+    "eggGroups": ["Field"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "搬運小匠": {
     "num": "532",
     "name": "Timburr",
@@ -12184,6 +12481,49 @@
       "Field"
     ],
     "tier": "UU"
+  },
+  "滑頭小子": {
+    "num": "559",
+    "name": "Scraggy",
+    "types": ["Dark", "Fighting"],
+    "baseStats": {
+      "hp": 50,
+      "atk": 75,
+      "def": 70,
+      "spa": 35,
+      "spd": 70,
+      "spe": 48
+    },
+    "abilities": { "0": "Shed Skin", "1": "Moxie", "H": "Intimidate" },
+    "heightm": 0.6,
+    "weightkg": 11.8,
+    "color": "Yellow",
+    "evos": ["Scrafty"],
+    "eggGroups": ["Field", "Dragon"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "頭巾混混": {
+    "num": "560",
+    "name": "Scrafty",
+    "types": ["Dark", "Fighting"],
+    "baseStats": {
+      "hp": 65,
+      "atk": 90,
+      "def": 115,
+      "spa": 45,
+      "spd": 115,
+      "spe": 58
+    },
+    "abilities": { "0": "Shed Skin", "1": "Moxie", "H": "Intimidate" },
+    "heightm": 1.1,
+    "weightkg": 30,
+    "color": "Red",
+    "prevo": "Scraggy",
+    "evoLevel": 39,
+    "eggGroups": ["Field", "Dragon"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
   },
   "索羅亞": {
     "num": "570",
@@ -16738,6 +17078,51 @@
     ],
     "tier": "UU"
   },
+  "滴蛛": {
+    "num": "751",
+    "name": "Dewpider",
+    "types": ["Water", "Bug"],
+    "baseStats": {
+      "hp": 38,
+      "atk": 40,
+      "def": 52,
+      "spa": 40,
+      "spd": 72,
+      "spe": 27
+    },
+    "abilities": { "0": "Water Bubble", "H": "Water Absorb" },
+    "heightm": 0.3,
+    "weightkg": 4,
+    "color": "Green",
+    "evos": ["Araquanid"],
+    "eggGroups": ["Water 1", "Bug"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "滴蛛霸": {
+    "num": "752",
+    "name": "Araquanid",
+    "types": ["Water", "Bug"],
+    "baseStats": {
+      "hp": 68,
+      "atk": 70,
+      "def": 92,
+      "spa": 50,
+      "spd": 132,
+      "spe": 42
+    },
+    "abilities": { "0": "Water Bubble", "H": "Water Absorb" },
+    "heightm": 1.8,
+    "weightkg": 82,
+    "color": "Green",
+    "prevo": "Dewpider",
+    "evoLevel": 22,
+    "eggGroups": ["Water 1", "Bug"],
+    "otherFormes": ["Araquanid-Totem"],
+    "formeOrder": ["Araquanid", "Araquanid-Totem"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "偽螳草": {
     "num": "753",
     "name": "Fomantis",
@@ -16971,6 +17356,27 @@
     ],
     "tier": "UU"
   },
+  "花療環環": {
+    "num": "764",
+    "name": "Comfey",
+    "types": ["Fairy"],
+    "genderRatio": { "M": 0.25, "F": 0.75 },
+    "baseStats": {
+      "hp": 51,
+      "atk": 52,
+      "def": 90,
+      "spa": 82,
+      "spd": 110,
+      "spe": 100
+    },
+    "abilities": { "0": "Flower Veil", "1": "Triage", "H": "Natural Cure" },
+    "heightm": 0.1,
+    "weightkg": 0.3,
+    "color": "Green",
+    "eggGroups": ["Grass"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "智揮猩": {
     "num": "765",
     "name": "Oranguru",
@@ -17083,6 +17489,77 @@
       "Amorphous"
     ],
     "tier": "UU"
+  },
+  "小隕星-核心": {
+    "num": "774-c",
+    "name": "Minior",
+    "baseForme": "Red",
+    "types": ["Rock", "Flying"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 60,
+      "atk": 100,
+      "def": 60,
+      "spa": 100,
+      "spd": 60,
+      "spe": 120
+    },
+    "abilities": { "0": "Shields Down" },
+    "heightm": 0.3,
+    "weightkg": 0.3,
+    "color": "Red",
+    "eggGroups": ["Mineral"],
+    "otherFormes": ["Minior-Meteor"],
+    "cosmeticFormes": [
+      "Minior-Orange",
+      "Minior-Yellow",
+      "Minior-Green",
+      "Minior-Blue",
+      "Minior-Indigo",
+      "Minior-Violet"
+    ],
+    "formeOrder": [
+      "Minior-Meteor",
+      "Minior-Meteor",
+      "Minior-Meteor",
+      "Minior-Meteor",
+      "Minior-Meteor",
+      "Minior-Meteor",
+      "Minior-Meteor",
+      "Minior",
+      "Minior-Orange",
+      "Minior-Yellow",
+      "Minior-Green",
+      "Minior-Blue",
+      "Minior-Indigo",
+      "Minior-Violet"
+    ],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "小隕星-外殼": {
+    "num": "774",
+    "name": "Minior-Meteor",
+    "baseSpecies": "Minior",
+    "forme": "Meteor",
+    "types": ["Rock", "Flying"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 60,
+      "atk": 60,
+      "def": 100,
+      "spa": 60,
+      "spd": 100,
+      "spe": 60
+    },
+    "abilities": { "0": "Shields Down" },
+    "heightm": 0.3,
+    "weightkg": 40,
+    "color": "Brown",
+    "eggGroups": ["Mineral"],
+    "requiredAbility": "Shields Down",
+    "battleOnly": "Minior",
+    "isNonstandard": "Past"
   },
   "樹枕尾熊": {
     "num": "775",
