@@ -7,7 +7,6 @@ import { usePokemonStore } from "../stores/pokemon";
 const store = UseDamageStore();
 
 const copy = (index) => {
-  console.log(index);
   navigator.clipboard.writeText(`${store.detailContent[index]}
 ${store.resultContent[index]}`);
   toast.dark("複製訊息成功！", {

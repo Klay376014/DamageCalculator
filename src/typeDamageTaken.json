@@ -18,7 +18,8 @@
       "Psychic": 1,
       "Rock": 2,
       "Steel": 1,
-      "Water": 1
+      "Water": 1,
+      "Stellar": 1
     }
   },
   "Dark": {
@@ -40,7 +41,8 @@
       "Psychic": 0,
       "Rock": 1,
       "Steel": 1,
-      "Water": 1
+      "Water": 1,
+      "Stellar": 1
     }
   },
   "Dragon": {
@@ -62,7 +64,8 @@
       "Psychic": 1,
       "Rock": 1,
       "Steel": 1,
-      "Water": 0.5
+      "Water": 0.5,
+      "Stellar": 1
     }
   },
   "Electric": {
@@ -84,7 +87,8 @@
       "Psychic": 1,
       "Rock": 1,
       "Steel": 0.5,
-      "Water": 1
+      "Water": 1,
+      "Stellar": 1
     }
   },
   "Fairy": {
@@ -106,7 +110,8 @@
       "Psychic": 1,
       "Rock": 1,
       "Steel": 2,
-      "Water": 1
+      "Water": 1,
+      "Stellar": 1
     }
   },
   "Fighting": {
@@ -128,7 +133,8 @@
       "Psychic": 2,
       "Rock": 0.5,
       "Steel": 1,
-      "Water": 1
+      "Water": 1,
+      "Stellar": 1
     }
   },
   "Fire": {
@@ -150,7 +156,8 @@
       "Psychic": 1,
       "Rock": 2,
       "Steel": 0.5,
-      "Water": 2
+      "Water": 2,
+      "Stellar": 1
     }
   },
   "Flying": {
@@ -172,7 +179,8 @@
       "Psychic": 1,
       "Rock": 2,
       "Steel": 1,
-      "Water": 1
+      "Water": 1,
+      "Stellar": 1
     }
   },
   "Ghost": {
@@ -194,7 +202,8 @@
       "Psychic": 1,
       "Rock": 1,
       "Steel": 1,
-      "Water": 1
+      "Water": 1,
+      "Stellar": 1
     }
   },
   "Grass": {
@@ -216,7 +225,8 @@
       "Psychic": 1,
       "Rock": 1,
       "Steel": 1,
-      "Water": 0.5
+      "Water": 0.5,
+      "Stellar": 1
     }
   },
   "Ground": {
@@ -238,7 +248,8 @@
       "Psychic": 1,
       "Rock": 0.5,
       "Steel": 1,
-      "Water": 2
+      "Water": 2,
+      "Stellar": 1
     }
   },
   "Ice": {
@@ -260,7 +271,8 @@
       "Psychic": 1,
       "Rock": 2,
       "Steel": 2,
-      "Water": 1
+      "Water": 1,
+      "Stellar": 1
     }
   },
   "Normal": {
@@ -282,7 +294,8 @@
       "Psychic": 1,
       "Rock": 1,
       "Steel": 1,
-      "Water": 1
+      "Water": 1,
+      "Stellar": 1
     }
   },
   "Poison": {
@@ -304,7 +317,8 @@
       "Psychic": 2,
       "Rock": 1,
       "Steel": 1,
-      "Water": 1
+      "Water": 1,
+      "Stellar": 1
     }
   },
   "Psychic": {
@@ -326,7 +340,8 @@
       "Psychic": 0.5,
       "Rock": 1,
       "Steel": 1,
-      "Water": 1
+      "Water": 1,
+      "Stellar": 1
     }
   },
   "Rock": {
@@ -348,7 +363,8 @@
       "Psychic": 1,
       "Rock": 1,
       "Steel": 2,
-      "Water": 2
+      "Water": 2,
+      "Stellar": 1
     }
   },
   "Steel": {
@@ -370,7 +386,8 @@
       "Psychic": 0.5,
       "Rock": 0.5,
       "Steel": 0.5,
-      "Water": 1
+      "Water": 1,
+      "Stellar": 1
     }
   },
   "Water": {
@@ -392,7 +409,8 @@
       "Psychic": 1,
       "Rock": 1,
       "Steel": 0.5,
-      "Water": 0.5
+      "Water": 0.5,
+      "Stellar": 1
     }
   }
 }

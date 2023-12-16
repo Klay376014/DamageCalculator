@@ -5,8 +5,6 @@ const pms = useSpeedTierStore();
 const src1 = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/`;
 const src2 = `.png`;
 
-console.log(pms.newList.length);
-
 const extremeSpeed = (spe) => {
   return Math.trunc((((spe * 2 + 31 + 63) * 50) / 100 + 5) * 1.1);
 };

@@ -193,7 +193,7 @@ export const UseDamageStore = defineStore("damage", () => {
 
   const spreadDamage = (attacker) => {
     let target = pm[attacker].move.target;
-    if (target === "allAdjacentFoes" || target === "allAdjacent") {
+    if (target === "allAdjacentFoes" || target === "allAdjacent" || (pm[attacker].num === "1024-s" && pm[attacker].move.num === 906)) {
       if (pm.fieldCondition.double) {
         detailStat.value.attacker.spread = "分傷";
         return 0.75;
@@ -266,7 +266,45 @@ export const UseDamageStore = defineStore("damage", () => {
         }
       } else if (teraType === "Fairy" && moveType === "Normal") {
         detailStat.value.attacker.ability = "妖精皮膚";
-        return 1.5;
+        return (type1 === "Fairy" || type2 === "Fairy") ? 2 : 1.5;
+      } else if (teraType === "Stellar") {
+        if ((type1 === "Fairy" || type2 === "Fairy") && moveType === "Normal") {
+          detailStat.value.attacker.ability = "妖精皮膚";
+          return 2;
+        } else {
+          detailStat.value.attacker.ability = "妖精皮膚";
+          return 1.2;
+        }
+      }
+    }
+
+    if (pm[attacker].ability === "Galvanize") {
+      if (teraType === "None") {
+        if ((type1 === "Electric" || type2 === "Electric") && moveType === "Normal") {
+          detailStat.value.attacker.ability = "電氣皮膚";
+          return 1.5;
+        }
+      } else if (teraType === "Electric" && moveType === "Normal") {
+        detailStat.value.attacker.ability = "電氣皮膚";
+        return (type1 === "Electric" || type2 === "Electric") ? 2 : 1.5;
+      } else if (teraType === "Stellar") {
+        if ((type1 === "Electric" || type2 === "Electric") && moveType === "Normal") {
+          detailStat.value.attacker.ability = "電氣皮膚";
+          return 2;
+        } else {
+          detailStat.value.attacker.ability = "電氣皮膚";
+          return 1.2;
+        }
+      }
+    }
+
+    if (teraType === "Stellar") {
+      detailStat.value.attacker.tera =
+      "太晶" + pm.typeList[pm[attacker].teraType];
+      if (moveType === type1 || moveType === type2) {
+        return 2;
+      } else {
+        return 1.2;
       }
     }
 
@@ -322,11 +360,18 @@ export const UseDamageStore = defineStore("damage", () => {
       type2 = pm[defender].type2,
       teraType = pm[defender].teraType;
 
+    // 攻方虹太晶使用太晶爆發時，對手為太晶化狀態則無視相剋變為2倍
+    if (pm[attacker].teraType === "Stellar" && teraType !== "None" && pm[attacker].move.num === 851) {
+      detailStat.value.defender.tera =
+      "太晶" + pm.typeList[pm[defender].teraType];
+      return 2
+    }
+
     if (
       moveType === "Ground" &&
       pm[defender].item === "Iron Ball" &&
       (teraType === "Flying" ||
-        (teraType === "None" && (type1 === "Flying" || type2 === "Flying")))
+        ((teraType === "None" || teraType === "Stellar") && (type1 === "Flying" || type2 === "Flying")))
     ) {
       detailStat.value.defender.item = "黑色鐵球";
       return 1;
@@ -334,7 +379,25 @@ export const UseDamageStore = defineStore("damage", () => {
 
     if (pm[attacker].ability === "Pixilate") {
       moveType = "Fairy";
-      if (teraType !== "None") {
+      if (!(teraType === "None" || teraType === "Stellar")) {
+        detailStat.value.defender.tera =
+          "太晶" + pm.typeList[pm[defender].teraType];
+        return pm.dt[teraType].damageTaken[moveType];
+      } else {
+        if (pm[defender].type2 === "") {
+          return pm.dt[type1].damageTaken[moveType];
+        } else {
+          return (
+            pm.dt[type1].damageTaken[moveType] *
+            pm.dt[type2].damageTaken[moveType]
+          );
+        }
+      }
+    }
+
+    if (pm[attacker].ability === "Galvanize") {
+      moveType = "Electric";
+      if (!(teraType === "None" || teraType === "Stellar")) {
         detailStat.value.defender.tera =
           "太晶" + pm.typeList[pm[defender].teraType];
         return pm.dt[teraType].damageTaken[moveType];
@@ -351,7 +414,7 @@ export const UseDamageStore = defineStore("damage", () => {
     }
 
     if (pm[attacker].move.num === 560) {
-      if (teraType !== "None") {
+      if (!(teraType === "None" || teraType === "Stellar")) {
         detailStat.value.defender.tera =
           "太晶" + pm.typeList[pm[defender].teraType];
         return (
@@ -374,7 +437,8 @@ export const UseDamageStore = defineStore("damage", () => {
       }
     }
 
-    if (teraType !== "None") {
+    // 太晶虹時防禦看原屬性
+    if (!(teraType === "None" || teraType === "Stellar")) {
       detailStat.value.defender.tera =
         "太晶" + pm.typeList[pm[defender].teraType];
       if (pm[attacker].move.num === 573) {
@@ -519,7 +583,7 @@ export const UseDamageStore = defineStore("damage", () => {
         resultContent.unshift("似乎沒有效果...");
         detailContent.unshift("沒有效果！！");
       } else {
-        detailStat.value = _.cloneDeep(detailDefault.value); ////每次先把詳細內容的物件清空
+        detailStat.value = _.cloneDeep(detailDefault.value); //每次先把詳細內容的物件清空
         resultContent.unshift(
           `${damageResult(attacker, defender, 0.85)} ~ ${damageResult(
             attacker,

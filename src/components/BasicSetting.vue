@@ -112,12 +112,10 @@ const bpCheck = function () {
   }
 
   const hpBpMinus = (hp) => {
-    console.log(123);
     pokemon[props.pokemonNum].value.bp.hp = 252;
   };
 
   const hpBpPlus = (hp) => {
-    console.log(123);
   };
 };
 </script>

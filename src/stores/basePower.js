@@ -221,6 +221,9 @@ export const UseBasePowerStore = defineStore("basePower", () => {
           pm[attacker].move.type = pm[attacker].teraType;
         }
       }
+      if (attacker.teraType === "stellar") {
+        return 100;
+      }
     }
 
     if (move.num === 904) {

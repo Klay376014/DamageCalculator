@@ -68,6 +68,7 @@ export const UsePowerStore = defineStore("power", () => {
       (atkAbi === "Pixilate" && pm[attacker].move.type === "Normal") || //妖精皮膚
       (atkAbi === "Iron Fist" && pm[attacker].move.flags.punch === 1) || //鐵拳
       (atkAbi === "Reckless" && pm[attacker].move.recoil !== undefined) || //捨身
+      (atkAbi === "Galvanize" && pm[attacker].move.type === "Normal") || //電氣皮膚
       pm[attacker].ability === "Supreme Overlord 2" //大將2
     ) {
       dm.detailStat.attacker.ability = abi.abilityList[atkAbi].name;
@@ -149,7 +150,7 @@ export const UsePowerStore = defineStore("power", () => {
   const powerModifierMove = (attacker, defender) => {
     let move = pm[attacker].move.num;
     if (move === 797 && pm.fieldCondition.field.psychic) {
-      dm.detailStat.attacker.field = "電氣場地";
+      dm.detailStat.attacker.field = "精神場地";
       return 1.5;
     } else if (
       (move === 76 || move === 669) &&
@@ -164,6 +165,12 @@ export const UsePowerStore = defineStore("power", () => {
     } else if (move === 282 && pm[defender].item !== "default") {
       dm.detailStat.attacker.defenderHasItem = "對手攜帶道具";
       return 1.5;
+    } else if (move === 804 && pm.fieldCondition.field.electric) {
+      if (pm[defender].teraType === "Flying") return 1
+      if (pm[defender].teraType === "None") {
+        return (pm[defender].type1 === "Flying" || pm[defender].type2 === "Flying" || pm[defender].num === "488") ? 1 : 2
+      }
+      return 1;
     } else {
       return 1;
     }

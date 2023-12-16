@@ -28,6 +28,7 @@ export const usePokemonStore = defineStore("pokemon", () => {
     Dark: "惡",
     Steel: "鋼",
     Fairy: "妖",
+    Stellar: "虹"
   });
 
   const pokemon1 = reactive({
