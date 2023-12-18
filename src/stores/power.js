@@ -106,6 +106,12 @@ export const UsePowerStore = defineStore("power", () => {
     ) {
       dm.detailStat.attacker.ability = abi.abilityList[atkAbi].name;
       return 1.5;
+    } else if (
+      (atkAbi === "Liquid Voice" && pm[attacker].move.flags.sound === 1) //濕潤之聲
+    ) {
+      dm.detailStat.attacker.ability = abi.abilityList[atkAbi].name;
+      pm[attacker].move.type = "Water";
+      return 1;
     } else {
       return 1;
     }

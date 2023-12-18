@@ -1683,6 +1683,26 @@
     "target": "normal",
     "type": "Water"
   },
+  "Sparkling Aria": {
+    "num": 664,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Special",
+    "name": "泡影的詠歎調",
+    "pp": 10,
+    "priority": 0,
+    "flags": { "protect": 1, "mirror": 1, "sound": 1, "bypasssub": 1 },
+    "secondary": {
+      "dustproof": true,
+      "chance": 100,
+      "volatileStatus": "sparklingaria"
+    },
+    "target": "allAdjacent",
+    "type": "Water",
+    "contestType": "Tough",
+    "desc": "If the user has not fainted, the target is cured of its burn.",
+    "shortDesc": "The target is cured of its burn."
+  },
   "Crab Hammer": {
     "num": 152,
     "accuracy": 90,
