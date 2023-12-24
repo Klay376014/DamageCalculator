@@ -7337,6 +7337,72 @@
     "tier": "Illegal",
     "isNonstandard": "Past"
   },
+  "雷吉洛克": {
+    "num": "377",
+    "name": "Regirock",
+    "types": ["Rock"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 80,
+      "atk": 100,
+      "def": 200,
+      "spa": 50,
+      "spd": 100,
+      "spe": 50
+    },
+    "abilities": { "0": "Clear Body", "H": "Sturdy" },
+    "heightm": 1.7,
+    "weightkg": 230,
+    "color": "Brown",
+    "tags": ["Sub-Legendary"],
+    "eggGroups": ["Undiscovered"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "雷吉艾斯": {
+    "num": "378",
+    "name": "Regice",
+    "types": ["Ice"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 80,
+      "atk": 50,
+      "def": 100,
+      "spa": 100,
+      "spd": 200,
+      "spe": 50
+    },
+    "abilities": { "0": "Clear Body", "H": "Ice Body" },
+    "heightm": 1.8,
+    "weightkg": 175,
+    "color": "Blue",
+    "tags": ["Sub-Legendary"],
+    "eggGroups": ["Undiscovered"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
+  "雷吉斯奇魯": {
+    "num": "379",
+    "name": "Registeel",
+    "types": ["Steel"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 80,
+      "atk": 75,
+      "def": 150,
+      "spa": 75,
+      "spd": 150,
+      "spe": 50
+    },
+    "abilities": { "0": "Clear Body", "H": "Light Metal" },
+    "heightm": 1.9,
+    "weightkg": 205,
+    "color": "Gray",
+    "tags": ["Sub-Legendary"],
+    "eggGroups": ["Undiscovered"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
+  },
   "拉帝亞斯": {
     "num": "380",
     "name": "Latias",
@@ -9546,6 +9612,28 @@
     "tags": ["Sub-Legendary"],
     "eggGroups": ["Undiscovered"],
     "tier": "OU"
+  },
+  "雷吉奇卡斯": {
+    "num": "486",
+    "name": "Regigigas",
+    "types": ["Normal"],
+    "gender": "N",
+    "baseStats": {
+      "hp": 110,
+      "atk": 160,
+      "def": 110,
+      "spa": 80,
+      "spd": 110,
+      "spe": 100
+    },
+    "abilities": { "0": "Slow Start" },
+    "heightm": 3.7,
+    "weightkg": 420,
+    "color": "White",
+    "tags": ["Sub-Legendary"],
+    "eggGroups": ["Undiscovered"],
+    "tier": "Illegal",
+    "isNonstandard": "Past"
   },
   "騎拉帝納-別種": {
     "num": "487",
