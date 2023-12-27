@@ -2259,6 +2259,22 @@
     "target": "normal",
     "type": "Fire"
   },
+  "Sacred Fire": {
+    "num": 221,
+    "accuracy": 95,
+    "basePower": 100,
+    "category": "Physical",
+    "name": "神聖之火",
+    "pp": 5,
+    "priority": 0,
+    "flags": { "protect": 1, "mirror": 1, "defrost": 1 },
+    "secondary": { "chance": 50, "status": "brn" },
+    "target": "normal",
+    "type": "Fire",
+    "contestType": "Beautiful",
+    "desc": "Has a 50% chance to burn the target.",
+    "shortDesc": "50% chance to burn the target. Thaws user."
+  },
   "Fire Blast": {
     "num": 126,
     "accuracy": 85,
@@ -7016,12 +7032,12 @@
     "target": "normal",
     "type": "Psychic"
   },
-  "精神噪音": {
+  "Psychic Noise": {
     "num": 917,
     "accuracy": 100,
     "basePower": 75,
     "category": "Special",
-    "name": "Psychic Noise",
+    "name": "精神噪音",
     "pp": 10,
     "priority": 0,
     "flags": { "protect": 1, "mirror": 1, "sound": 1, "bypasssub": 1 },
