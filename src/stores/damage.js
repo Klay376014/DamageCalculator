@@ -378,7 +378,7 @@ export const UseDamageStore = defineStore("damage", () => {
     }
 
     if (pm[attacker].ability === "Pixilate") {
-      moveType = "Fairy";
+      if (moveType === "Normal") moveType = "Fairy";
       if (!(teraType === "None" || teraType === "Stellar")) {
         detailStat.value.defender.tera =
           "太晶" + pm.typeList[pm[defender].teraType];
@@ -396,7 +396,7 @@ export const UseDamageStore = defineStore("damage", () => {
     }
 
     if (pm[attacker].ability === "Galvanize") {
-      moveType = "Electric";
+      if (moveType === "Normal") moveType = "Eletric";
       if (!(teraType === "None" || teraType === "Stellar")) {
         detailStat.value.defender.tera =
           "太晶" + pm.typeList[pm[defender].teraType];
