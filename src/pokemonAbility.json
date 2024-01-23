@@ -63,6 +63,10 @@
     "name": "瑜伽之力",
     "effect": "（攻擊提升為2倍）"
   },
+  "Water Bubble": {
+    "name": "水泡",
+    "effect": "（水屬性招式威力x2，受火屬招式威力減半）"
+  },
   "Sharpness": {
     "name": "鋒銳",
     "effect": "（使出切割類招式時，威力x1.5）"

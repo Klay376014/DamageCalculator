@@ -223,7 +223,8 @@ export const UseAttackStore = defineStore("atk", () => {
     if (
       ((atkAbi === "Huge Power" || atkAbi === "Pure Power") &&
         cat === "Physical") ||
-      atkAbi === "Stakeout"
+      atkAbi === "Stakeout" ||
+      atkAbi === "Water Bubble" && moveType === "Water"
     ) {
       dm.detailStat.attacker.ability = abi.abilityList[atkAbi].name;
       return 2;
@@ -237,7 +238,8 @@ export const UseAttackStore = defineStore("atk", () => {
 
     if (
       (defAbi === "Thick Fat" && (moveType === "Fire" || moveType === "Ice")) ||
-      (defAbi === "Purifying Salt" && moveType === "Ghost")
+      (defAbi === "Purifying Salt" && moveType === "Ghost") ||
+      (defAbi === "Water Bubble" && moveType === "Fire")
     ) {
       dm.detailStat.defender.ability = abi.abilityList[defAbi].name;
       return 0.5;
