@@ -42,14 +42,12 @@
   <div
     class="modal fade"
     id="loadPokemon"
-    data-bs-backdrop="static"
-    data-bs-keyboard="false"
     tabindex="-1"
   >
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">載入寶可夢</h5>
+          <h5 class="modal-title">載入寶可夢</h5>
           <button
             type="button"
             class="btn-close"
