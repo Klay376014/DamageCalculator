@@ -156,6 +156,7 @@ export const UsePowerStore = defineStore("power", () => {
   const powerModifierMove = (attacker, defender) => {
     let move = pm[attacker].move.num;
     if (move === 797 && pm.fieldCondition.field.psychic) {
+      pm[attacker].move.target = "allAdjacentFoes";
       dm.detailStat.attacker.field = "精神場地";
       return 1.5;
     } else if (
