@@ -226,6 +226,19 @@ export const UseBasePowerStore = defineStore("basePower", () => {
       }
     }
 
+    if (move.num === 722) {
+      //光子噴湧
+      const {
+        atkUp,
+        atkDown,
+        spaUp,
+        spaDown
+      } = pm[attacker].statModifier
+      const atk = Math.trunc((pm[attacker].stat.atk * atkUp) / atkDown);
+      const spa = Math.trunc((pm[attacker].stat.spa * spaUp) / spaDown);
+      pm[attacker].move.category = atk > spa? "Physical" : "Special";
+    }
+
     if (move.num === 904) {
       //藤蔓棍擊
       if (
