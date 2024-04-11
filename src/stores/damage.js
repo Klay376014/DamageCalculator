@@ -301,6 +301,10 @@ export const UseDamageStore = defineStore("damage", () => {
     if (teraType === "Stellar") {
       detailStat.value.attacker.tera =
       "太晶" + pm.typeList[pm[attacker].teraType];
+      // 星晶太樂巴戈斯使用晶光星群時，招式屬性變成星晶
+      if (pm[attacker].num === "1024-s" && pm[attacker].move.num === 906) {
+        moveType = "Stellar"
+      }
       if (moveType === type1 || moveType === type2) {
         return 2;
       } else {
@@ -360,11 +364,16 @@ export const UseDamageStore = defineStore("damage", () => {
       type2 = pm[defender].type2,
       teraType = pm[defender].teraType;
 
-    // 攻方虹太晶使用太晶爆發時，對手為太晶化狀態則無視相剋變為2倍
+    // 攻方星晶使用太晶爆發時，對手為太晶化狀態則無視相剋變為2倍
     if (pm[attacker].teraType === "Stellar" && teraType !== "None" && pm[attacker].move.num === 851) {
       detailStat.value.defender.tera =
       "太晶" + pm.typeList[pm[defender].teraType];
       return 2
+    }
+
+    // 星晶太樂巴戈斯使用晶光星群時，對對手造成1倍傷害，對手太晶化時則2倍
+    if (pm[attacker].num === "1024-s" && pm[attacker].move.num === 906) {
+      return teraType !== "None" ? 2 : 1
     }
 
     if (

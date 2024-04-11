@@ -87,6 +87,11 @@ export const useSelectStore = defineStore("select", () => {
         store[pokemonNum].item = "Ogerpon Mask";
       }
 
+      if (store[pokemonNum].Name ===  "太樂巴戈斯-星晶") {
+        store[pokemonNum].teraType = "Stellar"
+        store[pokemonNum].teraContent= "太晶化︰星"
+      }
+
       if (store[pokemonNum].num !== "default") {
         if (pokemonNum === "pokemon1") {
           imageUrl1.value = new URL(

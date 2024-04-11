@@ -30,7 +30,7 @@ const isOgerpon = function(type) {
     return type.localeCompare(store[props.pokemonNum].type2) !== 0
   } else if (name === "厄鬼椪-碧草") {
     return type.localeCompare('Grass') !== 0
-  }
+  } 
   return false
 }
 </script>
@@ -41,6 +41,7 @@ const isOgerpon = function(type) {
     :class="props.pokemonNum === 'pokemon1' ? 'btn-primary' : 'btn-secondary'"
     data-bs-toggle="modal"
     :data-bs-target="'#terastal' + props.pokemonNum"
+    :disabled="store[props.pokemonNum].num === '1024-s'"
     value="太晶化"
   >
     太晶化
