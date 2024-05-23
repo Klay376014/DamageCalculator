@@ -9670,10 +9670,10 @@
     "gender": "N",
     "baseStats": {
       "hp": 150,
-      "atk": 100,
-      "def": 120,
-      "spa": 100,
-      "spd": 120,
+      "atk": 120,
+      "def": 100,
+      "spa": 120,
+      "spd": 100,
       "spe": 90
     },
     "abilities": {
