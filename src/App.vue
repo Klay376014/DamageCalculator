@@ -1,7 +1,9 @@
 <script setup>
+import DeprecationBanner from './components/DeprecationBanner.vue'
 </script>
 
 <template>
+  <DeprecationBanner />
   <nav class="navbar navbar-dark bg-primary position-sticky top-0 mb-2">
     <div
       class="container-fluid d-flex justify-content-between align-items-center"
