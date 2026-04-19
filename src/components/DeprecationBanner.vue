@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 
-const NEW_URL = 'https://pokemon-tool-damage-calculator.vercel.app'
+const NEW_URL = 'https://pokecalc.ivy-cudgel.com'
 const countdown = ref(5)
 let timer = null
 
